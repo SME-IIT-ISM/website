@@ -1,0 +1,11 @@
+.navbar {
+  font-size: 1.25rem;
+}
+
+#bootstrap-overrides .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+#bootstrap-overrides .nav-link:hover {
+  color: #1989CA;
+}
