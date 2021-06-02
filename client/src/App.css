@@ -43,3 +43,11 @@
   margin-top: auto;
   margin-bottom: auto;
 }
+
+/* for Announcment.js */
+.marq {
+  height: 60vh;
+  /* onmouseover:this.stop();
+   onmouseout:thisstart(); */
+  /* margin-top: 10%; */
+}

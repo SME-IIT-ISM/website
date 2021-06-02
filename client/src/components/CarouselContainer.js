@@ -15,7 +15,7 @@ const items = [
   {
     src: Image1,
     altText: "Slide 1",
-    caption: "WELCOME TO SPE IIT (ISM) DHANBAD CHAPTER",
+    caption: "WELCOME TO SME IIT (ISM) DHANBAD CHAPTER",
   },
   {
     src: Image2,
