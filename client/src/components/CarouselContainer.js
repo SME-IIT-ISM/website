@@ -8,24 +8,20 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption,
 } from "reactstrap";
 
 const items = [
   {
     src: Image1,
     altText: "Slide 1",
-    caption: "WELCOME TO SPE IIT (ISM) DHANBAD CHAPTER",
   },
   {
     src: Image2,
     altText: "Slide 2",
-    caption: "",
   },
   {
     src: Image3,
     altText: "Slide 2",
-    caption: "",
   },
 ];
 
@@ -58,7 +54,9 @@ const CarouselContainer = (props) => {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} className="i2" />
-        <CarouselCaption captionHeader={item.caption} />
+        <h1 className="centered text-white text-uppercase">
+          WELCOME TO SME IIT (ISM) DHANBAD CHAPTER
+        </h1>
       </CarouselItem>
     );
   });
@@ -70,7 +68,7 @@ const CarouselContainer = (props) => {
       next={next}
       previous={previous}
       pause={false}
-      interval="1000"
+      interval={5000}
     >
       <CarouselIndicators
         items={items}
@@ -80,12 +78,12 @@ const CarouselContainer = (props) => {
       {slides}
       <CarouselControl
         direction="prev"
-        directionText=""
+        directionText=" "
         onClickHandler={previous}
       />
       <CarouselControl
         direction="next"
-        directionText=""
+        directionText=" "
         onClickHandler={next}
       />
     </Carousel>
