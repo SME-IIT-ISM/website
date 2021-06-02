@@ -23,7 +23,7 @@ const Header = (props) => {
 
   return (
     <div>
-      <Navbar expand="md" color="dark" dark>
+      <Navbar expand="md" color="dark" dark fixed="top">
         <NavbarBrand className="mx-4 my-2" href="/">
           <img
             src={Logo}
@@ -36,7 +36,7 @@ const Header = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" id="bootstrap-overrides" navbar>
             <NavItem>
-              <NavLink className="mx-2" href="/">
+              <NavLink className="mx-2" href="/" active>
                 Home
               </NavLink>
             </NavItem>

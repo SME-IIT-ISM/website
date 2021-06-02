@@ -57,16 +57,21 @@ const CarouselContainer = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
-        <CarouselCaption
-          captionHeader={item.caption}
-        />
+        <img src={item.src} alt={item.altText} className="i2" />
+        <CarouselCaption captionHeader={item.caption} />
       </CarouselItem>
     );
   });
 
   return (
-    <Carousel activeIndex={activeIndex} next={next} previous={previous}>
+    <Carousel
+      className="mt-5 pt-4"
+      activeIndex={activeIndex}
+      next={next}
+      previous={previous}
+      pause={false}
+      interval="1000"
+    >
       <CarouselIndicators
         items={items}
         activeIndex={activeIndex}
