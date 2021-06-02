@@ -3,6 +3,7 @@ import "./App.css";
 import Example from "./components/Coursel";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
+import Sponser from "./components/Sponser";
 
 function App() {
   return (
@@ -11,8 +12,10 @@ function App() {
       <Example />
       <br />
       <br />
-      <br />
       <Intro />
+      <br />
+      <br />
+      <Sponser />
     </div>
   );
 }

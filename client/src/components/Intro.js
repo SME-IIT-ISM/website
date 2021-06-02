@@ -4,11 +4,11 @@ import Image from "../image/intro.jpg";
 
 const Intro = (props) => {
   return (
-    <Container className="shadow p-3 mb-5 bg-white rounded w-100">
+    <Container className="shadow p-4 mb-5 bg-white rounded w-100">
       <Row>
         <Col xs="6">
           <div className="left-align">
-            <h1 className="heading">OUR STORY</h1>
+            <h1 className="heading text-uppercase">OUR STORY</h1>
             <div className="content">
               <p>
                 SME IIT(ISM) Students Chapter , an IIT (ISM) Dhanbad student
@@ -19,6 +19,9 @@ const Intro = (props) => {
                 society collectively works in the way of making our way of
                 making our presence known to the world as a potential body of
                 mining engineers.
+              </p>
+              <p>
+                <a href="/Aboutus">Read More</a>
               </p>
             </div>
           </div>
