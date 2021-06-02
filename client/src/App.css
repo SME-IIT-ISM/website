@@ -13,6 +13,25 @@
 }
 
 /*for Coursel.js   */
-#bootstrap-overrides .carousel-item:active {
+/* #bootstrap-overrides .carousel-item:active {
   width: 100%;
+} */
+.i2 {
+  width: 100vw;
+}
+
+/*for Intro.js */
+.i1 {
+  width: 100%;
+  border-radius: 10%;
+  margin-top: 4%;
+}
+.heading {
+  margin-top: 4%;
+  padding: auto;
+}
+.content {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 4%;
 }
