@@ -3,6 +3,7 @@ import "./App.css";
 import CarouselContainer from "./components/CarouselContainer";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
+import Sponser from "./components/Sponser";
 
 function App() {
   return (
@@ -11,8 +12,10 @@ function App() {
       <CarouselContainer />
       <br />
       <br />
-      <br />
       <Intro />
+      <br />
+      <br />
+      <Sponser />
     </div>
   );
 }

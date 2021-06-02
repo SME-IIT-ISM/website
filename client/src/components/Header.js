@@ -36,7 +36,7 @@ const Header = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" id="bootstrap-overrides" navbar>
             <NavItem>
-              <NavLink className="mx-2" href="/" active>
+              <NavLink className="mx-2" href="/">
                 Home
               </NavLink>
             </NavItem>
