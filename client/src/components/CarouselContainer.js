@@ -15,7 +15,7 @@ const items = [
   {
     src: Image1,
     altText: "Slide 1",
-    caption: "",
+    caption: "WELCOME TO SPE IIT (ISM) DHANBAD CHAPTER",
   },
   {
     src: Image2,
@@ -29,7 +29,7 @@ const items = [
   },
 ];
 
-const Example = (props) => {
+const CarouselContainer = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -59,7 +59,6 @@ const Example = (props) => {
       >
         <img src={item.src} alt={item.altText} />
         <CarouselCaption
-          captionText={item.caption}
           captionHeader={item.caption}
         />
       </CarouselItem>
@@ -76,16 +75,16 @@ const Example = (props) => {
       {slides}
       <CarouselControl
         direction="prev"
-        directionText="Previous"
+        directionText=""
         onClickHandler={previous}
       />
       <CarouselControl
         direction="next"
-        directionText="Next"
+        directionText=""
         onClickHandler={next}
       />
     </Carousel>
   );
 };
 
-export default Example;
+export default CarouselContainer;
