@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "reactstrap";
+import Header from "./Header.js";
 class About extends Component {
   state = {};
   render() {

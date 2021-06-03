@@ -1,6 +1,6 @@
 import React from "react";
+import Announcement from "./Announcment";
 import { Container, Row, Col } from "reactstrap";
-import Image from "../image/intro.jpg";
 
 const Intro = (props) => {
   return (
@@ -27,7 +27,7 @@ const Intro = (props) => {
           </div>
         </Col>
         <Col md="6">
-          <img className="i1" src={Image} alt="intro" />
+          <Announcement />
         </Col>
       </Row>
     </Container>

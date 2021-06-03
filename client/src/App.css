@@ -21,6 +21,14 @@
   background-attachment: fixed;
 }
 
+.centered {
+  font-size: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*for Intro.js */
 .i1 {
   width: 100%;
@@ -58,4 +66,12 @@
  }
  .heading-block{
   color: #1989CA;
+ }
+/* for Footer.js */
+.footer {
+  background-color: #212529;
+}
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.2);
 }

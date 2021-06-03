@@ -4,6 +4,7 @@ import CarouselContainer from "./components/CarouselContainer";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Sponser from "./components/Sponser";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <br />
       <br />
       <Sponser />
+      <Footer />
     </div>
   );
 }

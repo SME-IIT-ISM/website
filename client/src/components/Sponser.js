@@ -21,13 +21,13 @@ const Sponser = (props) => {
   return (
     <Container className="shadow p-3 mb-5 bg-white rounded">
       <Row>
-        <Col className="d-flex align-items-center justify-content-center ">
+        <Col className="d-flex align-items-center justify-content-center">
           <h1 className="text-uppercase">Industrial Collaborations</h1>
         </Col>
       </Row>
       <Row>
         <Col
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
           xs="4"
           md="2"
         >
@@ -36,7 +36,7 @@ const Sponser = (props) => {
           </a>
         </Col>
         <Col
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
           xs="4"
           md="2"
         >
@@ -47,7 +47,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.vedantalimited.com/Pages/Home.aspx">
             <img className="i3" src={ve} alt="intro" />
@@ -56,7 +56,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.adani.com/">
             <img className="i3" src={ad} alt="intro" />
@@ -65,7 +65,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.centralcoalfields.in/ind/index_h.php">
             <img className="i3" src={ccl} alt="intro" />
@@ -74,7 +74,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="http://www.easterncoal.gov.in/">
             <img className="i3" src={ecl} alt="intro" />
@@ -85,7 +85,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.lenskart.com/">
             <img className="i3" src={lens} alt="intro" />
@@ -94,7 +94,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.mahanadicoal.in/">
             <img className="i3" src={mcl} alt="intro" />
@@ -103,7 +103,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.moil.nic.in/">
             <img className="i3" src={moil} alt="intro" />
@@ -112,7 +112,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="http://nclcil.in/">
             <img className="i3" src={ncl} alt="intro" />
@@ -121,7 +121,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.ndmc.gov.in/Default.aspx">
             <img className="i3" src={nmdc} alt="intro" />
@@ -130,7 +130,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.home.sandvik/en/">
             <img className="i3" src={san} alt="intro" />
@@ -141,7 +141,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="http://www.secl-cil.in/">
             <img className="i3" src={sec} alt="intro" />
@@ -150,7 +150,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.thesouledstore.com/">
             <img className="i3" src={ss} alt="intro" />
@@ -159,7 +159,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="http://www.ucil.gov.in/">
             <img className="i3" src={ucl} alt="intro" />
@@ -168,7 +168,7 @@ const Sponser = (props) => {
         <Col
           xs="4"
           md="2"
-          className="d-flex align-items-center justify-content-center "
+          className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.weblibox.com/">
             <img className="i3" src={wb} alt="intro" />
