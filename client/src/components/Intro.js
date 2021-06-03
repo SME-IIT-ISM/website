@@ -1,16 +1,16 @@
 import React from "react";
 import Announcement from "./Announcment";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
 
 const Intro = (props) => {
   return (
     <Container className="shadow p-4 mb-5 bg-white rounded">
       <Row>
-        <Col xs="12" md="6">
-          <div className="left-align">
-            <h1 className="heading text-uppercase">OUR STORY</h1>
-            <div className="content">
-              <p>
+        <Col xs="12" md="7">
+          <div className="text-center">
+            <h1 className="heading text-uppercase text-center">OUR STORY</h1>
+            <div className="content ">
+              <p className="text-center">
                 SME IIT(ISM) Students Chapter , an IIT (ISM) Dhanbad student
                 chapter of Society for Mining, Metallurgy &amp; Exploration was
                 inaugurated in May 2011. It was found with the sole purpose of
@@ -20,13 +20,13 @@ const Intro = (props) => {
                 making our presence known to the world as a potential body of
                 mining engineers.
               </p>
-              <p>
-                <a href="/Aboutus">Read More</a>
-              </p>
+              <div>
+                <Button color="primary">Read More</Button>
+              </div>
             </div>
           </div>
         </Col>
-        <Col md="6">
+        <Col md="5">
           <Announcement />
         </Col>
       </Row>
