@@ -43,3 +43,19 @@
   margin-top: auto;
   margin-bottom: auto;
 }
+/* for About.js*/
+.imageContainer {
+  width: 90vw;
+  height: 65vh;
+  background-color: black;
+};
+.myStyle{
+  max-width: 100vw;
+  height : 60vh;
+  background-color : #6d6d83;
+  position : relative;
+  text-align: center;
+ }
+ .heading-block{
+  color: #1989CA;
+}
