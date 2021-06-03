@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import Header from "./Header.js";
+
 class About extends Component {
   state = {};
   render() {
-    
     //    var headingStyle={
     //         color:"white",
 
@@ -14,7 +13,7 @@ class About extends Component {
       height: "65vh",
       opacity: "0.6",
     };
-   
+
     var centered = {
       position: "absolute",
       top: "50%",
@@ -24,12 +23,11 @@ class About extends Component {
 
     return (
       <div>
-        <Header />
         <div className="myStyle">
           <div className="mx-auto imageContainer">
             <img
               className="mx-auto d-block  "
-            //   data-mdb-delay 
+              //   data-mdb-delay
               style={imageStyle}
               src="https://source.unsplash.com/collection/190727/1600x900"
               alt=""
@@ -42,11 +40,13 @@ class About extends Component {
           >
             About Us
           </div>
-          
+
           <div>
             <Container>
               <div className="left-align">
-                <h1 className="heading text-uppercase my-5  heading-block">Who we are</h1>
+                <h1 className="heading text-uppercase my-5  heading-block">
+                  Who we are
+                </h1>
               </div>
               <Row>
                 <Col xs="6" md="6"></Col>
@@ -125,14 +125,20 @@ class About extends Component {
               <Row>
                 <Col xs="6" md="6">
                   <div className="content text-start">
-                  <ul>
-                     <li>Strengthen the technical knowledge of students.</li>
-                     <li>Promote scientific research in students.</li>
-                     <li>Enhance leadership skills and integration among members.</li>
-                     <li>Student representation skills and prestige to the University.</li>
-                     <li>Disseminate responsible mining with peruvian society.</li>
-
-                   </ul>
+                    <ul>
+                      <li>Strengthen the technical knowledge of students.</li>
+                      <li>Promote scientific research in students.</li>
+                      <li>
+                        Enhance leadership skills and integration among members.
+                      </li>
+                      <li>
+                        Student representation skills and prestige to the
+                        University.
+                      </li>
+                      <li>
+                        Disseminate responsible mining with peruvian society.
+                      </li>
+                    </ul>
                   </div>
                 </Col>
                 <Col md="6"></Col>
