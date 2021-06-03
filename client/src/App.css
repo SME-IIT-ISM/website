@@ -1,6 +1,6 @@
 /* Universal */
 h1:first-child::after {
-  display: none;
+  display: block;
   height: 2px;
   background-color: #1989ca;
   content: " ";
@@ -10,7 +10,7 @@ h1:first-child::after {
 }
 h1::after {
   display: block;
-  height: 2px;
+  height: 0px;
   background-color: #1989ca;
   content: " ";
   width: 100px;
