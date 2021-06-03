@@ -12,7 +12,7 @@ const Announcement = (props) => {
       </Row>
       <Row>
         <Col className="d-flex align-items-center justify-content-center ">
-          <Marquee text="First Announcement" />
+          <Marquee text="First Announcement" vertical={false} reverse={true} />
         </Col>
       </Row>
     </Container>

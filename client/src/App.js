@@ -1,23 +1,20 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import CarouselContainer from "./components/CarouselContainer";
-import Header from "./components/Header";
-import Intro from "./components/Intro";
-import Sponser from "./components/Sponser";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Header, Footer, Home, About } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <CarouselContainer />
-      <br />
-      <br />
-      <Intro />
-      <br />
-      <br />
-      <Sponser />
-      <Footer />
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={() => <Home />} />
+          <Route path="/about" exact component={() => <About />} />
+          {/* <Route path="/contact" exact component={() => <Contact />} /> */}
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }
