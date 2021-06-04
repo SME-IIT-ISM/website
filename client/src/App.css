@@ -18,6 +18,11 @@ h1::after {
   margin-top: 30px;
 }
 
+/* #root {
+  background-image: url("./image/stars.jpg");
+  background-attachment: fixed;
+} */
+
 /*For Header.js */
 
 .navbar {
@@ -38,7 +43,9 @@ h1::after {
 } */
 .i2 {
   width: 100vw;
-  background-attachment: fixed;
+  height: 100vh;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .centered {
@@ -97,28 +104,104 @@ h1::after {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+/* for Announcement.js */
+
+.own-marquee {
+  position: relative;
+  overflow-y: hidden;
+  animation: Marquee 10s infinite linear;
+  height: 100%;
+}
+.own-marquee:hover {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+  animation-play-state: paused;
+}
+.marquee-container {
+  height: 100%;
+  overflow-y: hidden;
+  margin-top: 4%;
+}
+
 /* OverlayText */
 .img-container {
-  position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  left: 20vw;
+  right: 40vw;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-image: url("./image/stars.jpg");
+  background-attachment: fixed; */
 }
 .img-container img {
-  height: auto;
   width: 50vw;
+  height: 60vh;
+  object-fit: cover;
+  object-position: middle;
 }
 .img-container .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
 }
 
 .overlay span {
   font-size: 3rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(+50%);
+
   color: tomato;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 768px) {
+  .img-container img {
+    width: 90vw;
+    margin: auto;
+  }
+  .overlay span {
+    font-size: 2rem;
+  }
+  .carousel-head {
+    font-size: 3rem;
+  }
+  .i3 {
+    width: 25vw;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
+
+/*Animation*/
+@keyframes Marquee {
+  0% {
+    transform: translate(0, 60%);
+  }
+  /* 1% {
+    transform: translate(0, 70%);
+  } */
+  100% {
+    transform: translate(0%, -100%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .Marquee {
+    animation: none;
+    overflow: visible;
+    direction: unset;
+    white-space: wrap;
+  }
+}
+
+.Marquee {
+  will-change: transform;
+  animation: marquee 60s infinite linear;
+  overflow: hidden;
+  direction: rtl;
+  white-space: nowrap;
 }

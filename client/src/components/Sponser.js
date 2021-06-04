@@ -21,8 +21,8 @@ const Sponser = (props) => {
   return (
     <Container className="shadow p-3 mb-5 bg-white rounded">
       <Row>
-        <Col className="d-flex align-items-center justify-content-center">
-          <h1 className="text-uppercase">Industrial Collaborations</h1>
+        <Col className="text-center">
+          <h1 className="text-uppercase heading">Industrial Collaborations</h1>
         </Col>
       </Row>
       <Row>

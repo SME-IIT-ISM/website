@@ -1,21 +1,21 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import Marquee from "react-css-marquee";
 
 const Announcement = (props) => {
   return (
-    <Container className="mt-4">
-      <Row>
-        <Col className="d-flex align-items-center justify-content-center ">
-          <h1>Announcements</h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col className="d-flex align-items-center justify-content-center ">
-          <Marquee text="First Announcement" vertical={false} reverse={true} />
-        </Col>
-      </Row>
-    </Container>
+    <div className="marquee-container">
+      <div>
+        <h1 className="heading text-uppercase text-center">Announcements</h1>
+      </div>
+      <div className="marquee-container">
+        <div className="own-marquee">
+          <b>
+            <p>first</p>
+            <br />
+            <p>Second</p>
+          </b>
+        </div>
+      </div>
+    </div>
   );
 };
 

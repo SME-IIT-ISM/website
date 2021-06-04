@@ -54,7 +54,7 @@ const CarouselContainer = (props) => {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} className="i2" />
-        <h1 className="centered text-white text-uppercase">
+        <h1 className="centered text-white text-uppercase carousel-head">
           WELCOME TO SME IIT (ISM) DHANBAD CHAPTER
         </h1>
       </CarouselItem>
