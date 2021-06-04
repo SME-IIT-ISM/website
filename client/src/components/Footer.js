@@ -11,7 +11,7 @@ const Footer = (props) => {
           <div class="row">
             {/* <!--Grid column--> */}
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Footer Content</h5>
+              <h5 class="text-uppercase">Contact</h5>
 
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
