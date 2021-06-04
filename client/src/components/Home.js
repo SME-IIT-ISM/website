@@ -16,6 +16,8 @@ const Home = () => {
       <OverlayText />
       <br />
       <br />
+      <br />
+      <br />
       <Sponser />
     </div>
   );

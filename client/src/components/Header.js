@@ -27,7 +27,6 @@ const Header = (props) => {
         <NavbarBrand className="mx-4 my-2" href="/">
           <img
             src={Logo}
-            height="60"
             className="d-inline-block align-top"
             alt="Logo"
           />
