@@ -13,8 +13,6 @@ function App() {
           <Route path="/about" exact component={() => <About />} />
           <Route path="/team" exact component={() => <OurTeam />} />
           <Route path="/contact" exact component={() => <Contact />} />
-
-          {/* <Route path="/contact" exact component={() => <Contact />} /> */}
         </Switch>
         <Footer />
       </Router>
