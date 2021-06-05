@@ -17,6 +17,9 @@ h1::after {
   margin: 0 auto;
   margin-top: 30px;
 }
+.app {
+  min-height: 100vh;
+}
 
 /* #root {
   background-image: url("./image/stars.jpg");
@@ -212,3 +215,22 @@ h1::after {
   white-space: nowrap;
 }
 
+/* for Contact.js */
+.map-container {
+  width: 100vw;
+  height: 50vh;
+  display: block;
+}
+.embed-responsive-16by9 {
+  height: 50vh;
+}
+.form {
+  display: block;
+  flex-direction: row;
+}
+.contact {
+  width: 100%;
+  height: 100%;
+  margin-top: 6rem;
+  margin-bottom: 0.1rem;
+}

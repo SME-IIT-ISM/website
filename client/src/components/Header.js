@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../logo.png";
+import Logo from "./logo.png";
 import {
   FaFacebookF,
   FaLinkedin,

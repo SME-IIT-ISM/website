@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Image1 from "../image/herit.jpg";
-import Image2 from "../image/herit.jpg";
-import Image3 from "../image/oval.jpg";
+import Image1 from "./image/herit.jpg";
+import Image2 from "./image/herit.jpg";
+import Image3 from "./image/oval.jpg";
 
 import {
   Carousel,

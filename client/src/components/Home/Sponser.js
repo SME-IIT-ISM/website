@@ -1,21 +1,21 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import hz from "../sponsers/hz.png";
-import cil from "../sponsers/cil.png";
-import ve from "../sponsers/ve.jpg";
-import ad from "../sponsers/ad.png";
-import ccl from "../sponsers/ccl.png";
-import ecl from "../sponsers/ecl.png";
-import lens from "../sponsers/lens.png";
-import mcl from "../sponsers/mcl.png";
-import moil from "../sponsers/moil.png";
-import ncl from "../sponsers/ncl.png";
-import nmdc from "../sponsers/nmdc.png";
-import san from "../sponsers/san.png";
-import sec from "../sponsers/sec.png";
-import ss from "../sponsers/ss.png";
-import ucl from "../sponsers/ucl.png";
-import wb from "../sponsers/wb.png";
+import hz from "./sponsers/hz.png";
+import cil from "./sponsers/cil.png";
+import ve from "./sponsers/ve.jpg";
+import ad from "./sponsers/ad.png";
+import ccl from "./sponsers/ccl.png";
+import ecl from "./sponsers/ecl.png";
+import lens from "./sponsers/lens.png";
+import mcl from "./sponsers/mcl.png";
+import moil from "./sponsers/moil.png";
+import ncl from "./sponsers/ncl.png";
+import nmdc from "./sponsers/nmdc.png";
+import san from "./sponsers/san.png";
+import sec from "./sponsers/sec.png";
+import ss from "./sponsers/ss.png";
+import ucl from "./sponsers/ucl.png";
+import wb from "./sponsers/wb.png";
 
 const Sponser = (props) => {
   return (

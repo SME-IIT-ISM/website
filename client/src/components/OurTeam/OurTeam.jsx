@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import OurTeam1 from "../OfficeBearers/ourTeam1.png";
+import OurTeam1 from "../logo.png";
 class OurTeam extends Component {
   state = {};
   render() {

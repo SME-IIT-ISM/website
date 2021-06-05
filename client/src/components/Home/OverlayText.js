@@ -1,5 +1,5 @@
 import React from "react";
-import khananImage from "../image/khanan.jpg";
+import khananImage from "./image/khanan.jpg";
 import Countdown from "./Countdown";
 
 const OverlayText = (props) => {
