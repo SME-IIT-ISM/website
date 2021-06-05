@@ -1,15 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
+//Owl Carousel Libraries and Module
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 import Image1 from "./image/herit.jpg";
 import Image2 from "./image/herit.jpg";
 import Image3 from "./image/oval.jpg";
 
-import {
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-} from "reactstrap";
-
+// image options
 const items = [
   {
     src: Image1,
@@ -25,68 +23,37 @@ const items = [
   },
 ];
 
-const CarouselContainer = (props) => {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
-
-  const next = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
-  };
-
-  const previous = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-    setActiveIndex(nextIndex);
-  };
-
-  const goToIndex = (newIndex) => {
-    if (animating) return;
-    setActiveIndex(newIndex);
-  };
-
-  const slides = items.map((item) => {
-    return (
-      <CarouselItem
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-        key={item.src}
-      >
-        <img src={item.src} alt={item.altText} className="i2" />
-        <h1 className="centered text-white text-uppercase carousel-head">
-          WELCOME TO SME IIT (ISM) DHANBAD CHAPTER
-        </h1>
-      </CarouselItem>
-    );
-  });
-
+const slides = items.map((item) => {
   return (
-    <Carousel
-      activeIndex={activeIndex}
-      next={next}
-      previous={previous}
-      pause={false}
-      interval={5000}
-    >
-      <CarouselIndicators
-        items={items}
-        activeIndex={activeIndex}
-        onClickHandler={goToIndex}
-      />
-      {slides}
-      <CarouselControl
-        direction="prev"
-        directionText=" "
-        onClickHandler={previous}
-      />
-      <CarouselControl
-        direction="next"
-        directionText=" "
-        onClickHandler={next}
-      />
-    </Carousel>
+    <div class="item">
+      <img src={item.src} alt={item.altText} />
+    </div>
   );
+});
+
+//Owl Carousel Settings
+const options = {
+  responsiveClass: true,
+  nav: false,
+  loop: true,
+  autoplay: true,
+  smartSpeed: 1000,
+  responsive: {
+    0: {
+      items: 1,
+    },
+  },
 };
 
+class CarouselContainer extends React.Component {
+  render() {
+    return (
+      <div>
+        <OwlCarousel className="slider-items owl-carousel" {...options}>
+          {slides}
+        </OwlCarousel>
+      </div>
+    );
+  }
+}
 export default CarouselContainer;

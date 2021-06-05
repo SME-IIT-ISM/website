@@ -15,18 +15,11 @@ const Footer = (props) => {
     <section className="footer">
       {/* <!-- Footer --> */}
       <footer className="text-white">
-        {/* <!-- Grid container --> */}
         <div className="container p-4">
-          {/* <!--Grid row--> */}
           <div className="row">
-            {/* <!--Grid column--> */}
             <div className="col-lg-4 col-md-12 mb-4 d-flex flex-column flex-md-row flex-lg-column justify-content-center justify-content-md-around justify-content-lg-center text-center">
               <div className="d-inline-block my-auto">
-                <img
-                  src={Logo}
-                  height="60"
-                  alt="Logo"
-                />
+                <img src={Logo} height="60" alt="Logo" />
               </div>
               <div className="mt-3">
                 <h5 className="text-uppercase">Follow us on:</h5>
@@ -46,9 +39,7 @@ const Footer = (props) => {
                 </div>
               </div>
             </div>
-            {/* <!--Grid column--> */}
 
-            {/* <!--Grid column--> */}
             <div className="col-lg-5 col-md-12 mb-4">
               <h5 className="text-uppercase">Contact</h5>
 
@@ -66,12 +57,9 @@ const Footer = (props) => {
                 </li>
               </ul>
             </div>
-            {/* <!--Grid column--> */}
 
-            {/* <!--Grid column--> */}
             <div className="col-lg-3 col-md-6 mb-4">
               <h5 className="text-uppercase mb-2">Links</h5>
-
               <ul className="list-unstyled">
                 <li className="mb-2">
                   <a href="https://www.smenet.org/" className="text-white">
@@ -98,11 +86,8 @@ const Footer = (props) => {
                 </li>
               </ul>
             </div>
-            {/* <!--Grid column--> */}
           </div>
-          {/* <!--Grid row--> */}
         </div>
-        {/* <!-- Grid container --> */}
 
         {/* <!-- Copyright --> */}
         <div className="text-center p-3 copyright">
