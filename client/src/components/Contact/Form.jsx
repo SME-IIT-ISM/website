@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import { MdSend } from "react-icons/md";
 
 class Form extends React.Component {
   constructor(props) {
@@ -20,7 +21,9 @@ class Form extends React.Component {
           method="POST"
         >
           <div className="form-group">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name" className="card-title">
+              Name
+            </label>
             <input
               type="text"
               className="form-control"
@@ -29,7 +32,9 @@ class Form extends React.Component {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Email address</label>
+            <label htmlFor="exampleInputEmail1" className="card-title">
+              Email address
+            </label>
             <input
               type="email"
               className="form-control"
@@ -39,7 +44,9 @@ class Form extends React.Component {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message" className="card-title">
+              Message
+            </label>
             <textarea
               className="form-control"
               rows="5"
@@ -47,8 +54,8 @@ class Form extends React.Component {
               onChange={this.onMessageChange.bind(this)}
             />
           </div>
-          <button type="submit" className="btn btn-primary">
-            Submit
+          <button type="submit" className="btn btn-success mt-3 mb-3">
+            Send <MdSend />
           </button>
         </form>
       </div>
