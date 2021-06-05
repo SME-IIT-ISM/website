@@ -19,7 +19,7 @@ import wb from "./sponsers/wb.png";
 
 const Sponser = (props) => {
   return (
-    <Container className="shadow p-3 mb-5 bg-white rounded">
+    <Container className="sponser-container shadow p-3 mb-5 bg-white rounded">
       <Row>
         <Col className="text-center">
           <h1 className="text-uppercase heading">Industrial Collaborations</h1>

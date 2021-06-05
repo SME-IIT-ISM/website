@@ -1,4 +1,6 @@
 import React from "react";
+import Logo from "./logo.png";
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Footer = (props) => {
   return (
@@ -10,42 +12,32 @@ const Footer = (props) => {
           {/* <!--Grid row--> */}
           <div class="row">
             {/* <!--Grid column--> */}
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Contact</h5>
-
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-                atque ea quis molestias. Fugiat pariatur maxime quis culpa
-                corporis vitae repudiandae aliquam voluptatem veniam, est atque
-                cumque eum delectus sint!
-              </p>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              {/* <h5 class="text-uppercase">Footer Content</h5> */}
+              <img
+                src={Logo}
+                height="60"
+                className="d-inline-block align-top"
+                alt="Logo"
+              />
             </div>
             {/* <!--Grid column--> */}
 
             {/* <!--Grid column--> */}
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Contact</h5>
 
               <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-white">
-                    Link 1
-                  </a>
+                <li className="mb-2">
+                  <FaMapMarkerAlt /> Department of Mining Engineering, IIT (ISM)
+                  Dhanbad, Hirapur, Sardar Patel Nagar, Dhanbad, Jharkhand
+                  826004
                 </li>
-                <li>
-                  <a href="#!" class="text-white">
-                    Link 2
-                  </a>
+                <li className="mb-2">
+                  <FaPhoneAlt /> Phone: +91 7297812986
                 </li>
-                <li>
-                  <a href="#!" class="text-white">
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">
-                    Link 4
-                  </a>
+                <li className="mb-2">
+                  <FaEnvelope /> Email: smeiitismstudentchapter@gmail.com
                 </li>
               </ul>
             </div>
@@ -53,27 +45,30 @@ const Footer = (props) => {
 
             {/* <!--Grid column--> */}
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase mb-0">Links</h5>
+              <h5 class="text-uppercase mb-2">Links</h5>
 
               <ul class="list-unstyled">
-                <li>
-                  <a href="#!" class="text-white">
-                    Link 1
+                <li className="mb-2">
+                  <a href="https://www.smenet.org/" class="text-white">
+                    SME International
                   </a>
                 </li>
-                <li>
-                  <a href="#!" class="text-white">
-                    Link 2
+                <li className="mb-2">
+                  <a href="/" class="text-white">
+                    Khanan
                   </a>
                 </li>
-                <li>
-                  <a href="#!" class="text-white">
-                    Link 3
+                <li className="mb-2">
+                  <a href="https://www.iitism.ac.in/" class="text-white">
+                    IIT (ISM) Dhanbad Official Website
                   </a>
                 </li>
-                <li>
-                  <a href="#!" class="text-white">
-                    Link 4
+                <li className="mb-2">
+                  <a
+                    href="https://parent.iitism.ac.in/index.php/parent_portal/portal0"
+                    class="text-white"
+                  >
+                    Parents Portal
                   </a>
                 </li>
               </ul>
@@ -86,9 +81,9 @@ const Footer = (props) => {
 
         {/* <!-- Copyright --> */}
         <div class="text-center p-3 copyright">
-          © 2021 Copyright:{" "}
+          © 2021 Copyright: All rights reserved |{" "}
           <a class="text-white" href="/">
-            SME IIT (ISM) DHANBAD Students Chapter
+            SME IIT (ISM) Dhanbad Student Chapter
           </a>
         </div>
         {/* <!-- Copyright --> */}

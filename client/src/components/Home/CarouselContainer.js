@@ -63,7 +63,6 @@ const CarouselContainer = (props) => {
 
   return (
     <Carousel
-      className="mt-5 pt-4"
       activeIndex={activeIndex}
       next={next}
       previous={previous}
