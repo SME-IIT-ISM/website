@@ -7,9 +7,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
         <Header />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
