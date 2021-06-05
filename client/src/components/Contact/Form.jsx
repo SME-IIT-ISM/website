@@ -20,7 +20,7 @@ class Form extends React.Component {
           onSubmit={this.handleSubmit.bind(this)}
           method="POST"
         >
-          <div className="form-group">
+          <div className="form-group my-2">
             <label htmlFor="name" className="card-title">
               Name
             </label>
@@ -31,7 +31,7 @@ class Form extends React.Component {
               onChange={this.onNameChange.bind(this)}
             />
           </div>
-          <div className="form-group">
+          <div className="form-group mt-3">
             <label htmlFor="exampleInputEmail1" className="card-title">
               Email address
             </label>
@@ -43,7 +43,7 @@ class Form extends React.Component {
               onChange={this.onEmailChange.bind(this)}
             />
           </div>
-          <div className="form-group">
+          <div className="form-group mt-3">
             <label htmlFor="message" className="card-title">
               Message
             </label>
@@ -54,7 +54,7 @@ class Form extends React.Component {
               onChange={this.onMessageChange.bind(this)}
             />
           </div>
-          <button type="submit" className="btn btn-success mt-3 mb-3">
+          <button type="submit" className="btn btn-success mt-4 mb-2">
             Send <MdSend />
           </button>
         </form>

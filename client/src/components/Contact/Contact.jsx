@@ -9,18 +9,18 @@ const Contact = () => {
     <Container className="shadow p-4 mb-5 bg-white rounded contact">
       <Row>
         <Col>
-          <h1 className="text-uppercase text-center"> Contact Us</h1>
+          <h1 className="text-uppercase text-center">Contact Us</h1>
         </Col>
       </Row>
       <Row className="shadow bg-white rounded mt-5">
-        <Col>
+        <Col className="p-4">
           <Form />
         </Col>
-        <Col className="contact-section">
-          <h1 className="text-uppercase text-center">Contact</h1>
+        <Col className="contact-section py-4 px-5">
+          <h2 className="text-uppercase text-center">Contact Info</h2>
 
           <ul className="list-unstyled mb-0">
-            <li className="mb-3 mt-5">
+            <li className="mb-3 mt-4">
               <FaMapMarkerAlt /> Department of Mining Engineering, IIT (ISM)
               Dhanbad, Hirapur, Sardar Patel Nagar, Dhanbad, Jharkhand 826004
             </li>
@@ -33,7 +33,7 @@ const Contact = () => {
           </ul>
         </Col>
       </Row>
-      <Row className="map-container ">
+      <Row className="map-container mt-5 mb-4">
         <Col>
           <MDBContainer className="map-container ">
             <MDBIframe
