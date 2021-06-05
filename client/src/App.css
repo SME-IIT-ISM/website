@@ -81,23 +81,19 @@ h1::after {
   color: #1989ca;
 }
 
-/*for Coursel.js   */
-/* #bootstrap-overrides .carousel-item:active {
-  width: 100%;
-} */
-.i2 {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  object-position: bottom;
+/* For CarouselContainer.js   */
+.carousel-content {
+  font-size: 4rem;
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-.centered {
-  font-size: 5rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.carousel-content span p {
+  background-color: rgba(17, 164, 184, 0.5);
 }
 
 /*for Intro.js */
