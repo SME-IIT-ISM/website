@@ -1,33 +1,58 @@
 import React from "react";
 import Logo from "./logo.png";
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaFacebookF,
+  FaLinkedin,
+  FaInstagram,
+  FaYoutube,
+} from "react-icons/fa";
 
 const Footer = (props) => {
   return (
-    <section class="footer">
+    <section className="footer">
       {/* <!-- Footer --> */}
-      <footer class="text-white">
+      <footer className="text-white">
         {/* <!-- Grid container --> */}
-        <div class="container p-4">
+        <div className="container p-4">
           {/* <!--Grid row--> */}
-          <div class="row">
+          <div className="row">
             {/* <!--Grid column--> */}
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              {/* <h5 class="text-uppercase">Footer Content</h5> */}
-              <img
-                src={Logo}
-                height="60"
-                className="d-inline-block align-top"
-                alt="Logo"
-              />
+            <div className="col-lg-4 col-md-12 mb-4 d-flex flex-column flex-md-row flex-lg-column justify-content-center justify-content-md-around justify-content-lg-center text-center">
+              <div className="d-inline-block my-auto">
+                <img
+                  src={Logo}
+                  height="60"
+                  alt="Logo"
+                />
+              </div>
+              <div className="mt-3">
+                <h5 className="text-uppercase">Follow us on:</h5>
+                <div className="icon-container">
+                  <div className="icon icon-fill-facebook">
+                    <FaFacebookF className="icon-tag" />
+                  </div>
+                  <div className="icon icon-fill-instagram">
+                    <FaInstagram className="icon-tag" />
+                  </div>
+                  <div className="icon icon-fill-linkedin">
+                    <FaLinkedin className="icon-tag" />
+                  </div>
+                  <div className="icon icon-fill-youtube">
+                    <FaYoutube className="icon-tag" />
+                  </div>
+                </div>
+              </div>
             </div>
             {/* <!--Grid column--> */}
 
             {/* <!--Grid column--> */}
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Contact</h5>
+            <div className="col-lg-5 col-md-12 mb-4">
+              <h5 className="text-uppercase">Contact</h5>
 
-              <ul class="list-unstyled mb-0">
+              <ul className="list-unstyled mb-0">
                 <li className="mb-2">
                   <FaMapMarkerAlt /> Department of Mining Engineering, IIT (ISM)
                   Dhanbad, Hirapur, Sardar Patel Nagar, Dhanbad, Jharkhand
@@ -44,29 +69,29 @@ const Footer = (props) => {
             {/* <!--Grid column--> */}
 
             {/* <!--Grid column--> */}
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase mb-2">Links</h5>
+            <div className="col-lg-3 col-md-6 mb-4">
+              <h5 className="text-uppercase mb-2">Links</h5>
 
-              <ul class="list-unstyled">
+              <ul className="list-unstyled">
                 <li className="mb-2">
-                  <a href="https://www.smenet.org/" class="text-white">
+                  <a href="https://www.smenet.org/" className="text-white">
                     SME International
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/" class="text-white">
+                  <a href="/" className="text-white">
                     Khanan
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://www.iitism.ac.in/" class="text-white">
+                  <a href="https://www.iitism.ac.in/" className="text-white">
                     IIT (ISM) Dhanbad Official Website
                   </a>
                 </li>
                 <li className="mb-2">
                   <a
                     href="https://parent.iitism.ac.in/index.php/parent_portal/portal0"
-                    class="text-white"
+                    className="text-white"
                   >
                     Parents Portal
                   </a>
@@ -80,9 +105,9 @@ const Footer = (props) => {
         {/* <!-- Grid container --> */}
 
         {/* <!-- Copyright --> */}
-        <div class="text-center p-3 copyright">
+        <div className="text-center p-3 copyright">
           © 2021 Copyright: All rights reserved |{" "}
-          <a class="text-white" href="/">
+          <a className="text-white" href="/">
             SME IIT (ISM) Dhanbad Student Chapter
           </a>
         </div>
