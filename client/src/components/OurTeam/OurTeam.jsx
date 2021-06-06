@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import FacultyAdvisor from "./OfficeBearers/FacultyAdvisor.jpg";
 import VicePresident from "./OfficeBearers/VicePresident.jpg";
 import President from "./OfficeBearers/President.jpg";
-import Secretary from "./OfficeBearers/Secretary.jpg";
+import Secretary from "./OfficeBearers/Secreatory.jpg";
 import AdDesigningHead from "./OfficeBearers/AdDesigningHead.jpg";
 import BDHead from "./OfficeBearers/BDHead.jpg";
 import DraftingHead from "./OfficeBearers/DraftingHead.jpg";
@@ -15,22 +15,16 @@ import SecretaryErra from "./OfficeBearers/SecretaryErra.jpg";
 import Treasurer from "./OfficeBearers/Treasurer.jpg";
 import DesigningHead from "./OfficeBearers/DesigningHead.jpg";
 import AdSecreatory from "./OfficeBearers/AdSecreatory.jpg";
+import OurTeam1 from "./OfficeBearers/OurTeam1.jpg";
 // import MarketingHead from "./OfficeBearers/MarketingHead.jpg";
 import MediaHead from "./OfficeBearers/MediaHead.jpg";
-
-
-
-
-
-
-
 
 class OurTeam extends Component {
   state = {};
   render() {
     return (
       <div>
-         <h1 className="text-center text-uppercase  heading my-5 heading-block">
+        <h1 className="text-center text-uppercase  heading my-5 heading-block">
           Office Bearers
         </h1>
         <div class="container my-5">
@@ -75,7 +69,7 @@ class OurTeam extends Component {
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-link"></i>
+                      <i class="fa fa-search"></i>
                     </a>
                   </li>
                 </ul>
@@ -475,7 +469,7 @@ class OurTeam extends Component {
                 <img src={OurTeam1}></img>
                 <div class="box-content">
                   <h3 class="title">Abhinav Kumar Singh</h3>
-                  <span class="post">Web designer</span>
+                  <span class="post">Web developer</span>
                 </div>
                 <ul class="icon">
                   <li>
@@ -496,7 +490,7 @@ class OurTeam extends Component {
                 <img src={OurTeam1}></img>
                 <div class="box-content">
                   <h3 class="title">Abhijeet Haldar</h3>
-                  <span class="post">Web designer</span>
+                  <span class="post">Web developer</span>
                 </div>
                 <ul class="icon">
                   <li>
