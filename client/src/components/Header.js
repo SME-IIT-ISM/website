@@ -16,20 +16,16 @@ import {
   NavLink,
 } from "reactstrap";
 
-const Header = (props) => {
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div>
-      <Navbar expand="md" color="dark" dark fixed="top">
+      <Navbar expand="md" color="light" light fixed="top">
         <NavbarBrand className="mx-4 my-2" href="/">
-          <img
-            src={Logo}
-            className="d-inline-block align-top"
-            alt="Logo"
-          />
+          <img src={Logo} className="d-inline-block align-top" alt="Logo" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

@@ -3,12 +3,12 @@ import CarouselContainer from "./CarouselContainer";
 import Intro from "./Intro";
 import Sponser from "./Sponser";
 import OverlayText from "./OverlayText.js";
+import Youtube from "./Youtube";
 
 const Home = () => {
   return (
     <div className="Home">
       <CarouselContainer />
-      <br />
       <br />
       <Intro />
       <br />
@@ -16,6 +16,8 @@ const Home = () => {
       <OverlayText />
       <br />
       <br />
+      <br />
+      <Youtube />
       <br />
       <br />
       <Sponser />

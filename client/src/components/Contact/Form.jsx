@@ -54,7 +54,7 @@ class Form extends React.Component {
               onChange={this.onMessageChange.bind(this)}
             />
           </div>
-          <button type="submit" className="btn btn-success mt-4 mb-2">
+          <button type="submit" className="btn btn-primary mt-4 mb-2">
             Send <MdSend />
           </button>
         </form>

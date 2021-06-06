@@ -4,11 +4,9 @@ import { Container, Row, Col } from "reactstrap";
 
 const About = () => {
   return (
-    <div className="text-center text-white">
-      <h1>
-        About
-      </h1>
-      <Container className="my-5">
+    <div className="text-center shadow p-4 m-5 bg-white  about-wrap ">
+      <h1 className="mt-5">About</h1>
+      <Container className="my-5 about-content">
         <Row>
           <Col>
             <h1 className="text-uppercase">Who we are</h1>
