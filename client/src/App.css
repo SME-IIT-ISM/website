@@ -6,10 +6,11 @@ body {
 }
 
 body {
-  padding-top: 80px;
-  background: linear-gradient(-45deg, #ee7752, #e24c81, #23a6d5, #23d5ab);
-  background-size: 800% 800%;
-  animation: gradient 15s ease infinite;
+  /* padding-top: 80px; */
+  /* background: linear-gradient(-45deg, #ee7752, #e24c81, #23a6d5, #23d5ab); */
+  background-color: #fff;
+  /* background-size: 800% 800%;
+  animation: gradient 15s ease infinite; */
 }
 
 @keyframes gradient {
@@ -72,8 +73,11 @@ h1::after {
   height: 4.5vw;
 }
 
+.navbar {
+  background-color: rgba(55, 71, 133, 0.7) !important;
+}
 #bootstrap-overrides .nav-link {
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 #bootstrap-overrides .nav-link:hover {
@@ -91,9 +95,9 @@ h1::after {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-.carousel-content span p {
+/* .carousel-content span p {
   background-color: rgba(17, 164, 184, 0.5);
-}
+} */
 
 /*for Intro.js */
 .i1 {
@@ -141,11 +145,13 @@ h1::after {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.2;
   background-image: url("./components/logo.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background-size: 50vw 50vh;
+  background-position-x: center;
+  background-position-y: 30vh;
+  background-attachment: fixed;
   z-index: 1;
 }
 
@@ -156,7 +162,7 @@ h1::after {
 
 /* for Footer.js */
 .footer {
-  background-color: #212529;
+  background-color: rgb(55, 71, 133);
 }
 
 .copyright {
@@ -352,13 +358,26 @@ h1::after {
   width: 1rem;
 }
 .contact-section {
-  background-color: rgba(25, 135, 84, 1);
+  background-color: #24305e;
   color: aliceblue;
 }
 /* For Overlaytext */
 
 .khanan-overlay {
-  background-color: rgba(0, 0, 0, 0.7) !important;
+  background-color: #24305e !important;
+  background-attachment: fixed;
+  transform: skewY(-4deg);
+}
+.khanan-content {
+  transform: skewY(4deg);
+}
+
+/* Youtube.js */
+.youtube {
+  width: 60vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  height: 70vh;
 }
 /* Media Queries */
 @media only screen and (max-width: 992px) {
@@ -386,6 +405,12 @@ h1::after {
   }
   .heading {
     font-size: 20px;
+  }
+  .youtube {
+    width: 80vw;
+    height: 70vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 }
 
