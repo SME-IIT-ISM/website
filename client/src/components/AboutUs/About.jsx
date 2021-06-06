@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
+
 const About = () => {
   return (
     <div className="text-center text-white">
