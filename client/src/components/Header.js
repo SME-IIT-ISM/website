@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Logo from "./logo.png";
 import {
-  FaFacebookF,
-  FaLinkedin,
-  FaInstagram,
-  FaYoutube,
-} from "react-icons/fa";
+  RiFacebookFill,
+  RiInstagramFill,
+  RiLinkedinBoxFill,
+  RiYoutubeFill,
+} from "react-icons/ri";
 import {
   Collapse,
   Navbar,
@@ -14,6 +14,10 @@ import {
   Nav,
   NavItem,
   NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
 } from "reactstrap";
 
 const Header = () => {
@@ -29,20 +33,35 @@ const Header = () => {
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" id="bootstrap-overrides" navbar>
+          <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink className="mx-2" href="/">
                 Home
               </NavLink>
             </NavItem>
+            {/* <NavItem> */}
+            {/* <NavLink className="mx-2" href="/events"> */}
+            <UncontrolledDropdown className="mx-2" nav inNavbar>
+              <DropdownToggle nav caret>
+                Events
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>Option 1</DropdownItem>
+                <DropdownItem>Option 2</DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>Reset</DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            {/* </NavLink> */}
+            {/* </NavItem> */}
             <NavItem>
-              <NavLink className="mx-2" href="/events">
-                Events Gallery
+              <NavLink className="mx-2" href="/gallery">
+                Gallery
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="mx-2" href="/calender">
-                Annual Calender
+              <NavLink className="mx-2" href="/resources">
+                Resources
               </NavLink>
             </NavItem>
             <NavItem>
@@ -61,34 +80,40 @@ const Header = () => {
               </NavLink>
             </NavItem>
           </Nav>
-          <Nav className="mx-auto d-none d-xl-flex " navbar>
+          <Nav
+            className="mx-auto d-none d-xl-flex text-white social-nav"
+            navbar
+          >
             <NavItem>
               <NavLink
-                className="mx-2"
+                className="mx-2 facebook-nav"
                 href="https://m.facebook.com/pg/smeiitism/posts/?ref=page_internal&mt_nav=0"
               >
-                <FaFacebookF />
+                <RiFacebookFill />
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                className="mx-2"
+                className="mx-2 instagram-nav"
                 href="https://www.instagram.com/sme_iitism/"
               >
-                <FaInstagram />
+                <RiInstagramFill />
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                className="mx-2"
+                className="mx-2 linkedin-nav"
                 href="https://www.linkedin.com/company/sme-iit-ism-student-chapter2020"
               >
-                <FaLinkedin />
+                <RiLinkedinBoxFill />
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="mx-2" href="/">
-                <FaYoutube />
+              <NavLink
+                className="mx-2 youtube-nav"
+                href="https://www.youtube.com/channel/UCngC6aD1tTfpMBMXoqRBiog/"
+              >
+                <RiYoutubeFill />
               </NavLink>
             </NavItem>
           </Nav>
