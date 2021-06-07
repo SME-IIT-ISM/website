@@ -66,15 +66,14 @@ h1::after {
   min-height: 100vh;
 }
 
-/* #root {
-  background-image: url("./image/stars.jpg");
-  background-attachment: fixed;
-} */
-
 /*For Header.js */
 .navbar {
   font-size: 1.25rem;
   overflow-y: hidden !important;
+}
+
+.social-nav {
+  font-size: 1.75rem;
 }
 
 .navbar-brand img {
@@ -84,19 +83,43 @@ h1::after {
 }
 
 .navbar {
-  background-color: rgba(55, 71, 133, 0.7) !important;
-}
-#bootstrap-overrides .nav-link {
-  color: #fff;
+  background-color: transparent !important;
+  transition: background-color 1s ease 0s;
 }
 
-#bootstrap-overrides .nav-link:hover {
-  color: #1989ca;
+.solid-navbar {
+  background-color: rgba(55, 71, 133, 0.8) !important;
+  transition: background-color 1s ease 0s;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #1989ca !important;
+}
+
+.facebook-nav:hover {
+  color: #4267b2 !important;
+}
+
+.instagram-nav:hover {
+  color: #ea2840 !important;
+}
+
+.linkedin-nav:hover {
+  color: #0077b5 !important;
+}
+
+.youtube-nav:hover {
+  color: #ff0000 !important;
 }
 
 /* For CarouselContainer.js   */
 .carousel-content {
-  font-size: 4rem;
+  font-size: 3rem;
+  /* font-weight: bold !important; */
   position: absolute;
   bottom: 30%;
   left: 10%;
@@ -105,9 +128,51 @@ h1::after {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-/* .carousel-content span p {
-  background-color: rgba(17, 164, 184, 0.5);
-} */
+.item img {
+  object-fit: cover;
+  height: 100vh;
+}
+
+.arrow {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.arrow span {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: scroll-arrow 2.5s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes scroll-arrow {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
 
 /*for Intro.js */
 .i1 {
@@ -141,7 +206,6 @@ h1::after {
 }
 
 /* for About.js*/
-
 .about-wrap {
   position: relative;
   border-radius: 0.75rem;
@@ -434,7 +498,10 @@ h1::after {
 .box {
   background-color: #000;
   font-family: "Oxygen", sans-serif;
+<<<<<<< HEAD
   align-items: center;
+=======
+>>>>>>> 9a0adf3da260b18c93d0276a8ca74aa153a687d7
   border-radius: 0 30px;
   width: 100%;
   height: 40vh;
@@ -460,6 +527,12 @@ h1::after {
 .box:hover {
   background-color: #44bd32;
 }
+<<<<<<< HEAD
+=======
+.box:hover {
+  background-color: #44bd32;
+}
+>>>>>>> 9a0adf3da260b18c93d0276a8ca74aa153a687d7
 .box:before,
 .box:after,
 .box .box-content:before,
@@ -503,7 +576,8 @@ h1::after {
 }
 .box img {
   width: 100%;
-  height: auto;
+  height: 320px;
+  object-fit: cover;
   transition: all 0.3s ease;
 }
 .box:hover img {
@@ -584,9 +658,13 @@ h1::after {
   position: absolute;
   top: 0;
   left: 0;
-  animation: animate 0.5s ease-out 75ms;
+  animation: team-image-hover 0.5s ease-out 75ms;
 }
+<<<<<<< HEAD
 @keyframes animate {
+=======
+@keyframes team-image-hover {
+>>>>>>> 9a0adf3da260b18c93d0276a8ca74aa153a687d7
   0% {
     opacity: 0.3;
   }

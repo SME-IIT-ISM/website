@@ -36,7 +36,7 @@ class OurTeam extends Component {
               <div class="box opm"></div>
             </div>
             <div class="col-md-4 col-sm-6">
-              <div class="box ">
+              <div class="box">
                 <img src={FacultyAdvisor}></img>
                 <div class="box-content">
                   <h3 class="title">Dheerj Kumar</h3>

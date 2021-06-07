@@ -53,8 +53,13 @@ class CarouselContainer extends React.Component {
           {slides}
         </OwlCarousel>
         <div class="carousel-content text-uppercase text-center">
-          <span><p>WELCOME TO</p></span>
+          <p>WELCOME TO</p>
           <p>SME IIT (ISM) DHANBAD STUDENT CHAPTER</p>
+        </div>
+        <div class="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
     );
