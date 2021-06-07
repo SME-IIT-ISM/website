@@ -2,14 +2,15 @@ import React from "react";
 
 const YouTube = () => {
   return (
-    <div className>
+    <div className="text-center">
       <iframe
+        width="75%"
+        height="538"
         src="https://www.youtube.com/embed/zAXGRM9VWmM"
         title="YouTube video player"
-        className="youtube"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
+        allowfullscreen=""
       ></iframe>
     </div>
   );
