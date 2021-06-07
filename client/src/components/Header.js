@@ -39,31 +39,45 @@ const Header = () => {
                 Home
               </NavLink>
             </NavItem>
-            {/* <NavItem> */}
-            {/* <NavLink className="mx-2" href="/events"> */}
-            <UncontrolledDropdown className="mx-2" nav inNavbar>
-              <DropdownToggle nav caret>
-                Events
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            {/* </NavLink> */}
-            {/* </NavItem> */}
             <NavItem>
               <NavLink className="mx-2" href="/gallery">
                 Gallery
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink className="mx-2" href="/resources">
+            <UncontrolledDropdown className="mx-2" nav inNavbar>
+              <DropdownToggle nav caret>
+                Events
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  <a className="nav-dropdown" href="/events/khanan">
+                    Khanan
+                  </a>
+                </DropdownItem>
+                <DropdownItem>
+                  <a className="nav-dropdown" href="/events/general">
+                    SME General Events
+                  </a>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <UncontrolledDropdown className="mx-2" nav inNavbar>
+              <DropdownToggle nav caret>
                 Resources
-              </NavLink>
-            </NavItem>
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  <a className="nav-dropdown" href="/resources/blogs">
+                    Blogs
+                  </a>
+                </DropdownItem>
+                <DropdownItem>
+                  <a className="nav-dropdown" href="/resources/calender">
+                    Annual Calender
+                  </a>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             <NavItem>
               <NavLink className="mx-2" href="/team">
                 Our Team
