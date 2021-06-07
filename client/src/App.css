@@ -1,14 +1,14 @@
 /* Universal */
 html,
 body {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 
 body {
+  background-color: #f7f7f7;
   /* padding-top: 80px; */
   /* background: linear-gradient(-45deg, #ee7752, #e24c81, #23a6d5, #23d5ab); */
-  background-color: #fff;
   /* background-size: 800% 800%;
   animation: gradient 15s ease infinite; */
 }
@@ -31,6 +31,16 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 450;
+  background-image: linear-gradient(to right, #8899dd, #081b66);
+  color: transparent;
+  letter-spacing: 0.2rem;
+  background-clip: text;
 }
 
 h1:first-child::after {
@@ -117,10 +127,10 @@ h1::after {
 /* For CarouselContainer.js   */
 .carousel-content {
   font-size: 3rem;
-  /* font-weight: bold !important; */
+  font-weight: bold !important;
   position: absolute;
-  bottom: 30%;
   left: 10%;
+  bottom: 30%;
   z-index: 20;
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
@@ -338,7 +348,7 @@ h1::after {
 .marquee-container {
   height: 80%;
   overflow-y: hidden;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 
 /* OverlayText */
@@ -496,10 +506,8 @@ h1::after {
     font-size: 20px;
   }
   .youtube {
-    width: 80vw;
-    height: 70vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    height: 27rem;
+    width: 54rem;
   }
 }
 
