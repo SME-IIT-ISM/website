@@ -24,13 +24,19 @@ class OurTeam extends Component {
   render() {
     return (
       <div>
+        <br />
+        <br />
+        <br />
         <h1 className="text-center text-uppercase  heading my-5 heading-block">
           Office Bearers
         </h1>
         <div class="container my-5">
           <div class="row">
             <div class="col-md-4 col-sm-6">
-              <div class="box">
+              <div class="box opm"></div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="box ">
                 <img src={FacultyAdvisor}></img>
                 <div class="box-content">
                   <h3 class="title">Dheerj Kumar</h3>
@@ -49,6 +55,9 @@ class OurTeam extends Component {
                   </li>
                 </ul>
               </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="box opm"></div>
             </div>
           </div>
         </div>

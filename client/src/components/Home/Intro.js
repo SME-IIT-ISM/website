@@ -21,7 +21,9 @@ const Intro = (props) => {
                 mining engineers.
               </p>
               <div>
-                <Button color="primary">Read More</Button>
+                <Button color="primary" href="/about">
+                  Read More
+                </Button>
               </div>
             </div>
           </div>
