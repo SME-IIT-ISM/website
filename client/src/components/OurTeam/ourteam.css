@@ -1,0 +1,52 @@
+/* for OurTeam*/
+.team.card {
+  border: none;
+  border-radius: 20px;
+  transition: transform 0.25s ease-in-out;
+  overflow: hidden;
+}
+
+.team.card:hover {
+  border: 1px dashed rgba(25, 137, 202, 1);
+  transform: scale(1.05);
+}
+
+.team .card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.team-social-handles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3rem;
+  transform: translate(1500px, -50%);
+  z-index: 10;
+  transition: 0.6s;
+  transition-timing-function: linear;
+}
+
+.team.card:hover .team-social-handles {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease;
+}
+
+.team.card::after {
+  content: "";
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-140%, -50%);
+  z-index: 1;
+  background: rgba(25, 137, 202, 0.6);
+  transition: 0.8s;
+  border-radius: 50%;
+}
+.team.card:hover::after {
+  transform: translate(-50%, -50%);
+}

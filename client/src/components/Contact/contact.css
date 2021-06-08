@@ -1,0 +1,27 @@
+/* for Contact.js */
+.map-container {
+  width: 100%;
+  display: block;
+  margin-top: 2%;
+}
+.embed-responsive-16by9 {
+  height: 50vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+}
+.contact {
+  margin-top: 6rem;
+  margin-bottom: 0.1rem;
+}
+.contact-button {
+  height: 1rem;
+  width: 1rem;
+}
+.contact-section {
+  background-color: #24305e;
+  color: aliceblue;
+}
