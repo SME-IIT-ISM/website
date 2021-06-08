@@ -57,18 +57,18 @@ p:not([class]):first-child {
 }
 
 /*
-  card component
+  tcard component
   */
 
 /*
   core styles
   */
 
-.card {
+.tcard {
   padding: var(--timelineCardPadding, 1.5rem 1.5rem 1.25rem);
 }
 
-.card__content {
+.tcard__content {
   margin-top: var(--cardContentMarginTop, 0.5rem);
 }
 
@@ -76,7 +76,7 @@ p:not([class]):first-child {
   skin
   */
 
-.card {
+.tcard {
   border-radius: var(--timelineCardBorderRadius, 2px);
   border-left: var(--timelineCardBorderLeftWidth, 3px) solid
     var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
@@ -92,7 +92,7 @@ p:not([class]):first-child {
   extensions
   */
 
-.card__title {
+.tcard__title {
   --rTitleMarginTop: var(--cardTitleMarginTop, 1rem);
   font-size: var(--cardTitleFontSize, 1.25rem);
 }
@@ -158,6 +158,7 @@ p:not([class]):first-child {
   padding-top: 0.25rem; /* 1 */
   padding-bottom: 0.25rem; /* 1 */
   z-index: 20;
+  font-weight: 350;
 }
 
 .timeline__card::before {
@@ -242,7 +243,7 @@ p:last-child {
 }
 
 .page {
-  width: 80vw;
+  width: 60vw;
   padding: 5rem 2rem 3rem;
   margin-left: auto;
   margin-right: auto;
@@ -250,7 +251,7 @@ p:last-child {
   background-position: top;
   z-index: 1;
   animation: fadein 5s ease-out;
-  animation-delay: 3s;
+  animation-delay: 2.5s;
 }
 @media screen and (max-width: 600px) {
   .page {
