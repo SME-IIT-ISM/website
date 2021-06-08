@@ -1,4 +1,12 @@
 /* Universal */
+:root {
+  --sme-blue: #1989ca;
+  --facebook-color: #4267b2;
+  --instagram-color: #ea2840;
+  --linkedin-color: #0077b5;
+  --youtube-color: #ff0000;
+}
+
 html,
 body {
   max-width: 100%;
@@ -13,7 +21,7 @@ body {
   animation: gradient 15s ease infinite; */
 }
 
-@keyframes gradient {
+/* @keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -23,7 +31,7 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 
 a {
   text-decoration: none;
@@ -46,7 +54,7 @@ h1 {
 h1:first-child::after {
   display: block;
   height: 2px;
-  background-color: #1989ca;
+  background-color: var(--sme-blue);
   content: " ";
   width: 100px;
   margin: 0 auto;
@@ -56,14 +64,39 @@ h1:first-child::after {
 h1::after {
   display: block;
   height: 0px;
-  background-color: #1989ca;
+  background-color: var(--sme-blue);
   content: " ";
   width: 100px;
   margin: 0 auto;
   margin-top: 20px;
 }
+
 .app {
   min-height: 100vh;
+}
+
+.social-facebook,
+.social-instagram,
+.social-linkedin,
+.social-youtube {
+  color: #fff;
+  transition: color 0.25s ease;
+}
+
+.social-facebook:hover {
+  color: var(--facebook-color) !important;
+}
+
+.social-instagram:hover {
+  color: var(--instagram-color) !important;
+}
+
+.social-linkedin:hover {
+  color: var(--linkedin-color) !important;
+}
+
+.social-youtube:hover {
+  color: var(--youtube-color) !important;
 }
 
 /*For Header.js */
@@ -93,6 +126,7 @@ h1::after {
 
 .nav-link {
   color: #fff !important;
+  transition: color 0.3s ease 0s;
 }
 
 .nav-dropdown {
@@ -100,28 +134,12 @@ h1::after {
 }
 
 .nav-dropdown:hover {
-  color: #1989ca;
+  color: var(--sme-blue);
   text-decoration: none;
 }
 
 .nav-link:hover {
-  color: #1989ca !important;
-}
-
-.facebook-nav:hover {
-  color: #4267b2 !important;
-}
-
-.instagram-nav:hover {
-  color: #ea2840 !important;
-}
-
-.linkedin-nav:hover {
-  color: #0077b5 !important;
-}
-
-.youtube-nav:hover {
-  color: #ff0000 !important;
+  color: var(--sme-blue) !important;
 }
 
 /* For CarouselContainer.js   */
@@ -183,12 +201,6 @@ h1::after {
 }
 
 /*for Intro.js */
-.i1 {
-  width: 100%;
-  border-radius: 10%;
-  margin-top: 4%;
-}
-
 .heading {
   margin-top: 4%;
   padding: auto;
@@ -201,7 +213,7 @@ h1::after {
 }
 
 /* for Sponser.js*/
-.i3 {
+.sponser-logo {
   width: 10vw;
   margin-top: auto;
   margin-bottom: auto;
@@ -219,7 +231,7 @@ h1::after {
   border-radius: 0.75rem;
 }
 
-.about-wrap:before {
+.about-wrap::before {
   content: " ";
   display: block;
   position: absolute;
@@ -296,34 +308,34 @@ h1::after {
 
 .icon-fill-facebook::before {
   transition-duration: 0.5s;
-  box-shadow: inset 0 0 0 1px #4267b2;
+  box-shadow: inset 0 0 0 1px var(--facebook-color);
 }
 .icon-fill-facebook:hover::before {
-  box-shadow: inset 0 0 0 60px #4267b2;
+  box-shadow: inset 0 0 0 60px var(--facebook-color);
 }
 
 .icon-fill-instagram::before {
   transition-duration: 0.5s;
-  box-shadow: inset 0 0 0 1px #ea2840;
+  box-shadow: inset 0 0 0 1px var(--instagram-color);
 }
 .icon-fill-instagram:hover::before {
-  box-shadow: inset 0 0 0 60px #ea2840;
+  box-shadow: inset 0 0 0 60px var(--instagram-color);
 }
 
 .icon-fill-linkedin::before {
   transition-duration: 0.5s;
-  box-shadow: inset 0 0 0 1px #0077b5;
+  box-shadow: inset 0 0 0 1px var(--linkedin-color);
 }
 .icon-fill-linkedin:hover::before {
-  box-shadow: inset 0 0 0 60px #0077b5;
+  box-shadow: inset 0 0 0 60px var(--linkedin-color);
 }
 
 .icon-fill-youtube::before {
   transition-duration: 0.5s;
-  box-shadow: inset 0 0 0 1px #ff0000;
+  box-shadow: inset 0 0 0 1px var(--youtube-color);
 }
 .icon-fill-youtube:hover::before {
-  box-shadow: inset 0 0 0 60px #ff0000;
+  box-shadow: inset 0 0 0 60px var(--youtube-color);
 }
 
 /* for Announcement.js */
@@ -440,8 +452,8 @@ h1::after {
   background-color: #24305e;
   color: aliceblue;
 }
-/* For Overlaytext */
 
+/* For Overlaytext */
 .khanan-overlay {
   background-color: #24305e !important;
   background-attachment: fixed;
@@ -464,10 +476,11 @@ h1::after {
   border: none;
   border-radius: 20px;
   transition: transform 0.25s ease-in-out;
+  overflow: hidden;
 }
 
 .card:hover {
-  border: 1px dashed #1989ca;
+  border: 1px dashed var(--sme-blue);
   transform: scale(1.05);
 }
 
@@ -478,15 +491,48 @@ h1::after {
   border-radius: 20px;
 }
 
+.team-social-handles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3rem;
+  transform: translate(1500px, -50%);
+  z-index: 10;
+  transition: 0.6s;
+  transition-timing-function: linear;
+}
+
+.card:hover .team-social-handles {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease;
+}
+
+.card::after {
+  content: "";
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-140%, -50%);
+  z-index: 1;
+  background: rgba(25, 137, 202, 0.6);
+  transition: 0.8s;
+  border-radius: 50%;
+}
+.card:hover::after {
+  transform: translate(-50%, -50%);
+}
+
 /* Media Queries */
 @media only screen and (max-width: 992px) {
-  .i3 {
+  .sponser-logo {
     width: 12vw;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .i3 {
+  .sponser-logo {
     width: 20vw;
   }
   .img-container img {
@@ -499,9 +545,6 @@ h1::after {
   .carousel-head {
     font-size: 3rem;
   }
-  .i3 {
-    width: 25vw;
-  }
   .heading {
     font-size: 20px;
   }
@@ -512,7 +555,7 @@ h1::after {
 }
 
 @media only screen and (max-width: 576px) {
-  .i3 {
+  .sponser-logo {
     width: 30vw;
   }
 }

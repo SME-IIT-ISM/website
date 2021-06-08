@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import {
+  RiFacebookFill,
+  RiInstagramFill,
+  RiLinkedinBoxFill,
+} from "react-icons/ri";
 import FacultyAdvisor from "./OfficeBearers/FacultyAdvisor.jpg";
 import President from "./OfficeBearers/President.jpg";
 import VicePresident from "./OfficeBearers/VicePresident.jpg";
@@ -37,8 +42,18 @@ class OurTeam extends Component {
                     src={FacultyAdvisor}
                     alt="Faculty Advisor"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="https://www.linkedin.com/in/dheeraj-kumar-915440a/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Dheeraj Kumar</h5>
                     <p className="card-text">Faculty Advisor</p>
                   </div>
                 </div>
@@ -52,6 +67,16 @@ class OurTeam extends Component {
                     src={President}
                     alt="President"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">President</p>
@@ -65,6 +90,16 @@ class OurTeam extends Component {
                     src={VicePresident}
                     alt="Vice President"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Vice President</p>
@@ -78,6 +113,16 @@ class OurTeam extends Component {
                     src={SecretaryErra}
                     alt="Secretary Erra"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Secretary Erra</p>
@@ -100,6 +145,16 @@ class OurTeam extends Component {
                     src={Secretary}
                     alt="Secretary"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Secretary</p>
@@ -113,6 +168,16 @@ class OurTeam extends Component {
                     src={AdSecretory}
                     alt="Ad Secretory"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Ad Secretory</p>
@@ -122,6 +187,16 @@ class OurTeam extends Component {
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
                 <div className="card p-2">
                   <img className="card-img-top" src={BDHead} alt="BD Head" />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">BD Head</p>
@@ -135,6 +210,16 @@ class OurTeam extends Component {
                     src={EventHead}
                     alt="Event Head"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Event Head</p>
@@ -148,6 +233,16 @@ class OurTeam extends Component {
                     src={AdEventHead}
                     alt="Ad Event Head"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Ad Event Head</p>
@@ -161,6 +256,16 @@ class OurTeam extends Component {
                     src={Treasurer}
                     alt="Treasurer"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Treasurer</p>
@@ -174,6 +279,16 @@ class OurTeam extends Component {
                     src={DesigningHead}
                     alt="Designing Head"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Designing Head</p>
@@ -187,6 +302,16 @@ class OurTeam extends Component {
                     src={AdDesigningHead}
                     alt="Ad Designing Head"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Ad Designing Head</p>
@@ -196,6 +321,16 @@ class OurTeam extends Component {
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
                 <div className="card p-2">
                   <img className="card-img-top" src={PRHead} alt="PR Head" />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">PR Head</p>
@@ -209,6 +344,16 @@ class OurTeam extends Component {
                     src={MediaHead}
                     alt="Media Head"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Media Head</p>
@@ -222,6 +367,16 @@ class OurTeam extends Component {
                     src={PromotionHead}
                     alt="Promotion Head"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Promotion Head</p>
@@ -235,6 +390,16 @@ class OurTeam extends Component {
                     src={DraftingHead}
                     alt="Drafting Head"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Drafting Head</p>
@@ -248,6 +413,16 @@ class OurTeam extends Component {
                     src={MembershipHead}
                     alt="Membership Head"
                   />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Membership Head</p>
@@ -257,6 +432,16 @@ class OurTeam extends Component {
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
                 <div className="card p-2">
                   <img className="card-img-top" src={OurTeam1} alt="OurTeam1" />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Position</p>
@@ -266,6 +451,16 @@ class OurTeam extends Component {
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
                 <div className="card p-2">
                   <img className="card-img-top" src={OurTeam1} alt="OurTeam1" />
+                  <div className="team-social-handles">
+                    <a
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">Name</h5>
                     <p className="card-text">Position</p>
@@ -284,8 +479,18 @@ class OurTeam extends Component {
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
                 <div className="card p-2">
                   <img className="card-img-top" src={OurTeam1} alt="OurTeam1" />
+                  <div className="team-social-handles">
+                    <a
+                      href="https://www.linkedin.com/in/abhinav-kumar-singh-6813501b8/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Abhinav Kumar Singh</h5>
                     <p className="card-text">Position</p>
                   </div>
                 </div>
@@ -293,8 +498,18 @@ class OurTeam extends Component {
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
                 <div className="card p-2">
                   <img className="card-img-top" src={OurTeam1} alt="OurTeam1" />
+                  <div className="team-social-handles">
+                    <a
+                      href="https://www.linkedin.com/in/abhijeet-haldar-59813a1b4/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Abhijeet Haldar</h5>
                     <p className="card-text">Position</p>
                   </div>
                 </div>
@@ -302,8 +517,18 @@ class OurTeam extends Component {
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
                 <div className="card p-2">
                   <img className="card-img-top" src={OurTeam1} alt="OurTeam1" />
+                  <div className="team-social-handles">
+                    <a
+                      href="https://www.linkedin.com/in/kartik-saini-a1a240195/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-linkedin"
+                    >
+                      <RiLinkedinBoxFill />
+                    </a>
+                  </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Kartik Saini</h5>
                     <p className="card-text">Position</p>
                   </div>
                 </div>

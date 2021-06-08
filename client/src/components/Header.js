@@ -99,36 +99,36 @@ const Header = () => {
             navbar
           >
             <NavItem>
-              <NavLink
-                className="mx-2 facebook-nav"
+              <a
+                className="mx-2 px-2 social-facebook"
                 href="https://m.facebook.com/pg/smeiitism/posts/?ref=page_internal&mt_nav=0"
               >
                 <RiFacebookFill />
-              </NavLink>
+              </a>
             </NavItem>
             <NavItem>
-              <NavLink
-                className="mx-2 instagram-nav"
+              <a
+                className="mx-2 px-2 social-instagram"
                 href="https://www.instagram.com/sme_iitism/"
               >
                 <RiInstagramFill />
-              </NavLink>
+              </a>
             </NavItem>
             <NavItem>
-              <NavLink
-                className="mx-2 linkedin-nav"
+              <a
+                className="mx-2 px-2 social-linkedin"
                 href="https://www.linkedin.com/company/sme-iit-ism-student-chapter2020"
               >
                 <RiLinkedinBoxFill />
-              </NavLink>
+              </a>
             </NavItem>
             <NavItem>
-              <NavLink
-                className="mx-2 youtube-nav"
+              <a
+                className="mx-2 px-2 social-youtube"
                 href="https://www.youtube.com/channel/UCngC6aD1tTfpMBMXoqRBiog/"
               >
                 <RiYoutubeFill />
-              </NavLink>
+              </a>
             </NavItem>
           </Nav>
         </Collapse>
