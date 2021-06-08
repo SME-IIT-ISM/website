@@ -39,31 +39,45 @@ const Header = () => {
                 Home
               </NavLink>
             </NavItem>
-            {/* <NavItem> */}
-            {/* <NavLink className="mx-2" href="/events"> */}
-            <UncontrolledDropdown className="mx-2" nav inNavbar>
-              <DropdownToggle nav caret>
-                Events
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            {/* </NavLink> */}
-            {/* </NavItem> */}
             <NavItem>
               <NavLink className="mx-2" href="/gallery">
                 Gallery
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink className="mx-2" href="/resources">
+            <UncontrolledDropdown className="mx-2" nav inNavbar>
+              <DropdownToggle nav caret>
+                Events
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  <a className="nav-dropdown" href="/events/khanan">
+                    Khanan
+                  </a>
+                </DropdownItem>
+                <DropdownItem>
+                  <a className="nav-dropdown" href="/events/general">
+                    SME General Events
+                  </a>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <UncontrolledDropdown className="mx-2" nav inNavbar>
+              <DropdownToggle nav caret>
                 Resources
-              </NavLink>
-            </NavItem>
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  <a className="nav-dropdown" href="/resources/blogs">
+                    Blogs
+                  </a>
+                </DropdownItem>
+                <DropdownItem>
+                  <a className="nav-dropdown" href="/resources/calender">
+                    Annual Calender
+                  </a>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             <NavItem>
               <NavLink className="mx-2" href="/team">
                 Our Team
@@ -85,36 +99,36 @@ const Header = () => {
             navbar
           >
             <NavItem>
-              <NavLink
-                className="mx-2 facebook-nav"
+              <a
+                className="mx-2 px-2 social-facebook"
                 href="https://m.facebook.com/pg/smeiitism/posts/?ref=page_internal&mt_nav=0"
               >
                 <RiFacebookFill />
-              </NavLink>
+              </a>
             </NavItem>
             <NavItem>
-              <NavLink
-                className="mx-2 instagram-nav"
+              <a
+                className="mx-2 px-2 social-instagram"
                 href="https://www.instagram.com/sme_iitism/"
               >
                 <RiInstagramFill />
-              </NavLink>
+              </a>
             </NavItem>
             <NavItem>
-              <NavLink
-                className="mx-2 linkedin-nav"
+              <a
+                className="mx-2 px-2 social-linkedin"
                 href="https://www.linkedin.com/company/sme-iit-ism-student-chapter2020"
               >
                 <RiLinkedinBoxFill />
-              </NavLink>
+              </a>
             </NavItem>
             <NavItem>
-              <NavLink
-                className="mx-2 youtube-nav"
+              <a
+                className="mx-2 px-2 social-youtube"
                 href="https://www.youtube.com/channel/UCngC6aD1tTfpMBMXoqRBiog/"
               >
                 <RiYoutubeFill />
-              </NavLink>
+              </a>
             </NavItem>
           </Nav>
         </Collapse>

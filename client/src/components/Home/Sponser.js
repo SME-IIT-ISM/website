@@ -32,7 +32,7 @@ const Sponser = (props) => {
           md="2"
         >
           <a href="https://www.hzlindia.com/">
-            <img className="i3" src={hz} alt="intro" />
+            <img className="sponser-logo" src={hz} alt="intro" />
           </a>
         </Col>
         <Col
@@ -41,7 +41,7 @@ const Sponser = (props) => {
           md="2"
         >
           <a href="https://www.coalindia.in/">
-            <img className="i3" src={cil} alt="intro" />
+            <img className="sponser-logo" src={cil} alt="intro" />
           </a>
         </Col>
         <Col
@@ -50,7 +50,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.vedantalimited.com/Pages/Home.aspx">
-            <img className="i3" src={ve} alt="intro" />
+            <img className="sponser-logo" src={ve} alt="intro" />
           </a>
         </Col>
         <Col
@@ -59,7 +59,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.adani.com/">
-            <img className="i3" src={ad} alt="intro" />
+            <img className="sponser-logo" src={ad} alt="intro" />
           </a>
         </Col>
         <Col
@@ -68,7 +68,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.centralcoalfields.in/ind/index_h.php">
-            <img className="i3" src={ccl} alt="intro" />
+            <img className="sponser-logo" src={ccl} alt="intro" />
           </a>
         </Col>
         <Col
@@ -77,7 +77,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="http://www.easterncoal.gov.in/">
-            <img className="i3" src={ecl} alt="intro" />
+            <img className="sponser-logo" src={ecl} alt="intro" />
           </a>
         </Col>
       </Row>
@@ -88,7 +88,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.lenskart.com/">
-            <img className="i3" src={lens} alt="intro" />
+            <img className="sponser-logo" src={lens} alt="intro" />
           </a>
         </Col>
         <Col
@@ -97,7 +97,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.mahanadicoal.in/">
-            <img className="i3" src={mcl} alt="intro" />
+            <img className="sponser-logo" src={mcl} alt="intro" />
           </a>
         </Col>
         <Col
@@ -106,7 +106,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.moil.nic.in/">
-            <img className="i3" src={moil} alt="intro" />
+            <img className="sponser-logo" src={moil} alt="intro" />
           </a>
         </Col>
         <Col
@@ -115,7 +115,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="http://nclcil.in/">
-            <img className="i3" src={ncl} alt="intro" />
+            <img className="sponser-logo" src={ncl} alt="intro" />
           </a>
         </Col>
         <Col
@@ -124,7 +124,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.ndmc.gov.in/Default.aspx">
-            <img className="i3" src={nmdc} alt="intro" />
+            <img className="sponser-logo" src={nmdc} alt="intro" />
           </a>
         </Col>
         <Col
@@ -133,7 +133,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.home.sandvik/en/">
-            <img className="i3" src={san} alt="intro" />
+            <img className="sponser-logo" src={san} alt="intro" />
           </a>
         </Col>
       </Row>
@@ -144,7 +144,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="http://www.secl-cil.in/">
-            <img className="i3" src={sec} alt="intro" />
+            <img className="sponser-logo" src={sec} alt="intro" />
           </a>
         </Col>
         <Col
@@ -153,7 +153,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.thesouledstore.com/">
-            <img className="i3" src={ss} alt="intro" />
+            <img className="sponser-logo" src={ss} alt="intro" />
           </a>
         </Col>
         <Col
@@ -162,7 +162,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="http://www.ucil.gov.in/">
-            <img className="i3" src={ucl} alt="intro" />
+            <img className="sponser-logo" src={ucl} alt="intro" />
           </a>
         </Col>
         <Col
@@ -171,7 +171,7 @@ const Sponser = (props) => {
           className="d-flex align-items-center justify-content-center"
         >
           <a href="https://www.weblibox.com/">
-            <img className="i3" src={wb} alt="intro" />
+            <img className="sponser-logo" src={wb} alt="intro" />
           </a>
         </Col>
       </Row>
