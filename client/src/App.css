@@ -512,7 +512,7 @@ h1::after {
 .sme {
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.45)
     ),
     url(./components/Home/SME.jpg);
