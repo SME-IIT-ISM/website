@@ -17,6 +17,7 @@ import DesigningHead from "./OfficeBearers/DesigningHead.jpg";
 import AdSecreatory from "./OfficeBearers/AdSecreatory.jpg";
 // import MarketingHead from "./OfficeBearers/MarketingHead.jpg";
 import MediaHead from "./OfficeBearers/MediaHead.jpg";
+import OurTeam1 from "./OfficeBearers/OurTeam1.jpg";
 
 
 
@@ -29,15 +30,16 @@ class OurTeam extends Component {
   state = {};
   render() {
     return (
-      <div>
-         <h1 className="text-center text-uppercase  heading my-5 heading-block">
+     <div>
+       
+       <h1 className="text-center text-uppercase  heading my-5 heading-block">
           Office Bearers
         </h1>
         <div class="container my-5">
           <div class="row">
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 colon">
               <div class="box">
-                <img src={FacultyAdvisor}></img>
+                <img src={OurTeam1}></img>
                 <div class="box-content">
                   <h3 class="title">Dheerj Kumar</h3>
                   <span class="post">Faculty Advisor</span>
@@ -62,18 +64,18 @@ class OurTeam extends Component {
           <div class="row">
             <div class="col-md-4 col-sm-6">
               <div class="box">
-                <img src={President}></img>
+                <img src={President}  ></img>
                 <div class="box-content">
                   <h3 class="title">Shivendra Kumar Acharya</h3>
                   <span class="post">President</span>
                 </div>
                 <ul class="icon">
-                  <li>
+                  <li >
                     <a href="#">
                       <i class="fa fa-search"></i>
                     </a>
                   </li>
-                  <li>
+                  <li  >
                     <a href="#">
                       <i class="fa fa-link"></i>
                     </a>
@@ -83,7 +85,7 @@ class OurTeam extends Component {
             </div>
             <div class="col-md-4 col-sm-6">
               <div class="box">
-                <img src={VicePresident}></img>
+                <img src={VicePresident}  ></img>
                 <div class="box-content">
                   <h3 class="title">Anjali Atreyi</h3>
                   <span class="post">Vice President</span>
@@ -104,7 +106,7 @@ class OurTeam extends Component {
             </div>
             <div class="col-md-4 col-sm-6">
               <div class="box">
-                <img src={SecretaryErra}></img>
+                <img src={SecretaryErra} ></img>
                 <div class="box-content">
                   <h3 class="title">Madhav Singhal</h3>
                   <span class="post">Secretory ERAA</span>
@@ -535,7 +537,7 @@ class OurTeam extends Component {
             </div>
           </div>
         </div>
-      </div>
+     </div>
     );
   }
 }
