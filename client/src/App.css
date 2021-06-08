@@ -234,6 +234,9 @@ h1::after {
   position: relative;
   z-index: 2;
 }
+.page {
+  background-image: url("./81634.jpg");
+}
 
 /* for Footer.js */
 .footer {
