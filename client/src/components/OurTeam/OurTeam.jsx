@@ -1,9 +1,6 @@
-import React, { Component } from "react";
-import {
-  RiFacebookFill,
-  RiInstagramFill,
-  RiLinkedinBoxFill,
-} from "react-icons/ri";
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import { RiLinkedinBoxFill } from "react-icons/ri";
 import FacultyAdvisor from "./OfficeBearers/FacultyAdvisor.jpg";
 import President from "./OfficeBearers/President.jpg";
 import VicePresident from "./OfficeBearers/VicePresident.jpg";
@@ -17,528 +14,285 @@ import Treasurer from "./OfficeBearers/Treasurer.jpg";
 import DesigningHead from "./OfficeBearers/DesigningHead.jpg";
 import AdDesigningHead from "./OfficeBearers/AdDesigningHead.jpg";
 import PRHead from "./OfficeBearers/PRHead.jpg";
+// import TechnicalHead from "./OfficeBearers/TechnicalHead.jpg";
 import MediaHead from "./OfficeBearers/MediaHead.jpg";
 import PromotionHead from "./OfficeBearers/PromotionHead.jpg";
+import MarketingHead from "./OfficeBearers/MarketingHead.jpg";
 import DraftingHead from "./OfficeBearers/DraftingHead.jpg";
 import MembershipHead from "./OfficeBearers/MembershipHead.jpg";
 import OurTeam1 from "./OfficeBearers/OurTeam1.jpg";
-// import MarketingHead from "./OfficeBearers/MarketingHead.jpg";
 
-class OurTeam extends Component {
-  state = {};
-  render() {
-    return (
-      <div className="p-4 m-5 text-center">
-        <div>
-          <h1 className="text-uppercase heading my-5 heading-block">
-            Office Bearers
-          </h1>
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={FacultyAdvisor}
-                    alt="Faculty Advisor"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="https://www.linkedin.com/in/dheeraj-kumar-915440a/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Dheeraj Kumar</h5>
-                    <p className="card-text">Faculty Advisor</p>
-                  </div>
+const officeBearers = [
+  {
+    src: President,
+    position: "President",
+    name: "Shivendra Kumar Acharya",
+    linkedin: "/",
+  },
+  {
+    src: VicePresident,
+    position: "Vice President",
+    name: "Anjali Atreyi",
+    linkedin: "/",
+  },
+  {
+    src: SecretaryErra,
+    position: "Secretary ERRA",
+    name: "Madhav Singhal",
+    linkedin: "/",
+  },
+];
+
+const coreTeam = [
+  {
+    src: Secretary,
+    position: "Secretary",
+    name: "Jai Anand",
+    linkedin: "https://www.linkedin.com/in/jai-anand-0890b5197/",
+  },
+  {
+    src: AdSecretory,
+    position: "Ad. Secretory",
+    name: "Suyash Ranjan",
+    linkedin: "https://www.linkedin.com/mwlite/in/suyash-ranjan-6380951a5/",
+  },
+  {
+    src: BDHead,
+    position: "BD Head",
+    name: "Sudeshna Kundu",
+    linkedin: "https://www.linkedin.com/in/sudeshna-kundu-61490b1a8/",
+  },
+  {
+    src: EventHead,
+    position: "Event Head",
+    name: "Sumit Kumar Mudi",
+    linkedin: "https://www.linkedin.com/in/sumit-kumar-mudi-0a767a1b8/",
+  },
+  {
+    src: AdEventHead,
+    position: "Ad. Event Head",
+    name: "Abhya Adri",
+    linkedin: "/",
+  },
+  {
+    src: Treasurer,
+    position: "Treasurer",
+    name: "Rishabh Kaushal",
+    linkedin: "/",
+  },
+  {
+    src: DesigningHead,
+    position: "Designing Head",
+    name: "Syed Ali Hyder",
+    linkedin: "https://www.linkedin.com/in/syed-ahaider/",
+  },
+  {
+    src: AdDesigningHead,
+    position: "Ad. Designing Head",
+    name: "Ashmit Sharma",
+    linkedin: "/",
+  },
+  {
+    src: PRHead,
+    position: "PR Head",
+    name: "AmlanJyoti Majumdar",
+    linkedin: "/",
+  },
+  {
+    src: OurTeam1,
+    position: "Technical Head",
+    name: "Abhijeet Haldar",
+    linkedin: "https://www.linkedin.com/in/abhijeet-haldar-59813a1b4/",
+  },
+  {
+    src: MediaHead,
+    position: "Media Head",
+    name: "Mohit Kumar",
+    linkedin: "/",
+  },
+  {
+    src: PromotionHead,
+    position: "Promotion Head",
+    name: "Aman Raj",
+    linkedin: "/",
+  },
+  {
+    src: MarketingHead,
+    position: "Marketing Head",
+    name: "Chelsi Mehta",
+    linkedin: "https://www.linkedin.com/in/chelsi-mehta-536aa6187/",
+  },
+  {
+    src: DraftingHead,
+    position: "Drafting Head",
+    name: "Anusha Priyadarshi",
+    linkedin: "https://www.linkedin.com/in/anusha-priyadarshi-baa9a01b8/",
+  },
+  {
+    src: MembershipHead,
+    position: "Membership Head",
+    name: "Santu Kumar",
+    linkedin: "/",
+  },
+];
+
+const developers = [
+  {
+    src: OurTeam1,
+    position: "Position",
+    name: "Abhinav Kumar Singh",
+    linkedin: "https://www.linkedin.com/in/abhinav-kumar-singh-6813501b8/",
+  },
+  {
+    src: OurTeam1,
+    position: "Position",
+    name: "Abhijeet Haldar",
+    linkedin: "https://www.linkedin.com/in/abhijeet-haldar-59813a1b4/",
+  },
+  {
+    src: OurTeam1,
+    position: "Position",
+    name: "Kartik Saini",
+    linkedin: "https://www.linkedin.com/in/kartik-saini-a1a240195/",
+  },
+];
+
+const OurTeam = () => {
+  return (
+    <div className="p-4 m-5 text-center">
+      <div>
+        <h1 className="text-uppercase heading my-5 heading-block">
+          Office Bearers
+        </h1>
+        <Container>
+          <Row className="justify-content-center">
+            <Col className="my-2" xs="12" sm="6" md="4" lg="3">
+              <div className="card p-2">
+                <img
+                  className="card-img-top"
+                  src={FacultyAdvisor}
+                  alt="Faculty Advisor"
+                />
+                <div className="team-social-handles">
+                  <a
+                    href="https://www.linkedin.com/in/dheeraj-kumar-915440a/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-linkedin"
+                  >
+                    <RiLinkedinBoxFill />
+                  </a>
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">Dheeraj Kumar</h5>
+                  <p className="card-text">Faculty Advisor</p>
                 </div>
               </div>
-            </div>
-            <div className="row justify-content-between">
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={President}
-                    alt="President"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
+            </Col>
+          </Row>
+          <Row className="justify-content-between">
+            {officeBearers.map((item) => {
+              return (
+                <Col className="my-2" xs="12" sm="6" md="4" lg="3">
+                  <div className="card p-2">
+                    <img
+                      className="card-img-top"
+                      src={item.src}
+                      alt={item.position}
+                    />
+                    <div className="team-social-handles">
+                      <a
+                        href={item.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="social-linkedin"
+                      >
+                        <RiLinkedinBoxFill />
+                      </a>
+                    </div>
+                    <div className="card-body">
+                      <h5 className="card-title">{item.name}</h5>
+                      <p className="card-text">{item.position}</p>
+                    </div>
                   </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">President</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={VicePresident}
-                    alt="Vice President"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Vice President</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={SecretaryErra}
-                    alt="Secretary Erra"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Secretary Erra</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1 className="text-uppercase heading my-5 heading-block">
-            Core Team
-          </h1>
-          <div className="container">
-            <div className="row justify-content-between">
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={Secretary}
-                    alt="Secretary"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Secretary</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={AdSecretory}
-                    alt="Ad Secretory"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Ad Secretory</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img className="card-img-top" src={BDHead} alt="BD Head" />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">BD Head</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={EventHead}
-                    alt="Event Head"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Event Head</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={AdEventHead}
-                    alt="Ad Event Head"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Ad Event Head</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={Treasurer}
-                    alt="Treasurer"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Treasurer</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={DesigningHead}
-                    alt="Designing Head"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Designing Head</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={AdDesigningHead}
-                    alt="Ad Designing Head"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Ad Designing Head</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img className="card-img-top" src={PRHead} alt="PR Head" />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">PR Head</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={MediaHead}
-                    alt="Media Head"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Media Head</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={PromotionHead}
-                    alt="Promotion Head"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Promotion Head</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={DraftingHead}
-                    alt="Drafting Head"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Drafting Head</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img
-                    className="card-img-top"
-                    src={MembershipHead}
-                    alt="Membership Head"
-                  />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Membership Head</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img className="card-img-top" src={OurTeam1} alt="OurTeam1" />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Position</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img className="card-img-top" src={OurTeam1} alt="OurTeam1" />
-                  <div className="team-social-handles">
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Position</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1 className="text-uppercase heading my-5 heading-block">
-            Developers
-          </h1>
-          <div className="container">
-            <div className="row justify-content-between">
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img className="card-img-top" src={OurTeam1} alt="OurTeam1" />
-                  <div className="team-social-handles">
-                    <a
-                      href="https://www.linkedin.com/in/abhinav-kumar-singh-6813501b8/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Abhinav Kumar Singh</h5>
-                    <p className="card-text">Position</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img className="card-img-top" src={OurTeam1} alt="OurTeam1" />
-                  <div className="team-social-handles">
-                    <a
-                      href="https://www.linkedin.com/in/abhijeet-haldar-59813a1b4/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Abhijeet Haldar</h5>
-                    <p className="card-text">Position</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 my-2">
-                <div className="card p-2">
-                  <img className="card-img-top" src={OurTeam1} alt="OurTeam1" />
-                  <div className="team-social-handles">
-                    <a
-                      href="https://www.linkedin.com/in/kartik-saini-a1a240195/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-linkedin"
-                    >
-                      <RiLinkedinBoxFill />
-                    </a>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Kartik Saini</h5>
-                    <p className="card-text">Position</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+                </Col>
+              );
+            })}
+          </Row>
+        </Container>
       </div>
-    );
-  }
-}
+      <div>
+        <h1 className="text-uppercase heading my-5 heading-block">Core Team</h1>
+        <Container>
+          <Row className="justify-content-between">
+            {coreTeam.map((item) => {
+              return (
+                <Col className="my-2" xs="12" sm="6" md="4" lg="3">
+                  <div className="card p-2">
+                    <img
+                      className="card-img-top"
+                      src={item.src}
+                      alt={item.position}
+                    />
+                    <div className="team-social-handles">
+                      <a
+                        href={item.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="social-linkedin"
+                      >
+                        <RiLinkedinBoxFill />
+                      </a>
+                    </div>
+                    <div className="card-body">
+                      <h5 className="card-title">{item.name}</h5>
+                      <p className="card-text">{item.position}</p>
+                    </div>
+                  </div>
+                </Col>
+              );
+            })}
+          </Row>
+        </Container>
+      </div>
+      <div>
+        <h1 className="text-uppercase heading my-5 heading-block">
+          Developers
+        </h1>
+        <Container>
+          <Row className="justify-content-between">
+            {developers.map((item) => {
+              return (
+                <Col className="my-2" xs="12" sm="6" md="4" lg="3">
+                  <div className="card p-2">
+                    <img
+                      className="card-img-top"
+                      src={item.src}
+                      alt={item.position}
+                    />
+                    <div className="team-social-handles">
+                      <a
+                        href={item.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="social-linkedin"
+                      >
+                        <RiLinkedinBoxFill />
+                      </a>
+                    </div>
+                    <div className="card-body">
+                      <h5 className="card-title">{item.name}</h5>
+                      <p className="card-text">{item.position}</p>
+                    </div>
+                  </div>
+                </Col>
+              );
+            })}
+          </Row>
+        </Container>
+      </div>
+    </div>
+  );
+};
 
 export default OurTeam;
