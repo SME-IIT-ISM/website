@@ -78,7 +78,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Shivendra Kumar Acharya</h5>
                     <p className="card-text">President</p>
                   </div>
                 </div>
@@ -101,7 +101,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Anjali Atreyi</h5>
                     <p className="card-text">Vice President</p>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Madhav Singhal</h5>
                     <p className="card-text">Secretary Erra</p>
                   </div>
                 </div>
@@ -147,7 +147,7 @@ class OurTeam extends Component {
                   />
                   <div className="team-social-handles">
                     <a
-                      href="/"
+                      href="https://www.linkedin.com/in/jai-anand-0890b5197/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="social-linkedin"
@@ -156,7 +156,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Jai Anand</h5>
                     <p className="card-text">Secretary</p>
                   </div>
                 </div>
@@ -170,7 +170,7 @@ class OurTeam extends Component {
                   />
                   <div className="team-social-handles">
                     <a
-                      href="/"
+                      href="https://www.linkedin.com/mwlite/in/suyash-ranjan-6380951a5/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="social-linkedin"
@@ -179,7 +179,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Suyash Ranjan</h5>
                     <p className="card-text">Ad Secretory</p>
                   </div>
                 </div>
@@ -189,7 +189,7 @@ class OurTeam extends Component {
                   <img className="card-img-top" src={BDHead} alt="BD Head" />
                   <div className="team-social-handles">
                     <a
-                      href="/"
+                      href="https://www.linkedin.com/in/sudeshna-kundu-61490b1a8/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="social-linkedin"
@@ -198,7 +198,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Sudeshna Kundu</h5>
                     <p className="card-text">BD Head</p>
                   </div>
                 </div>
@@ -212,7 +212,7 @@ class OurTeam extends Component {
                   />
                   <div className="team-social-handles">
                     <a
-                      href="/"
+                      href="https://www.linkedin.com/in/sumit-kumar-mudi-0a767a1b8//"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="social-linkedin"
@@ -221,7 +221,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Sumit Kumar Mudi</h5>
                     <p className="card-text">Event Head</p>
                   </div>
                 </div>
@@ -244,7 +244,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Abhya Adri</h5>
                     <p className="card-text">Ad Event Head</p>
                   </div>
                 </div>
@@ -267,7 +267,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Rishabh Kaushal</h5>
                     <p className="card-text">Treasurer</p>
                   </div>
                 </div>
@@ -281,7 +281,7 @@ class OurTeam extends Component {
                   />
                   <div className="team-social-handles">
                     <a
-                      href="/"
+                      href="https://www.linkedin.com/in/syed-ahaider/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="social-linkedin"
@@ -290,7 +290,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Syed Ali Hyder</h5>
                     <p className="card-text">Designing Head</p>
                   </div>
                 </div>
@@ -313,7 +313,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Ashmit Sharma</h5>
                     <p className="card-text">Ad Designing Head</p>
                   </div>
                 </div>
@@ -332,7 +332,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">AmlanJyoti Majumdar</h5>
                     <p className="card-text">PR Head</p>
                   </div>
                 </div>
@@ -355,7 +355,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Mohit Kumar</h5>
                     <p className="card-text">Media Head</p>
                   </div>
                 </div>
@@ -378,7 +378,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Aman Raj</h5>
                     <p className="card-text">Promotion Head</p>
                   </div>
                 </div>
@@ -392,7 +392,7 @@ class OurTeam extends Component {
                   />
                   <div className="team-social-handles">
                     <a
-                      href="/"
+                      href="https://www.linkedin.com/in/anusha-priyadarshi-baa9a01b8/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="social-linkedin"
@@ -401,7 +401,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Anusha Priyadarshi</h5>
                     <p className="card-text">Drafting Head</p>
                   </div>
                 </div>
@@ -424,7 +424,7 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
+                    <h5 className="card-title">Santu Kumar</h5>
                     <p className="card-text">Membership Head</p>
                   </div>
                 </div>
@@ -434,7 +434,7 @@ class OurTeam extends Component {
                   <img className="card-img-top" src={OurTeam1} alt="OurTeam1" />
                   <div className="team-social-handles">
                     <a
-                      href="/"
+                      href="https://www.linkedin.com/in/chelsi-mehta-536aa6187/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="social-linkedin"
@@ -443,8 +443,8 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Position</p>
+                    <h5 className="card-title">Chelsi Mehta</h5>
+                    <p className="card-text">Marketing Head</p>
                   </div>
                 </div>
               </div>
@@ -462,8 +462,8 @@ class OurTeam extends Component {
                     </a>
                   </div>
                   <div className="card-body">
-                    <h5 className="card-title">Name</h5>
-                    <p className="card-text">Position</p>
+                    <h5 className="card-title">Abhijeet Haldar</h5>
+                    <p className="card-text">Technical Mining</p>
                   </div>
                 </div>
               </div>
