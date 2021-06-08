@@ -27,19 +27,19 @@ const officeBearers = [
     src: President,
     position: "President",
     name: "Shivendra Kumar Acharya",
-    linkedin: "/",
+    linkedin: "https://www.linkedin.com/in/shivendra-kumar-acharya-6350a5187/",
   },
   {
     src: VicePresident,
     position: "Vice President",
     name: "Anjali Atreyi",
-    linkedin: "/",
+    linkedin: "https://www.linkedin.com/in/anjali-atreyi-870375198/",
   },
   {
     src: SecretaryErra,
     position: "Secretary ERRA",
     name: "Madhav Singhal",
-    linkedin: "/",
+    linkedin: "https://www.linkedin.com/in/madhav-singhal-7708a3186/",
   },
 ];
 
@@ -72,13 +72,13 @@ const coreTeam = [
     src: AdEventHead,
     position: "Ad. Event Head",
     name: "Abhya Adri",
-    linkedin: "/",
+    linkedin: "https://www.linkedin.com/in/abhya-adri-a3a428208/",
   },
   {
     src: Treasurer,
     position: "Treasurer",
     name: "Rishabh Kaushal",
-    linkedin: "/",
+    linkedin: "https://www.linkedin.com/in/rishabh-kaushal-2031791a7/",
   },
   {
     src: DesigningHead,
@@ -90,13 +90,13 @@ const coreTeam = [
     src: AdDesigningHead,
     position: "Ad. Designing Head",
     name: "Ashmit Sharma",
-    linkedin: "/",
+    linkedin: "https://www.linkedin.com/in/ashmit-sharma-78674319b/",
   },
   {
     src: PRHead,
     position: "PR Head",
     name: "AmlanJyoti Majumdar",
-    linkedin: "/",
+    linkedin: "https://www.linkedin.com/in/amlanjyoti-majumdar-371907195/",
   },
   {
     src: OurTeam1,
@@ -108,7 +108,7 @@ const coreTeam = [
     src: MediaHead,
     position: "Media Head",
     name: "Mohit Kumar",
-    linkedin: "/",
+    linkedin: "https://www.linkedin.com/in/mohit-kumar-aa3916213/",
   },
   {
     src: PromotionHead,
@@ -132,7 +132,7 @@ const coreTeam = [
     src: MembershipHead,
     position: "Membership Head",
     name: "Santu Kumar",
-    linkedin: "/",
+    linkedin: "https://www.linkedin.com/in/santu-kumar-047abb19b/",
   },
 ];
 
