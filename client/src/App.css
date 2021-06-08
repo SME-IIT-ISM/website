@@ -221,6 +221,9 @@ h1::after {
   margin-top: auto;
   margin-bottom: auto;
 }
+.sponser-container {
+  margin-top: -3rem;
+}
 
 .imageContainer {
   width: 90vw;
@@ -505,6 +508,41 @@ h1::after {
   height: 70vh;
 }
 
+/* Sme.js */
+.sme {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url(./components/Home/SME.jpg);
+
+  height: 95vh;
+  max-width: 100vw;
+  background-position: bottom;
+  background-size: cover;
+  z-index: 10;
+  clip-path: polygon(0 0, 0 100%, 60% 100%, 100% 60%, 100% 0);
+}
+
+.int_cont {
+  width: 40vw;
+  height: 40vh;
+}
+.int_logo {
+  width: 14%;
+  height: auto;
+  margin-left: 80vw;
+  transform: translateY(-101%);
+}
+.sme-content {
+  z-index: 1000;
+  padding-top: 7rem;
+  padding-left: 2rem;
+  background-image: radial-gradient(rgb(231, 225, 225), var(--sme-blue));
+  color: transparent;
+  background-clip: text;
+}
 /*Our Team*/
 .card {
   border: none;
@@ -605,7 +643,6 @@ h1::after {
     height: 40%;
     object-fit: cover;
   }
-
   .k2 {
     top: 25vh;
     left: 30vw;
@@ -613,10 +650,31 @@ h1::after {
   .k3 {
     top: 50vh;
   }
+
+  .int_logo {
+    width: 21%;
+    height: auto;
+    margin-left: 77vw;
+    transform: translateY(-240%);
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .sponser-logo {
     width: 30vw;
+  }
+
+  .int_logo {
+    width: 20%;
+    height: auto;
+    margin-left: 77vw;
+    margin-bottom: 25vh;
+    transform: translateY(-200%);
+  }
+}
+
+@media only screen and (max-width: 1480px) {
+  .int_logo {
+    transform: translateY(-120%);
   }
 }
