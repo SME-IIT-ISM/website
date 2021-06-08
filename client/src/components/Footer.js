@@ -39,7 +39,7 @@ const Footer = (props) => {
                       <FaLinkedin className="icon-tag" />
                     </div>
                   </a>
-                  <a href="/">
+                  <a href="https://www.youtube.com/channel/UCngC6aD1tTfpMBMXoqRBiog/">
                     <div className="icon icon-fill-youtube">
                       <FaYoutube className="icon-tag" />
                     </div>
