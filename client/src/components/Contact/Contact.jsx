@@ -1,6 +1,7 @@
 import React from "react";
-import { MDBContainer, MDBIframe } from "mdbreact";
 import Form from "./Form";
+import "./contact.css";
+import { MDBContainer, MDBIframe } from "mdbreact";
 import { Container, Row, Col } from "reactstrap";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 

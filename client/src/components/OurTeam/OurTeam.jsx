@@ -1,4 +1,5 @@
 import React from "react";
+import "./ourteam.css";
 import { Container, Row, Col } from "reactstrap";
 import { RiLinkedinBoxFill } from "react-icons/ri";
 import FacultyAdvisor from "./OfficeBearers/FacultyAdvisor.jpg";
@@ -114,7 +115,7 @@ const coreTeam = [
     src: PromotionHead,
     position: "Promotion Head",
     name: "Aman Raj",
-    linkedin: "/",
+    linkedin: "https://www.linkedin.com/in/aman-raj-b35b03184/",
   },
   {
     src: MarketingHead,
@@ -167,7 +168,7 @@ const OurTeam = () => {
         <Container>
           <Row className="justify-content-center">
             <Col className="my-2" xs="12" sm="6" md="4" lg="3">
-              <div className="card p-2">
+              <div className="card team p-2">
                 <img
                   className="card-img-top"
                   src={FacultyAdvisor}
@@ -194,7 +195,7 @@ const OurTeam = () => {
             {officeBearers.map((item) => {
               return (
                 <Col className="my-2" xs="12" sm="6" md="4" lg="3">
-                  <div className="card p-2">
+                  <div className="card team p-2">
                     <img
                       className="card-img-top"
                       src={item.src}
@@ -228,7 +229,7 @@ const OurTeam = () => {
             {coreTeam.map((item) => {
               return (
                 <Col className="my-2" xs="12" sm="6" md="4" lg="3">
-                  <div className="card p-2">
+                  <div className="card team p-2">
                     <img
                       className="card-img-top"
                       src={item.src}
@@ -264,7 +265,7 @@ const OurTeam = () => {
             {developers.map((item) => {
               return (
                 <Col className="my-2" xs="12" sm="6" md="4" lg="3">
-                  <div className="card p-2">
+                  <div className="card team p-2">
                     <img
                       className="card-img-top"
                       src={item.src}

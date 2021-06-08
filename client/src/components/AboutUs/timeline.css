@@ -224,7 +224,7 @@ p:not([class]):first-child {
     Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
   color: #222;
 
-  background-image: url("../../image/exp1.jpg");
+  background-image: url("./image/exp1.jpg");
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -247,12 +247,13 @@ p:last-child {
   padding: 5rem 2rem 3rem;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../../81634.jpg);
+  background-image: url("./image/81634.jpg");
   background-position: top;
   z-index: 1;
   animation: fadein 5s ease-out;
   animation-delay: 2.5s;
 }
+
 @media screen and (max-width: 600px) {
   .page {
     width: 90vw;

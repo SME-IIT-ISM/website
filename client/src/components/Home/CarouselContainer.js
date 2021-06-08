@@ -1,16 +1,15 @@
 import React from "react";
-//Owl Carousel Libraries and Module
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Image1 from "./image/herit.jpg";
-import Image2 from "./image/herit.jpg";
+import Image2 from "./image/herit2.jpg";
 import Image3 from "./image/oval.jpg";
 
 // image options
 const items = [
   {
-    src: Image1,
+    src: Image3,
     altText: "Slide 1",
   },
   {
@@ -18,7 +17,7 @@ const items = [
     altText: "Slide 2",
   },
   {
-    src: Image3,
+    src: Image1,
     altText: "Slide 2",
   },
 ];
