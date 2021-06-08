@@ -1,5 +1,7 @@
 import React from "react";
-import khananImage from "./image/khanan.jpg";
+import k1 from "./khanan/khanan.jpg";
+import k2 from "./khanan/khanan1.jpg";
+import k3 from "./khanan/khanan2.jpg";
 import Countdown from "./Countdown";
 import { Container, Row, Col } from "reactstrap";
 
@@ -11,10 +13,14 @@ const OverlayText = (props) => {
       </h1>
       <Container className="p-4 rounded khanan-content">
         <Row>
-          <Col className="img-container mb-1">
-            <img src={khananImage} alt="" />
+          <Col xs="12" lg="6">
+            <div className="img-container mb-1">
+              <img src={k1} alt="" className=" k k1" />
+              <img src={k2} alt="" className=" k k2" />
+              <img src={k3} alt="" className="k k3" />
+            </div>
           </Col>
-          <Col className="text-white ">
+          <Col xs="12" lg="6" className="text-white ">
             <div classname="mt-3">
               <p className="h2 pt-3">
                 Participate in the Biggest Mining fest in India and fell into
