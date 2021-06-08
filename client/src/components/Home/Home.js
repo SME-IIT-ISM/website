@@ -6,6 +6,7 @@ import IndInfoSlider from "./IndInfoSlider";
 import Sponser from "./Sponser";
 import OverlayText from "./OverlayText.js";
 import Youtube from "./Youtube";
+import SME from "./Sme";
 
 const Home = () => {
   return (
@@ -26,6 +27,8 @@ const Home = () => {
       <Youtube />
       <br />
       <br />
+      <br />
+      <SME />
       <Sponser />
     </div>
   );
