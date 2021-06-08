@@ -1,4 +1,5 @@
 import React from "react";
+import "./about.css";
 import { Container, Row, Col } from "reactstrap";
 import Timeline from "./Timeline";
 

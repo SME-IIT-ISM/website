@@ -1,0 +1,31 @@
+/* for About.js*/
+.about-wrap {
+  position: relative;
+  border-radius: 0.75rem;
+}
+
+.about-wrap::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-image: url("../logo.png");
+  background-repeat: no-repeat;
+  background-size: 50vw 50vh;
+  background-position-x: center;
+  background-position-y: 30vh;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+.about-content {
+  position: relative;
+  z-index: 2;
+}
+.page {
+  background-image: url("./image/81634.jpg");
+}
