@@ -2,7 +2,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Header, Footer, Home, About, OurTeam, Contact } from "./components";
+import {
+  Header,
+  Footer,
+  Home,
+  Gallery,
+  OurTeam,
+  About,
+  Contact,
+} from "./components";
 
 window.onscroll = function () {
   scrollFunction();
@@ -44,8 +52,9 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
-          <Route path="/about" exact component={() => <About />} />
+          <Route path="/gallery" exact component={() => <Gallery />} />
           <Route path="/team" exact component={() => <OurTeam />} />
+          <Route path="/about" exact component={() => <About />} />
           <Route path="/contact" exact component={() => <Contact />} />
         </Switch>
         <Footer />

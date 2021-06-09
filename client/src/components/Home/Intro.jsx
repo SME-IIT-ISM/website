@@ -1,6 +1,6 @@
 import React from "react";
 import Announcement from "./Announcment";
-import { Container, Row, Col, Button } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 const Intro = (props) => {
   return (

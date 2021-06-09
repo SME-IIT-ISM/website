@@ -4,7 +4,7 @@ import CarouselContainer from "./CarouselContainer";
 import Intro from "./Intro";
 import IndInfoSlider from "./IndInfoSlider";
 import Sponser from "./Sponser";
-import OverlayText from "./OverlayText.js";
+import OverlayText from "./OverlayText";
 import Youtube from "./Youtube";
 import SME from "./Sme";
 
