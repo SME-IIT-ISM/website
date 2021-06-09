@@ -351,10 +351,24 @@
     margin-bottom: 25vh;
     transform: translateY(-200%);
   }
+  .bt-sme {
+    margin-top: 30vh;
+  }
 }
 
 @media only screen and (max-width: 1480px) {
   .int_logo {
     transform: translateY(-120%);
+  }
+}
+@media only screen and (max-width: 426px) {
+  .bt-white {
+    font-size: 1 rem;
+    width: fit-content;
+    margin-left: 25vw;
+  }
+  .bt-sme {
+    margin-top: 20vh;
+    margin-left: 20vw;
   }
 }
