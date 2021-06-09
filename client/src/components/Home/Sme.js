@@ -1,6 +1,7 @@
 import React from "react";
 import Smei from "./image/int.png";
-const SME = (props) => {
+
+const SME = () => {
   return (
     <div>
       <div className="sme">
@@ -18,4 +19,5 @@ const SME = (props) => {
     </div>
   );
 };
+
 export default SME;

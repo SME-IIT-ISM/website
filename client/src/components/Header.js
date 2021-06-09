@@ -33,18 +33,18 @@ const Header = () => {
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav navbar>
             <NavItem>
-              <NavLink className="mx-2" href="/">
+              <NavLink className="mx-lg-2" href="/">
                 Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="mx-2" href="/gallery">
+              <NavLink className="mx-lg-2" href="/gallery">
                 Gallery
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown className="mx-2" nav inNavbar>
+            <UncontrolledDropdown className="mx-lg-2" nav inNavbar>
               <DropdownToggle nav caret>
                 Events
               </DropdownToggle>
@@ -61,7 +61,7 @@ const Header = () => {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <UncontrolledDropdown className="mx-2" nav inNavbar>
+            <UncontrolledDropdown className="mx-lg-2" nav inNavbar>
               <DropdownToggle nav caret>
                 Resources
               </DropdownToggle>
@@ -79,28 +79,28 @@ const Header = () => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink className="mx-2" href="/team">
+              <NavLink className="mx-lg-2" href="/team">
                 Our Team
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="mx-2" href="/about">
+              <NavLink className="mx-lg-2" href="/about">
                 About Us
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="mx-2" href="/contact">
+              <NavLink className="mx-lg-2" href="/contact">
                 Contact Us
               </NavLink>
             </NavItem>
           </Nav>
           <Nav
-            className="mx-auto d-none d-xl-flex text-white social-nav"
+            className="mx-auto d-none d-xl-flex text-white social-nav justify-content-between"
             navbar
           >
             <NavItem>
               <a
-                className="mx-2 px-2 social-facebook"
+                className="mx-1 px-2 social-facebook"
                 href="https://m.facebook.com/pg/smeiitism/posts/?ref=page_internal&mt_nav=0"
               >
                 <RiFacebookFill />
@@ -108,7 +108,7 @@ const Header = () => {
             </NavItem>
             <NavItem>
               <a
-                className="mx-2 px-2 social-instagram"
+                className="mx-1 px-2 social-instagram"
                 href="https://www.instagram.com/sme_iitism/"
               >
                 <RiInstagramFill />
@@ -116,7 +116,7 @@ const Header = () => {
             </NavItem>
             <NavItem>
               <a
-                className="mx-2 px-2 social-linkedin"
+                className="mx-1 px-2 social-linkedin"
                 href="https://www.linkedin.com/company/sme-iit-ism-student-chapter2020"
               >
                 <RiLinkedinBoxFill />
@@ -124,7 +124,7 @@ const Header = () => {
             </NavItem>
             <NavItem>
               <a
-                className="mx-2 px-2 social-youtube"
+                className="mx-1 px-2 social-youtube"
                 href="https://www.youtube.com/channel/UCngC6aD1tTfpMBMXoqRBiog/"
               >
                 <RiYoutubeFill />

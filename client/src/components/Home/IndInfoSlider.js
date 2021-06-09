@@ -59,24 +59,28 @@ const options = {
   responsiveClass: true,
   nav: true,
   loop: true,
-  navText: ["Prev", "Next"],
+  navText: ["<span></span>", "<span></span>"],
+  navContainerClass: "custom-nav",
   autoplay: true,
-  smartSpeed: 3000,
+  autoplayHoverPause: true,
+  dots: true,
+  dotsEach: true,
+  dotClass: "custom-dot",
+  dotsClass: "custom-dots",
+  stagePadding: 70,
+  smartSpeed: 1000,
   responsive: {
     0: {
       items: 1,
     },
-    400: {
-      items: 1,
-    },
-    600: {
+    576: {
       items: 2,
     },
-    700: {
+    767: {
       items: 3,
     },
-    1000: {
-      items: 5,
+    992: {
+      items: 4,
     },
   },
 };
@@ -84,8 +88,8 @@ const options = {
 class IndInfoSlider extends React.Component {
   render() {
     return (
-      <div>
-        <OwlCarousel className="owl-carousel mt-5" {...options}>
+      <div className="main-content mt-5">
+        <OwlCarousel className="owl-carousel" {...options}>
           {slides}
         </OwlCarousel>
       </div>

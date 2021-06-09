@@ -2,14 +2,15 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import Image1 from "./image/herit.jpg";
-import Image2 from "./image/herit2.jpg";
-import Image3 from "./image/oval.jpg";
+import Image1 from "./image/herit1.jpg";
+import Image2 from "./image/oval.jpg";
+import Image3 from "./image/dept.jpg";
+import Image4 from "./image/herit2.jpg";
 
 // image options
 const items = [
   {
-    src: Image3,
+    src: Image1,
     altText: "Slide 1",
   },
   {
@@ -17,8 +18,12 @@ const items = [
     altText: "Slide 2",
   },
   {
-    src: Image1,
-    altText: "Slide 2",
+    src: Image3,
+    altText: "Slide 3",
+  },
+  {
+    src: Image4,
+    altText: "Slide 4",
   },
 ];
 
@@ -32,28 +37,29 @@ const slides = items.map((item) => {
 
 //Owl Carousel Settings
 const options = {
-  responsiveClass: true,
-  nav: false,
+  items: 1,
+  nav: true,
+  navText: ["<span></span>", "<span></span>"],
+  navContainerClass: "custom-nav",
+  slideBy: 1,
+  dots: true,
+  animateOut: "fadeOut",
   loop: true,
   autoplay: true,
-  smartSpeed: 1000,
-  responsive: {
-    0: {
-      items: 1,
-    },
-  },
+  smartSpeed: 3000,
 };
 
 class CarouselContainer extends React.Component {
   render() {
     return (
-      <div>
+      <div className="main-content">
         <OwlCarousel className="slider-items owl-carousel" {...options}>
           {slides}
         </OwlCarousel>
-        <div class="carousel-content text-uppercase text-center">
-          <p>WELCOME TO</p>
-          <p>SME IIT (ISM) DHANBAD STUDENT CHAPTER</p>
+        <div class="carousel-content text-uppercase text-center px-auto">
+          <p>
+            WELCOME TO <br /> SME IIT (ISM) DHANBAD <br /> STUDENT CHAPTER
+          </p>
         </div>
         <div class="arrow">
           <span></span>

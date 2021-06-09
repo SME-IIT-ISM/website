@@ -3,13 +3,13 @@
   margin-bottom: var(--rTitleMarginBottom, 0) !important;
 }
 
-p:not([class]) {
+.tcard__content p:not([class]) {
   line-height: var(--cssTypographyLineHeight, 1.78);
   margin-top: var(--cssTypographyBasicMargin, 1em);
   margin-bottom: 0;
 }
 
-p:not([class]):first-child {
+.tcard__content p:not([class]):first-child {
   margin-top: 0;
 }
 
@@ -232,13 +232,13 @@ p:not([class]):first-child {
   z-index: -3;
 }
 
-p {
+.tcard__content p {
   margin-top: 0;
   margin-bottom: 1rem;
   line-height: 1.5;
 }
 
-p:last-child {
+.tcard__content p:last-child {
   margin-bottom: 0;
 }
 
