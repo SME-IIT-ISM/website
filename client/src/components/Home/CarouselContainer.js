@@ -44,8 +44,6 @@ const options = {
   slideBy: 1,
   dots: true,
   animateOut: "fadeOut",
-  // dotsEach: true,
-  // dotData: true,
   loop: true,
   autoplay: true,
   smartSpeed: 3000,

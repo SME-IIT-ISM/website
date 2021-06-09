@@ -1,6 +1,7 @@
 import React from "react";
 import Smei from "./image/int.png";
-const SME = (props) => {
+
+const SME = () => {
   return (
     <div>
       <div className="sme">
@@ -8,7 +9,9 @@ const SME = (props) => {
           <h2>Want to connect with professionals across the globe?</h2>
           <h3>Connect to the Mining Profesional worldwide</h3>
         </div>
-        <a href="/"></a>
+        <a className="bt bt-sme" href="https://www.smenet.org/">
+          Connect Now
+        </a>
       </div>
       <div className="int-cont ">
         <img src={Smei} alt="logo_sme_int" className="int_logo" />
@@ -16,4 +19,5 @@ const SME = (props) => {
     </div>
   );
 };
+
 export default SME;

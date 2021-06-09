@@ -92,6 +92,15 @@ const Footer = (props) => {
                     Parents Portal
                   </a>
                 </li>
+                <li>
+                  <a
+                    display="none"
+                    href="https://www.freepik.com/photos/background"
+                    className="text-white"
+                  >
+                    Background designed by Freepick
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
