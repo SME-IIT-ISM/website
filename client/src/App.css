@@ -119,7 +119,7 @@ h1::after {
 }
 
 .solid-navbar {
-  background-color: rgba(55, 71, 133, 0.8) !important;
+  background-color: rgba(55, 71, 133, 1) !important;
   transition: background-color 1s ease 0s;
 }
 
