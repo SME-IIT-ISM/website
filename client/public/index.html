@@ -26,9 +26,34 @@
     -->
     <title>Home - SME IIT ISM</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Style for loading page animation -->
+    <style>
+      .loader {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff8e3;
+        position: relative;
+        text-align: center;
+      }
+      .loader img {
+        width: 60%;
+        max-width: 300px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- For loading page animation -->
+    <div class="loader-container">
+      <div class="loader">
+        <img src="./loading-anim.gif" alt="Loading Animation" />
+      </div>
+    </div>
   </body>
 </html>
