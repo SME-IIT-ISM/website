@@ -12,40 +12,34 @@ import I6 from "../khanan-img/6.jpg";
 // khanan-image options
 const items = [
   {
-    id: "1",
     src: I1,
     altText: "Slide 1",
   },
   {
-    id: "2",
     src: I2,
     altText: "Slide 2",
   },
   {
-    id: "3",
     src: I3,
     altText: "Slide 3",
   },
   {
-    id: "4",
     src: I4,
     altText: "Slide 4",
   },
   {
-    id: "5",
     src: I5,
     altText: "Slide 4",
   },
   {
-    id: "6",
     src: I6,
     altText: "Slide 6",
   },
 ];
 
-const Kslider = items.map((item) => {
+const Kslider = items.map((item, index) => {
   return (
-    <div key={item.id}>
+    <div key={index}>
       <img src={item.src} alt={item.altText} />
     </div>
   );

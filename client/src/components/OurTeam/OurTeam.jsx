@@ -192,9 +192,9 @@ const OurTeam = () => {
             </Col>
           </Row>
           <Row className="justify-content-between">
-            {officeBearers.map((item) => {
+            {officeBearers.map((item, index) => {
               return (
-                <Col className="my-2" xs="12" sm="6" md="4" lg="3">
+                <Col className="my-2" xs="12" sm="6" md="4" lg="3" key={index}>
                   <div className="card team p-2">
                     <img
                       className="card-img-top"
@@ -226,9 +226,9 @@ const OurTeam = () => {
         <h1 className="text-uppercase heading my-5 heading-block">Core Team</h1>
         <Container>
           <Row className="justify-content-between">
-            {coreTeam.map((item) => {
+            {coreTeam.map((item, index) => {
               return (
-                <Col className="my-2" xs="12" sm="6" md="4" lg="3">
+                <Col className="my-2" xs="12" sm="6" md="4" lg="3" key={index}>
                   <div className="card team p-2">
                     <img
                       className="card-img-top"
@@ -262,9 +262,9 @@ const OurTeam = () => {
         </h1>
         <Container>
           <Row className="justify-content-between">
-            {developers.map((item) => {
+            {developers.map((item, index) => {
               return (
-                <Col className="my-2" xs="12" sm="6" md="4" lg="3">
+                <Col className="my-2" xs="12" sm="6" md="4" lg="3" key={index}>
                   <div className="card team p-2">
                     <img
                       className="card-img-top"

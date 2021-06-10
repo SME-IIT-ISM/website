@@ -115,13 +115,13 @@ h1::after {
 }
 
 .navbar {
-  background-color: transparent !important;
-  transition: background-color 1s ease 0s;
+  background-color: rgba(55, 71, 133, 1) !important;
+  transition: background-color 0.5s ease 0s;
 }
 
-.solid-navbar {
-  background-color: rgba(55, 71, 133, 1) !important;
-  transition: background-color 1s ease 0s;
+.transparent-navbar {
+  background-color: transparent !important;
+  transition: background-color 0.5s ease 0s;
 }
 
 .nav-link {
