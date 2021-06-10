@@ -53,19 +53,6 @@
     border-radius: 0 0 100% 100%;
   }
 }
-@media only screen and (max-width: 576px) {
-  .khanan-header img {
-    width: 40%;
-    height: 30%;
-  }
-  .khanan-header::before {
-    border-radius: 0 0 100% 100%;
-    animation-play-state: paused;
-  }
-  .custom-button-khanan {
-    font-size: 1rem;
-  }
-}
 
 /* for KhANAN-CONTENT */
 
@@ -114,8 +101,63 @@
 .kcard.card > :last-child {
   margin-bottom: 0;
 }
+/* For Campus Amb*/
+.campus {
+  background: linear-gradient(45deg, #ff0881, #6827b0);
+  width: 60vw;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-top: 5vh;
+  margin-right: 40vw;
+  border-radius: 0 0 25% 0;
+  height: fit-content;
+  position: relative;
+}
+.campus-text {
+  margin-left: 50px !important;
+}
+.custom-button-campus {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 20%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 40vw;
+}
+.custom-button-campus:hover {
+  color: rgba(0, 0, 0, 1) !important;
+}
+.custom-button-campus::after {
+  background-color: #fff;
+}
+
+/* For speaker.js*/
+.speaker-heading {
+  background-image: linear-gradient(45deg, #ff0881, #6827b0);
+  padding-bottom: 1rem;
+  background-clip: text;
+  color: transparent;
+  margin-top: 8vh;
+  overflow: hidden;
+  text-transform: capitalize;
+  margin-left: 28vw;
+}
 
 /* for media query */
+@media only screen and (max-width: 1400px) {
+  .custom-button-khanan {
+    font-size: 1rem;
+  }
+  .custom-button-campus {
+    font-size: 1rem;
+    height: 12%;
+    margin-left: 20vw;
+  }
+}
 @media only screen and (max-width: 576px) {
   .khanan-header img {
     width: 40%;
@@ -127,9 +169,22 @@
   }
   .custom-button-khanan {
     font-size: 1rem;
+    height: 10%;
   }
   .k-content {
     width: 90vw;
     margin-left: 10vw;
+  }
+  .campus {
+    width: 90vw;
+    margin-right: 10vw;
+  }
+  .khanan-header img {
+    width: 40%;
+    height: 30%;
+  }
+  .khanan-header::before {
+    border-radius: 0 0 100% 100%;
+    animation-play-state: paused;
   }
 }

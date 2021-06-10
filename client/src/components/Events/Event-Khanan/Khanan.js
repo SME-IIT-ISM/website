@@ -6,6 +6,8 @@ import KhananContent from "./khanan-components/Khanan-content";
 import Kevent from "./khanan-components/k-events/KhananEvent";
 
 import "./khanan.css";
+import Campus from "./khanan-components/CampusAmd";
+import Speakers from "./khanan-components/Kspeakers";
 
 const EventKhanan = () => {
   return (
@@ -14,6 +16,8 @@ const EventKhanan = () => {
       <KhananHeader />
       <KhananContent />
       <Kevent />
+      <Campus />
+      <Speakers />
       <KhananSlider />
     </div>
   );
