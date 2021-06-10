@@ -10,30 +10,26 @@ import Image4 from "./image/herit2.jpg";
 // image options
 const items = [
   {
-    id: "1",
     src: Image1,
     altText: "Slide 1",
   },
   {
-    id: "2",
     src: Image2,
     altText: "Slide 2",
   },
   {
-    id: "3",
     src: Image3,
     altText: "Slide 3",
   },
   {
-    id: "4",
     src: Image4,
     altText: "Slide 4",
   },
 ];
 
-const slides = items.map((item) => {
+const slides = items.map((item, index) => {
   return (
-    <div className="item" key={item.id}>
+    <div className="item" key={index}>
       <img src={item.src} alt={item.altText} />
     </div>
   );

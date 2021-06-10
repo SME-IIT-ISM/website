@@ -1,6 +1,5 @@
 import React from "react";
 import Tcard from "./Tcard";
-
 import "./timeline.css";
 
 const Timeline = () => {

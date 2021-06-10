@@ -3,7 +3,9 @@ import React from "react";
 const Gallery = () => {
   return (
     <div>
-      <h1 className="text-center">Gallery</h1>
+      <div className="heading">
+        <h1 className="text-uppercase text-center">Gallery</h1>
+      </div>
     </div>
   );
 };
