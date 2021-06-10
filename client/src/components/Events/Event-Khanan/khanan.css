@@ -120,7 +120,7 @@
   font-family: Brush Script MT, Brush Script Std, cursive;
   background-color: #fff;
   color: rgba(0, 0, 0, 1);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
   height: 20%;
   position: absolute;
@@ -144,7 +144,7 @@
   margin-top: 8vh;
   overflow: hidden;
   text-transform: capitalize;
-  margin-left: 28vw;
+  margin-left: 2vw;
 }
 
 /* for media query */
@@ -186,5 +186,14 @@
   .khanan-header::before {
     border-radius: 0 0 100% 100%;
     animation-play-state: paused;
+  }
+  .custom-button-campus {
+    height: 8%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .custom-button-campus {
+    height: 5%;
   }
 }
