@@ -13,11 +13,10 @@ import Posts from "./Posts";
 //col-6 col-md-4
 const SMEGeneralEvents = () => {
   return (
-    <div>
-      <div className="heading">
-        <h1 className="text-uppercase text-center">SME General Events</h1>
-      </div>
-
+    <div className="m-5 text-center" >
+      <h1 className="text-uppercase heading my-5 heading-block">
+        SME General Events
+      </h1>
       <div className="row my-5">
         <div class="col-sm">
           <Posts
