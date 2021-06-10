@@ -49,7 +49,7 @@ const events = [
 
 const Kevent = () => {
   return (
-    <Container>
+    <Container id="events">
       <Row>
         {events.map((item) => {
           return (
