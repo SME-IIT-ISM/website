@@ -7,6 +7,8 @@ import {
   Footer,
   Home,
   Gallery,
+  EventKhanan,
+  SMEGeneralEvents,
   OurTeam,
   About,
   Contact,
@@ -53,6 +55,16 @@ function App() {
         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/gallery" exact component={() => <Gallery />} />
+          <Route
+            path="/events/khanan"
+            exact
+            component={() => <EventKhanan />}
+          />
+          <Route
+            path="/events/general"
+            exact
+            component={() => <SMEGeneralEvents />}
+          />
           <Route path="/team" exact component={() => <OurTeam />} />
           <Route path="/about" exact component={() => <About />} />
           <Route path="/contact" exact component={() => <Contact />} />

@@ -6,7 +6,7 @@ import FacultyAdvisor from "./OfficeBearers/FacultyAdvisor.jpg";
 import President from "./OfficeBearers/President.jpg";
 import VicePresident from "./OfficeBearers/VicePresident.jpg";
 import SecretaryErra from "./OfficeBearers/SecretaryErra.jpg";
-import Secretary from "./OfficeBearers/Secreatory.jpg";
+import Secretary from "./OfficeBearers/Secretary.jpg";
 import AdSecretory from "./OfficeBearers/AdSecretory.jpg";
 import BDHead from "./OfficeBearers/BDHead.jpg";
 import EventHead from "./OfficeBearers/EventHead.jpg";
