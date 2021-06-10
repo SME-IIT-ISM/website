@@ -6,6 +6,10 @@
   --youtube-color: #ff0000;
 }
 
+html {
+  padding-top: 100px;
+}
+
 html,
 body {
   max-width: 100%;
@@ -115,13 +119,13 @@ h1::after {
 }
 
 .navbar {
-  background-color: transparent !important;
-  transition: background-color 1s ease 0s;
+  background-color: rgb(55, 71, 133) !important;
+  transition: background-color 0.5s ease 0s;
 }
 
-.solid-navbar {
-  background-color: rgba(55, 71, 133, 1) !important;
-  transition: background-color 1s ease 0s;
+.transparent-navbar {
+  background-color: transparent !important;
+  transition: background-color 0.5s ease 0s;
 }
 
 .nav-link {
@@ -129,12 +133,15 @@ h1::after {
   transition: color 0.3s ease 0s;
 }
 
-.nav-dropdown {
-  color: #fff;
-  font-weight: 450;
+a.nav-dropdown {
+  text-decoration: none;
 }
 
-.nav-dropdown:hover {
+.nav-dropdown .dropdown-item {
+  color: #fff;
+}
+
+.nav-dropdown .dropdown-item:hover {
   color: var(--sme-blue);
   text-decoration: none;
 }
@@ -146,6 +153,24 @@ h1::after {
 .dropdown-menu {
   background-color: #4255a0 !important;
 }
+
+.navbar-toggler {
+  margin-right: 20px;
+  color: rgba(255, 255, 255, 0.6) !important;
+  border: 3px solid;
+  border-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.navbar-toggler:hover {
+  box-shadow: 0 0 0 0.25rem;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
+
 /* Custom button */
 
 .bt:link,

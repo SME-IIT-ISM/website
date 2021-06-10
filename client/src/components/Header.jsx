@@ -34,62 +34,58 @@ const Header = () => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar>
-            <NavItem>
-              <NavLink className="mx-lg-2" href="/">
+            <NavItem className="">
+              <NavLink className="mx-lg-2 text-center" href="/">
                 Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="mx-lg-2" href="/gallery">
+              <NavLink className="mx-lg-2 text-center" href="/gallery">
                 Gallery
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown className="mx-lg-2" nav inNavbar>
+            <UncontrolledDropdown className="mx-lg-2 text-center" nav inNavbar>
               <DropdownToggle nav caret>
                 Events
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
-                  <a className="nav-dropdown" href="/events/khanan">
-                    Khanan
-                  </a>
-                </DropdownItem>
-                <DropdownItem>
-                  <a className="nav-dropdown" href="/events/general">
+                <a className="nav-dropdown" href="/events/khanan">
+                  <DropdownItem className="text-center">Khanan</DropdownItem>
+                </a>
+                <a className="nav-dropdown" href="/events/general">
+                  <DropdownItem className="text-center">
                     SME General Events
-                  </a>
-                </DropdownItem>
+                  </DropdownItem>
+                </a>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <UncontrolledDropdown className="mx-lg-2" nav inNavbar>
+            <UncontrolledDropdown className="mx-lg-2 text-center" nav inNavbar>
               <DropdownToggle nav caret>
                 Resources
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
-                  <a className="nav-dropdown" href="/resources/blogs">
-                    Blogs
-                  </a>
-                </DropdownItem>
-                <DropdownItem>
-                  <a className="nav-dropdown" href="/resources/calender">
+                <a className="nav-dropdown" href="/resources/blogs">
+                  <DropdownItem className="text-center">Blogs</DropdownItem>
+                </a>
+                <a className="nav-dropdown" href="/resources/calender">
+                  <DropdownItem className="text-center">
                     Annual Calender
-                  </a>
-                </DropdownItem>
+                  </DropdownItem>
+                </a>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink className="mx-lg-2" href="/team">
+              <NavLink className="mx-lg-2 text-center" href="/team">
                 Our Team
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="mx-lg-2" href="/about">
+              <NavLink className="mx-lg-2 text-center" href="/about">
                 About Us
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="mx-lg-2" href="/contact">
+              <NavLink className="mx-lg-2 text-center" href="/contact">
                 Contact Us
               </NavLink>
             </NavItem>

@@ -160,9 +160,12 @@ const developers = [
 
 const OurTeam = () => {
   return (
-    <div className="p-4 m-5 text-center">
+    <div>
+      <div className="heading">
+        <h1 className="text-uppercase text-center text-center">Our Team</h1>
+      </div>
       <div>
-        <h1 className="text-uppercase heading my-5 heading-block">
+        <h1 className="text-uppercase text-center heading my-5 heading-block">
           Office Bearers
         </h1>
         <Container>
@@ -192,9 +195,9 @@ const OurTeam = () => {
             </Col>
           </Row>
           <Row className="justify-content-between">
-            {officeBearers.map((item) => {
+            {officeBearers.map((item, index) => {
               return (
-                <Col className="my-2" xs="12" sm="6" md="4" lg="3">
+                <Col className="my-2" xs="12" sm="6" md="4" lg="3" key={index}>
                   <div className="card team p-2">
                     <img
                       className="card-img-top"
@@ -223,12 +226,14 @@ const OurTeam = () => {
         </Container>
       </div>
       <div>
-        <h1 className="text-uppercase heading my-5 heading-block">Core Team</h1>
+        <h1 className="text-uppercase text-center heading my-5 heading-block">
+          Core Team
+        </h1>
         <Container>
           <Row className="justify-content-between">
-            {coreTeam.map((item) => {
+            {coreTeam.map((item, index) => {
               return (
-                <Col className="my-2" xs="12" sm="6" md="4" lg="3">
+                <Col className="my-2" xs="12" sm="6" md="4" lg="3" key={index}>
                   <div className="card team p-2">
                     <img
                       className="card-img-top"
@@ -257,14 +262,14 @@ const OurTeam = () => {
         </Container>
       </div>
       <div>
-        <h1 className="text-uppercase heading my-5 heading-block">
+        <h1 className="text-uppercase text-center heading my-5 heading-block">
           Developers
         </h1>
         <Container>
           <Row className="justify-content-between">
-            {developers.map((item) => {
+            {developers.map((item, index) => {
               return (
-                <Col className="my-2" xs="12" sm="6" md="4" lg="3">
+                <Col className="my-2" xs="12" sm="6" md="4" lg="3" key={index}>
                   <div className="card team p-2">
                     <img
                       className="card-img-top"

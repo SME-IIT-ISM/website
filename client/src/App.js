@@ -1,30 +1,23 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 import {
   Header,
   Footer,
   Home,
   Gallery,
-  EventKhanan,
-  SMEGeneralEvents,
+  Events,
+  Resources,
   OurTeam,
   About,
   Contact,
 } from "./components";
-
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.querySelector(".navbar").classList.add("solid-navbar");
-  } else {
-    document.querySelector(".navbar").classList.remove("solid-navbar");
-  }
-}
 
 function App() {
   // Loading Page animation
@@ -53,21 +46,14 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/" exact component={() => <Home />} />
-          <Route path="/gallery" exact component={() => <Gallery />} />
-          <Route
-            path="/events/khanan"
-            exact
-            component={() => <EventKhanan />}
-          />
-          <Route
-            path="/events/general"
-            exact
-            component={() => <SMEGeneralEvents />}
-          />
-          <Route path="/team" exact component={() => <OurTeam />} />
-          <Route path="/about" exact component={() => <About />} />
-          <Route path="/contact" exact component={() => <Contact />} />
+          <Route path="/" exact component={Home} />
+          <Route path="/gallery" component={Gallery} />
+          <Route path="/events/:id" component={Events} />
+          <Route path="/resources/:id" component={Resources} />
+          <Route path="/team" component={OurTeam} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Redirect to="/" />
         </Switch>
         <Footer />
       </Router>
