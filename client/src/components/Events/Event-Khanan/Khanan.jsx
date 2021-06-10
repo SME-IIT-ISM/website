@@ -33,18 +33,14 @@ class EventKhanan extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "black" }}>
-        <div className="particles-container">
-          <Particles />
-        </div>
-        <div className="khanan-main-content">
-          <Knav />
-          <KhananHeader />
-          <KhananContent />
-          <Kevent />
-          <Campus />
-          <Speakers />
-          <KhananSlider />
-        </div>
+        <Particles />
+        <Knav />
+        <KhananHeader />
+        <KhananContent />
+        <Kevent />
+        <Campus />
+        <Speakers />
+        <KhananSlider />
       </div>
     );
   }
