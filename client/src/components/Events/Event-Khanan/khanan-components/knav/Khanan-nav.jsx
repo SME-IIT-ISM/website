@@ -1,21 +1,45 @@
 import React from "react";
 import "./knav.css";
+import { IoHome, IoTrophySharp } from "react-icons/io5";
+import { RiCalendarEventFill, RiGalleryFill } from "react-icons/ri";
 
 const Knav = () => {
   return (
-    <div className="navbar navbar-inverse navbar-fixed-bottom knavi">
+    <div className="knavi">
       <ul>
         <li>
-          <a href="/"></a>
+          <a className="knav-image" href="#home">
+            <div className="knav-content">
+              <IoHome />
+              <span>Home</span>
+            </div>
+          </a>
         </li>
         <li>
-          <a href="/"></a>
+          <a className="knav-image" href="#events">
+            <div className="knav-content">
+              <RiCalendarEventFill />
+              <span>Event</span>
+            </div>
+          </a>
         </li>
         <li>
-          <a href="/"></a>
+          <a className="knav-image" href="#campus">
+            <div className="knav-content">
+              <IoTrophySharp />
+              <span>
+                Campus <br /> Ambassador
+              </span>
+            </div>
+          </a>
         </li>
         <li>
-          <a href="/"></a>
+          <a className="knav-image" href="#gallery">
+            <div className="knav-content">
+              <RiGalleryFill />
+              <span>Gallery</span>
+            </div>
+          </a>
         </li>
       </ul>
     </div>

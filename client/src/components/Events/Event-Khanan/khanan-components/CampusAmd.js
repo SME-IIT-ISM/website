@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 
 const Campus = () => {
   return (
-    <Container className="campus">
+    <Container className="campus" id="campus">
       <Row>
         <Col className="campus-text">
           <p>
@@ -15,7 +15,7 @@ const Campus = () => {
             everyone there gets to know about it. Bear the responsibility and
             get ready for a thrilling experience.
           </p>
-          <a className="bt custom-button-campus pt-3 " href="/">
+          <a className="bt custom-button-campus  " href="/">
             REGISTER
           </a>
         </Col>
