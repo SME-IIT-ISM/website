@@ -1,0 +1,68 @@
+/* khanan-header.js*/
+.khanan-header {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+}
+
+.khanan-header img {
+  width: 13%;
+  height: auto;
+  position: absolute;
+  margin-top: 20vh;
+}
+.custom-button-khanan {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 10%;
+  position: absolute;
+  left: 15;
+  top: 70%;
+}
+.custom-button-khanan:hover {
+  color: rgba(0, 0, 0, 1) !important;
+}
+.custom-button-khanan::after {
+  background-color: #fff;
+}
+
+.khanan-header::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(45deg, #ff0881, #6827b0);
+  animation: curved 1s forwards;
+  backface-visibility: hidden;
+}
+
+@keyframes curved {
+  0% {
+    border-radius: 0;
+  }
+  100% {
+    border-radius: 0 0 100% 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .khanan-header img {
+    width: 40%;
+    height: 30%;
+  }
+  .khanan-header::before {
+    border-radius: 0 0 100% 100%;
+    animation-play-state: paused;
+  }
+  .custom-button-khanan {
+    font-size: 1rem;
+  }
+}
