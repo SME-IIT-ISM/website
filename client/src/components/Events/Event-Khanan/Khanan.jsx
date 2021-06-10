@@ -6,6 +6,7 @@ import KhananContent from "./khanan-components/Khanan-content";
 import Kevent from "./khanan-components/k-events/KhananEvent";
 import Campus from "./khanan-components/CampusAmd";
 import Speakers from "./khanan-components/Kspeakers";
+import Particles from "./Particles";
 
 import "./khanan.css";
 
@@ -32,13 +33,18 @@ class EventKhanan extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "black" }}>
-        <Knav />
-        <KhananHeader />
-        <KhananContent />
-        <Kevent />
-        <Campus />
-        <Speakers />
-        <KhananSlider />
+        <div className="particles-container">
+          <Particles />
+        </div>
+        <div className="khanan-main-content">
+          <Knav />
+          <KhananHeader />
+          <KhananContent />
+          <Kevent />
+          <Campus />
+          <Speakers />
+          <KhananSlider />
+        </div>
       </div>
     );
   }

@@ -1,3 +1,13 @@
+/* particles animation */
+.particles-container {
+  position: absolute;
+  width: 100vw;
+}
+.khanan-main-content {
+  height: 100%;
+  width: 100vw;
+}
+
 /* khanan-header.js*/
 .khanan-header {
   position: relative;
