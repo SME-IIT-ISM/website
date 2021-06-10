@@ -13,7 +13,7 @@ import Posts from "./Posts";
 //col-6 col-md-4
 const SMEGeneralEvents = () => {
   return (
-    <div className="m-5 text-center">
+    <div className="m-5 text-center" >
       <h1 className="text-uppercase heading my-5 heading-block">
         SME General Events
       </h1>

@@ -25,6 +25,7 @@ const Posts = (props) => {
   const paragraph = props.paragraph;
   const source = props.source;
   // className="ge-container"
+  // const reference = "sme/event/"+props.headingObject;
   return (
     <div>
       <Card className="ge-card ">
