@@ -8,38 +8,38 @@ const Knav = () => {
     <div className="knavi">
       <ul>
         <li>
-          <div className="knav-image">
-            <a href="/">
+          <a className="knav-image" href="#home">
+            <div className="knav-content">
               <IoHome />
-            </a>
-            <span>Home</span>
-          </div>
+              <span>Home</span>
+            </div>
+          </a>
         </li>
         <li>
-          <div className="knav-image">
-            <a href="/">
+          <a className="knav-image" href="#events">
+            <div className="knav-content">
               <RiCalendarEventFill />
-            </a>
-            <span>Event</span>
-          </div>
+              <span>Event</span>
+            </div>
+          </a>
         </li>
         <li>
-          <div className="knav-image">
-            <a href="/">
+          <a className="knav-image" href="#campus">
+            <div className="knav-content">
               <IoTrophySharp />
-            </a>
-            <span>
-              Campus <br /> Ambassador
-            </span>
-          </div>
+              <span>
+                Campus <br /> Ambassador
+              </span>
+            </div>
+          </a>
         </li>
         <li>
-          <div className="knav-image">
-            <a className="knav-image" href="/">
+          <a className="knav-image" href="#gallery">
+            <div className="knav-content">
               <RiGalleryFill />
-            </a>
-            <span>Gallery</span>
-          </div>
+              <span>Gallery</span>
+            </div>
+          </a>
         </li>
       </ul>
     </div>
