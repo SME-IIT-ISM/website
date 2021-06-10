@@ -1,0 +1,57 @@
+.GH-image{
+    height:40vw;
+    width:100vw;
+    background: url("./BackgroundGallery.jpg");
+    background-repeat: no-repeat;
+    background-size:     cover;  
+    position:relative ;
+
+}
+.GH-card{
+    width:250px;
+    height:auto;
+    object-fit: cover;
+    position:absolute ;
+    left:10%;
+    top:15%;
+    text-align: center;
+}
+.card-img-top {
+    height: 100%;
+    width: auto;
+    /* object-fit: cover; */
+    margin:4px 4px 4px 4px;
+  
+  }
+  . GH-card-All{
+      left:30%;
+      top:25%;
+      position:absolute ;
+  }
+ .GH-card-compo1{
+     width:200px;
+     height:auto;
+     object-fit: cover;
+     /* position:absolute ; */
+     /* right:50%;
+     top:40%; */
+     text-align: center;
+ }
+ .GH-card-compo2{
+    width:200px;
+    height:auto;
+    object-fit: cover;
+    /* position:absolute ; */
+    /* right:30%;
+    top:45%; */
+    text-align: center;
+ }
+ .GH-card-compo3{
+    width:200px;
+    height:auto;
+    object-fit: cover;
+    /* position:absolute ; */
+    /* right:10%;
+    top:35%; */
+    text-align: center;
+ }
