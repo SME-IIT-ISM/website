@@ -41,7 +41,7 @@
   left: 0;
   top: 0;
   background: linear-gradient(45deg, #ff0881, #6827b0);
-  animation: curved 1s forwards;
+  animation: curved 2s ease forwards;
   backface-visibility: hidden;
 }
 
@@ -64,5 +64,72 @@
   }
   .custom-button-khanan {
     font-size: 1rem;
+  }
+}
+
+/* for KhANAN-CONTENT */
+
+.k-content {
+  background: linear-gradient(45deg, #ff0881, #6827b0);
+  width: 60vw;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-top: 5vh;
+  margin-left: 38vw;
+  border-radius: 0 0 0 18%;
+  height: fit-content;
+}
+.k-content-text {
+  margin-left: 15px !important;
+}
+
+/* For khanan kcards*/
+.kcard.card {
+  background-image: linear-gradient(45deg, #ff0881, #6827b0);
+  border-radius: 0.5rem;
+  padding-bottom: 1rem;
+  background-clip: text;
+  color: transparent;
+  margin-top: 12vh;
+  overflow: hidden;
+  text-transform: capitalize;
+}
+.kcard.card img {
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-height: max(10rem, 30vh);
+  aspect-ratio: 4/3;
+  transition: transform 1s;
+}
+.kcard.card img:hover {
+  transform: scale(1.2);
+}
+
+.kcard.card img ~ * {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.kcard.card > :last-child {
+  margin-bottom: 0;
+}
+
+/* for media query */
+@media only screen and (max-width: 576px) {
+  .khanan-header img {
+    width: 40%;
+    height: 30%;
+  }
+  .khanan-header::before {
+    border-radius: 0 0 100% 100%;
+    animation-play-state: paused;
+  }
+  .custom-button-khanan {
+    font-size: 1rem;
+  }
+  .k-content {
+    width: 90vw;
+    margin-left: 10vw;
   }
 }
