@@ -4,6 +4,8 @@ import KhananSlider from "./khanan-components/Kslider";
 import Knav from "./khanan-components/knav/Khanan-nav";
 import KhananContent from "./khanan-components/Khanan-content";
 import Kevent from "./khanan-components/k-events/KhananEvent";
+import Campus from "./khanan-components/CampusAmd";
+import Speakers from "./khanan-components/Kspeakers";
 
 import "./khanan.css";
 
@@ -26,7 +28,7 @@ class EventKhanan extends Component {
       }
     };
   }
-  
+
   render() {
     return (
       <div style={{ backgroundColor: "black" }}>
@@ -34,6 +36,8 @@ class EventKhanan extends Component {
         <KhananHeader />
         <KhananContent />
         <Kevent />
+        <Campus />
+        <Speakers />
         <KhananSlider />
       </div>
     );
