@@ -10,6 +10,7 @@ import SME from "./Sme";
 
 class Home extends Component {
   componentDidMount() {
+    document.querySelector("html").style.paddingTop = "0";
     document.querySelector(".navbar").classList.add("transparent-navbar");
 
     window.onscroll = function () {
