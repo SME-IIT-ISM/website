@@ -26,25 +26,25 @@ function scrollFunction() {
 
 function App() {
   // Loading Page animation
-  const [isLoading, setLoading] = useState(true);
+  // const [isLoading, setLoading] = useState(true);
 
-  function fakeRequest() {
-    return new Promise((resolve) => setTimeout(() => resolve(), 2500));
-  }
+  // function fakeRequest() {
+  //   return new Promise((resolve) => setTimeout(() => resolve(), 2500));
+  // }
 
-  useEffect(() => {
-    fakeRequest().then(() => {
-      const el = document.querySelector(".loader-container");
-      if (el) {
-        el.remove();
-        setLoading(!isLoading);
-      }
-    });
-  }, []);
+  // useEffect(() => {
+  //   fakeRequest().then(() => {
+  //     const el = document.querySelector(".loader-container");
+  //     if (el) {
+  //       el.remove();
+  //       setLoading(!isLoading);
+  //     }
+  //   });
+  // }, []);
 
-  if (isLoading) {
-    return null;
-  }
+  // if (isLoading) {
+  //   return null;
+  // }
 
   return (
     <div className="App">

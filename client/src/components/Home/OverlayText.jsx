@@ -22,7 +22,7 @@ const OverlayText = (props) => {
           </Col>
 
           <Col xs="12" lg="4" className="text-white ">
-            <div classname="mt-3">
+            <div className="mt-3">
               <p className="h2 pt-3">
                 Participate in the Biggest Mining fest in India and fell into
                 the invigorating world of Mining.

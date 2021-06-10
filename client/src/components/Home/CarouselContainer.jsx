@@ -10,18 +10,22 @@ import Image4 from "./image/herit2.jpg";
 // image options
 const items = [
   {
+    id: "1",
     src: Image1,
     altText: "Slide 1",
   },
   {
+    id: "2",
     src: Image2,
     altText: "Slide 2",
   },
   {
+    id: "3",
     src: Image3,
     altText: "Slide 3",
   },
   {
+    id: "4",
     src: Image4,
     altText: "Slide 4",
   },
@@ -29,7 +33,7 @@ const items = [
 
 const slides = items.map((item) => {
   return (
-    <div class="item">
+    <div className="item" key={item.id}>
       <img src={item.src} alt={item.altText} />
     </div>
   );
@@ -56,12 +60,12 @@ class CarouselContainer extends React.Component {
         <OwlCarousel className="slider-items owl-carousel" {...options}>
           {slides}
         </OwlCarousel>
-        <div class="carousel-content text-uppercase text-center px-auto">
+        <div className="carousel-content text-uppercase text-center px-auto">
           <p>
             WELCOME TO <br /> SME IIT (ISM) DHANBAD <br /> STUDENT CHAPTER
           </p>
         </div>
-        <div class="arrow">
+        <div className="arrow">
           <span></span>
           <span></span>
           <span></span>

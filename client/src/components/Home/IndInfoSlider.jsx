@@ -16,20 +16,23 @@ import SampleImg from "./image/blog-sample.jpg";
 // blog options
 const items = [
   {
+    id: "1",
     src: SampleImg,
     title: "Slide 1",
     date: "09/11/2021",
     desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
+    id: "2",
     src: SampleImg,
     title: "Slide 2",
     date: "09/11/2021",
     desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
+    id: "3",
     src: SampleImg,
-    title: "Slide 2",
+    title: "Slide 3",
     date: "09/11/2021",
     desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
@@ -37,7 +40,7 @@ const items = [
 
 const slides = items.map((item) => {
   return (
-    <div class="iis-slider-item">
+    <div className="iis-slider-item" key={item.id}>
       <Card className="iss">
         <CardImg top width="100%" src={item.src} alt={item.title} />
         <CardBody>

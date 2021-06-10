@@ -5,7 +5,7 @@ import "./timeline.css";
 
 const Timeline = () => {
   return (
-    <div class="page">
+    <div className="page">
       <Tcard
         day="1"
         ach="ivvrlvbvlrgbibgrlgrggnu5g"

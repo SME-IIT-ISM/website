@@ -1,18 +1,25 @@
 import React from "react";
+import ReactPlayer from "react-player/youtube";
+import { Container, Row, Col } from "reactstrap";
 
 const YouTube = () => {
   return (
-    <div className="text-center">
-      <iframe
-        width="75%"
-        height="538"
-        src="https://www.youtube.com/embed/zAXGRM9VWmM"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen=""
-      ></iframe>
-    </div>
+    <Container>
+      <Row className="justify-content-center">
+        <Col xs="12" md="10" xl="9">
+          <div className="yt-player-wrapper">
+            <ReactPlayer
+              className="yt-player"
+              url="https://youtu.be/zAXGRM9VWmM"
+              controls={true}
+              width="100%"
+              height="100%"
+              pip={true}
+            />
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

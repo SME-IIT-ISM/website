@@ -77,7 +77,7 @@ const About = () => {
           </Row>
         </Container>
       </div>
-      <div class="bodyX">
+      <div className="bodyX">
         <Timeline />
       </div>
     </div>

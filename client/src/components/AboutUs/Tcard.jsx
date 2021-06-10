@@ -1,3 +1,4 @@
+import React from "react";
 import "./timeline.css";
 
 const Tcard = (props) => {
@@ -8,20 +9,20 @@ const Tcard = (props) => {
   const year = props.year;
 
   return (
-    <div class="timeline">
-      <div class="timeline__group">
-        <span class="timeline__year time" aria-hidden="true">
+    <div className="timeline">
+      <div className="timeline__group">
+        <span className="timeline__year time" aria-hidden="true">
           {year}
         </span>
-        <div class="timeline__card tcard">
-          <header class="tcard__header">
-            <time class="time">
-              <span class="time__day">{day}</span>
-              <span class="time__month">{month}</span>
+        <div className="timeline__card tcard">
+          <header className="tcard__header">
+            <time className="time">
+              <span className="time__day">{day}</span>
+              <span className="time__month">{month}</span>
             </time>
-            <h3 class="tcard__title r-title">{title}</h3>
+            <h3 className="tcard__title r-title">{title}</h3>
           </header>
-          <div class="tcard__content">
+          <div className="tcard__content">
             <p>{achievement}</p>
           </div>
         </div>
