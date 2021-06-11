@@ -272,7 +272,7 @@ const Gallery = () => {
         <div className="row justify-content-between ">
         {ALLPhotos.map((item, index) => {
               return (
-                <div className="col my-2 GalleryAllContainer col-xs-12 col-sm-6 col-md-4 ">
+                <div className="col my-2 GalleryAllContainer   col-md-4 col-sm-6">
                   <img className="GalleryAllSize" src={item.src} ait=""></img>
                 </div>
                 );

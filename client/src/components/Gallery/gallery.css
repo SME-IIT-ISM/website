@@ -100,22 +100,24 @@
 .GalleryAllContainer{
     display: flex;
     align-items: center;
-    overflow: hidden;
-    height:60vh;
-    
+    /* overflow: hidden; */
+    /* height:60vh; */
+    /* width:60vh;
+    height: auto;
+    object-fit: fill; */
     
     
 }
 
 .GalleryAllSize{
-    /* width:360px;
-    height:auto; */
-    height:100%;
+    width:60vh;
+    height: auto;
+    /* height:100%; */
     margin:auto;
     filter: gray; /* IE5+ */
       -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
       -webkit-transition: all .3s ease-in-out; 
-      object-fit: cover;
+      object-fit: fill;
    
 }
 .GalleryAllSize:hover{
