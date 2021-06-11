@@ -118,14 +118,14 @@ h1::after {
   height: 4.5vw;
 }
 
-.navbar {
-  background-color: rgb(55, 71, 133) !important;
-  transition: background-color 0.5s ease 0s;
+.solid-navbar {
+  background: rgb(55, 71, 133);
+  transition: background 0.5s ease 0s;
 }
 
 .transparent-navbar {
-  background-color: transparent !important;
-  transition: background-color 0.5s ease 0s;
+  background: transparent !important;
+  transition: background 0.5s ease 0s;
 }
 
 .nav-link {
