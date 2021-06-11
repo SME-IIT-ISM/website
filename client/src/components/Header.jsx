@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <div>
-      <Navbar expand="md" color="light" light fixed="top">
+      <Navbar className="solid-navbar" expand="md" light fixed="top">
         <NavbarBrand className="mx-4 my-2" href="/">
           <img src={Logo} className="d-inline-block align-top" alt="Logo" />
         </NavbarBrand>

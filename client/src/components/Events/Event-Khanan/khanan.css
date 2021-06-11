@@ -1,8 +1,22 @@
+/* custom header and footer */
+.khanan-event-navbar {
+  background: linear-gradient(45deg, #6827b0, #ff0881);
+  transition: all 1s ease 0s;
+}
+
+.khanan-event-navbar .dropdown-menu {
+  background: linear-gradient(45deg, #6827b0, #ff0881);
+}
+
+.khanan-event-footer {
+  background: linear-gradient(45deg, #6827b0, #ff0881);
+}
+
 /* khanan-header.js*/
 .khanan-header {
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 65vh;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -13,7 +27,7 @@
   width: 13%;
   height: auto;
   position: absolute;
-  margin-top: 20vh;
+  margin-top: 23vh;
 }
 .custom-button-khanan {
   font-family: Brush Script MT, Brush Script Std, cursive;
@@ -24,7 +38,7 @@
   height: 10%;
   position: absolute;
   left: 15;
-  top: 70%;
+  top: 78%;
 }
 .custom-button-khanan:hover {
   color: rgba(0, 0, 0, 1) !important;
@@ -40,22 +54,11 @@
   position: absolute;
   left: 0;
   top: 0;
-  background: linear-gradient(45deg, #ff0881, #6827b0);
-  animation: curved 2s ease forwards;
+  background: linear-gradient(to bottom, #6827b0, #ff0881);
   backface-visibility: hidden;
 }
 
-@keyframes curved {
-  0% {
-    border-radius: 0;
-  }
-  100% {
-    border-radius: 0 0 100% 100%;
-  }
-}
-
 /* for KhANAN-CONTENT */
-
 .k-content {
   background: linear-gradient(45deg, #ff0881, #6827b0);
   width: 60vw;

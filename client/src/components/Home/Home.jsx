@@ -9,16 +9,31 @@ import Youtube from "./Youtube";
 import SME from "./Sme";
 
 class Home extends Component {
+  state = { width: 800, height: 800 };
+
+  updateDimensions = () => {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+    if (this.state.width <= 767)
+      document.querySelector(".navbar").classList.remove("transparent-navbar");
+    else document.querySelector(".navbar").classList.add("transparent-navbar");
+  };
+
   componentDidMount() {
     document.querySelector("html").style.paddingTop = "0";
-    document.querySelector(".navbar").classList.add("transparent-navbar");
+    this.updateDimensions();
+    if (window.innerWidth > 767)
+      document.querySelector(".navbar").classList.add("transparent-navbar");
+    else
+      document.querySelector(".navbar").classList.remove("transparent-navbar");
+
+    window.addEventListener("resize", this.updateDimensions);
 
     window.onscroll = function () {
       scrollFunction();
     };
 
     const scrollFunction = () => {
-      if (document.documentElement.scrollTop < 20) {
+      if (this.state.width > 767 && document.documentElement.scrollTop < 20) {
         document.querySelector(".navbar").classList.add("transparent-navbar");
       } else {
         document
@@ -26,6 +41,10 @@ class Home extends Component {
           .classList.remove("transparent-navbar");
       }
     };
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateDimensions);
   }
 
   render() {
