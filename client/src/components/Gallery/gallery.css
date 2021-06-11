@@ -1,57 +1,100 @@
-.GH-image{
-    height:40vw;
-    width:100vw;
-    background: url("./BackgroundGallery.jpg");
-    background-repeat: no-repeat;
-    background-size:     cover;  
-    position:relative ;
+.GH-intro{
+    background-image: url(./BackgroundGallery.jpg);
+    max-width:100vw;
+    height:800px;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+  
 
 }
-.GH-card{
-    width:250px;
-    height:auto;
-    object-fit: cover;
-    position:absolute ;
-    left:10%;
-    top:15%;
-    text-align: center;
-}
-.card-img-top {
-    height: 100%;
-    width: auto;
-    /* object-fit: cover; */
-    margin:4px 4px 4px 4px;
+.GHImage1{
+    
+    height:350px;
+    width: 300px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    margin-top: 13vw;
+    margin-left: auto;
+    margin-right: auto;
+    -ms-transform: rotate(-5deg); 
+  transform: rotate(-5deg);
+  overflow: hidden;
+  animation-name: GUI1Move;
+  animation-duration: 2s;
   
-  }
-  . GH-card-All{
-      left:30%;
-      top:25%;
-      position:absolute ;
-  }
- .GH-card-compo1{
-     width:200px;
-     height:auto;
-     object-fit: cover;
-     /* position:absolute ; */
-     /* right:50%;
-     top:40%; */
-     text-align: center;
- }
- .GH-card-compo2{
+}
+@keyframes GUI1Move{
+    0%{
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+    100%{
+        transform: rotate(-5deg);
+        opacity: 1;
+    }
+}
+
+.GH:hover{
+    transform:scale(1.1);
+}
+.GHText{
+    margin-top: 5vw;
+}
+.GHText1{
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+    animation-name: GUIMoveLeft;
+    animation-duration: 2s;
+}
+@keyframes GUIMoveLeft{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.GHText2{
+    margin-top: 2vw;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+    animation-name: GUIMoveRight;
+    animation-duration: 2s;
+}
+@keyframes GUIMoveRight{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.GHImage2{
+    height:150px;
     width:200px;
-    height:auto;
-    object-fit: cover;
-    /* position:absolute ; */
-    /* right:30%;
-    top:45%; */
-    text-align: center;
- }
- .GH-card-compo3{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto; 
+    overflow: hidden;
+}
+.GHImage3{
+    height:150px;
     width:200px;
-    height:auto;
-    object-fit: cover;
-    /* position:absolute ; */
-    /* right:10%;
-    top:35%; */
+    margin-top:10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4); 
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    
+}
+.GHSmall{
+    margin-top:12vw
+}
+.Imagetext{
     text-align: center;
- }
+    
+}
+    
