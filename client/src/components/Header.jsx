@@ -19,11 +19,15 @@ import {
   DropdownMenu,
   DropdownItem,
 } from "reactstrap";
+import Fade from "react-reveal/Fade";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
+
+  const handleClick = () => setDropdown(!dropdown);
 
   return (
     <div>
@@ -45,34 +49,38 @@ const Header = () => {
               </NavLink>
             </NavItem>
             <UncontrolledDropdown className="mx-lg-2 text-center" nav inNavbar>
-              <DropdownToggle nav caret>
+              <DropdownToggle onClick={handleClick} nav caret>
                 Events
               </DropdownToggle>
-              <DropdownMenu right>
-                <a className="nav-dropdown" href="/events/khanan">
-                  <DropdownItem className="text-center">Khanan</DropdownItem>
-                </a>
-                <a className="nav-dropdown" href="/events/general">
-                  <DropdownItem className="text-center">
-                    SME General Events
-                  </DropdownItem>
-                </a>
-              </DropdownMenu>
+              <Fade timeout={400} opposite when={dropdown}>
+                <DropdownMenu right>
+                  <a className="nav-dropdown" href="/events/khanan">
+                    <DropdownItem className="text-center">Khanan</DropdownItem>
+                  </a>
+                  <a className="nav-dropdown" href="/events/general">
+                    <DropdownItem className="text-center">
+                      SME General Events
+                    </DropdownItem>
+                  </a>
+                </DropdownMenu>
+              </Fade>
             </UncontrolledDropdown>
             <UncontrolledDropdown className="mx-lg-2 text-center" nav inNavbar>
-              <DropdownToggle nav caret>
+              <DropdownToggle onClick={handleClick} nav caret>
                 Resources
               </DropdownToggle>
-              <DropdownMenu right>
-                <a className="nav-dropdown" href="/resources/blogs">
-                  <DropdownItem className="text-center">Blogs</DropdownItem>
-                </a>
-                <a className="nav-dropdown" href="/resources/calender">
-                  <DropdownItem className="text-center">
-                    Annual Calender
-                  </DropdownItem>
-                </a>
-              </DropdownMenu>
+              <Fade timeout={400} opposite when={dropdown}>
+                <DropdownMenu right>
+                  <a className="nav-dropdown" href="/resources/blogs">
+                    <DropdownItem className="text-center">Blogs</DropdownItem>
+                  </a>
+                  <a className="nav-dropdown" href="/resources/calender">
+                    <DropdownItem className="text-center">
+                      Annual Calender
+                    </DropdownItem>
+                  </a>
+                </DropdownMenu>
+              </Fade>
             </UncontrolledDropdown>
             <NavItem>
               <NavLink className="mx-lg-2 text-center" href="/team">
