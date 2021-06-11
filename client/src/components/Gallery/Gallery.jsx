@@ -1,9 +1,5 @@
 import React from "react";
 import "./gallery.css";
-import GHImage1 from "./BackgroundGalleryA.jpg";
-import GHImage2 from "./BackgroundGalleryB.jpg";
-import GHImage3 from "./BackgroundGalleryC.jpg";
-
 import {
   Card,
   CardImg,
@@ -14,6 +10,202 @@ import {
   CardTitle,
   CardText,
 } from "reactstrap";
+import GHImage1 from "./BackgroundGalleryA.jpg";
+import GHImage2 from "./BackgroundGalleryB.jpg";
+import GHImage3 from "./BackgroundGalleryC.jpg";
+import ALUMNIMEET1 from "./ALUMNIMEET/ALUMNIMEET1.jpg";
+import ALUMNIMEET2 from "./ALUMNIMEET/ALUMNIMEET2.jpg";
+import ALUMNIMEET3 from "./ALUMNIMEET/ALUMNIMEET3.jpg";
+import ALUMNIMEET4 from "./ALUMNIMEET/ALUMNIMEET4.jpg";
+import ALUMNIMEET5 from "./ALUMNIMEET/ALUMNIMEET5.jpg";
+import ALUMNIMEET6 from "./ALUMNIMEET/ALUMNIMEET6.jpg";
+import AwardsAndAppreciation1 from "./AwardsAndAppreciation/AwardsAndAppreciation1.jpg";
+import AwardsAndAppreciation2 from "./AwardsAndAppreciation/AwardsAndAppreciation2.jpg";
+import AwardsAndAppreciation3 from "./AwardsAndAppreciation/AwardsAndAppreciation3.jpg";
+import AwardsAndAppreciation4 from "./AwardsAndAppreciation/AwardsAndAppreciation4.jpg";
+import DiwaliCelebration1 from "./DiwaliCelebration/DiwaliCelebration1.jpg";
+import DiwaliCelebration2 from "./DiwaliCelebration/DiwaliCelebration2.jpg";
+import DiwaliCelebration3 from "./DiwaliCelebration/DiwaliCelebration3.jpg";
+import EssayCompetition1 from "./EssayCompetition/EssayCompetition1.jpg";
+import EssayCompetition2 from "./EssayCompetition/EssayCompetition2.jpg";
+import EssayCompetition3 from "./EssayCompetition/EssayCompetition3.jpg";
+import EssayCompetition4 from "./EssayCompetition/EssayCompetition4.jpg";
+import KHANAN181 from "./KHANAN18/KHANAN181.jpg";
+import KHANAN182 from "./KHANAN18/KHANAN182.jpg";
+import KHANAN183 from "./KHANAN18/KHANAN183.jpg";
+import KHANAN184 from "./KHANAN18/KHANAN184.jpg";
+import KHANAN185 from "./KHANAN18/KHANAN185.jpg";
+import KHANAN186 from "./KHANAN18/KHANAN186.jpg";
+import KHANAN187 from "./KHANAN18/KHANAN187.jpg";
+import KHANAN188 from "./KHANAN18/KHANAN188.jpg";
+import KHANAN189 from "./KHANAN18/KHANAN189.jpg";
+import KHANAN1810 from "./KHANAN18/KHANAN1810.jpg";
+import KHANAN1811 from "./KHANAN18/KHANAN1811.jpg";
+import Kryptos1 from "./Kryptos/Kryptos1.jpg";
+import KHANAN191 from "./KHANAN19/KHANAN191.jpg";
+import KHANAN192 from "./KHANAN19/KHANAN192.jpg";
+import KHANAN193 from "./KHANAN19/KHANAN193.jpg";
+import MiningDay191 from "./MiningDay19/MiningDay191.jpg";
+import MiningDay192 from "./MiningDay19/MiningDay192.jpg";
+import MiningDay193 from "./MiningDay19/MiningDay193.jpg";
+import MiningDay194 from "./MiningDay19/MiningDay194.jpg";
+import MiningDay195 from "./MiningDay19/MiningDay195.jpg";
+import MiningDay196 from "./MiningDay19/MiningDay196.jpg";
+import Minnovare1 from "./Minnovare/Minnovare1.jpg";
+import Minnovare2 from "./Minnovare/Minnovare2.jpg";
+import Minnovare3 from "./Minnovare/Minnovare3.jpg";
+import QuizCompetition1 from "./QuizCompetition/QuizCompetition1.jpg";
+import QuizCompetition2 from "./QuizCompetition/QuizCompetition2.jpg";
+import QuizCompetition3 from "./QuizCompetition/QuizCompetition3.jpg";
+import SMEInductions1 from "./SMEInductions/SMEInductions1.jpg";
+import SMEInductions2 from "./SMEInductions/SMEInductions2.jpg";
+import SMEInductions3 from "./SMEInductions/SMEInductions3.jpg";
+const ALLPhotos = [
+  {
+    src: ALUMNIMEET1,
+  },
+  {
+    src: ALUMNIMEET2,
+  },
+  {
+    src: ALUMNIMEET3,
+  },
+  {
+    src: ALUMNIMEET4,
+  },
+  {
+    src: ALUMNIMEET5,
+  },
+  {
+    src: ALUMNIMEET6,
+  },
+  {
+    src: AwardsAndAppreciation1,
+  },
+  {
+    src: AwardsAndAppreciation2,
+  },
+  {
+    src: AwardsAndAppreciation3,
+  },
+  {
+    src: AwardsAndAppreciation4,
+  },
+  {
+    src: DiwaliCelebration1,
+  },
+  {
+    src: DiwaliCelebration2,
+  },
+  {
+    src: DiwaliCelebration3,
+  },
+  {
+    src: EssayCompetition1,
+  },
+  {
+    src: EssayCompetition2,
+  },
+  {
+    src: EssayCompetition3,
+  },
+  {
+    src: EssayCompetition4,
+  },
+  {
+    src: KHANAN181,
+  },
+  {
+    src: KHANAN182,
+  },
+  {
+    src: KHANAN183,
+  },
+  {
+    src: KHANAN184,
+  },
+  {
+    src: KHANAN185,
+  },
+  {
+    src: KHANAN186,
+  },
+  {
+    src: KHANAN187,
+  },
+  {
+    src: KHANAN188,
+  },
+  {
+    src: KHANAN189,
+  },
+  {
+    src: KHANAN1810,
+  },
+  {
+    src: KHANAN1811,
+  },
+  {
+    src: Kryptos1,
+  },
+  {
+    src: KHANAN191,
+  },
+  {
+    src: KHANAN192,
+  },
+  {
+    src: KHANAN193,
+  },
+  {
+    src: MiningDay191,
+  },
+  {
+    src: MiningDay192,
+  },
+  {
+    src: MiningDay193,
+  },
+  {
+    src: MiningDay194,
+  },
+  {
+    src: MiningDay195,
+  },
+  {
+    src: MiningDay196,
+  },
+  {
+    src: Minnovare1,
+  },
+  {
+    src: Minnovare2,
+  },
+  {
+    src: Minnovare3,
+  },
+  {
+    src: QuizCompetition1,
+  },
+  {
+    src: QuizCompetition2,
+  },
+  {
+    src: QuizCompetition3,
+  },
+  {
+    src: SMEInductions1,
+  },
+
+  {
+    src: SMEInductions2,
+  },
+
+  {
+    src: SMEInductions3,
+  },
+];
+
 const Gallery = () => {
   return (
     <div>
@@ -75,8 +267,16 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-        <div className="row my-2 ">
-
+      </div>
+      <div className="container my-3">
+        <div className="row justify-content-between ">
+        {ALLPhotos.map((item, index) => {
+              return (
+                <div className="col my-2 GalleryAllContainer col-xs-12 col-sm-6 col-md-4 ">
+                  <img className="GalleryAllSize" src={item.src} ait=""></img>
+                </div>
+                );
+            })}
         </div>
       </div>
     </div>
