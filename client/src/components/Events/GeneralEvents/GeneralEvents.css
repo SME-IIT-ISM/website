@@ -55,3 +55,16 @@
   border-image-source: linear-gradient(to left, #081b66, #8899dd);
   border-radius: 20px;
 }
+/* for events page */
+.events-page-image {
+  width: 100%;
+  height: 60vh;
+  z-index: 4;
+}
+@media screen and (max-width: 687px) {
+  .events-page-image {
+    width: 80vw;
+    height: 60vh;
+    margin-left: 10vw;
+  }
+}

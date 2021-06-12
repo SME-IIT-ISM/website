@@ -14,17 +14,52 @@ import Img2 from "./khanan-img/2.jpg";
 import Particles from "./Particles";
 import Zoom from "react-reveal/Zoom";
 import "./khanan.css";
+import K1 from "./khanan-components/k-events/k-event-images/datagenix.jpg";
+import K2 from "./khanan-components/k-events/k-event-images/gamicon.jpg";
+import K3 from "./khanan-components/k-events/k-event-images/ideate.jpg";
+import K4 from "./khanan-components/k-events/k-event-images/khanan mafia.jpg";
+import K5 from "./khanan-components/k-events/k-event-images/minnovare.jpg";
+import K6 from "./khanan-components/k-events/k-event-images/nirvana.jpg";
+import K7 from "./khanan-components/k-events/k-event-images/placement fever.jpg";
+import K8 from "./khanan-components/k-events/k-event-images/quizzine.jpg";
+import K9 from "./khanan-components/k-events/k-event-images/workshop.jpg";
 
 const eventData = [
   {
-    src: Img1,
-    title: "Poster Competion",
-    para: "A virtual “WOMINE” event was organized on 10 April 2020 by SME IIT(ISM) Student Chapter for all the budding female engineers, who look up to a career in the mining field. The event witnessed the huge participation of girls from different institutions all over India. As event speakers, we invited some phenomenal women with extensive knowledge and years of experience in the Mining and Mineral Industry.",
+    title: "datagenix",
+    src: K1,
   },
   {
-    src: Img2,
-    title: "UPSC Career Insight",
-    para: "SME IIT(ISM) Student Chapter, in collaboration with Udaan(@udaan.iitism ), the career club of IIT(ISM) Dhanbad is organizing an event on the most prestigious examination of the country for entry into the elite civil services, UPSC. The guest speaker for the event is Mr. Jay Shivani (@jayshivani ) - IAS of batch 2019, AIR-81 in UPSC CSE 2018, currently posted as Assistant Commissioner at Dibrugarh, Assam.",
+    title: "gamicon",
+    src: K2,
+  },
+  {
+    title: "ideate",
+    src: K3,
+  },
+  {
+    title: "khanan-mafia",
+    src: K4,
+  },
+  {
+    title: "minnovare",
+    src: K5,
+  },
+  {
+    title: "nirvana",
+    src: K6,
+  },
+  {
+    title: "placement fever",
+    src: K7,
+  },
+  {
+    title: "quizzine",
+    src: K8,
+  },
+  {
+    title: "workshop ",
+    src: K9,
   },
 ];
 
