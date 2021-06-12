@@ -260,7 +260,7 @@ const Gallery = () => {
       {/* <div className="heading">
         <h1 className="text-uppercase text-center">Gallery</h1>
       </div> */}
-      <div className=" container GH-intro">
+      <div className="container GH-intro">
         <div className="row">
           <div className="col-sm">
             <Card className="GHImage1">
