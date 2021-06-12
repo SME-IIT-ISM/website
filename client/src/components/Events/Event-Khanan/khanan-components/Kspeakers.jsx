@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-
 import KhananCard from "./k-events/KhananCard";
 import S1 from "../khanan-img/vaibhav.PNG";
 import S2 from "../khanan-img/jayank.jpeg";
 import S3 from "../khanan-img/sukumar.PNG";
 import S4 from "../khanan-img/abani.jpeg";
 import S5 from "../khanan-img/amit.PNG";
+import Zoom from "react-reveal/Zoom";
 
 const speakers = [
   {
@@ -43,7 +43,9 @@ const Speakers = () => {
         {speakers.map((item) => {
           return (
             <Col xs="12" sm="6" lg="3">
-              <KhananCard title={item.title} img={item.src} />
+              <Zoom timeout={600}>
+                <KhananCard title={item.title} img={item.src} />
+              </Zoom>
             </Col>
           );
         })}

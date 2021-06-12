@@ -8,7 +8,7 @@ import Campus from "./khanan-components/CampusAmd";
 import Speakers from "./khanan-components/Kspeakers";
 import WaveAnim from "./khanan-components/WaveAnim";
 import Particles from "./Particles";
-
+import Zoom from "react-reveal/Zoom";
 import "./khanan.css";
 
 class EventKhanan extends Component {
@@ -67,11 +67,17 @@ class EventKhanan extends Component {
         <Knav />
         <KhananHeader />
         <WaveAnim />
-        <KhananContent />
+        <Zoom timeout={600}>
+          <KhananContent />
+        </Zoom>
         <Kevent />
-        <Campus />
+        <Zoom timeout={600}>
+          <Campus />
+        </Zoom>
         <Speakers />
-        <KhananSlider />
+        <Zoom timeout={600}>
+          <KhananSlider />
+        </Zoom>
       </div>
     );
   }

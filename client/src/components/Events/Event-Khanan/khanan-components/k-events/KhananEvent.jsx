@@ -10,6 +10,7 @@ import K7 from "./k-event-images/placement fever.jpg";
 import K8 from "./k-event-images/quizzine.jpg";
 import K9 from "./k-event-images/workshop.jpg";
 import KhananCard from "./KhananCard";
+import Zoom from "react-reveal/Zoom";
 
 const events = [
   {
@@ -54,7 +55,9 @@ const Kevent = () => {
         {events.map((item) => {
           return (
             <Col xs="12" sm="6" lg="4">
-              <KhananCard title={item.title} img={item.src} />
+              <Zoom timeout={600}>
+                <KhananCard title={item.title} img={item.src} />
+              </Zoom>
             </Col>
           );
         })}
