@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 // import SMEGeneralEvents from "./SMEGeneralEvents";
 import "./GeneralEvents.css";
 import {
@@ -11,7 +11,7 @@ import {
 } from "reactstrap";
 //   state = {
 //       generalEvents=[
-//           {id=1,src="./GeneralEventsImages/smeevent1",text="Every child is an artist. The problem is how to remain an artist once he grows up",heading="SME POSTER COMPETITION"},
+//           {id=1,src="./GeneralEventsImages/smeevent1",text="Every child is an artist. The problem is how to remain an artist once he grows up",heading="SME PostCard COMPETITION"},
 //           {id=2,src="./GeneralEventsImages/smeevent2",text="IIT(ISM) Student Chapter, in collaboration with Udaan(@udaan.iitism ), the career club of IIT(ISM) Dhanbad is organizing an event on the most prestigious examination of the country for entry into the elite civil services, UPSC.",heading="UPSC Career Insight"},
 //           {id=3,src="./GeneralEventsImages/smeevent3",text="Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.The internship season is imminent, but are you still struggling over its procedure, prospects and curriculum? Well, here your saviour arrives!",heading="INTERN TALKS"},
 //           {id=4,src="./GeneralEventsImages/smeevent4",text="Learning is not a destination, it's a journey, and we are here to make your success journey uncomplicated and amusing.The placement season is near, and everyone will obviously be having a hundred questions eating their head.",heading="PLACEMENT TALK"},
@@ -20,10 +20,11 @@ import {
 //       ]
 
 //   };
-const Post = (props) => {
+const EventCard = (props) => {
   const title = props.title;
   const paragraph = props.paragraph;
   const src = props.src;
+  const id = props.id;
   // className="ge-container"
   // const reference = "sme/event/"+props.title;
   return (
@@ -41,11 +42,13 @@ const Post = (props) => {
           </CardTitle>
           {/* <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle> */}
           <CardText>{paragraph}</CardText>
-          <Button>Read More</Button>
+          <a href={`/events/general/${id}`}>
+            <Button>Read More</Button>
+          </a>
         </CardBody>
       </Card>
     </div>
   );
 };
 
-export default Post;
+export default EventCard;

@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import GEImages1 from "./images/smeevent1.jpg";
 import GEImages2 from "./images/smeevent2.jpg";
@@ -9,10 +10,11 @@ import GEImages6 from "./images/smeevent6.jpg";
 import GEImages7 from "./images/smeevent7.jpg";
 import GEImages8 from "./images/smeevent8.jpg";
 import GEImages9 from "./images/smeevent9.jpg";
-import Post from "./Post";
+import EventCard from "./EventCard";
+import EventPage from "./EventPage";
 import Fade from "react-reveal/Fade";
 
-const data = [
+const eventData = [
   {
     src: GEImages1,
     title: "Poster Competion",
@@ -60,7 +62,7 @@ const data = [
   },
 ];
 
-const SMEGeneralEvents = () => {
+const HomePage = () => {
   return (
     <div>
       <div className="ge-heading-bg mt-4 d-flex align-items-center justify-content-center">
@@ -70,7 +72,7 @@ const SMEGeneralEvents = () => {
       </div>
       <Container className="my-5">
         <Row>
-          {data.map((item, index) => {
+          {eventData.map((item, index) => {
             return (
               <Col key={index} className="my-4" xs="12" lg="6">
                 <Fade
@@ -78,10 +80,11 @@ const SMEGeneralEvents = () => {
                   right={index & 1 ? true : false}
                   left={index & 1 ? false : true}
                 >
-                  <Post
+                  <EventCard
                     paragraph={item.para}
                     title={item.title}
                     src={item.src}
+                    id={index}
                   />
                 </Fade>
               </Col>
@@ -90,6 +93,22 @@ const SMEGeneralEvents = () => {
         </Row>
       </Container>
     </div>
+  );
+};
+
+const SMEGeneralEvents = (props) => {
+  return (
+    <Router>
+      <Route exact path="/events/general" component={HomePage} />
+      <Route
+        path={`/events/general/:eventId`}
+        component={(props) => (
+          <EventPage
+            eventData={eventData[parseInt(props.match.params.eventId)]}
+          />
+        )}
+      />
+    </Router>
   );
 };
 

@@ -3,6 +3,9 @@ import "./about.css";
 import { Container, Row, Col } from "reactstrap";
 import Timeline from "./Timeline";
 import Fade from "react-reveal/Fade";
+import { GiBullseye } from "react-icons/gi";
+import { FaRegEye } from "react-icons/fa";
+import { IoFlag } from "react-icons/io5";
 
 const About = () => {
   return (
@@ -41,20 +44,22 @@ const About = () => {
       </Fade>
       <Container className="my-5">
         <Row>
-          <Col xs="12" md="6">
+          <Col xs="12" md="6" className="text-center">
             <Fade timeout={500} left>
-              <h1 className="text-uppercase text-center">Vision</h1>
-              <p className="my-5 text-center">
+              <FaRegEye className="about-head-icons mb-3" />
+              <h1 className="text-uppercase">Vision</h1>
+              <p className="my-5">
                 “By 2022, be the leading Student chapter in mine planning
                 scientific and development, focussed on the needs of the mining
                 industry.”
               </p>
             </Fade>
           </Col>
-          <Col xs="12" md="6">
+          <Col xs="12" md="6" className="text-center">
             <Fade timeout={500} right>
-              <h1 className="text-uppercase text-center">Mission</h1>
-              <p className="my-5 text-center">
+              <IoFlag  className="about-head-icons mb-3" />
+              <h1 className="text-uppercase">Mission</h1>
+              <p className="my-5">
                 “To maximise tale an integral approach, and to promote minimum
                 research, corresponding to the needs of companies and society.”
               </p>
@@ -69,6 +74,7 @@ const About = () => {
               <h1 className="text-uppercase text-center">
                 Strategic objectives
               </h1>
+              <GiBullseye  className="about-head-icons" />
               <ul className="list-unstyled text-center">
                 <li className="mb-2 mt-5">
                   Strengthen the technical knowledge of students.

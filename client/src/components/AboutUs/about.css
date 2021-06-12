@@ -6,6 +6,11 @@
   height: 80vh;
 }
 
+.about-head-icons {
+  font-size: 5rem;
+  color: #374785;
+}
+
 .about-wrap {
   position: relative;
   border-radius: 0.75rem;

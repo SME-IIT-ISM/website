@@ -52,11 +52,11 @@ const Kevent = () => {
   return (
     <Container id="events">
       <Row>
-        {events.map((item) => {
+        {events.map((item, index) => {
           return (
-            <Col xs="12" sm="6" lg="4">
+            <Col xs="12" sm="6" lg="4" key={index}>
               <Zoom timeout={600}>
-                <KhananCard title={item.title} img={item.src} />
+                <KhananCard title={item.title} img={item.src} id={index} />
               </Zoom>
             </Col>
           );
