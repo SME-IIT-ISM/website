@@ -1,22 +1,24 @@
 import React, { Component } from "react";
-import GEImages1 from "./GEImage/smeevent1.jpg";
-import GEImages2 from "./GEImage/smeevent2.jpg";
-import GEImages3 from "./GEImage/smeevent3.jpg";
-import GEImages4 from "./GEImage/smeevent4.jpg";
-import GEImages5 from "./GEImage/smeevent5.jpg";
-import GEImages6 from "./GEImage/smeevent6.jpg";
-import GEImages7 from "./GEImage/smeevent7.jpg";
-import GEImages8 from "./GEImage/smeevent8.jpg";
-import GEImages9 from "./GEImage/smeevent9.jpg";
+import GEImages1 from "./images/smeevent1.jpg";
+import GEImages2 from "./images/smeevent2.jpg";
+import GEImages3 from "./images/smeevent3.jpg";
+import GEImages4 from "./images/smeevent4.jpg";
+import GEImages5 from "./images/smeevent5.jpg";
+import GEImages6 from "./images/smeevent6.jpg";
+import GEImages7 from "./images/smeevent7.jpg";
+import GEImages8 from "./images/smeevent8.jpg";
+import GEImages9 from "./images/smeevent9.jpg";
 import Posts from "./Posts";
 
 //col-6 col-md-4
 const SMEGeneralEvents = () => {
   return (
-    <div className="m-5 text-center" >
-      <h1 className="text-uppercase heading my-5 heading-block">
-        SME General Events
-      </h1>
+    <div>
+      <div className="ge-heading-bg mt-4 d-flex align-items-center justify-content-center">
+        <h1 className="page-heading text-center py-3 text-uppercase">
+          SME General Events
+        </h1>
+      </div>
       <div className="row my-5">
         <div class="col-sm">
           <Posts

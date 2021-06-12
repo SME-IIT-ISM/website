@@ -75,6 +75,16 @@ h1::after {
   margin-top: 20px;
 }
 
+.page-heading {
+  font-size: 5rem;
+  color: #374785;
+  background: rgba(247, 247, 247, 0.8);
+  width: 100vw;
+}
+h1.page-heading::after {
+  content: none;
+}
+
 .app {
   min-height: 100vh;
 }

@@ -2,26 +2,26 @@ import React from "react";
 import "./ourteam.css";
 import { Container, Row, Col } from "reactstrap";
 import { RiLinkedinBoxFill } from "react-icons/ri";
-import FacultyAdvisor from "./OfficeBearers/FacultyAdvisor.jpg";
-import President from "./OfficeBearers/President.jpg";
-import VicePresident from "./OfficeBearers/VicePresident.jpg";
-import SecretaryErra from "./OfficeBearers/SecretaryErra.jpg";
-import Secretary from "./OfficeBearers/Secretary.jpg";
-import AdSecretory from "./OfficeBearers/AdSecretory.jpg";
-import BDHead from "./OfficeBearers/BDHead.jpg";
-import EventHead from "./OfficeBearers/EventHead.jpg";
-import AdEventHead from "./OfficeBearers/AdEventHead.jpg";
-import Treasurer from "./OfficeBearers/Treasurer.jpg";
-import DesigningHead from "./OfficeBearers/DesigningHead.jpg";
-import AdDesigningHead from "./OfficeBearers/AdDesigningHead.jpg";
-import PRHead from "./OfficeBearers/PRHead.jpg";
-// import TechnicalHead from "./OfficeBearers/TechnicalHead.jpg";
-import MediaHead from "./OfficeBearers/MediaHead.jpg";
-import PromotionHead from "./OfficeBearers/PromotionHead.jpg";
-import MarketingHead from "./OfficeBearers/MarketingHead.jpg";
-import DraftingHead from "./OfficeBearers/DraftingHead.jpg";
-import MembershipHead from "./OfficeBearers/MembershipHead.jpg";
-import OurTeam1 from "./OfficeBearers/OurTeam1.jpg";
+import FacultyAdvisor from "./images/FacultyAdvisor.jpg";
+import President from "./images/President.jpg";
+import VicePresident from "./images/VicePresident.jpg";
+import SecretaryErra from "./images/SecretaryErra.jpg";
+import Secretary from "./images/Secretary.jpg";
+import AdSecretory from "./images/AdSecretory.jpg";
+import BDHead from "./images/BDHead.jpg";
+import EventHead from "./images/EventHead.jpg";
+import AdEventHead from "./images/AdEventHead.jpg";
+import Treasurer from "./images/Treasurer.jpg";
+import DesigningHead from "./images/DesigningHead.jpg";
+import AdDesigningHead from "./images/AdDesigningHead.jpg";
+import PRHead from "./images/PRHead.jpg";
+// import TechnicalHead from "./images/TechnicalHead.jpg";
+import MediaHead from "./images/MediaHead.jpg";
+import PromotionHead from "./images/PromotionHead.jpg";
+import MarketingHead from "./images/MarketingHead.jpg";
+import DraftingHead from "./images/DraftingHead.jpg";
+import MembershipHead from "./images/MembershipHead.jpg";
+import OurTeam1 from "./images/OurTeam1.jpg";
 
 const officeBearers = [
   {
@@ -161,8 +161,8 @@ const developers = [
 const OurTeam = () => {
   return (
     <div>
-      <div className="heading">
-        <h1 className="text-uppercase text-center text-center">Our Team</h1>
+      <div className="team-heading-bg mt-4 d-flex align-items-center justify-content-center">
+        <h1 className="page-heading text-center py-3 text-uppercase">Our Team</h1>
       </div>
       <div>
         <h1 className="text-uppercase text-center heading my-5 heading-block">

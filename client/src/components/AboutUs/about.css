@@ -1,4 +1,11 @@
 /* for About.js*/
+.about-heading-bg {
+  background: url("./image/about_us.svg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 80vh;
+}
+
 .about-wrap {
   position: relative;
   border-radius: 0.75rem;

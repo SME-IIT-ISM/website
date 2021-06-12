@@ -1,11 +1,11 @@
 import React from "react";
-import Blogs from "./Blogs/Blogs";
+import IndInfo from "./IndInfo/IndInfo";
 import AnnualCalender from "./Calender/AnnualCalender";
 
 const routes = [
   {
-    id: "blogs",
-    comp: Blogs,
+    id: "ind-info",
+    comp: IndInfo,
   },
   {
     id: "calender",

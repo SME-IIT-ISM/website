@@ -64,8 +64,10 @@ const Header = () => {
                 Resources
               </DropdownToggle>
               <DropdownMenu right>
-                <a className="nav-dropdown" href="/resources/blogs">
-                  <DropdownItem className="text-center">Blogs</DropdownItem>
+                <a className="nav-dropdown" href="/resources/ind-info">
+                  <DropdownItem className="text-center">
+                    Industrial Info
+                  </DropdownItem>
                 </a>
                 <a className="nav-dropdown" href="/resources/calender">
                   <DropdownItem className="text-center">

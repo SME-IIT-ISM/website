@@ -1,4 +1,11 @@
 /* for Contact.js */
+.contact-heading-bg {
+  background: url("./contact_us.svg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 80vh;
+}
+
 .map-container {
   width: 100%;
   display: block;

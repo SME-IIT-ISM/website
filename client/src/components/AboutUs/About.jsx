@@ -6,8 +6,8 @@ import Timeline from "./Timeline";
 const About = () => {
   return (
     <div>
-      <div className="heading">
-        <h1 className="text-uppercase text-center">About Us</h1>
+      <div className="about-heading-bg mt-4 d-flex align-items-center justify-content-center">
+        <h1 className="page-heading text-center py-3 text-uppercase">About Us</h1>
       </div>
       <Container className="my-5 about-content">
         <Row>

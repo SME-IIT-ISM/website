@@ -1,3 +1,10 @@
+.team-heading-bg {
+  background: url("./images/our_team.svg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 80vh;
+}
+
 /* for OurTeam*/
 .team.card {
   border: none;
