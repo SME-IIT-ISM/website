@@ -6,6 +6,7 @@ import Fade from "react-reveal/Fade";
 import { GiBullseye } from "react-icons/gi";
 import { FaRegEye } from "react-icons/fa";
 import { IoFlag } from "react-icons/io5";
+import { MdNavigation } from "react-icons/md";
 
 const About = () => {
   return (
@@ -16,11 +17,11 @@ const About = () => {
         </h1>
       </div>
       <Fade timeout={500} bottom>
-        <Container className="my-5 about-content">
+        <Container className="my-5">
           <Row>
             <Col>
               <h1 className="text-uppercase text-center">Who we are</h1>
-              <p className="my-5">
+              <p className="my-5 about-content">
                 SME IIT(ISM) Students Chapter, an IIT (ISM) Dhanbad student
                 chapter of Society for Mining, Metallurgy & Exploration was
                 inaugurated in May 2011. It was found with the sole purpose of
@@ -48,7 +49,7 @@ const About = () => {
             <Fade timeout={500} left>
               <FaRegEye className="about-head-icons mb-3" />
               <h1 className="text-uppercase">Vision</h1>
-              <p className="my-5">
+              <p className="my-5 about-content">
                 “By 2022, be the leading Student chapter in mine planning
                 scientific and development, focussed on the needs of the mining
                 industry.”
@@ -59,7 +60,7 @@ const About = () => {
             <Fade timeout={500} right>
               <IoFlag className="about-head-icons mb-3" />
               <h1 className="text-uppercase">Mission</h1>
-              <p className="my-5">
+              <p className="my-5 about-content">
                 “To maximise tale an integral approach, and to promote minimum
                 research, corresponding to the needs of companies and society.”
               </p>
@@ -73,21 +74,26 @@ const About = () => {
             <Col className="text-center">
               <GiBullseye className="about-head-icons mb-3" />
               <h1 className="text-uppercase">Strategic objectives</h1>
-              <ul className="list-unstyled">
+              <ul className="list-unstyled about-content">
                 <li className="mb-2 mt-5">
-                  Strengthen the technical knowledge of students.
+                  <MdNavigation className="list-bullet-icon" />
+                  &nbsp; Strengthen the technical knowledge of students.
                 </li>
                 <li className="my-2">
-                  Promote scientific research in students.
+                  <MdNavigation className="list-bullet-icon" />
+                  &nbsp; Promote scientific research in students.
                 </li>
                 <li className="my-2">
-                  Enhance leadership skills and integration among members.
+                  <MdNavigation className="list-bullet-icon" />
+                  &nbsp; Enhance leadership skills and integration among members.
                 </li>
                 <li className="my-2">
-                  Student representation skills and prestige to the University.
+                  <MdNavigation className="list-bullet-icon" />
+                  &nbsp; Student representation skills and prestige to the University.
                 </li>
                 <li className="my-2">
-                  Disseminate responsible mining with peruvian society.
+                  <MdNavigation className="list-bullet-icon" />
+                  &nbsp; Disseminate responsible mining with peruvian society.
                 </li>
               </ul>
             </Col>

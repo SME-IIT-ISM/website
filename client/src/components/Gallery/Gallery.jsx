@@ -1,15 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./gallery.css";
 import {
+  Container,
+  Row,
+  Col,
+  TabContent,
+  TabPane,
+  Nav,
+  NavItem,
+  NavLink,
   Card,
   CardImg,
   Button,
-  CardHeader,
-  CardFooter,
   CardBody,
   CardTitle,
-  CardText,
 } from "reactstrap";
+import classnames from "classnames";
 import GHImage1 from "./BackgroundGalleryA.jpg";
 import GHImage2 from "./BackgroundGalleryB.jpg";
 import GHImage3 from "./BackgroundGalleryC.jpg";
@@ -255,11 +261,14 @@ const ALLPhotos = [
 ];
 
 const Gallery = () => {
+  const [activeTab, setActiveTab] = useState("1");
+
+  const toggle = (tab) => {
+    if (activeTab !== tab) setActiveTab(tab);
+  };
+
   return (
     <div>
-      {/* <div className="heading">
-        <h1 className="text-uppercase text-center">Gallery</h1>
-      </div> */}
       <div className="container GH-intro">
         <div className="row">
           <div className="col-sm">
@@ -316,37 +325,314 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-
-      <div className="container my-3 ">
-        <Button outline color="primary">
-          primary
-        </Button>{" "}
-        <Button outline color="primary">
-          primary
-        </Button>{" "}
-        <Button outline color="primary">
-          primary
-        </Button>{" "}
-        <Button outline color="primary">
-          primary
-        </Button>{" "}
-        <Button outline color="primary">
-          primary
-        </Button>{" "}
-      </div>
-      <div className="container1 my-3">
-        {ALLPhotos.map((item, index) => {
-          return (
-            <div key={index} className="GalleryAllContainer1">
-              <img
-                className="GalleryAllSize1"
-                src={item.src}
-                alt={item.alt}
-              ></img>
-            </div>
-          );
-        })}
-      </div>
+      <Nav tabs className="m-4 justify-content-center">
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "1" ? "active" : ""}`}
+            onClick={() => {
+              toggle("1");
+            }}
+          >
+            All
+          </NavLink>
+        </NavItem>
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "2" ? "active" : ""}`}
+            onClick={() => {
+              toggle("2");
+            }}
+          >
+            Alumni Meet
+          </NavLink>
+        </NavItem>
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "3" ? "active" : ""}`}
+            onClick={() => {
+              toggle("3");
+            }}
+          >
+            Awards & Appreciation
+          </NavLink>
+        </NavItem>
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "4" ? "active" : ""}`}
+            onClick={() => {
+              toggle("4");
+            }}
+          >
+            Diwali
+          </NavLink>
+        </NavItem>
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "5" ? "active" : ""}`}
+            onClick={() => {
+              toggle("5");
+            }}
+          >
+            Essay Competition
+          </NavLink>
+        </NavItem>
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "6" ? "active" : ""}`}
+            onClick={() => {
+              toggle("6");
+            }}
+          >
+            Khanan'18
+          </NavLink>
+        </NavItem>
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "7" ? "active" : ""}`}
+            onClick={() => {
+              toggle("7");
+            }}
+          >
+            Khanan'19
+          </NavLink>
+        </NavItem>
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "8" ? "active" : ""}`}
+            onClick={() => {
+              toggle("8");
+            }}
+          >
+            Kryptos
+          </NavLink>
+        </NavItem>
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "9" ? "active" : ""}`}
+            onClick={() => {
+              toggle("9");
+            }}
+          >
+            Mining Day 19
+          </NavLink>
+        </NavItem>
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "10" ? "active" : ""}`}
+            onClick={() => {
+              toggle("10");
+            }}
+          >
+            Minnovare
+          </NavLink>
+        </NavItem>
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "11" ? "active" : ""}`}
+            onClick={() => {
+              toggle("11");
+            }}
+          >
+            Quiz Competition
+          </NavLink>
+        </NavItem>
+        <NavItem className="p-1">
+          <NavLink
+            className={`gallery-nav ${activeTab === "12" ? "active" : ""}`}
+            onClick={() => {
+              toggle("12");
+            }}
+          >
+            SME Inductions
+          </NavLink>
+        </NavItem>
+      </Nav>
+      <TabContent activeTab={activeTab}>
+        <TabPane tabId="1">
+          <Row>
+            <Col sm="12">
+              <div className="container1 my-3">
+                {ALLPhotos.map((item, index) => {
+                  return (
+                    <div key={index} className="GalleryAllContainer1">
+                      <img
+                        className="GalleryAllSize1"
+                        src={item.src}
+                        alt={item.alt}
+                      ></img>
+                    </div>
+                  );
+                })}
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="2">
+          <Row>
+            <Col sm="6">
+              <div className="container1 my-3">
+                <div className="GalleryAllContainer1">
+                  <img
+                    className="GalleryAllSize1"
+                    src={ALLPhotos[2].src}
+                    alt={ALLPhotos[2].alt}
+                  ></img>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="3">
+          <Row>
+            <Col sm="6">
+              <div className="container1 my-3">
+                <div className="GalleryAllContainer1">
+                  <img
+                    className="GalleryAllSize1"
+                    src={ALLPhotos[3].src}
+                    alt={ALLPhotos[3].alt}
+                  ></img>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="4">
+          <Row>
+            <Col sm="6">
+              <div className="container1 my-3">
+                <div className="GalleryAllContainer1">
+                  <img
+                    className="GalleryAllSize1"
+                    src={ALLPhotos[4].src}
+                    alt={ALLPhotos[4].alt}
+                  ></img>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="5">
+          <Row>
+            <Col sm="6">
+              <div className="container1 my-3">
+                <div className="GalleryAllContainer1">
+                  <img
+                    className="GalleryAllSize1"
+                    src={ALLPhotos[5].src}
+                    alt={ALLPhotos[5].alt}
+                  ></img>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="6">
+          <Row>
+            <Col sm="6">
+              <div className="container1 my-3">
+                <div className="GalleryAllContainer1">
+                  <img
+                    className="GalleryAllSize1"
+                    src={ALLPhotos[6].src}
+                    alt={ALLPhotos[6].alt}
+                  ></img>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="7">
+          <Row>
+            <Col sm="6">
+              <div className="container1 my-3">
+                <div className="GalleryAllContainer1">
+                  <img
+                    className="GalleryAllSize1"
+                    src={ALLPhotos[7].src}
+                    alt={ALLPhotos[7].alt}
+                  ></img>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="8">
+          <Row>
+            <Col sm="6">
+              <div className="container1 my-3">
+                <div className="GalleryAllContainer1">
+                  <img
+                    className="GalleryAllSize1"
+                    src={ALLPhotos[8].src}
+                    alt={ALLPhotos[8].alt}
+                  ></img>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="9">
+          <Row>
+            <Col sm="6">
+              <div className="container1 my-3">
+                <div className="GalleryAllContainer1">
+                  <img
+                    className="GalleryAllSize1"
+                    src={ALLPhotos[9].src}
+                    alt={ALLPhotos[9].alt}
+                  ></img>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="10">
+          <Row>
+            <Col sm="6">
+              <div className="container1 my-3">
+                <div className="GalleryAllContainer1">
+                  <img
+                    className="GalleryAllSize1"
+                    src={ALLPhotos[10].src}
+                    alt={ALLPhotos[10].alt}
+                  ></img>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="11">
+          <Row>
+            <Col sm="6">
+              <div className="container1 my-3">
+                <div className="GalleryAllContainer1">
+                  <img
+                    className="GalleryAllSize1"
+                    src={ALLPhotos[11].src}
+                    alt={ALLPhotos[11].alt}
+                  ></img>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="12">
+          <Row>
+            <Col sm="6">
+              <div className="container1 my-3">
+                <div className="GalleryAllContainer1">
+                  <img
+                    className="GalleryAllSize1"
+                    src={ALLPhotos[12].src}
+                    alt={ALLPhotos[12].alt}
+                  ></img>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </TabPane>
+      </TabContent>
     </div>
   );
 };
