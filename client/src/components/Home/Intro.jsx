@@ -11,7 +11,7 @@ const Intro = (props) => {
             <h1 className="heading text-uppercase text-center">OUR STORY</h1>
             <div className="content ">
               <p className="text-center">
-                SME IIT(ISM) Students Chapter , an IIT (ISM) Dhanbad student
+                SME IIT(ISM) Students Chapter, an IIT (ISM) Dhanbad student
                 chapter of Society for Mining, Metallurgy &amp; Exploration was
                 inaugurated in May 2011. It was found with the sole purpose of
                 kindling curiosity and interest in the minds of the students of

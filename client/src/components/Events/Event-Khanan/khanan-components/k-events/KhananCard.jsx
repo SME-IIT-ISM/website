@@ -17,7 +17,7 @@ const KhananCard = (props) => {
   const id = props.id;
   return (
     <div>
-      <a href={`/events/khanan/${id}`}>
+      <a href={`/events/khanan/${id}`} className="k-card-link">
         <Card className="kcard ">
           <CardImg
             className="kimage"

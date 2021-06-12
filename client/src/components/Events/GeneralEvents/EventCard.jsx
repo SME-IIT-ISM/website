@@ -42,9 +42,14 @@ const EventCard = (props) => {
           </CardTitle>
           {/* <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle> */}
           <CardText>{paragraph}</CardText>
-          <a href={`/events/general/${id}`}>
-            <Button>Read More</Button>
-          </a>
+          <div>
+            <a
+              className="bt bt-blue text-center"
+              href={`/events/general/${id}`}
+            >
+              Read More
+            </a>
+          </div>
         </CardBody>
       </Card>
     </div>

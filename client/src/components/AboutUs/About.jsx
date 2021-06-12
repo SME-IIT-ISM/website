@@ -21,7 +21,7 @@ const About = () => {
             <Col>
               <h1 className="text-uppercase text-center">Who we are</h1>
               <p className="my-5">
-                SME IIT(ISM) Students Chapter , an IIT (ISM) Dhanbad student
+                SME IIT(ISM) Students Chapter, an IIT (ISM) Dhanbad student
                 chapter of Society for Mining, Metallurgy & Exploration was
                 inaugurated in May 2011. It was found with the sole purpose of
                 kindling curiosity and interest in the minds of the students of
@@ -33,10 +33,10 @@ const About = () => {
                 experience and knowledge. The members all aim to inculcate the
                 virtues of professional attitude and involvement towards mining.
                 We put in our best efforts to provide the members with ample
-                global exposure , so that they can learn and adapt themselves
+                global exposure, so that they can learn and adapt themselves
                 according to the rapid developments the sector is going through,
                 and attain enough self-confidence to walk beside the leaders of
-                mining in the world
+                mining in the world.
               </p>
             </Col>
           </Row>
@@ -57,7 +57,7 @@ const About = () => {
           </Col>
           <Col xs="12" md="6" className="text-center">
             <Fade timeout={500} right>
-              <IoFlag  className="about-head-icons mb-3" />
+              <IoFlag className="about-head-icons mb-3" />
               <h1 className="text-uppercase">Mission</h1>
               <p className="my-5">
                 “To maximise tale an integral approach, and to promote minimum
@@ -70,12 +70,10 @@ const About = () => {
       <Fade timeout={500} bottom>
         <Container className="my-5">
           <Row>
-            <Col>
-              <h1 className="text-uppercase text-center">
-                Strategic objectives
-              </h1>
-              <GiBullseye  className="about-head-icons" />
-              <ul className="list-unstyled text-center">
+            <Col className="text-center">
+              <GiBullseye className="about-head-icons mb-3" />
+              <h1 className="text-uppercase">Strategic objectives</h1>
+              <ul className="list-unstyled">
                 <li className="mb-2 mt-5">
                   Strengthen the technical knowledge of students.
                 </li>

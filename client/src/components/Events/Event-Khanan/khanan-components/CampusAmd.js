@@ -3,9 +3,9 @@ import { Container, Row, Col } from "reactstrap";
 
 const Campus = () => {
   return (
-    <Container className="campus" id="campus">
+    <Container className="campus my-5" id="campus">
       <Row>
-        <Col className="campus-text">
+        <Col className="campus-text p-3">
           <p>
             Looking for a chance to lead your college? Register for campus
             ambassador now and get a chance to be an extended part of organizing
@@ -15,7 +15,7 @@ const Campus = () => {
             everyone there gets to know about it. Bear the responsibility and
             get ready for a thrilling experience.
           </p>
-          <a className="bt custom-button-campus  " href="/">
+          <a className="bt custom-button-campus" href="/">
             REGISTER
           </a>
         </Col>

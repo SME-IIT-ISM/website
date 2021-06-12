@@ -14,7 +14,8 @@ html,
 body {
   max-width: 100%;
   height: 100%;
-  color: rgb(26, 26, 26);
+  color: #252f36;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 body {

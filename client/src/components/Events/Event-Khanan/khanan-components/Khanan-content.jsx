@@ -3,9 +3,9 @@ import { Container, Row, Col } from "reactstrap";
 
 const KhananContent = () => {
   return (
-    <Container className="k-content">
+    <Container className="k-content my-5">
       <Row>
-        <Col className="k-content-text">
+        <Col className="k-content-text p-3">
           <p>
             KHANAN 2020”, the biggest Mining Fest in India, aims to bring the
             students from several institutions offering mining and allied

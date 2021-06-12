@@ -80,7 +80,7 @@ const options = {
 class KhananSlider extends React.Component {
   render() {
     return (
-      <div className="main-content mt-5" id="gallery">
+      <div className="main-content py-5" id="gallery">
         <OwlCarousel className="slider-items owl-carousel" {...options}>
           {Kslider}
         </OwlCarousel>

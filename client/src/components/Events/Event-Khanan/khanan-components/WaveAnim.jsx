@@ -15,7 +15,11 @@ class WaveAnim extends Component {
 
     return (
       <div>
-        <Lottie options={defaultOptions} height="auto" />
+        <Lottie
+          options={defaultOptions}
+          height="auto"
+          isClickToPauseDisabled={true}
+        />
       </div>
     );
   }

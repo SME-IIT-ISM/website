@@ -1,12 +1,8 @@
 import React from "react";
+import Error404 from "../../Error404/Error404";
 
 const EventPage = (props) => {
-  if (props.eventData === undefined)
-    return (
-      <div>
-        <h1>No such event is found</h1>
-      </div>
-    );
+  if (props.eventData === undefined) return <Error404 msg="Unexisting Event" />;
 
   //   const src = props.eventData.src;
   const title = props.eventData.title;
