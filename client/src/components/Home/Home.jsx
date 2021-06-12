@@ -7,6 +7,7 @@ import Sponser from "./Sponser";
 import OverlayText from "./OverlayText";
 import Youtube from "./Youtube";
 import SME from "./Sme";
+import Fade from "react-reveal/Fade";
 
 class Home extends Component {
   state = { width: 800, height: 800 };
@@ -52,23 +53,35 @@ class Home extends Component {
       <div className="Home">
         <CarouselContainer />
         <br />
-        <Intro />
+        <Fade bottom timeout={500}>
+          <Intro />
+        </Fade>
         <br />
         <br />
-        <OverlayText />
-        <br />
-        <br />
-        <br />
-        <IndInfoSlider />
-        <br />
-        <br />
-        <br />
-        <Youtube />
+        <Fade bottom timeout={500}>
+          <OverlayText />
+        </Fade>
         <br />
         <br />
         <br />
-        <SME />
-        <Sponser />
+        <Fade bottom timeout={500}>
+          <IndInfoSlider />
+        </Fade>
+        <br />
+        <br />
+        <br />
+        <Fade bottom timeout={500}>
+          <Youtube />
+        </Fade>
+        <br />
+        <br />
+        <br />
+        <Fade bottom timeout={500}>
+          <SME />
+        </Fade>
+        <Fade bottom timeout={500}>
+          <Sponser />
+        </Fade>
       </div>
     );
   }
