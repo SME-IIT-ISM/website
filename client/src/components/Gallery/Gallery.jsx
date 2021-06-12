@@ -60,149 +60,197 @@ import QuizCompetition3 from "./QuizCompetition/QuizCompetition3.jpg";
 import SMEInductions1 from "./SMEInductions/SMEInductions1.jpg";
 import SMEInductions2 from "./SMEInductions/SMEInductions2.jpg";
 import SMEInductions3 from "./SMEInductions/SMEInductions3.jpg";
+
 const ALLPhotos = [
   {
     src: ALUMNIMEET1,
+    alt: "ALUMNIMEET1",
   },
   {
     src: ALUMNIMEET2,
+    alt: "ALUMNIMEET2",
   },
   {
     src: ALUMNIMEET3,
+    alt: "ALUMNIMEET3",
   },
   {
     src: ALUMNIMEET4,
+    alt: "ALUMNIMEET4",
   },
   {
     src: ALUMNIMEET5,
+    alt: "ALUMNIMEET5",
   },
   {
     src: ALUMNIMEET6,
+    alt: "ALUMNIMEET6",
   },
   {
     src: AwardsAndAppreciation1,
+    alt: "AwardsAndAppreciation1",
   },
   {
     src: AwardsAndAppreciation2,
+    alt: "AwardsAndAppreciation2",
   },
   {
     src: AwardsAndAppreciation3,
+    alt: "AwardsAndAppreciation3",
   },
   {
     src: AwardsAndAppreciation4,
+    alt: "AwardsAndAppreciation4",
   },
   {
     src: DiwaliCelebration1,
+    alt: "DiwaliCelebration1",
   },
   {
     src: DiwaliCelebration2,
+    alt: "DiwaliCelebration2",
   },
   {
     src: DiwaliCelebration3,
+    alt: "DiwaliCelebration3",
   },
   {
     src: EssayCompetition1,
+    alt: "EssayCompetition1",
   },
   {
     src: EssayCompetition2,
+    alt: "EssayCompetition2",
   },
   {
     src: EssayCompetition3,
+    alt: "EssayCompetition3",
   },
   {
     src: EssayCompetition4,
+    alt: "EssayCompetition4",
   },
   {
     src: KHANAN181,
+    alt: "KHANAN181",
   },
   {
     src: KHANAN182,
+    alt: "KHANAN182",
   },
   {
     src: KHANAN183,
+    alt: "KHANAN183",
   },
   {
     src: KHANAN184,
+    alt: "KHANAN184",
   },
   {
     src: KHANAN185,
+    alt: "KHANAN185",
   },
   {
     src: KHANAN186,
+    alt: "KHANAN186",
   },
   {
     src: KHANAN187,
+    alt: "KHANAN187",
   },
   {
     src: KHANAN188,
+    alt: "KHANAN188",
   },
   {
     src: KHANAN189,
+    alt: "KHANAN189",
   },
   {
     src: KHANAN1810,
+    alt: "KHANAN1810",
   },
   {
     src: KHANAN1811,
+    alt: "KHANAN1811",
   },
   {
     src: Kryptos1,
+    alt: "Kryptos1",
   },
   {
     src: KHANAN191,
+    alt: "KHANAN191",
   },
   {
     src: KHANAN192,
+    alt: "KHANAN192",
   },
   {
     src: KHANAN193,
+    alt: "KHANAN193",
   },
   {
     src: MiningDay191,
+    alt: "MiningDay191",
   },
   {
     src: MiningDay192,
+    alt: "MiningDay192",
   },
   {
     src: MiningDay193,
+    alt: "MiningDay193",
   },
   {
     src: MiningDay194,
+    alt: "MiningDay194",
   },
   {
     src: MiningDay195,
+    alt: "MiningDay195",
   },
   {
     src: MiningDay196,
+    alt: "MiningDay196",
   },
   {
     src: Minnovare1,
+    alt: "Minnovare1",
   },
   {
     src: Minnovare2,
+    alt: "Minnovare2",
   },
   {
     src: Minnovare3,
+    alt: "Minnovare3",
   },
   {
     src: QuizCompetition1,
+    alt: "QuizCompetition1",
   },
   {
     src: QuizCompetition2,
+    alt: "QuizCompetition2",
   },
   {
     src: QuizCompetition3,
+    alt: "QuizCompetition3",
   },
   {
     src: SMEInductions1,
+    alt: "SMEInductions1",
   },
 
   {
     src: SMEInductions2,
+    alt: "SMEInductions2",
   },
 
   {
     src: SMEInductions3,
+    alt: "SMEInductions3",
   },
 ];
 
@@ -212,7 +260,7 @@ const Gallery = () => {
       <div className="heading">
         <h1 className="text-uppercase text-center">Gallery</h1>
       </div>
-      <div className=" container GH-intro">
+      <div className="container GH-intro">
         <div className="row">
           <div className="col-sm">
             <Card className="GHImage1">
@@ -269,14 +317,17 @@ const Gallery = () => {
         </div>
       </div>
       <div className="container my-3">
-        <div className="row justify-content-between ">
-        {ALLPhotos.map((item, index) => {
-              return (
-                <div className="col my-2 GalleryAllContainer   col-md-4 col-sm-6">
-                  <img className="GalleryAllSize" src={item.src} ait=""></img>
-                </div>
-                );
-            })}
+        <div className="row justify-content-between">
+          {ALLPhotos.map((item, index) => {
+            return (
+              <div
+                key={index}
+                className="col my-2 GalleryAllContainer col-md-4 col-sm-6"
+              >
+                <img className="GalleryAllSize" src={item.src} alt={item.alt} />
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
