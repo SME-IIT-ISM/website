@@ -35,9 +35,12 @@
 }
 
 .about-content {
-  position: relative;
-  z-index: 2;
+  font-size: 1.3rem;
 }
 .page {
   background-image: url("./image/81634.jpg");
+}
+
+.list-bullet-icon {
+  transform: rotate(90deg);
 }

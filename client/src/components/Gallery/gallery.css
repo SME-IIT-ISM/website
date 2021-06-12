@@ -1,3 +1,25 @@
+.nav-tabs {
+  border: 0;
+}
+.nav-tabs .nav-link.gallery-nav {
+  margin-bottom: 0;
+  background: 0 0;
+  border: 1px solid #374785;
+  color: #374785 !important;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+.nav-tabs .nav-link.gallery-nav:hover {
+  background-color: rgb(55, 71, 133);
+  color: white !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-tabs .nav-link.gallery-nav.active {
+  background-color: rgb(55, 71, 133);
+  color: white !important;
+}
+
 .GH-intro {
   background: url(./BackgroundGallery.jpg) no-repeat;
   max-width: 100vw;
