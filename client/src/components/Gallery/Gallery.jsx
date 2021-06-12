@@ -257,10 +257,10 @@ const ALLPhotos = [
 const Gallery = () => {
   return (
     <div>
-      <div className="heading">
+      {/* <div className="heading">
         <h1 className="text-uppercase text-center">Gallery</h1>
-      </div>
-      <div className="container GH-intro">
+      </div> */}
+      <div className=" container GH-intro">
         <div className="row">
           <div className="col-sm">
             <Card className="GHImage1">
@@ -316,19 +316,36 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <div className="container my-3">
-        <div className="row justify-content-between">
-          {ALLPhotos.map((item, index) => {
-            return (
-              <div
-                key={index}
-                className="col my-2 GalleryAllContainer col-md-4 col-sm-6"
-              >
-                <img className="GalleryAllSize" src={item.src} alt={item.alt} />
-              </div>
-            );
-          })}
-        </div>
+
+      <div className="container my-3 ">
+        <Button outline color="primary">
+          primary
+        </Button>{" "}
+        <Button outline color="primary">
+          primary
+        </Button>{" "}
+        <Button outline color="primary">
+          primary
+        </Button>{" "}
+        <Button outline color="primary">
+          primary
+        </Button>{" "}
+        <Button outline color="primary">
+          primary
+        </Button>{" "}
+      </div>
+      <div className="container1 my-3">
+        {ALLPhotos.map((item, index) => {
+          return (
+            <div key={index} className="GalleryAllContainer1">
+              <img
+                className="GalleryAllSize1"
+                src={item.src}
+                alt={item.alt}
+              ></img>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
