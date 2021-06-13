@@ -162,7 +162,9 @@ const OurTeam = () => {
   return (
     <div>
       <div className="team-heading-bg mt-4 d-flex align-items-center justify-content-center">
-        <h1 className="page-heading text-center py-3 text-uppercase">Our Team</h1>
+        <h1 className="page-heading text-center py-3 text-uppercase">
+          Our Team
+        </h1>
       </div>
       <div>
         <h1 className="text-uppercase text-center heading my-5 heading-block">
@@ -189,7 +191,7 @@ const OurTeam = () => {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Dheeraj Kumar</h5>
-                  <p className="card-text">Faculty Advisor</p>
+                  <p className="card-text text-secondary">Faculty Advisor</p>
                 </div>
               </div>
             </Col>
@@ -215,7 +217,9 @@ const OurTeam = () => {
                       </a>
                     </div>
                     <div className="card-body">
-                      <h5 className="card-title">{item.name}</h5>
+                      <h5 className="card-title">
+                        <b>{item.name}</b>
+                      </h5>
                       <p className="card-text">{item.position}</p>
                     </div>
                   </div>
@@ -252,7 +256,9 @@ const OurTeam = () => {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">{item.name}</h5>
-                      <p className="card-text">{item.position}</p>
+                      <p className="card-text text-secondary">
+                        {item.position}
+                      </p>
                     </div>
                   </div>
                 </Col>
@@ -288,7 +294,9 @@ const OurTeam = () => {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">{item.name}</h5>
-                      <p className="card-text">{item.position}</p>
+                      <p className="card-text text-secondary">
+                        {item.position}
+                      </p>
                     </div>
                   </div>
                 </Col>
