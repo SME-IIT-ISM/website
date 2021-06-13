@@ -9,8 +9,6 @@ import Speakers from "./khanan-components/Kspeakers";
 import WaveAnim from "./khanan-components/WaveAnim";
 import EventPage from "./EventPage";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Img1 from "./khanan-img/1.jpg";
-import Img2 from "./khanan-img/2.jpg";
 import Particles from "./Particles";
 import Zoom from "react-reveal/Zoom";
 import "./khanan.css";
@@ -118,7 +116,7 @@ class EventKhanan extends Component {
     };
 
     const scrollFunction = () => {
-      if (this.state.width > 767 && document.documentElement.scrollTop < 200) {
+      if (this.state.width > 767 && document.documentElement.scrollTop < 150) {
         document.querySelector(".navbar").classList.add("transparent-navbar");
       } else {
         document
