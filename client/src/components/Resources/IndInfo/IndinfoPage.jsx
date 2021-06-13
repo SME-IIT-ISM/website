@@ -21,6 +21,11 @@ const InfoPage = (props) => {
           <p>{para}</p>
         </Col>
       </Row>
+      <Row>
+        <h5>
+          <a href="/resources/ind-info">Back</a>
+        </h5>
+      </Row>
     </Container>
   );
 };

@@ -7,12 +7,14 @@ import Fade from "react-reveal/Fade";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import InfoPage from "./IndinfoPage";
 
-const infoData = [
+const latest = [
   {
     src: Info,
     title: "Poster Competion",
     para: "A virtual “WOMINE” event was organized on 10 April 2020 by SME IIT(ISM) Student Chapter for all the budding female engineers, who look up to a career in the mining field. The event witnessed the huge participation of girls from different institutions all over India. As event speakers, we invited some phenomenal women with extensive knowledge and years of experience in the Mining and Mineral Industry.",
   },
+];
+const infoData = [
   {
     src: Info,
     title: "UPSC Career Insight",
@@ -40,24 +42,60 @@ const Blog = () => {
       </div>
       <Container>
         <Row>
-          {infoData.map((item, index) => {
+          {latest.map((item, index) => {
             return (
-              <Col key={index} className="my-4" xs="12" lg="6">
+              <Col key={index}>
                 <Fade
                   timeout={500}
                   right={index & 1 ? true : false}
                   left={index & 1 ? false : true}
                 >
-                  <InfoCardL
-                    para={item.para}
-                    title={item.title}
-                    src={item.src}
-                    id={index}
-                  />
+                  <div>
+                    <InfoCardL
+                      para={item.para}
+                      title={item.title}
+                      src={item.src}
+                      id={index}
+                      cls="latest"
+                      cli="img-latest"
+                    />
+                  </div>
                 </Fade>
               </Col>
             );
           })}
+        </Row>
+        <br />
+        <br />
+        <Row>
+          <div className="info-section">
+            {infoData.map((item, index) => {
+              return (
+                <Container>
+                  <Row>
+                    <Col key={index}>
+                      <Fade
+                        timeout={500}
+                        right={index & 1 ? true : false}
+                        left={index & 1 ? false : true}
+                      >
+                        <div className="old">
+                          <InfoCardL
+                            para={item.para}
+                            title={item.title}
+                            src={item.src}
+                            id={index}
+                            cls="old"
+                            cli="img-old"
+                          />
+                        </div>
+                      </Fade>
+                    </Col>
+                  </Row>
+                </Container>
+              );
+            })}
+          </div>
         </Row>
       </Container>
     </div>

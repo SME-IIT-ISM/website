@@ -8,28 +8,21 @@ const InfoCardL = (props) => {
   const para = props.para;
   const src = props.src;
   const id = props.id;
+  const cls = props.cls;
+  const cli = props.cli;
   return (
     <div>
       <Container>
-        <Row>
+        <Row className={cls}>
           <Col>
-            <img src={src} />
+            <img className={cli} src={src} />
           </Col>
-          <Col>
-            <Container>
-              <Row>
-                <Col>{title}</Col>
-              </Row>
-              <Row>
-                <Col>{para}</Col>
-              </Row>
-              <a
-                className="bt bt-blue text-center"
-                href={`/resources/ind-info/${id}`}
-              >
-                Read More
-              </a>
-            </Container>
+          <Col className={cli}>
+            <h2>{title}</h2>
+            <p>{para}</p>
+            <h4>
+              <a href={`/resources/ind-info/${id}`}>Read More</a>
+            </h4>
           </Col>
         </Row>
       </Container>
