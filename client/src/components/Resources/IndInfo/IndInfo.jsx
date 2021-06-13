@@ -49,7 +49,7 @@ const Blog = () => {
                   left={index & 1 ? false : true}
                 >
                   <InfoCardL
-                    paragraph={item.para}
+                    para={item.para}
                     title={item.title}
                     src={item.src}
                     id={index}
@@ -69,11 +69,9 @@ const Blogs = (props) => {
     <Router>
       <Route exact path="/resources/ind-info" component={Blog} />
       <Route
-        path={`/resources/blogs/:eventId`}
+        path={`/resources/ind-info/:eventId`}
         component={(props) => (
-          <InfoPage
-            eventData={infoData[parseInt(props.match.params.eventId)]}
-          />
+          <InfoPage infoData={infoData[parseInt(props.match.params.eventId)]} />
         )}
       />
     </Router>

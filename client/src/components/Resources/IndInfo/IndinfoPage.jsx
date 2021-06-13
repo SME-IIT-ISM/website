@@ -3,11 +3,11 @@ import Error404 from "../../Error404/Error404";
 import { Container, Row, Col } from "reactstrap";
 
 const InfoPage = (props) => {
-  if (props.eventData === undefined) return <Error404 msg="Unexisting Event" />;
+  if (props.infoData === undefined) return <Error404 msg="Unexisting Event" />;
 
-  const src = props.eventData.src;
-  const title = props.eventData.title;
-  const para = props.eventData.para;
+  const src = props.infoData.src;
+  const title = props.infoData.title;
+  const para = props.infoData.para;
   return (
     <Container className="mt-5 mb-5 events-page">
       <Row>

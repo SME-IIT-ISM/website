@@ -25,7 +25,7 @@ const InfoCardL = (props) => {
               </Row>
               <a
                 className="bt bt-blue text-center"
-                href={`/resouces/ind-info/${id}`}
+                href={`/resources/ind-info/${id}`}
               >
                 Read More
               </a>
