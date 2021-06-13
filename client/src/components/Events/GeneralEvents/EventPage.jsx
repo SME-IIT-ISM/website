@@ -40,8 +40,8 @@ const EventPage = (props) => {
               </Col>
               <Col className="text-center mt-4">
                 <b>
-                  <p>time:{time}</p>
-                  <p>date:{date}</p>
+                  <p>time:&nbsp;{time}</p>
+                  <p>date:&nbsp;{date}</p>
                   <p>Contact on:</p>
                   <p>{contact1}</p>
                   <p>{contact2}</p>

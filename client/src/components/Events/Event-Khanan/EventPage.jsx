@@ -10,11 +10,11 @@ const EventPage = (props) => {
   const para = props.eventData.para;
 
   return (
-    <Container>
+    <Container className="mt-5">
       <Row>
-        <Col>
-          <h1>{title}</h1>
+        <Col className="text-center">
           <img src={src} />
+          <h1>{title}</h1>
         </Col>
       </Row>
       <Row>
