@@ -11,24 +11,6 @@ const EventPage = (props) => {
   const para = props.eventData.para;
 
   return (
-<<<<<<< HEAD
-    <Container className="mt-5">
-      <Row>
-        <Col className="text-center">
-          <img src={src} />
-          <h1>{title}</h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <p>{para}</p>
-          <div>
-            <a href="/events/khanan">Back</a>
-          </div>
-        </Col>
-      </Row>
-    </Container>
-=======
     <div style={{ backgroundColor: "black" }}>
       <Particles />
       <Container style={{ paddingTop: "150px", position: "relative" }}>
@@ -48,7 +30,6 @@ const EventPage = (props) => {
         </Row>
       </Container>
     </div>
->>>>>>> 884e002c3b0aba2e1ad609f9f31ca522971eb4e5
   );
 };
 
