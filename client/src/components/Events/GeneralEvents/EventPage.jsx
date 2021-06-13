@@ -16,7 +16,7 @@ const EventPage = (props) => {
     <Container className="mt-5 mb-5 events-page">
       <Row>
         <Col className="justify-content-center">
-          <img className="events-page-image" src={src} />
+          <img className="events-page-image" src={src} alt={title} />
         </Col>
         <Col>
           <Container className="event-page-content">

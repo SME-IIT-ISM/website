@@ -248,6 +248,7 @@ a.nav-dropdown {
 /* for Footer.js */
 .footer {
   background-color: rgb(55, 71, 133);
+  position: sticky;
 }
 
 .copyright {

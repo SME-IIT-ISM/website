@@ -9,11 +9,13 @@ class Canvas extends Component {
           position: "fixed",
           top: 0,
           left: 0,
-          width: "100%",
-          height: "100%",
+          width: "100vw",
+          height: "100vh",
         }}
       >
         <Particles
+          width="100vw"
+          height="100vh"
           params={{
             particles: {
               number: {
