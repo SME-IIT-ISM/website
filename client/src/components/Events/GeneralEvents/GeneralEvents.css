@@ -61,7 +61,7 @@
   height: 60vh;
   z-index: 4;
 }
-@media screen and (max-width: 687px) {
+@media screen and (max-width: 767px) {
   .events-page-image {
     width: 80vw;
     height: 60vh;

@@ -4,3 +4,25 @@
   background-position: center;
   height: 80vh;
 }
+.latest {
+  height: 60vh;
+  width: 80vw;
+}
+.old {
+  height: 30vh;
+  width: 80vw;
+  margin-top: 13vh;
+}
+.img-latest {
+  width: 80vw;
+  height: 60vh;
+  margin-top: 5vh;
+}
+.img-old {
+  width: 40vw;
+  height: 30vh;
+}
+.info-section {
+  margin-top: 30vh;
+  margin-bottom: 5vh;
+}
