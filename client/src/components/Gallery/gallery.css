@@ -58,7 +58,7 @@
   margin-top: 5vw;
 }
 .GHText1 {
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   animation-name: GUIMoveLeft;
   animation-duration: 2s;
 }
@@ -74,7 +74,7 @@
 }
 .GHText2 {
   margin-top: 2vw;
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   animation-name: GUIMoveRight;
   animation-duration: 2s;
 }
@@ -93,18 +93,21 @@
   text-align: center;
 }
 .GalleryAllContainer {
-  display: inline-block;
+  /* display: inline-block; */
   margin-bottom: 10px;
   overflow: hidden;
+ 
+  
 }
 
 .GalleryAllSize {
   width: 30vw;
   height: auto;
-  margin: auto;
+  margin: 10px auto ;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   object-fit: fill;
+
 }
 .GalleryAllSize:hover {
   transform: scale(1.05);
@@ -119,18 +122,26 @@
   -webkit-filter: grayscale(1);
 }
 .container1 {
-  position: relative;
+  /* position: relative; */
   column-count: 3;
   padding: 20px;
+ 
+ 
 }
 
 @media screen and (max-width: 992px) {
   .container1 {
     column-count: 2;
   }
+  .GalleryAllSize{
+    width: 40vw;
+  }
 }
 @media screen and (max-width: 576px) {
   .container1 {
     column-count: 1;
+  }
+  .GalleryAllSize{
+    width: 80vw;
   }
 }

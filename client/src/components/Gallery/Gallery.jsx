@@ -398,7 +398,7 @@ const Gallery = () => {
                         (item) => item.event === tabs[id + 1]
                       ).map((item, index) => {
                         return (
-                          <div key={index} className="GalleryAllContainer">
+                          <div key={index} className="GalleryAllContainer ">
                             <img
                               className="GalleryAllSize"
                               src={item.src}
