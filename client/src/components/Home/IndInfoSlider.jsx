@@ -12,6 +12,7 @@ import {
   Button,
 } from "reactstrap";
 import SampleImg from "./image/blog-sample.jpg";
+import { infoData } from "../Resources/IndInfo/IndInfo";
 
 // blog options
 const items = [
@@ -35,7 +36,7 @@ const items = [
   },
 ];
 
-const slides = items.map((item, index) => {
+const slides = infoData.map((item, index) => {
   return (
     <div className="iis-slider-item" key={index}>
       <Card className="iss">
