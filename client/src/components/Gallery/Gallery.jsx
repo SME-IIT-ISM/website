@@ -320,7 +320,7 @@ const Gallery = () => {
   };
 
   return (
-    <div>
+    <div className="wholeContainer">
       <Container className="GH-intro">
         <Row className="pt-md-5">
           <Col
