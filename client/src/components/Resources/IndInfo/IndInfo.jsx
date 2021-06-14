@@ -50,7 +50,7 @@ const Blog = () => {
                   right={index & 1 ? true : false}
                   left={index & 1 ? false : true}
                 >
-                  <div>
+                  <div className="info-old-main">
                     <InfoCardL
                       para={item.para}
                       title={item.title}
@@ -66,7 +66,6 @@ const Blog = () => {
           })}
         </Row>
         <br />
-        <br />
         <Row>
           <div className="info-section">
             {infoData.map((item, index) => {
@@ -81,7 +80,7 @@ const Blog = () => {
                       >
                         <div className="old">
                           <InfoCardL
-                            para={item.para}
+                            // para={item.para}
                             title={item.title}
                             src={item.src}
                             id={index}

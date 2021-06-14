@@ -11,12 +11,12 @@
 .old {
   height: 30vh;
   width: 80vw;
-  margin-top: 13vh;
+  margin-top: 8vh;
 }
 .img-latest {
   width: 80vw;
   height: 60vh;
-  margin-top: 5vh;
+  margin-top: 3vh;
 }
 .img-old {
   width: 40vw;
@@ -25,4 +25,27 @@
 .info-section {
   margin-top: 30vh;
   margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 767px) {
+  .old {
+    width: 80vw;
+    margin-bottom: 10vh;
+    transform: translateY(25px);
+  }
+  .img-old {
+    width: 80vw;
+  }
+  .page-heading {
+    font-size: 1.3rem;
+  }
+  .container {
+    max-width: auto !important;
+  }
+  .latest p {
+    display: none;
+  }
+  .latest {
+    height: 60vh;
+  }
 }
