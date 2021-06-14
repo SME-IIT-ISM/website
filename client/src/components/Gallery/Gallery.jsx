@@ -354,7 +354,7 @@ const Gallery = () => {
           return (
             <NavItem className="p-1">
               <NavLink
-                className={`gallery-nav ${activeTab === index ? "active" : ""}`}
+                className={`tabs-navi ${activeTab === index ? "active" : ""}`}
                 onClick={() => {
                   toggle(index);
                 }}

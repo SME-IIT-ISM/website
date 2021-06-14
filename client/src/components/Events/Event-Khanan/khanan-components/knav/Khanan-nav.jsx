@@ -19,7 +19,7 @@ const Knav = () => {
           <a className="knav-image" href="#events">
             <div className="knav-content">
               <RiCalendarEventFill />
-              <span>Event</span>
+              <span>Events</span>
             </div>
           </a>
         </li>
@@ -28,7 +28,7 @@ const Knav = () => {
             <div className="knav-content">
               <IoTrophySharp />
               <span>
-                Campus <br /> Ambassador
+                Campus<br />Ambassador
               </span>
             </div>
           </a>

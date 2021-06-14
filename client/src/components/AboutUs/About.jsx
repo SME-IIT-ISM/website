@@ -20,8 +20,8 @@ const About = () => {
         <Container className="my-5">
           <Row>
             <Col>
-              <h1 className="text-uppercase text-center">Who we are</h1>
-              <p className="my-5 about-content">
+              <h1 className="text-uppercase text-center heading">Who we are</h1>
+              <p className="my-5 content">
                 SME IIT(ISM) Students Chapter, an IIT (ISM) Dhanbad student
                 chapter of Society for Mining, Metallurgy & Exploration was
                 inaugurated in May 2011. It was found with the sole purpose of
@@ -48,8 +48,8 @@ const About = () => {
           <Col xs="12" md="6" className="text-center">
             <Fade timeout={500} left>
               <FaRegEye className="about-head-icons mb-3" />
-              <h1 className="text-uppercase">Vision</h1>
-              <p className="my-5 about-content">
+              <h1 className="text-uppercase heading">Vision</h1>
+              <p className="my-5 content">
                 “By 2022, be the leading Student chapter in mine planning
                 scientific and development, focussed on the needs of the mining
                 industry.”
@@ -59,8 +59,8 @@ const About = () => {
           <Col xs="12" md="6" className="text-center">
             <Fade timeout={500} right>
               <IoFlag className="about-head-icons mb-3" />
-              <h1 className="text-uppercase">Mission</h1>
-              <p className="my-5 about-content">
+              <h1 className="text-uppercase heading">Mission</h1>
+              <p className="my-5 content">
                 “To maximise tale an integral approach, and to promote minimum
                 research, corresponding to the needs of companies and society.”
               </p>
@@ -73,8 +73,8 @@ const About = () => {
           <Row>
             <Col className="text-center">
               <GiBullseye className="about-head-icons mb-3" />
-              <h1 className="text-uppercase">Strategic objectives</h1>
-              <ul className="list-unstyled about-content">
+              <h1 className="text-uppercase heading">Strategic objectives</h1>
+              <ul className="list-unstyled content">
                 <li className="mb-2 mt-5">
                   <MdNavigation className="list-bullet-icon" />
                   &nbsp; Strengthen the technical knowledge of students.
@@ -85,11 +85,13 @@ const About = () => {
                 </li>
                 <li className="my-2">
                   <MdNavigation className="list-bullet-icon" />
-                  &nbsp; Enhance leadership skills and integration among members.
+                  &nbsp; Enhance leadership skills and integration among
+                  members.
                 </li>
                 <li className="my-2">
                   <MdNavigation className="list-bullet-icon" />
-                  &nbsp; Student representation skills and prestige to the University.
+                  &nbsp; Student representation skills and prestige to the
+                  University.
                 </li>
                 <li className="my-2">
                   <MdNavigation className="list-bullet-icon" />
