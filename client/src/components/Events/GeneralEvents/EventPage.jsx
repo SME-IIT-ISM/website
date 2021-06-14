@@ -12,6 +12,7 @@ const EventPage = (props) => {
   const time = props.eventData.time;
   const contact1 = props.eventData.contact1;
   const contact2 = props.eventData.contact2;
+  const tab = props.eventData.tab;
   return (
     <Container className="mt-5 mb-5 events-page">
       <Row>
@@ -22,22 +23,24 @@ const EventPage = (props) => {
           <Container className="event-page-content">
             <Row>
               <Col className="text-center">
-                <h1>{title}</h1>
+                <h1 className="heading">{title}</h1>
               </Col>
             </Row>
             <Row>
               <Col>
-                <p>{para}</p>
+                <p className="content">{para}</p>
               </Col>
             </Row>
             <Row>
-              <Col>
-                <div>
-                  <a className="bt bt-blue text-center" href="/">
-                    Register Now
-                  </a>
-                </div>
-              </Col>
+              {tab === "Upcoming" && (
+                <Col>
+                  <div>
+                    <a className="bt bt-blue text-center" href="/">
+                      Register Now
+                    </a>
+                  </div>
+                </Col>
+              )}
               <Col className="text-center mt-4">
                 <b>
                   <p>time:&nbsp;{time}</p>

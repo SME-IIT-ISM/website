@@ -14,15 +14,15 @@ const InfoPage = (props) => {
         <Col className="justify-content-center">
           <img className="events-page-image" src={src} alt={title} />
         </Col>
-        <h1>{title}</h1>
+        <h1 className="heading text-center">{title}</h1>
       </Row>
       <Row>
         <Col>
-          <p>{para}</p>
+          <p className="content">{para}</p>
         </Col>
       </Row>
       <Row>
-        <h5>
+        <h5 className="m-3">
           <a href="/resources/ind-info">Back</a>
         </h5>
       </Row>

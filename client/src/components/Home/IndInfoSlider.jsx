@@ -47,7 +47,11 @@ const slides = infoData.map((item, index) => {
             {item.date}
           </CardSubtitle>
           <CardText>{item.desc}</CardText>
-          <Button>Read More</Button>
+          <div>
+            <a className="bt bt-blue" href="/resources/ind-info/">
+              Read More
+            </a>
+          </div>
         </CardBody>
       </Card>
     </div>
@@ -80,7 +84,7 @@ const options = {
     767: {
       items: 3,
     },
-    992: {
+    1200: {
       items: 4,
     },
   },

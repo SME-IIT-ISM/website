@@ -68,3 +68,8 @@
     margin-left: 10vw;
   }
 }
+@media screen and (max-width: 576px) {
+  .ge-card.card {
+    width: 90vw;
+  }
+}
