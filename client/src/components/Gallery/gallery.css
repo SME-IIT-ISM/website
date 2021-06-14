@@ -1,25 +1,3 @@
-.nav-tabs {
-  border: 0;
-}
-.nav-tabs .nav-link.gallery-nav {
-  margin-bottom: 0;
-  background: 0 0;
-  border: 1px solid #374785;
-  color: #374785 !important;
-  border-radius: 50px;
-  transition: all 0.3s ease;
-}
-.nav-tabs .nav-link.gallery-nav:hover {
-  background-color: rgb(55, 71, 133);
-  color: white !important;
-  text-decoration: none;
-  cursor: pointer;
-}
-.nav-tabs .nav-link.gallery-nav.active {
-  background-color: rgb(55, 71, 133);
-  color: white !important;
-}
-
 .GH-intro {
   background: url(./BackgroundGallery.jpg) no-repeat;
   max-width: 100vw;
@@ -58,7 +36,7 @@
   margin-top: 5vw;
 }
 .GHText1 {
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
   animation-name: GUIMoveLeft;
   animation-duration: 2s;
 }
@@ -74,7 +52,7 @@
 }
 .GHText2 {
   margin-top: 2vw;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
   animation-name: GUIMoveRight;
   animation-duration: 2s;
 }
@@ -96,18 +74,15 @@
   /* display: inline-block; */
   margin-bottom: 10px;
   overflow: hidden;
- 
-  
 }
 
 .GalleryAllSize {
   width: 30vw;
   height: auto;
-  margin: 10px auto ;
+  margin: 10px auto;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   object-fit: fill;
-
 }
 .GalleryAllSize:hover {
   transform: scale(1.05);
@@ -126,7 +101,6 @@
   overflow-x: hidden;
 }
 .container1 {
-  /* position: relative; */
   column-count: 3;
   padding: 20px;
   max-width: 100%;
@@ -137,7 +111,7 @@
   .container1 {
     column-count: 2;
   }
-  .GalleryAllSize{
+  .GalleryAllSize {
     width: 40vw;
   }
 }
@@ -145,7 +119,7 @@
   .container1 {
     column-count: 1;
   }
-  .GalleryAllSize{
+  .GalleryAllSize {
     width: 80vw;
   }
 }

@@ -151,7 +151,7 @@ a.k-card-link:hover {
 }
 
 /* For speaker.js*/
-.speaker-heading {
+.k-sub-heading {
   background-image: linear-gradient(45deg, #ff0881, #6827b0);
   padding-bottom: 1rem;
   background-clip: text;
@@ -159,7 +159,7 @@ a.k-card-link:hover {
   margin-top: 8vh;
   overflow: hidden;
   text-transform: capitalize;
-  margin-left: 28vw;
+  text-align: center;
 }
 
 /* for media query */

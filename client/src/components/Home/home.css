@@ -8,7 +8,7 @@
   z-index: 20;
   width: 77vw;
   color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
 }
 
 .main-content .custom-nav {
@@ -122,18 +122,6 @@
   }
 }
 
-/*for Intro.js */
-.heading {
-  margin-top: 4%;
-  padding: auto;
-}
-
-.content {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin-top: 4%;
-}
-
 /* for Sponser.js*/
 .sponser-logo {
   width: 10vw;
@@ -181,9 +169,10 @@
 
 .k {
   width: 55%;
-  height: 50%;
+  max-width: 100%;
   box-shadow: 0 1.5rem 4rem rgb(0, 0, 0, 0.4);
   border-radius: 10px;
+  object-fit: cover;
 }
 .k1,
 .k2,
@@ -231,7 +220,7 @@
 }
 
 .khanan-overlay {
-  background-image: url(./image/khanan-bg2.jpg) !important;
+  background-image: url(./image/khanan-bg.jpg) !important;
   background-attachment: fixed;
   transform: skewY(-4deg);
   z-index: -10;
@@ -240,7 +229,7 @@
   transform: skewY(4deg);
 }
 .khanan-bt {
-  margin-left: 13rem;
+  margin-left: 10rem;
 }
 
 /* for IndInfoSlider */
@@ -356,7 +345,6 @@
   .k {
     width: 100%;
     height: 45%;
-    object-fit: cover;
   }
 
   .k2 {
@@ -380,19 +368,13 @@
   .overlay span {
     font-size: 2rem;
   }
-  .heading {
-    font-size: 20px;
-  }
   .youtube {
     height: 27rem;
     width: 54rem;
   }
   .k {
-    max-width: 100%;
     height: 40%;
-    object-fit: cover;
   }
-
   .k2 {
     top: 25vh;
     left: 30vw;

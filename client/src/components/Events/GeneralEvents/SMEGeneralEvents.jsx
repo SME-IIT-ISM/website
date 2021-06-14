@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Container, Row, Col } from "reactstrap";
+import {
+  Container,
+  Row,
+  Col,
+  TabContent,
+  TabPane,
+  Nav,
+  NavItem,
+  NavLink,
+} from "reactstrap";
 import GEImages1 from "./images/smeevent1.jpg";
 import GEImages2 from "./images/smeevent2.jpg";
 import GEImages3 from "./images/smeevent3.jpg";
@@ -14,6 +23,8 @@ import EventCard from "./EventCard";
 import EventPage from "./EventPage";
 import Fade from "react-reveal/Fade";
 
+const tabs = ["Past", "Upcoming"];
+
 const eventData = [
   {
     src: GEImages1,
@@ -23,6 +34,7 @@ const eventData = [
     time: "24*7",
     contact1: "Sumit Kumar Mudi-8210987906",
     contact2: "Abhaya Adri-6206688440",
+    tab: "Upcoming",
   },
   {
     src: GEImages2,
@@ -32,6 +44,7 @@ const eventData = [
     time: "4 pm",
     contact1: "Jai Anand-7482049368",
     contact2: "Saurabh tiwari-9326105716",
+    tab: "Upcoming",
   },
   {
     src: GEImages3,
@@ -41,6 +54,7 @@ const eventData = [
     time: "6 pm",
     contact1: "Abhaya Adri-6206688440",
     contact2: "Sudeshna Kundu-7595033047",
+    tab: "Upcoming",
   },
   {
     src: GEImages4,
@@ -50,6 +64,7 @@ const eventData = [
     time: "6 pm",
     contact1: "Sumit Kumar Mudi-8210987906",
     contact2: "Sudeshna Kundu-7595033047",
+    tab: "Upcoming",
   },
   {
     src: GEImages5,
@@ -59,6 +74,7 @@ const eventData = [
     time: " ",
     contact1: "Aryan Raj Singh-9460655228",
     contact2: "Anjali-9608328431",
+    tab: "Upcoming",
   },
   {
     src: GEImages6,
@@ -68,6 +84,7 @@ const eventData = [
     time: "11 am",
     contact1: "Mehul Raj-9576046151",
     contact2: "Jai Anand-7482049368",
+    tab: "Past",
   },
   {
     src: GEImages7,
@@ -77,6 +94,7 @@ const eventData = [
     time: " ",
     contact1: "Jai Anand-7482049368",
     contact2: "Mehul Raj-9576046151",
+    tab: "Past",
   },
   {
     src: GEImages8,
@@ -86,6 +104,7 @@ const eventData = [
     time: "4 pm",
     contact1: "Jai Anand-7482049368",
     contact2: "Sudeshna Kundu-7595033047",
+    tab: "Past",
   },
   {
     src: GEImages9,
@@ -95,10 +114,17 @@ const eventData = [
     time: "6:30pm",
     contact1: "Jai Anand-7482049368",
     contact2: "Anjali-9608328431",
+    tab: "Past",
   },
 ];
 
 const HomePage = () => {
+  const [activeTab, setActiveTab] = useState(0);
+
+  const toggle = (tab) => {
+    if (activeTab !== tab) setActiveTab(tab);
+  };
+
   return (
     <div>
       <div className="ge-heading-bg mt-4 d-flex align-items-center justify-content-center">
@@ -107,7 +133,54 @@ const HomePage = () => {
         </h1>
       </div>
       <Container className="my-5">
-        <Row>
+        <Nav tabs className="justify-content-center">
+          {tabs.map((item, index) => {
+            return (
+              <NavItem className="p-1">
+                <NavLink
+                  className={`tabs-navi ${activeTab === index ? "active" : ""}`}
+                  onClick={() => {
+                    toggle(index);
+                  }}
+                >
+                  {item}
+                </NavLink>
+              </NavItem>
+            );
+          })}
+        </Nav>
+        <TabContent activeTab={activeTab}>
+          {tabs.map((it, id) => {
+            return (
+              <TabPane tabId={id}>
+                <Row className="pt-4">
+                  {eventData
+                    .filter((item) => item.tab === tabs[id])
+                    .map((item, index) => {
+                      return (
+                        <Col key={index} className="my-4" xs="12" lg="6">
+                          <Fade
+                            timeout={500}
+                            right={index & 1 ? true : false}
+                            left={index & 1 ? false : true}
+                          >
+                            <EventCard
+                              paragraph={item.para}
+                              title={item.title}
+                              src={item.src}
+                              id={index}
+                            />
+                          </Fade>
+                        </Col>
+                      );
+                    })}
+                </Row>
+              </TabPane>
+            );
+          })}
+        </TabContent>
+
+        {/* <Row>
           {eventData.map((item, index) => {
             return (
               <Col key={index} className="my-4" xs="12" lg="6">
@@ -126,7 +199,7 @@ const HomePage = () => {
               </Col>
             );
           })}
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );
