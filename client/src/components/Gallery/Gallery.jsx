@@ -11,14 +11,10 @@ import {
   NavLink,
   Card,
   CardImg,
-  Button,
   CardBody,
   CardTitle,
 } from "reactstrap";
-import classnames from "classnames";
 import GHImage1 from "./BackgroundGalleryA.jpg";
-import GHImage2 from "./BackgroundGalleryB.jpg";
-import GHImage3 from "./BackgroundGalleryC.jpg";
 import ALUMNIMEET1 from "./ALUMNIMEET/ALUMNIMEET1.jpg";
 import ALUMNIMEET2 from "./ALUMNIMEET/ALUMNIMEET2.jpg";
 import ALUMNIMEET3 from "./ALUMNIMEET/ALUMNIMEET3.jpg";
@@ -67,201 +63,263 @@ import SMEInductions1 from "./SMEInductions/SMEInductions1.jpg";
 import SMEInductions2 from "./SMEInductions/SMEInductions2.jpg";
 import SMEInductions3 from "./SMEInductions/SMEInductions3.jpg";
 
+const tabs = [
+  "All",
+  "Alumni Meet",
+  "Awards & Appreciation",
+  "Diwali",
+  "Essay Competition",
+  "Khanan'18",
+  "Khanan'19",
+  "Kryptos",
+  "Mining Day 19",
+  "Minnovare",
+  "Quiz Competition",
+  "SME Inductions",
+];
+
 const ALLPhotos = [
   {
     src: ALUMNIMEET1,
     alt: "ALUMNIMEET1",
+    event: "Alumni Meet",
   },
   {
     src: ALUMNIMEET2,
     alt: "ALUMNIMEET2",
+    event: "Alumni Meet",
   },
   {
     src: ALUMNIMEET3,
     alt: "ALUMNIMEET3",
+    event: "Alumni Meet",
   },
   {
     src: ALUMNIMEET4,
     alt: "ALUMNIMEET4",
+    event: "Alumni Meet",
   },
   {
     src: ALUMNIMEET5,
     alt: "ALUMNIMEET5",
+    event: "Alumni Meet",
   },
   {
     src: ALUMNIMEET6,
     alt: "ALUMNIMEET6",
+    event: "Alumni Meet",
   },
   {
     src: AwardsAndAppreciation1,
     alt: "AwardsAndAppreciation1",
+    event: "Awards & Appreciation",
   },
   {
     src: AwardsAndAppreciation2,
     alt: "AwardsAndAppreciation2",
+    event: "Awards & Appreciation",
   },
   {
     src: AwardsAndAppreciation3,
     alt: "AwardsAndAppreciation3",
+    event: "Awards & Appreciation",
   },
   {
     src: AwardsAndAppreciation4,
     alt: "AwardsAndAppreciation4",
+    event: "Awards & Appreciation",
   },
   {
     src: DiwaliCelebration1,
     alt: "DiwaliCelebration1",
+    event: "Diwali",
   },
   {
     src: DiwaliCelebration2,
     alt: "DiwaliCelebration2",
+    event: "Diwali",
   },
   {
     src: DiwaliCelebration3,
     alt: "DiwaliCelebration3",
+    event: "Diwali",
   },
   {
     src: EssayCompetition1,
     alt: "EssayCompetition1",
+    event: "Essay Competition",
   },
   {
     src: EssayCompetition2,
     alt: "EssayCompetition2",
+    event: "Essay Competition",
   },
   {
     src: EssayCompetition3,
     alt: "EssayCompetition3",
+    event: "Essay Competition",
   },
   {
     src: EssayCompetition4,
     alt: "EssayCompetition4",
+    event: "Essay Competition",
   },
   {
     src: KHANAN181,
     alt: "KHANAN181",
+    event: "Khanan'18",
   },
   {
     src: KHANAN182,
     alt: "KHANAN182",
+    event: "Khanan'18",
   },
   {
     src: KHANAN183,
     alt: "KHANAN183",
+    event: "Khanan'18",
   },
   {
     src: KHANAN184,
     alt: "KHANAN184",
+    event: "Khanan'18",
   },
   {
     src: KHANAN185,
     alt: "KHANAN185",
+    event: "Khanan'18",
   },
   {
     src: KHANAN186,
     alt: "KHANAN186",
+    event: "Khanan'18",
   },
   {
     src: KHANAN187,
     alt: "KHANAN187",
+    event: "Khanan'18",
   },
   {
     src: KHANAN188,
     alt: "KHANAN188",
+    event: "Khanan'18",
   },
   {
     src: KHANAN189,
     alt: "KHANAN189",
+    event: "Khanan'18",
   },
   {
     src: KHANAN1810,
     alt: "KHANAN1810",
+    event: "Khanan'18",
   },
   {
     src: KHANAN1811,
     alt: "KHANAN1811",
+    event: "Khanan'18",
   },
   {
     src: Kryptos1,
     alt: "Kryptos1",
+    event: "Kryptos",
   },
   {
     src: KHANAN191,
     alt: "KHANAN191",
+    event: "Khanan'19",
   },
   {
     src: KHANAN192,
     alt: "KHANAN192",
+    event: "Khanan'19",
   },
   {
     src: KHANAN193,
     alt: "KHANAN193",
+    event: "Khanan'19",
   },
   {
     src: MiningDay191,
     alt: "MiningDay191",
+    event: "Mining Day 19",
   },
   {
     src: MiningDay192,
     alt: "MiningDay192",
+    event: "Mining Day 19",
   },
   {
     src: MiningDay193,
     alt: "MiningDay193",
+    event: "Mining Day 19",
   },
   {
     src: MiningDay194,
     alt: "MiningDay194",
+    event: "Mining Day 19",
   },
   {
     src: MiningDay195,
     alt: "MiningDay195",
+    event: "Mining Day 19",
   },
   {
     src: MiningDay196,
     alt: "MiningDay196",
+    event: "Mining Day 19",
   },
   {
     src: Minnovare1,
     alt: "Minnovare1",
+    event: "Minnovare",
   },
   {
     src: Minnovare2,
     alt: "Minnovare2",
+    event: "Minnovare",
   },
   {
     src: Minnovare3,
     alt: "Minnovare3",
+    event: "Minnovare",
   },
   {
     src: QuizCompetition1,
     alt: "QuizCompetition1",
+    event: "Quiz Competition",
   },
   {
     src: QuizCompetition2,
     alt: "QuizCompetition2",
+    event: "Quiz Competition",
   },
   {
     src: QuizCompetition3,
     alt: "QuizCompetition3",
+    event: "Quiz Competition",
   },
   {
     src: SMEInductions1,
     alt: "SMEInductions1",
+    event: "SME Inductions",
   },
 
   {
     src: SMEInductions2,
     alt: "SMEInductions2",
+    event: "SME Inductions",
   },
 
   {
     src: SMEInductions3,
     alt: "SMEInductions3",
+    event: "SME Inductions",
   },
 ];
 
 const Gallery = () => {
-  const [activeTab, setActiveTab] = useState("1");
+  const [activeTab, setActiveTab] = useState(0);
 
   const toggle = (tab) => {
     if (activeTab !== tab) setActiveTab(tab);
@@ -269,9 +327,13 @@ const Gallery = () => {
 
   return (
     <div>
-      <div className="container GH-intro">
-        <div className="row">
-          <div className="col-sm">
+      <Container className="GH-intro">
+        <Row className="pt-md-5">
+          <Col
+            xs="12"
+            md="6"
+            className="d-flex py-5 align-items-center justify-content-center order-2 order-md-1"
+          >
             <Card className="GHImage1">
               <CardImg
                 className="GH"
@@ -280,183 +342,45 @@ const Gallery = () => {
                 src={GHImage1}
                 alt="Card image cap"
               />
-              <CardBody className=" Imagetext">
+              <CardBody className="Imagetext">
                 <CardTitle tag="h5">National Mining Day</CardTitle>
               </CardBody>
             </Card>
-          </div>
-          <div className="col-sm">
-            <div className="row GHText">
-              <p className="h1 text-white  GHText1">Welcome to our Memories</p>
-              <p className="h4 text-white display-6 GHText2">
-                Take a trip down our memory lane
-              </p>
+          </Col>
+          <Col xs="12" md="6" className="d-flex flex-column order-1 order-md-2">
+            <div className="h1 text-white GHText1">Welcome to our Memories</div>
+            <div className="h4 text-white display-6 GHText2">
+              Take a trip down our memory lane
             </div>
-            <div className="row GHSmall">
-              <div className="col-sm">
-                <Card className="GHImage2">
-                  <CardImg
-                    className="GH"
-                    top
-                    width="100%"
-                    src={GHImage2}
-                    alt="Card image cap"
-                  />
-                  <CardBody className=" Imagetext">
-                    <CardTitle tag="h5">SME</CardTitle>
-                  </CardBody>
-                </Card>
-              </div>
-              <div className="col-sm">
-                <Card className="GHImage3">
-                  <CardImg
-                    className="GH"
-                    top
-                    width="100%"
-                    src={GHImage3}
-                    alt="Card image cap"
-                  />
-                  <CardBody className="Imagetext">
-                    <CardTitle tag="h5">Diwali</CardTitle>
-                  </CardBody>
-                </Card>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
       <Nav tabs className="m-4 justify-content-center">
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "1" ? "active" : ""}`}
-            onClick={() => {
-              toggle("1");
-            }}
-          >
-            All
-          </NavLink>
-        </NavItem>
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "2" ? "active" : ""}`}
-            onClick={() => {
-              toggle("2");
-            }}
-          >
-            Alumni Meet
-          </NavLink>
-        </NavItem>
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "3" ? "active" : ""}`}
-            onClick={() => {
-              toggle("3");
-            }}
-          >
-            Awards & Appreciation
-          </NavLink>
-        </NavItem>
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "4" ? "active" : ""}`}
-            onClick={() => {
-              toggle("4");
-            }}
-          >
-            Diwali
-          </NavLink>
-        </NavItem>
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "5" ? "active" : ""}`}
-            onClick={() => {
-              toggle("5");
-            }}
-          >
-            Essay Competition
-          </NavLink>
-        </NavItem>
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "6" ? "active" : ""}`}
-            onClick={() => {
-              toggle("6");
-            }}
-          >
-            Khanan'18
-          </NavLink>
-        </NavItem>
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "7" ? "active" : ""}`}
-            onClick={() => {
-              toggle("7");
-            }}
-          >
-            Khanan'19
-          </NavLink>
-        </NavItem>
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "8" ? "active" : ""}`}
-            onClick={() => {
-              toggle("8");
-            }}
-          >
-            Kryptos
-          </NavLink>
-        </NavItem>
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "9" ? "active" : ""}`}
-            onClick={() => {
-              toggle("9");
-            }}
-          >
-            Mining Day 19
-          </NavLink>
-        </NavItem>
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "10" ? "active" : ""}`}
-            onClick={() => {
-              toggle("10");
-            }}
-          >
-            Minnovare
-          </NavLink>
-        </NavItem>
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "11" ? "active" : ""}`}
-            onClick={() => {
-              toggle("11");
-            }}
-          >
-            Quiz Competition
-          </NavLink>
-        </NavItem>
-        <NavItem className="p-1">
-          <NavLink
-            className={`gallery-nav ${activeTab === "12" ? "active" : ""}`}
-            onClick={() => {
-              toggle("12");
-            }}
-          >
-            SME Inductions
-          </NavLink>
-        </NavItem>
+        {tabs.map((item, index) => {
+          return (
+            <NavItem className="p-1">
+              <NavLink
+                className={`gallery-nav ${activeTab === index ? "active" : ""}`}
+                onClick={() => {
+                  toggle(index);
+                }}
+              >
+                {item}
+              </NavLink>
+            </NavItem>
+          );
+        })}
       </Nav>
       <TabContent activeTab={activeTab}>
-        <TabPane tabId="1">
+        <TabPane tabId={0}>
           <Row>
-            <Col sm="12">
+            <Col xs="12">
               <div className="container1 my-3">
                 {ALLPhotos.map((item, index) => {
                   return (
-                    <div key={index} className="GalleryAllContainer1">
+                    <div key={index} className="GalleryAllContainer">
                       <img
-                        className="GalleryAllSize1"
+                        className="GalleryAllSize all"
                         src={item.src}
                         alt={item.alt}
                       ></img>
@@ -467,171 +391,34 @@ const Gallery = () => {
             </Col>
           </Row>
         </TabPane>
-        <TabPane tabId="2">
-          <Row>
-            <Col sm="6">
-              <div className="container1 my-3">
-                <div className="GalleryAllContainer1">
-                  <img
-                    className="GalleryAllSize1"
-                    src={ALLPhotos[2].src}
-                    alt={ALLPhotos[2].alt}
-                  ></img>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </TabPane>
-        <TabPane tabId="3">
-          <Row>
-            <Col sm="6">
-              <div className="container1 my-3">
-                <div className="GalleryAllContainer1">
-                  <img
-                    className="GalleryAllSize1"
-                    src={ALLPhotos[3].src}
-                    alt={ALLPhotos[3].alt}
-                  ></img>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </TabPane>
-        <TabPane tabId="4">
-          <Row>
-            <Col sm="6">
-              <div className="container1 my-3">
-                <div className="GalleryAllContainer1">
-                  <img
-                    className="GalleryAllSize1"
-                    src={ALLPhotos[4].src}
-                    alt={ALLPhotos[4].alt}
-                  ></img>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </TabPane>
-        <TabPane tabId="5">
-          <Row>
-            <Col sm="6">
-              <div className="container1 my-3">
-                <div className="GalleryAllContainer1">
-                  <img
-                    className="GalleryAllSize1"
-                    src={ALLPhotos[5].src}
-                    alt={ALLPhotos[5].alt}
-                  ></img>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </TabPane>
-        <TabPane tabId="6">
-          <Row>
-            <Col sm="6">
-              <div className="container1 my-3">
-                <div className="GalleryAllContainer1">
-                  <img
-                    className="GalleryAllSize1"
-                    src={ALLPhotos[6].src}
-                    alt={ALLPhotos[6].alt}
-                  ></img>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </TabPane>
-        <TabPane tabId="7">
-          <Row>
-            <Col sm="6">
-              <div className="container1 my-3">
-                <div className="GalleryAllContainer1">
-                  <img
-                    className="GalleryAllSize1"
-                    src={ALLPhotos[7].src}
-                    alt={ALLPhotos[7].alt}
-                  ></img>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </TabPane>
-        <TabPane tabId="8">
-          <Row>
-            <Col sm="6">
-              <div className="container1 my-3">
-                <div className="GalleryAllContainer1">
-                  <img
-                    className="GalleryAllSize1"
-                    src={ALLPhotos[8].src}
-                    alt={ALLPhotos[8].alt}
-                  ></img>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </TabPane>
-        <TabPane tabId="9">
-          <Row>
-            <Col sm="6">
-              <div className="container1 my-3">
-                <div className="GalleryAllContainer1">
-                  <img
-                    className="GalleryAllSize1"
-                    src={ALLPhotos[9].src}
-                    alt={ALLPhotos[9].alt}
-                  ></img>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </TabPane>
-        <TabPane tabId="10">
-          <Row>
-            <Col sm="6">
-              <div className="container1 my-3">
-                <div className="GalleryAllContainer1">
-                  <img
-                    className="GalleryAllSize1"
-                    src={ALLPhotos[10].src}
-                    alt={ALLPhotos[10].alt}
-                  ></img>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </TabPane>
-        <TabPane tabId="11">
-          <Row>
-            <Col sm="6">
-              <div className="container1 my-3">
-                <div className="GalleryAllContainer1">
-                  <img
-                    className="GalleryAllSize1"
-                    src={ALLPhotos[11].src}
-                    alt={ALLPhotos[11].alt}
-                  ></img>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </TabPane>
-        <TabPane tabId="12">
-          <Row>
-            <Col sm="6">
-              <div className="container1 my-3">
-                <div className="GalleryAllContainer1">
-                  <img
-                    className="GalleryAllSize1"
-                    src={ALLPhotos[12].src}
-                    alt={ALLPhotos[12].alt}
-                  ></img>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </TabPane>
+
+        {tabs
+          .filter((item) => item !== "All")
+          .map((it, id) => {
+            return (
+              <TabPane tabId={id + 1}>
+                <Row>
+                  <Col xs="12">
+                    <div className="container1 my-3">
+                      {ALLPhotos.filter(
+                        (item) => item.event === tabs[id + 1]
+                      ).map((item, index) => {
+                        return (
+                          <div key={index} className="GalleryAllContainer">
+                            <img
+                              className="GalleryAllSize"
+                              src={item.src}
+                              alt={item.alt}
+                            ></img>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </Col>
+                </Row>
+              </TabPane>
+            );
+          })}
       </TabContent>
     </div>
   );

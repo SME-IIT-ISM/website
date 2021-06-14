@@ -140,19 +140,19 @@ const coreTeam = [
 const developers = [
   {
     src: OurTeam1,
-    position: "Position",
+    position: "Web Developer",
     name: "Abhinav Kumar Singh",
     linkedin: "https://www.linkedin.com/in/abhinav-kumar-singh-6813501b8/",
   },
   {
     src: OurTeam1,
-    position: "Position",
+    position: "Web Developer",
     name: "Abhijeet Haldar",
     linkedin: "https://www.linkedin.com/in/abhijeet-haldar-59813a1b4/",
   },
   {
     src: OurTeam1,
-    position: "Position",
+    position: "Web Developer",
     name: "Kartik Saini",
     linkedin: "https://www.linkedin.com/in/kartik-saini-a1a240195/",
   },
@@ -160,9 +160,11 @@ const developers = [
 
 const OurTeam = () => {
   return (
-    <div>
+    <div className="our-team">
       <div className="team-heading-bg mt-4 d-flex align-items-center justify-content-center">
-        <h1 className="page-heading text-center py-3 text-uppercase">Our Team</h1>
+        <h1 className="page-heading text-center py-3 text-uppercase">
+          Our Team
+        </h1>
       </div>
       <div>
         <h1 className="text-uppercase text-center heading my-5 heading-block">
@@ -170,7 +172,7 @@ const OurTeam = () => {
         </h1>
         <Container>
           <Row className="justify-content-center">
-            <Col className="my-2" xs="12" sm="6" md="4" lg="3">
+            <Col className="my-2" xs="10" sm="6" md="4" lg="3">
               <div className="card team p-2">
                 <img
                   className="card-img-top"
@@ -188,16 +190,18 @@ const OurTeam = () => {
                   </a>
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Dheeraj Kumar</h5>
-                  <p className="card-text">Faculty Advisor</p>
+                  <h5 className="card-title">
+                    <b>Dheeraj Kumar</b>
+                  </h5>
+                  <p className="card-text text-secondary">Faculty Advisor</p>
                 </div>
               </div>
             </Col>
           </Row>
-          <Row className="justify-content-between">
+          <Row className="justify-content-center justify-content-sm-between">
             {officeBearers.map((item, index) => {
               return (
-                <Col className="my-2" xs="12" sm="6" md="4" lg="3" key={index}>
+                <Col className="my-2" xs="10" sm="6" md="4" lg="3" key={index}>
                   <div className="card team p-2">
                     <img
                       className="card-img-top"
@@ -215,8 +219,12 @@ const OurTeam = () => {
                       </a>
                     </div>
                     <div className="card-body">
-                      <h5 className="card-title">{item.name}</h5>
-                      <p className="card-text">{item.position}</p>
+                      <h5 className="card-title">
+                        <b>{item.name}</b>
+                      </h5>
+                      <p className="card-text text-secondary">
+                        {item.position}
+                      </p>
                     </div>
                   </div>
                 </Col>
@@ -230,10 +238,10 @@ const OurTeam = () => {
           Core Team
         </h1>
         <Container>
-          <Row className="justify-content-between">
+          <Row className="justify-content-center justify-content-sm-between">
             {coreTeam.map((item, index) => {
               return (
-                <Col className="my-2" xs="12" sm="6" md="4" lg="3" key={index}>
+                <Col className="my-2" xs="10" sm="6" md="4" lg="3" key={index}>
                   <div className="card team p-2">
                     <img
                       className="card-img-top"
@@ -251,8 +259,12 @@ const OurTeam = () => {
                       </a>
                     </div>
                     <div className="card-body">
-                      <h5 className="card-title">{item.name}</h5>
-                      <p className="card-text">{item.position}</p>
+                      <h5 className="card-title">
+                        <b>{item.name}</b>
+                      </h5>
+                      <p className="card-text text-secondary">
+                        {item.position}
+                      </p>
                     </div>
                   </div>
                 </Col>
@@ -265,11 +277,11 @@ const OurTeam = () => {
         <h1 className="text-uppercase text-center heading my-5 heading-block">
           Developers
         </h1>
-        <Container>
-          <Row className="justify-content-between">
+        <Container className="pb-5">
+          <Row className="justify-content-center justify-content-sm-between">
             {developers.map((item, index) => {
               return (
-                <Col className="my-2" xs="12" sm="6" md="4" lg="3" key={index}>
+                <Col className="my-2" xs="10" sm="6" md="4" lg="3" key={index}>
                   <div className="card team p-2">
                     <img
                       className="card-img-top"
@@ -287,8 +299,12 @@ const OurTeam = () => {
                       </a>
                     </div>
                     <div className="card-body">
-                      <h5 className="card-title">{item.name}</h5>
-                      <p className="card-text">{item.position}</p>
+                      <h5 className="card-title">
+                        <b>{item.name}</b>
+                      </h5>
+                      <p className="card-text text-secondary">
+                        {item.position}
+                      </p>
                     </div>
                   </div>
                 </Col>

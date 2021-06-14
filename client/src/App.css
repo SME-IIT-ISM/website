@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Libre+Baskerville:wght@400;700&display=swap");
+/* Khanan */
+/* font-family: "Merienda", cursive; */
+/* Heading */
+/* font-family: "Kaushan Script", cursive; */
+/* Our Team */
+/* font-family: "Arima Madurai", cursive; */
+/* Remaining content */
+/* font-family: "Libre Baskerville", serif; */
+
 :root {
   --sme-blue: #1989ca;
   --facebook-color: #4267b2;
@@ -15,7 +25,7 @@ body {
   max-width: 100%;
   height: 100%;
   color: #252f36;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 body {
@@ -54,6 +64,7 @@ h1 {
   color: transparent;
   letter-spacing: 0.2rem;
   background-clip: text;
+  font-family: "Kaushan Script", cursive;
 }
 
 h1:first-child::after {

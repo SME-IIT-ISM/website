@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
+/* font-family: 'Merienda', cursive; */
+
+.khanan-website {
+  font-family: "Merienda", cursive;
+}
+
 /* custom header and footer */
 .khanan-event-navbar {
   background: linear-gradient(45deg, #6827b0, #ff0881);
@@ -125,7 +132,7 @@ a.k-card-link:hover {
   margin-left: 50px !important;
 }
 .custom-button-campus {
-  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
   background-color: #fff;
   color: rgba(0, 0, 0, 1);
   font-size: 1.5rem;
