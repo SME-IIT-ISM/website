@@ -25,6 +25,7 @@ body {
   max-width: 100%;
   height: 100%;
   color: #252f36;
+  font-family: "Libre Baskerville", serif;
 }
 
 body {
@@ -63,6 +64,7 @@ h1 {
   color: transparent;
   letter-spacing: 0.2rem;
   background-clip: text;
+  font-family: "Kaushan Script", cursive;
 }
 
 h1:first-child::after {

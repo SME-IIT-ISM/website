@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
 /* font-family: 'Merienda', cursive; */
+
+.khanan-website {
+  font-family: "Merienda", cursive;
+}
 
 /* custom header and footer */
 .khanan-event-navbar {

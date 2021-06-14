@@ -132,17 +132,19 @@ class EventKhanan extends Component {
 
   render() {
     return (
-      <Router>
-        <Route exact path="/events/khanan" component={HomePage} />
-        <Route
-          path={`/events/khanan/:eventId`}
-          component={(props) => (
-            <EventPage
-              eventData={eventData[parseInt(props.match.params.eventId)]}
-            />
-          )}
-        />
-      </Router>
+      <div className="khanan-website">
+        <Router>
+          <Route exact path="/events/khanan" component={HomePage} />
+          <Route
+            path={`/events/khanan/:eventId`}
+            component={(props) => (
+              <EventPage
+                eventData={eventData[parseInt(props.match.params.eventId)]}
+              />
+            )}
+          />
+        </Router>
+      </div>
     );
   }
 }
