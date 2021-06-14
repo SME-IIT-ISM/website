@@ -100,6 +100,8 @@ const Header = () => {
               <a
                 className="mx-1 px-2 social-facebook"
                 href="https://m.facebook.com/pg/smeiitism/posts/?ref=page_internal&mt_nav=0"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <RiFacebookFill />
               </a>
@@ -108,6 +110,8 @@ const Header = () => {
               <a
                 className="mx-1 px-2 social-instagram"
                 href="https://www.instagram.com/sme_iitism/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <RiInstagramFill />
               </a>
@@ -116,6 +120,8 @@ const Header = () => {
               <a
                 className="mx-1 px-2 social-linkedin"
                 href="https://www.linkedin.com/company/sme-iit-ism-student-chapter2020"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <RiLinkedinBoxFill />
               </a>
@@ -124,6 +130,8 @@ const Header = () => {
               <a
                 className="mx-1 px-2 social-youtube"
                 href="https://www.youtube.com/channel/UCngC6aD1tTfpMBMXoqRBiog/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <RiYoutubeFill />
               </a>

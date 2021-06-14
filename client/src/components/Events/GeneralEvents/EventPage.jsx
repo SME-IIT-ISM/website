@@ -35,7 +35,12 @@ const EventPage = (props) => {
               {tab === "Upcoming" && (
                 <Col>
                   <div>
-                    <a className="bt bt-blue text-center" href="/">
+                    <a
+                      className="bt bt-blue text-center"
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Register Now
                     </a>
                   </div>
@@ -43,8 +48,8 @@ const EventPage = (props) => {
               )}
               <Col className="text-center mt-4">
                 <b>
-                  <p>time:&nbsp;{time}</p>
-                  <p>date:&nbsp;{date}</p>
+                  <p>Time: {time}</p>
+                  <p>Date: {date}</p>
                   <p>Contact on:</p>
                   <p>{contact1}</p>
                   <p>{contact2}</p>

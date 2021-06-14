@@ -24,22 +24,38 @@ const Footer = (props) => {
               <div className="mt-3">
                 <h5 className="text-uppercase">Follow us on:</h5>
                 <div className="icon-container">
-                  <a href="https://m.facebook.com/pg/smeiitism/posts/?ref=page_internal&mt_nav=0">
+                  <a
+                    href="https://m.facebook.com/pg/smeiitism/posts/?ref=page_internal&mt_nav=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="icon icon-fill-facebook">
                       <FaFacebookF className="icon-tag" />
                     </div>
                   </a>
-                  <a href="https://www.instagram.com/sme_iitism/">
+                  <a
+                    href="https://www.instagram.com/sme_iitism/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="icon icon-fill-instagram">
                       <FaInstagram className="icon-tag" />
                     </div>
                   </a>
-                  <a href="https://www.linkedin.com/company/sme-iit-ism-student-chapter2020">
+                  <a
+                    href="https://www.linkedin.com/company/sme-iit-ism-student-chapter2020"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="icon icon-fill-linkedin">
                       <FaLinkedin className="icon-tag" />
                     </div>
                   </a>
-                  <a href="https://www.youtube.com/channel/UCngC6aD1tTfpMBMXoqRBiog/">
+                  <a
+                    href="https://www.youtube.com/channel/UCngC6aD1tTfpMBMXoqRBiog/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="icon icon-fill-youtube">
                       <FaYoutube className="icon-tag" />
                     </div>
@@ -90,15 +106,6 @@ const Footer = (props) => {
                     className="text-white"
                   >
                     Parents Portal
-                  </a>
-                </li>
-                <li>
-                  <a
-                    display="none"
-                    href="https://www.freepik.com/photos/background"
-                    className="text-white"
-                  >
-                    Background designed by Freepick
                   </a>
                 </li>
               </ul>

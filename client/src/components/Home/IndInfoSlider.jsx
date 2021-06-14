@@ -9,32 +9,8 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  Button,
 } from "reactstrap";
-import SampleImg from "./image/blog-sample.jpg";
 import { infoData } from "../Resources/IndInfo/IndInfo";
-
-// blog options
-const items = [
-  {
-    src: SampleImg,
-    title: "Slide 1",
-    date: "09/11/2021",
-    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  },
-  {
-    src: SampleImg,
-    title: "Slide 2",
-    date: "09/11/2021",
-    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  },
-  {
-    src: SampleImg,
-    title: "Slide 3",
-    date: "09/11/2021",
-    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  },
-];
 
 const slides = infoData.map((item, index) => {
   return (

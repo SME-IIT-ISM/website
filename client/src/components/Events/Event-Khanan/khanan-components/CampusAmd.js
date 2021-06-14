@@ -15,7 +15,12 @@ const Campus = () => {
             everyone there gets to know about it. Bear the responsibility and
             get ready for a thrilling experience.
           </p>
-          <a className="bt custom-button-campus" href="/">
+          <a
+            className="bt custom-button-campus"
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             REGISTER
           </a>
         </Col>
