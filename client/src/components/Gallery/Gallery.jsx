@@ -349,7 +349,7 @@ const Gallery = () => {
           </Col>
         </Row>
       </Container>
-      <Nav tabs className="m-4 justify-content-center">
+      <Nav tabs className="m-4 mb-2 justify-content-center">
         {tabs.map((item, index) => {
           return (
             <NavItem className="p-1">
@@ -369,7 +369,7 @@ const Gallery = () => {
         <TabPane tabId={0}>
           <Row>
             <Col xs="12">
-              <div className="container1 my-3">
+              <div className="container1 mb-3">
                 {ALLPhotos.map((item, index) => {
                   return (
                     <div key={index} className="GalleryAllContainer">
@@ -393,12 +393,12 @@ const Gallery = () => {
               <TabPane tabId={id + 1}>
                 <Row>
                   <Col xs="12">
-                    <div className="container1 my-3">
+                    <div className="container1 mb-3">
                       {ALLPhotos.filter(
                         (item) => item.event === tabs[id + 1]
                       ).map((item, index) => {
                         return (
-                          <div key={index} className="GalleryAllContainer ">
+                          <div key={index} className="GalleryAllContainer">
                             <img
                               className="GalleryAllSize"
                               src={item.src}

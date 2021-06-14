@@ -208,7 +208,7 @@ a.nav-dropdown {
 .bt-white {
   background-color: #fff;
   color: rgba(0, 0, 0, 1);
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   margin-top: 3rem;
   font-weight: 400;
 }
@@ -218,7 +218,7 @@ a.nav-dropdown {
 .bt-blue {
   background-color: #374785;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   margin-top: 1rem;
 }
 .bt-blue:hover {
