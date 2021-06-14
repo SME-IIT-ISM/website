@@ -27,7 +27,6 @@ import AwardsAndAppreciation3 from "./AwardsAndAppreciation/AwardsAndAppreciatio
 import AwardsAndAppreciation4 from "./AwardsAndAppreciation/AwardsAndAppreciation4.jpg";
 import DiwaliCelebration1 from "./DiwaliCelebration/DiwaliCelebration1.jpg";
 import DiwaliCelebration2 from "./DiwaliCelebration/DiwaliCelebration2.jpg";
-import DiwaliCelebration3 from "./DiwaliCelebration/DiwaliCelebration3.jpg";
 import EssayCompetition1 from "./EssayCompetition/EssayCompetition1.jpg";
 import EssayCompetition2 from "./EssayCompetition/EssayCompetition2.jpg";
 import EssayCompetition3 from "./EssayCompetition/EssayCompetition3.jpg";
@@ -137,11 +136,6 @@ const ALLPhotos = [
   {
     src: DiwaliCelebration2,
     alt: "DiwaliCelebration2",
-    event: "Diwali",
-  },
-  {
-    src: DiwaliCelebration3,
-    alt: "DiwaliCelebration3",
     event: "Diwali",
   },
   {
