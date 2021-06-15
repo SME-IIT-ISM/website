@@ -80,7 +80,7 @@ const eventData = [
     src: GEImages6,
     title: "VIRTUAL PLACEMENTS",
     para: "SME IIT(ISM) Student Chapter brings you an extraordinary opportunity, where you will be exposed to the real virtual placement process. So put on your winning hats and tune in to the placement battle this weekend!",
-    date: "3 & 4 April 2021",
+    desc:"Hola juniors!Curious about the on campus placement process?! Well, here comes a stop to all your doubts and confusions.SME IIT(ISM) Student Chapter brings you an extraordinary opportunity, where you will be exposed to the real virtual placement process. So put on your winning hats and tune in to the placement battle this weekend! The top 3 champions would be rewarded with cash prizes worth 2k! ",
     time: "11 am",
     contact1: "Mehul Raj-9576046151",
     contact2: "Jai Anand-7482049368",

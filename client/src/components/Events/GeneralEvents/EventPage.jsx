@@ -8,6 +8,7 @@ const EventPage = (props) => {
   const src = props.eventData.src;
   const title = props.eventData.title;
   const para = props.eventData.para;
+  const desc=props.eventData.para;
   const date = props.eventData.date;
   const time = props.eventData.time;
   const contact1 = props.eventData.contact1;
@@ -27,7 +28,7 @@ const EventPage = (props) => {
             </Row>
             <Row>
               <Col>
-                <p>{para}</p>
+                <p>{src}</p>
               </Col>
             </Row>
             <Row>
