@@ -121,6 +121,33 @@ h1.page-heading::after {
   color: var(--youtube-color) !important;
 }
 
+/* For reactstrap alert close button */
+.alert-dismissible .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.75rem 1.25rem;
+  color: inherit;
+}
+button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+.close:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
 /* Pill Tabs Navigation */
 .nav-tabs {
   border: 0;
