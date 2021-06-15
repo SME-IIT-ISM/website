@@ -16,10 +16,6 @@ const Tcard = (props) => {
         </span>
         <div className="timeline__card tcard">
           <header className="tcard__header">
-            <time className="time">
-              <span className="time__day">{day}</span>
-              <span className="time__month">{month}</span>
-            </time>
             <h3 className="tcard__title r-title">{title}</h3>
           </header>
           <div className="tcard__content">
