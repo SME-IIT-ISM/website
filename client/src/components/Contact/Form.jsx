@@ -1,13 +1,16 @@
-import React, { useState } from "react";
-import { Alert } from "reactstrap";
+import React, { useState, useEffect } from "react";
+import { Alert, Spinner } from "reactstrap";
 import { MdSend } from "react-icons/md";
-
+import "./form.css";
 const { REACT_APP_SMTPJS_TOKEN, REACT_APP_EMAIL_HOST } = process.env;
 
+const initialState = { name: "", email: "", msg: "" };
+
 const Form = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [msg, setMsg] = useState("");
+  const [values, setValues] = useState(initialState);
+  const [errors, setErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [spinner, setSpinner] = useState(false);
   const [visible, setVisible] = useState(false);
   const [color, setColor] = useState("info");
   const [callbackMsg, setCallbackMsg] = useState(
@@ -19,43 +22,65 @@ const Form = () => {
   const errorMsg =
     "!! An error occured while sending the message. Please try again !!";
 
-  const onNameChange = (event) => {
-    const name = event.target.value;
-    setName(name);
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setValues({
+      ...values,
+      [name]: value,
+    });
   };
 
-  const onEmailChange = (event) => {
-    const email = event.target.value;
-    setEmail(email);
-  };
+  const validateInfo = (values) => {
+    let errors = {};
 
-  const onMessageChange = (event) => {
-    const msg = event.target.value;
-    setMsg(msg);
+    if (!values.name.trim()) {
+      errors.name = "Name cannot be empty";
+    }
+
+    if (!values.email) {
+      errors.email = "Email cannot be empty";
+    } else if (!/\S+@\S+\.\S+/.test(values.email)) {
+      errors.email = "Email address is invalid";
+    }
+
+    if (!values.msg.trim()) {
+      errors.msg = "Message cannot be empty";
+    }
+
+    return errors;
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    window.Email.send({
-      SecureToken: `${REACT_APP_SMTPJS_TOKEN}`,
-      To: "smeiitismstudentchapter@gmail.com",
-      From: `${REACT_APP_EMAIL_HOST}`,
-      Subject: `${name} filled the contact form`,
-      Body: `Name: ${name} <br />Email: ${email} <br />Message: <br />${msg}`,
-    }).then((message) => {
-      if (message === "OK") {
-        setName("");
-        setEmail("");
-        setMsg("");
-        setColor("success");
-        setCallbackMsg(successMsg);
-      } else {
-        setColor("danger");
-        setCallbackMsg(errorMsg);
-      }
-      setVisible(true);
-    });
+
+    setErrors(validateInfo(values));
+    setIsSubmitting(true);
   };
+
+  useEffect(() => {
+    if (Object.keys(errors).length === 0 && isSubmitting) {
+      setSpinner(true);
+      console.log("Sent");
+      window.Email.send({
+        SecureToken: `${REACT_APP_SMTPJS_TOKEN}`,
+        To: "smeiitismstudentchapter@gmail.com",
+        From: `${REACT_APP_EMAIL_HOST}`,
+        Subject: `${values.name} filled the contact form`,
+        Body: `Name: ${values.name} <br />Email: ${values.email} <br />Message: <br />${values.msg}`,
+      }).then((message) => {
+        if (message === "OK") {
+          setValues(initialState);
+          setColor("success");
+          setCallbackMsg(successMsg);
+        } else {
+          setColor("danger");
+          setCallbackMsg(errorMsg);
+        }
+        setVisible(true);
+        setSpinner(false);
+      });
+    }
+  }, [errors]);
 
   return (
     <div className="Form">
@@ -68,38 +93,54 @@ const Form = () => {
             Name
           </label>
           <input
+            id="name"
+            name="name"
             type="text"
             className="form-control"
-            value={name}
-            onChange={onNameChange}
+            placeholder="Enter your name"
+            value={values.name}
+            onChange={handleChange}
           />
+          {errors.name && <p className="form-input-errors">{errors.name}</p>}
         </div>
         <div className="form-group mt-3">
-          <label htmlFor="exampleInputEmail1" className="card-title">
+          <label htmlFor="email" className="card-title">
             Email address
           </label>
           <input
+            id="email"
+            name="email"
             type="email"
             className="form-control"
+            placeholder="Enter your email"
             aria-describedby="emailHelp"
-            value={email}
-            onChange={onEmailChange}
+            value={values.email}
+            onChange={handleChange}
           />
+          {errors.email && <p className="form-input-errors">{errors.email}</p>}
         </div>
         <div className="form-group mt-3">
           <label htmlFor="message" className="card-title">
             Message
           </label>
           <textarea
+            id="message"
+            name="msg"
             className="form-control"
             rows="5"
-            value={msg}
-            onChange={onMessageChange}
+            placeholder="Enter your message..."
+            value={values.msg}
+            onChange={handleChange}
           />
+          {errors.msg && <p className="form-input-errors">{errors.msg}</p>}
         </div>
-        <button type="submit" className="btn btn-primary mt-4 mb-2">
-          Send <MdSend />
-        </button>
+        <div className="mt-4 mb-2 d-flex align-items-center">
+          <button type="submit" className="btn btn-primary mr-3">
+            Send <MdSend />
+          </button>
+          &nbsp; &nbsp;
+          {spinner && <Spinner color="primary" children="" />}
+        </div>
       </form>
     </div>
   );
