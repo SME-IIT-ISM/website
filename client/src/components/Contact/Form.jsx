@@ -43,7 +43,6 @@ const Form = () => {
       Subject: `${name} filled the contact form`,
       Body: `Name: ${name} <br />Email: ${email} <br />Message: <br />${msg}`,
     }).then((message) => {
-      console.log(message);
       if (message === "OK") {
         setName("");
         setEmail("");

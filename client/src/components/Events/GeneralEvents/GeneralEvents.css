@@ -57,18 +57,21 @@
 }
 /* for events page */
 .events-page-image {
-  width: 100%;
+  width: auto;
   height: 60vh;
   z-index: 4;
 }
 @media screen and (max-width: 767px) {
   .events-page-image {
-    width: 80vw;
-    height: 60vh;
-    margin-left: 10vw;
+    width: 60vw;
+    height: auto;
   }
 }
 @media screen and (max-width: 576px) {
+  .events-page-image {
+    width: 80vw;
+    height: auto;
+  }
   .ge-card.card {
     width: 90vw;
   }
