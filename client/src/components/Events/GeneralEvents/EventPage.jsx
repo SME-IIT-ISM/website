@@ -7,12 +7,13 @@ const EventPage = (props) => {
 
   const src = props.eventData.src;
   const title = props.eventData.title;
-  const para = props.eventData.para;
-  const desc=props.eventData.para;
+  // const para = props.eventData.para;
+  const desc=props.eventData.desc;
   const date = props.eventData.date;
   const time = props.eventData.time;
   const contact1 = props.eventData.contact1;
   const contact2 = props.eventData.contact2;
+  const tab = props.eventData.tab;
   return (
     <Container className="mt-5 mb-5 events-page">
       <Row>
@@ -23,26 +24,33 @@ const EventPage = (props) => {
           <Container className="event-page-content">
             <Row>
               <Col className="text-center">
-                <h1>{title}</h1>
+                <h1 className="heading">{title}</h1>
               </Col>
             </Row>
             <Row>
               <Col>
-                <p>{src}</p>
+                <p className="content">{desc}</p>
               </Col>
             </Row>
             <Row>
-              <Col>
-                <div>
-                  <a className="bt bt-blue text-center" href="/">
-                    Register Now
-                  </a>
-                </div>
-              </Col>
+              {tab === "Upcoming" && (
+                <Col>
+                  <div>
+                    <a
+                      className="bt bt-blue text-center"
+                      href="/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Register Now
+                    </a>
+                  </div>
+                </Col>
+              )}
               <Col className="text-center mt-4">
                 <b>
-                  <p>time:&nbsp;{time}</p>
-                  <p>date:&nbsp;{date}</p>
+                  <p>Time: {time}</p>
+                  <p>Date: {date}</p>
                   <p>Contact on:</p>
                   <p>{contact1}</p>
                   <p>{contact2}</p>

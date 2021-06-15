@@ -116,3 +116,4 @@ const Blogs = (props) => {
 };
 
 export default Blogs;
+export { infoData };

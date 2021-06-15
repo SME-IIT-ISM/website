@@ -7,7 +7,12 @@ const KhananHeader = () => {
   return (
     <div className="khanan-header" id="home">
       <img src={Klogo} alt="Khanan logo" />
-      <a className="bt custom-button-khanan pt-3 " href="/">
+      <a
+        className="bt custom-button-khanan pt-3 "
+        href="/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         REGISTER
       </a>
     </div>

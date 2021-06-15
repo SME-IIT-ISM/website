@@ -9,33 +9,10 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  Button,
 } from "reactstrap";
-import SampleImg from "./image/blog-sample.jpg";
+import { infoData } from "../Resources/IndInfo/IndInfo";
 
-// blog options
-const items = [
-  {
-    src: SampleImg,
-    title: "Slide 1",
-    date: "09/11/2021",
-    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  },
-  {
-    src: SampleImg,
-    title: "Slide 2",
-    date: "09/11/2021",
-    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  },
-  {
-    src: SampleImg,
-    title: "Slide 3",
-    date: "09/11/2021",
-    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  },
-];
-
-const slides = items.map((item, index) => {
+const slides = infoData.map((item, index) => {
   return (
     <div className="iis-slider-item" key={index}>
       <Card className="iss">
@@ -46,7 +23,11 @@ const slides = items.map((item, index) => {
             {item.date}
           </CardSubtitle>
           <CardText>{item.desc}</CardText>
-          <Button>Read More</Button>
+          <div>
+            <a className="bt bt-blue" href="/resources/ind-info/">
+              Read More
+            </a>
+          </div>
         </CardBody>
       </Card>
     </div>
@@ -79,7 +60,7 @@ const options = {
     767: {
       items: 3,
     },
-    992: {
+    1200: {
       items: 4,
     },
   },
