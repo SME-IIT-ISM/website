@@ -34,10 +34,6 @@
   z-index: 1;
 }
 
-.page {
-  background-image: url("./image/81634.jpg");
-}
-
 .list-bullet-icon {
   transform: rotate(90deg);
 }

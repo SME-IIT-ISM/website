@@ -78,8 +78,6 @@
 
 .tcard {
   border-radius: var(--timelineCardBorderRadius, 2px);
-  border-left: var(--timelineCardBorderLeftWidth, 3px) solid
-    var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
   box-shadow: var(
     --timelineCardBoxShadow,
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -146,7 +144,6 @@
 
 .timeline__card {
   position: relative;
-  margin-left: var(--timelineCardLineGap, 1rem);
 }
 
 /*
@@ -189,27 +186,11 @@
 }
 .timeline:hover {
   box-shadow: 2px 2px 0.5;
-  transform: scale(1.25), 1;
-  animation: mymove 2s 1;
+  animation: mymove 2000s;
 }
 @keyframes mymove {
-  50% {
+  0.05% {
     box-shadow: 5px 8px 10px #5063af;
-  }
-}
-@keyframes fadein {
-  0% {
-    opacity: 0;
-    transform: scale(1.3);
-  }
-  80% {
-    opacity: 0.8;
-    transform: scale(1);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(1);
   }
 }
 
@@ -224,7 +205,6 @@
     Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
   color: #222;
 
-  background-image: url("./image/exp1.jpg");
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -247,11 +227,8 @@
   padding: 5rem 2rem 3rem;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("./image/81634.jpg");
   background-position: top;
   z-index: 1;
-  animation: fadein 5s ease-out;
-  animation-delay: 2.5s;
 }
 
 @media screen and (max-width: 600px) {
