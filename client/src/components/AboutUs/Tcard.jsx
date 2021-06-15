@@ -2,9 +2,7 @@ import React from "react";
 import "./timeline.css";
 
 const Tcard = (props) => {
-  const day = props.day;
   const achievement = props.ach;
-  const month = props.m;
   const title = props.title;
   const year = props.year;
 
