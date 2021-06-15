@@ -16,35 +16,56 @@ const events = [
   {
     title: "datagenix",
     src: K1,
+    head: "Head Content",
+    struct: ["one", "two", "three"],
   },
-  { title: "gamicon", src: K2 },
+  {
+    title: "gamicon",
+    src: K2,
+    head: "Head Content",
+    struct: ["one", "two", "three"],
+  },
   {
     title: "ideate",
     src: K3,
+    head: "Head Content",
+    struct: ["one", "two", "three"],
   },
   {
     title: "khanan-mafia",
     src: K4,
+    head: "Head Content",
+    struct: ["one", "two", "three"],
   },
   {
     title: "minnovare",
     src: K5,
+    head: "Head Content",
+    struct: ["one", "two", "three"],
   },
   {
     title: "nirvana",
     src: K6,
+    head: "Head Content",
+    struct: ["one", "two", "three"],
   },
   {
     title: "placement fever",
     src: K7,
+    head: "Head Content",
+    struct: ["one", "two", "three"],
   },
   {
     title: "quizzine",
     src: K8,
+    head: "Head Content",
+    struct: ["one", "two", "three"],
   },
   {
     title: "workshop ",
     src: K9,
+    head: "Head Content",
+    struct: ["one", "two", "three"],
   },
 ];
 
@@ -67,3 +88,4 @@ const Kevent = () => {
 };
 
 export default Kevent;
+export { events };

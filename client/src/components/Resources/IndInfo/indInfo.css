@@ -6,7 +6,7 @@
 }
 .latest {
   height: 60vh;
-  width: 80vw;
+  width: 70vw;
 }
 .old {
   height: 30vh;
@@ -14,7 +14,7 @@
   margin-top: 8vh;
 }
 .img-latest {
-  width: 80vw;
+  width: 70vw;
   height: 60vh;
   margin-top: 3vh;
 }

@@ -12,54 +12,10 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Particles from "./Particles";
 import Zoom from "react-reveal/Zoom";
 import "./khanan.css";
-import K1 from "./khanan-components/k-events/k-event-images/datagenix.jpg";
-import K2 from "./khanan-components/k-events/k-event-images/gamicon.jpg";
-import K3 from "./khanan-components/k-events/k-event-images/ideate.jpg";
-import K4 from "./khanan-components/k-events/k-event-images/khanan mafia.jpg";
-import K5 from "./khanan-components/k-events/k-event-images/minnovare.jpg";
-import K6 from "./khanan-components/k-events/k-event-images/nirvana.jpg";
-import K7 from "./khanan-components/k-events/k-event-images/placement fever.jpg";
-import K8 from "./khanan-components/k-events/k-event-images/quizzine.jpg";
-import K9 from "./khanan-components/k-events/k-event-images/workshop.jpg";
+import { events } from "./khanan-components/k-events/KhananEvent";
+import { speakers } from "./khanan-components/Kspeakers";
 
-const eventData = [
-  {
-    title: "datagenix",
-    src: K1,
-  },
-  {
-    title: "gamicon",
-    src: K2,
-  },
-  {
-    title: "ideate",
-    src: K3,
-  },
-  {
-    title: "khanan-mafia",
-    src: K4,
-  },
-  {
-    title: "minnovare",
-    src: K5,
-  },
-  {
-    title: "nirvana",
-    src: K6,
-  },
-  {
-    title: "placement fever",
-    src: K7,
-  },
-  {
-    title: "quizzine",
-    src: K8,
-  },
-  {
-    title: "workshop ",
-    src: K9,
-  },
-];
+const eventData = events.concat(speakers);
 
 const HomePage = () => {
   return (

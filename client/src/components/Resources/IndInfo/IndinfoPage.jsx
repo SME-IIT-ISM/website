@@ -10,21 +10,28 @@ const InfoPage = (props) => {
   const para = props.infoData.para;
   return (
     <Container className="mt-5 mb-5 events-page">
-      <Row>
-        <Col className="justify-content-center">
+      <Row className="d-flex align-items-center justify-content-center">
+        <Col
+          xs="12"
+          lg="9"
+          xl="8"
+          className="d-flex align-items-center justify-content-center"
+        >
           <img className="events-page-image" src={src} alt={title} />
         </Col>
-        <h1 className="heading text-center">{title}</h1>
       </Row>
-      <Row>
-        <Col>
-          <p className="content">{para}</p>
+      <Row className="mt-5 d-flex align-items-center justify-content-center">
+        <Col className="text-center" xs="12" lg="9" xl="8">
+          <h1>{title}</h1>
+          <p className="mt-4 content">{para}</p>
         </Col>
       </Row>
-      <Row>
-        <h5 className="m-3">
-          <a href="/resources/ind-info">Back</a>
-        </h5>
+      <Row className="mt-5 d-flex align-items-center justify-content-center">
+        <Col xs="12" lg="9" xl="8">
+          <div>
+            <a href="/resources/ind-info">Go Back</a>
+          </div>
+        </Col>
       </Row>
     </Container>
   );

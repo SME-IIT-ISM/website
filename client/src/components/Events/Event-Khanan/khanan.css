@@ -162,6 +162,30 @@ a.k-card-link:hover {
   text-align: center;
 }
 
+/* For event pages */
+.events-page-khanan h1 {
+  background-image: linear-gradient(45deg, #ff0881, #6827b0);
+  background-clip: text;
+  color: transparent;
+}
+.events-page-khanan h1::after {
+  content: none;
+}
+.events-page-khanan .content-bg {
+  background: linear-gradient(45deg, #ff0881, #6827b0);
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  height: fit-content;
+  position: relative;
+}
+.events-page-khanan .event-back-btn {
+  background: linear-gradient(45deg, #ff0881, #6827b0);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5rem;
+}
+
 /* for media query */
 @media only screen and (max-width: 1400px) {
   .custom-button-khanan {

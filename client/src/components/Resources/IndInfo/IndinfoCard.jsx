@@ -15,7 +15,7 @@ const InfoCardL = (props) => {
       <Container>
         <Row className={cls}>
           <Col>
-            <img className={cli} src={src} />
+            <img className={cli} src={src} alt=""/>
           </Col>
           <Col className={cli}>
             <h2>{title}</h2>

@@ -6,7 +6,6 @@ import {
   CardText,
   CardBody,
   CardTitle,
-  Button,
 } from "reactstrap";
 
 import "../../khanan.css";
@@ -18,7 +17,7 @@ const KhananCard = (props) => {
   return (
     <div>
       <a href={`/events/khanan/${id}`} className="k-card-link">
-        <Card className="kcard ">
+        <Card className="kcard">
           <CardImg
             className="kimage"
             top-width="100%"
