@@ -34,8 +34,12 @@ const EventPage = ({ eventData }) => {
       </Row>
       <Row className="mt-4 d-flex align-items-center justify-content-center">
         <Col xs="12" lg="9" xl="8">
-          {struct.map((item) => {
-            return <p className="mt-4 content">{item}</p>;
+          {struct.map((item, id) => {
+            return (
+              <p key={id} className="mt-4 content">
+                {item}
+              </p>
+            );
           })}
         </Col>
       </Row>

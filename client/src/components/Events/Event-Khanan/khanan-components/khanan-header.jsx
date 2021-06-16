@@ -1,6 +1,5 @@
 import React from "react";
 import Klogo from "../khanan-img/khanan-logo.png";
-
 import "../khanan.css";
 
 const KhananHeader = () => {

@@ -44,7 +44,10 @@ const Blog = () => {
         <Row>
           {latest.map((item, index) => {
             return (
-              <Col key={index} className="d-flex align-items-center justify-content-center">
+              <Col
+                key={index}
+                className="d-flex align-items-center justify-content-center"
+              >
                 <Fade
                   timeout={500}
                   right={index & 1 ? true : false}
@@ -70,7 +73,7 @@ const Blog = () => {
           <div className="info-section">
             {infoData.map((item, index) => {
               return (
-                <Container>
+                <Container key={index}>
                   <Row>
                     <Col key={index}>
                       <Fade

@@ -36,8 +36,12 @@ const EventPage = (props) => {
         <Row className="mt-4 d-flex align-items-center justify-content-center">
           <Col xs="12" lg="9" xl="8" className="content-bg px-3">
             <p className="mt-4 content text-center">{head}</p>
-            {struct.map((item) => {
-              return <p className="mt-4 content">{item}</p>;
+            {struct.map((item, id) => {
+              return (
+                <p key={id} className="mt-4 content">
+                  {item}
+                </p>
+              );
             })}
           </Col>
         </Row>
@@ -67,7 +71,9 @@ const EventPage = (props) => {
         <Row className="mt-5 d-flex align-items-center justify-content-center">
           <Col xs="12" lg="9" xl="8">
             <div>
-              <a href="/events/khanan" className="event-back-btn">Go Back</a>
+              <a href="/events/khanan" className="event-back-btn">
+                Go Back
+              </a>
             </div>
           </Col>
         </Row>

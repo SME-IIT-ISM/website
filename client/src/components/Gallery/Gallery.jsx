@@ -352,7 +352,7 @@ const Gallery = () => {
       <Nav tabs className="m-4 mb-2 justify-content-center">
         {tabs.map((item, index) => {
           return (
-            <NavItem className="p-1">
+            <NavItem key={index} className="p-1">
               <NavLink
                 className={`tabs-navi ${activeTab === index ? "active" : ""}`}
                 onClick={() => {
@@ -390,7 +390,7 @@ const Gallery = () => {
           .filter((item) => item !== "All")
           .map((it, id) => {
             return (
-              <TabPane tabId={id + 1}>
+              <TabPane key={id} tabId={id + 1}>
                 <Row>
                   <Col xs="12">
                     <div className="container1 mb-3">

@@ -28,7 +28,9 @@ const Knav = () => {
             <div className="knav-content">
               <IoTrophySharp />
               <span>
-                Campus<br />Ambassador
+                Campus
+                <br />
+                Ambassador
               </span>
             </div>
           </a>

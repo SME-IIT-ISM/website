@@ -21,7 +21,7 @@ const Campus = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            REGISTER
+            <b>REGISTER</b>
           </a>
         </Col>
       </Row>

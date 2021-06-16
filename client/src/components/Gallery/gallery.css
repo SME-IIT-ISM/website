@@ -29,6 +29,9 @@
   }
 }
 
+.GH {
+  transition: transform 0.5s;
+}
 .GH:hover {
   transform: scale(1.1);
 }
@@ -96,8 +99,7 @@
   filter: grey;
   -webkit-filter: grayscale(1);
 }
-.wholeContainer{
-  
+.wholeContainer {
   overflow-x: hidden;
 }
 .container1 {

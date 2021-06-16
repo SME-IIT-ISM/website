@@ -2,7 +2,7 @@ import React from "react";
 import k1 from "./khanan/khanan.jpg";
 import k2 from "./khanan/khanan1.jpg";
 import k3 from "./khanan/khanan2.jpg";
-import Countdown from "./Countdown";
+// import Countdown from "./Countdown";
 import { Container, Row, Col } from "reactstrap";
 
 const OverlayText = (props) => {

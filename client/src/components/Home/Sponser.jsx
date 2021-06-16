@@ -17,7 +17,7 @@ import ss from "./sponsers/ss.png";
 import ucl from "./sponsers/ucl.png";
 import wb from "./sponsers/wb.png";
 
-const Sponser = (props) => {
+const Sponser = () => {
   return (
     <Container className="sponser-container shadow p-3 mb-5 bg-white rounded">
       <Row>

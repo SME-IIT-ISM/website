@@ -9,7 +9,9 @@ const Contact = () => {
   return (
     <div>
       <div className="contact-heading-bg mt-4 d-flex align-items-center justify-content-center">
-        <h1 className="page-heading text-center py-3 text-uppercase">Contact Us</h1>
+        <h1 className="page-heading text-center py-3 text-uppercase">
+          Contact Us
+        </h1>
       </div>
       <Container className="shadow pb-4 mb-5 bg-white rounded contact">
         <Row className="bg-white rounded mt-5">

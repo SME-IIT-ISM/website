@@ -4,7 +4,6 @@
   background-position: center;
   height: 80vh;
 }
-
 .EventBox {
   width: 200px;
   height: 250px;
@@ -15,43 +14,28 @@
 
   margin-top: 2px;
 }
-/* .ge-container{
-    width:450px;
-    height:500px;
-   
-} */
 .ge-card {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
   height: auto;
   width: 450px;
   object-fit: cover;
-  /* border-radius: 20px; */
   margin-top: 20px;
   margin-left: 20px;
   margin: auto;
-
-  /* //#53a7ea     */
 }
 .ge-card:hover {
   box-shadow: 1px 1px #8899dd, 2px 2px #8899dd, 3px 3px #8899dd;
-
   -webkit-transform: translateY(-3px);
   transform: translatey(-3px);
 }
 .ge-image {
-  /* width:100%;
-    height:100%; */
   object-fit: fill;
-  /* border-radius: 20px; */
 }
 .ge-card {
   padding: 5px;
-  /* border: 2px solid blue;
-    border-radius: 20px; */
   border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
-  /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
   border-image-source: linear-gradient(to left, #081b66, #8899dd);
   border-radius: 20px;
 }

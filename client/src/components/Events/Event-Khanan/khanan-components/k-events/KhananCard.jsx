@@ -1,13 +1,5 @@
 import React from "react";
-
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-} from "reactstrap";
-
+import { Card, CardImg, CardBody, CardTitle } from "reactstrap";
 import "../../khanan.css";
 
 const KhananCard = (props) => {

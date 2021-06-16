@@ -49,7 +49,11 @@ const eventData = [
     src: GEImages2,
     title: "UPSC Career Insight",
     head: "SME IIT(ISM) Student Chapter, in collaboration with Udaan(@udaan.iitism ), the career club of IIT(ISM) Dhanbad is organizing an event on the most prestigious examination of the country for entry into the elite civil services, UPSC. The guest speaker for the event is Mr. Jay Shivani (@jayshivani ) - IAS of batch 2019, AIR-81 in UPSC CSE 2018, currently posted as Assistant Commissioner at Dibrugarh, Assam.",
-    struct: ["The most interesting part is that he also happens to be an alumnus of our college- Class of 2017 from the department of Computer Science and Engineering. The event is bound to happen on 27th May at 4 P.M.", "We advise you to mark your calendars and be there at the event, as it is going to be an unceasing learning experience for everyone who wishes to know about the if's and but's of the entire selection process, as well as those who aspire to clear this examination with flying colour", "We will provide the link for the meeting in due course of time."],
+    struct: [
+      "The most interesting part is that he also happens to be an alumnus of our college- Class of 2017 from the department of Computer Science and Engineering. The event is bound to happen on 27th May at 4 P.M.",
+      "We advise you to mark your calendars and be there at the event, as it is going to be an unceasing learning experience for everyone who wishes to know about the if's and but's of the entire selection process, as well as those who aspire to clear this examination with flying colour",
+      "We will provide the link for the meeting in due course of time.",
+    ],
     date: "27 May 2021",
     time: "4 pm",
     contact1: "Jai Anand-7482049368",
@@ -61,7 +65,11 @@ const eventData = [
     src: GEImages3,
     title: "INTERN TALKS",
     head: "SME IIT(ISM) DHANBAD is going to organize an INTERN TALK session on 16th May. Seniors nailing their internship season with commendable achievements, will share their experiences and resolve all your doubts.",
-    struct: ["Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.", "The internship season is imminent, but are you still struggling over its procedure, prospects and curriculum? Well, here your saviour arrives! SME IIT(ISM) DHANBAD is going to organize an INTERN TALK session on 16th May. Seniors nailing their internship season with commendable achievements, will share their experiences and resolve all your doubts.", "Don't miss the chance of witnessing this enthralling evening!"],
+    struct: [
+      "Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.",
+      "The internship season is imminent, but are you still struggling over its procedure, prospects and curriculum? Well, here your saviour arrives! SME IIT(ISM) DHANBAD is going to organize an INTERN TALK session on 16th May. Seniors nailing their internship season with commendable achievements, will share their experiences and resolve all your doubts.",
+      "Don't miss the chance of witnessing this enthralling evening!",
+    ],
     date: "16 May 2021",
     time: "6 pm",
     contact1: "Abhaya Adri-6206688440",
@@ -73,7 +81,11 @@ const eventData = [
     src: GEImages4,
     title: "PLACEMENT TALKS",
     head: "The placement season is near, and everyone will obviously be having a hundred questions eating their head. Well, SME IIT(ISM) Student Chapter is here to relieve you from this bewilderment. Seniors nailing their placement season with commendable achievements, will share their experiences and resolve all your doubts.",
-    struct: ["Learning is not a destination, it's a journey, and we are here to make your success journey uncomplicated and amusing.", "The placement season is near, and everyone will obviously be having a hundred questions eating their head. Well, SME IIT(ISM) Student Chapter is here to relieve you from this bewilderment. ", "Seniors nailing their placement season with commendable achievements, will share their experiences and resolve all your doubts.Don't miss the chance of witnessing this enthralling evening!"],
+    struct: [
+      "Learning is not a destination, it's a journey, and we are here to make your success journey uncomplicated and amusing.",
+      "The placement season is near, and everyone will obviously be having a hundred questions eating their head. Well, SME IIT(ISM) Student Chapter is here to relieve you from this bewilderment. ",
+      "Seniors nailing their placement season with commendable achievements, will share their experiences and resolve all your doubts.Don't miss the chance of witnessing this enthralling evening!",
+    ],
     date: "8 May 2021",
     time: "6 pm",
     contact1: "Sumit Kumar Mudi-8210987906",
@@ -85,7 +97,11 @@ const eventData = [
     src: GEImages5,
     title: "WOMINE",
     head: "SME IIT(ISM) Student Chapter brings to you an exceptional event, WOMINE, where established and successful women speakers from earth science branches would share their experiences and success stories on a virtual platform.",
-    struct: ["This is a call to all those phenomenal strong girls over there , who had the courage to choose a career in an unpopular and male dominated field.", "SME IIT(ISM) Student Chapter brings to you an exceptional event, WOMINE, where established and successful women speakers from earth science branches would share their experiences and success stories on a virtual platform.", "So, mark the date and don't miss the chance!"],
+    struct: [
+      "This is a call to all those phenomenal strong girls over there , who had the courage to choose a career in an unpopular and male dominated field.",
+      "SME IIT(ISM) Student Chapter brings to you an exceptional event, WOMINE, where established and successful women speakers from earth science branches would share their experiences and success stories on a virtual platform.",
+      "So, mark the date and don't miss the chance!",
+    ],
     date: "10 April 2021",
     time: " ",
     contact1: "Aryan Raj Singh-9460655228",
@@ -97,7 +113,13 @@ const eventData = [
     src: GEImages6,
     title: "VIRTUAL PLACEMENTS",
     head: "SME IIT(ISM) Student Chapter brings you an extraordinary opportunity, where you will be exposed to the real virtual placement process. So put on your winning hats and tune in to the placement battle this weekend!",
-    struct: ["Curious about the on campus placement process?! Well, here comes a stop to all your doubts and confusions.", "SME IIT(ISM) Student Chapter brings you an extraordinary opportunity, where you will be exposed to the real virtual placement process. So put on your winning hats and tune in to the placement battle this weekend!", "The top 3 champions would be rewarded with cash prizes worth 2k!","Date of the event: 3-4 April, 2021","Eligibility: For all 1st year students from Earth Science branches (Mining, Mining Machinery, Petroleum, Environmental, Applied Geology, Applied Geophysics, Mineral engineering)"],
+    struct: [
+      "Curious about the on campus placement process?! Well, here comes a stop to all your doubts and confusions.",
+      "SME IIT(ISM) Student Chapter brings you an extraordinary opportunity, where you will be exposed to the real virtual placement process. So put on your winning hats and tune in to the placement battle this weekend!",
+      "The top 3 champions would be rewarded with cash prizes worth 2k!",
+      "Date of the event: 3-4 April, 2021",
+      "Eligibility: For all 1st year students from Earth Science branches (Mining, Mining Machinery, Petroleum, Environmental, Applied Geology, Applied Geophysics, Mineral engineering)",
+    ],
     date: "3 & 4 April 2021",
     time: "11 am",
     contact1: "Mehul Raj-9576046151",
@@ -109,7 +131,20 @@ const eventData = [
     src: GEImages7,
     title: "INGENIUM",
     head: "Bored in this quarantine? Want something to stimulate your brain? Look no further for SME, IIT(ISM) Dhanbad Chapter is here with a refreshing quiz for you to have some fun, as well as learn a thing or two about this great nation of ours.",
-    struct: ["Bored in this quarantine? Want something to stimulate your brain? Look no further for SME, IIT(ISM) Dhanbad Chapter is here with a refreshing quiz for you to have some fun, as well as learn a thing or two about this great nation of ours.", "Just open the SME-IIT(ISM) Facebook page at https://www.facebook.com/smeiitism  , and answer the questions asked in the posts by leaving a comment below. The event shall take place today, the 15th of August. And the theme is independence day, general and mining.", "The quiz will take place 10:00 am to 10:00 pm","A question will be asked every 1 hour, and the scoring will be done on the basis of answers you leave in the comments.","The points scheme is as follows:","1st Comment = 10 points","2nd Comment = 5 points","3rd Comment = 3 points","All other comments = 1 point","The overall winner will be declared considering points from all the questions. So stay tuned for all of them.","All winners get E-certificates as well as bragging rights!","So what are you waiting for? Brush up on your patriotic knowledge and let the quiz begin!"],
+    struct: [
+      "Bored in this quarantine? Want something to stimulate your brain? Look no further for SME, IIT(ISM) Dhanbad Chapter is here with a refreshing quiz for you to have some fun, as well as learn a thing or two about this great nation of ours.",
+      "Just open the SME-IIT(ISM) Facebook page at https://www.facebook.com/smeiitism  , and answer the questions asked in the posts by leaving a comment below. The event shall take place today, the 15th of August. And the theme is independence day, general and mining.",
+      "The quiz will take place 10:00 am to 10:00 pm",
+      "A question will be asked every 1 hour, and the scoring will be done on the basis of answers you leave in the comments.",
+      "The points scheme is as follows:",
+      "1st Comment = 10 points",
+      "2nd Comment = 5 points",
+      "3rd Comment = 3 points",
+      "All other comments = 1 point",
+      "The overall winner will be declared considering points from all the questions. So stay tuned for all of them.",
+      "All winners get E-certificates as well as bragging rights!",
+      "So what are you waiting for? Brush up on your patriotic knowledge and let the quiz begin!",
+    ],
     date: " ",
     time: " ",
     contact1: "Jai Anand-7482049368",
@@ -121,7 +156,12 @@ const eventData = [
     src: GEImages8,
     title: "ONLINE CV MAKING COMPETITION",
     head: "Resumes are the heart and soul of what you do in your academic years. They are what makes you or breaks you. SME welcomes you to improve your resume making skills with the CV making competition, organised keeping in mind the essential requirement of the students.",
-    struct: ["In today’s competitive world, knowing the art of creating a good CV is must. Why not get creative and go the extra mile to make sure employers get an instant grasp of your talents.", "SME IIT-ISM student chapter brings the CV making competition for all the 2nd years at IIT(ISM) Dhanbad. Enter this competition to build a good CV, get recognized and mentored.", "Send your entries at: khanan.sme@gmail.com","Deadline: 9 PM, 3 Feb 2021"],
+    struct: [
+      "In today’s competitive world, knowing the art of creating a good CV is must. Why not get creative and go the extra mile to make sure employers get an instant grasp of your talents.",
+      "SME IIT-ISM student chapter brings the CV making competition for all the 2nd years at IIT(ISM) Dhanbad. Enter this competition to build a good CV, get recognized and mentored.",
+      "Send your entries at: khanan.sme@gmail.com",
+      "Deadline: 9 PM, 3 Feb 2021",
+    ],
     date: "Latest by 4th March",
     time: "4 pm",
     contact1: "Jai Anand-7482049368",
@@ -133,7 +173,11 @@ const eventData = [
     src: GEImages9,
     title: "BREAKING BAD",
     head: "This 25th of February, take part in a quiz related to GENERAL KNOWLEDGE AND MINING, and get a chance to prove just how much of an expert you are and win exciting prizes, goodies and certificates.",
-    struct: ["How well do you know your field? This 25th of February, take part in a quiz related to GENERAL KNOWLEDGE AND MINING, and get a chance to prove just how much of an expert you are and win exciting prizes, goodies and certificates.", "Venue: Seminar Hall, ME Department", "Timing: 6:30 PM"],
+    struct: [
+      "How well do you know your field? This 25th of February, take part in a quiz related to GENERAL KNOWLEDGE AND MINING, and get a chance to prove just how much of an expert you are and win exciting prizes, goodies and certificates.",
+      "Venue: Seminar Hall, ME Department",
+      "Timing: 6:30 PM",
+    ],
     date: "25 Feb 2021",
     time: "6:30pm",
     contact1: "Jai Anand-7482049368",
@@ -160,7 +204,7 @@ const HomePage = () => {
         <Nav tabs className="justify-content-center">
           {tabs.map((item, index) => {
             return (
-              <NavItem className="p-1">
+              <NavItem key={index} className="p-1">
                 <NavLink
                   className={`tabs-navi ${activeTab === index ? "active" : ""}`}
                   onClick={() => {
@@ -176,7 +220,7 @@ const HomePage = () => {
         <TabContent activeTab={activeTab}>
           {tabs.map((it, id) => {
             return (
-              <TabPane tabId={id}>
+              <TabPane key={id} tabId={id}>
                 <Row className="pt-4">
                   {eventData
                     .filter((item) => item.tab === tabs[id])

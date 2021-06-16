@@ -1,5 +1,4 @@
 import React from "react";
-// import SMEGeneralEvents from "./SMEGeneralEvents";
 import { Container, Row, Col } from "reactstrap";
 import "./indInfo.css";
 
@@ -15,7 +14,7 @@ const InfoCardL = (props) => {
       <Container>
         <Row className={cls}>
           <Col>
-            <img className={cli} src={src} alt=""/>
+            <img className={cli} src={src} alt="" />
           </Col>
           <Col className={cli}>
             <h2>{title}</h2>
