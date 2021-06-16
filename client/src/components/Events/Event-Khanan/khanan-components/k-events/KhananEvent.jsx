@@ -16,7 +16,6 @@ const events = [
   {
     title: "datagenix",
     src: K1,
-    head: "Head Content",
     struct: [
       "Computers are able to see, hear and learn. Welcome to the future.” With the advent of technology, the forefront of human evolution is Artificial Intelligence, and Machine Learning. We are gradually seeing the rapid use of AI in all industries. The mining industry is no exception.",
       "The Khanan '20 team presents before you 'Datagenix', a Machine Learning Hackathon, where participants will be given a problem statement, and they have to come up with a Machine Learning based solution or model within the stipulated time.",
@@ -27,7 +26,6 @@ const events = [
   {
     title: "gamicon",
     src: K2,
-    head: "Head Content",
     struct: [
       "The entire idea of accomodating the gaming events into the Spectrum of events which comprise of primarily Technical Events with formal rules can be encapsulated under two reasons: firstly the presence of gaming events let the people participating in the formal events have a break and the second is to make them realise how skills like focus and teamwork can do wonders. The very essence of human existence is the survival with coordination.",
     ],
@@ -35,7 +33,6 @@ const events = [
   {
     title: "ideate",
     src: K3,
-    head: "Head Content",
     struct: [
       "Having an idea in mind is one thing and proving its worth to others is different. This paper presentation event is aimed to bring out the best of the ideas of the budding technocrats and to inspire them for higher achievements. The event will make you ponder upon your knowledge and contemplate upon skills you have to solve a real life problem.",
       "The competition will be organized in two phases. The first stage will be online submission while the second one will be at Zoom link during KHANAN'20.",
@@ -50,7 +47,6 @@ const events = [
   {
     title: "khanan-mafia",
     src: K4,
-    head: "Head Content",
     struct: [
       `Life is like a puzzle, Only if you fit pieces to the right places, you will see the beauty of it.This year Khanan is back with its cosmic event "KHANAN MAFIA" - a virtual treasure hunt.`,
       "Treasure Hunt Window: 4 Oct'20 10:00 AM IST to 4 Oct'20 04:00 PM IST.",
@@ -71,7 +67,6 @@ const events = [
   {
     title: "minnovare",
     src: K5,
-    head: "Head Content",
     struct: [
       "This event puts to test the ultimate presentation skills of the participants. The participants will be required to prepare and present innovative posters as per the problem statement given. The one who says the most in least number of words will take away the prize.",
       "Participants should choose a burning problem statement related to real life and should provide an innovative solution. The abstract should be mailed to khanan.sme@gmail.com.",
@@ -84,7 +79,6 @@ const events = [
   {
     title: "nirvana",
     src: K6,
-    head: "Head Content",
     struct: [
       `For any Mining Engineer, it is very important to get an insight into real life problems before entering the field. The event aims to provide exposure to real life mining problems and extract some "out of the box" ideas from aspiring students.`,
       "For the selection round each team has to prepare an abstract of the solution based on the given problem statement.",
@@ -97,7 +91,6 @@ const events = [
   {
     title: "placement fever",
     src: K7,
-    head: "Head Content",
     struct: [
       `The Khanan Family believes in the wise saying of Carl Sagan - "Somewhere, something incredible is waiting to be known". So, to acknowledge your incredibility and creativity, we are back with our prodigious event-"PLACEMENT FEVER".`,
       "This event puts the students through a simulated version of the campus placement process. Beginning with an aptitude test, the participants will go on to appear for group discussions and eventually sit for personal interviews.",
@@ -111,7 +104,6 @@ const events = [
   {
     title: "quizzine",
     src: K8,
-    head: "Head Content",
     struct: [
       "For any Mining Engineer, the knowledge of every small detail is necessary for proper execution of any procedure. The Mining quiz gives an oppurtunity to test your knowledge about Mining Engineering. For an aware mind, the general quiz is a golden opportunity to have an insight of its surrounding and exposure to various world issues.",
       "The competition will be organized in two phases. Both phases will be organized at Zoom link during KHANAN'20.",
@@ -124,7 +116,6 @@ const events = [
   {
     title: "workshop ",
     src: K9,
-    head: "Head Content",
     struct: [
       "The penetration of digitisation into the surveying industry has mandated the acquisition of modern techniques of data analysis and data representation mandatory. The tools though easy to use have not been able to have an impact on the students all around the country. To bridge such gaps between the academics and the industry, KHANAN organises workshops on software pakages like SURPAC, AUTOPLOTTER, MINEX AUTOCAD 3D, etc., The only requisites to join are bringing a fully charged laptop and minds free to learn.",
     ],

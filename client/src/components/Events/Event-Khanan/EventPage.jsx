@@ -8,7 +8,6 @@ const EventPage = (props) => {
 
   const title = props.eventData.title;
   const src = props.eventData.src;
-  const head = props.eventData.head;
   const struct = props.eventData.struct;
 
   return (
@@ -35,7 +34,6 @@ const EventPage = (props) => {
         </Row>
         <Row className="mt-4 d-flex align-items-center justify-content-center">
           <Col xs="12" lg="9" xl="8" className="content-bg px-3">
-            <p className="mt-4 content text-center">{head}</p>
             {struct.map((item, id) => {
               return (
                 <p key={id} className="mt-4 content">
