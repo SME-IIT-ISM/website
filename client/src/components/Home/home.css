@@ -135,31 +135,6 @@
   background-color: black;
 }
 
-/* for Announcement.js */
-.own-marquee {
-  position: relative;
-  overflow-y: hidden;
-  animation: Marquee 10s infinite linear;
-  height: 100%;
-}
-
-.own-marquee:hover {
-  background: rgba(255, 255, 255, 0.5);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  cursor: pointer;
-  animation-play-state: paused;
-}
-
-.marquee-container {
-  height: 80%;
-  overflow-y: hidden;
-  margin-top: 2%;
-}
-
 /* for OverlayText */
 .img-container {
   width: 45vw;
@@ -257,31 +232,6 @@
   font-size: 2vw;
 }
 
-/* Marquee Animation */
-@keyframes Marquee {
-  0% {
-    transform: translate(0, 100%);
-  }
-  100% {
-    transform: translate(0%, -100%);
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .Marquee {
-    animation: none;
-    overflow: visible;
-    direction: unset;
-    white-space: wrap;
-  }
-}
-
-.Marquee {
-  will-change: transform;
-  animation: marquee 60s infinite linear;
-  overflow: hidden;
-  direction: rtl;
-  white-space: nowrap;
-}
 /* For Sme.js */
 .sme {
   background-image: linear-gradient(
