@@ -21,6 +21,7 @@ import PromotionHead from "./images/PromotionHead.jpg";
 import MarketingHead from "./images/MarketingHead.jpg";
 import DraftingHead from "./images/DraftingHead.jpg";
 import MembershipHead from "./images/MembershipHead.jpg";
+import dev1 from "./images/dev1.jpg";
 import OurTeam1 from "./images/OurTeam1.jpg";
 
 const officeBearers = [
@@ -139,6 +140,12 @@ const coreTeam = [
 
 const developers = [
   {
+    src: dev1,
+    position: "Web Developer",
+    name: "Kartik Saini",
+    linkedin: "https://www.linkedin.com/in/kartik-saini-a1a240195/",
+  },
+  {
     src: OurTeam1,
     position: "Web Developer",
     name: "Abhinav Kumar Singh",
@@ -149,12 +156,6 @@ const developers = [
     position: "Web Developer",
     name: "Abhijeet Haldar",
     linkedin: "https://www.linkedin.com/in/abhijeet-haldar-59813a1b4/",
-  },
-  {
-    src: OurTeam1,
-    position: "Web Developer",
-    name: "Kartik Saini",
-    linkedin: "https://www.linkedin.com/in/kartik-saini-a1a240195/",
   },
 ];
 
