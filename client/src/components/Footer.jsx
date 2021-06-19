@@ -15,7 +15,7 @@ const Footer = (props) => {
     <section className="footer">
       {/* <!-- Footer --> */}
       <footer className="text-white">
-        <div className="container p-4">
+        <div className="container px-4 pt-5 pb-4">
           <div className="row">
             <div className="col-lg-4 col-md-12 mb-4 d-flex flex-column flex-md-row flex-lg-column justify-content-center justify-content-md-around justify-content-lg-center text-center">
               <div className="d-inline-block my-auto">
@@ -64,7 +64,7 @@ const Footer = (props) => {
               </div>
             </div>
 
-            <div className="col-lg-5 col-md-12 mb-4">
+            <div className="col-lg-5 col-md-12 pb-4">
               <h5 className="text-uppercase">Contact</h5>
 
               <ul className="list-unstyled mb-0">
@@ -96,7 +96,7 @@ const Footer = (props) => {
               </ul>
             </div>
 
-            <div className="col-lg-3 col-md-6 mb-4">
+            <div className="col-lg-3 col-md-6 pb-4">
               <h5 className="text-uppercase mb-2">Links</h5>
               <ul className="list-unstyled">
                 <li className="mb-2">
