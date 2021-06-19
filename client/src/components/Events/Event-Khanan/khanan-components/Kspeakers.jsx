@@ -11,7 +11,7 @@ import Zoom from "react-reveal/Zoom";
 
 const speakers = [
   {
-    title: "Dr Vaibhav Raj",
+    title: "Dr. Vaibhav Raj",
     src: S1,
     head: "Head Content",
     struct: [
@@ -20,7 +20,7 @@ const speakers = [
     ],
   },
   {
-    title: "Mr JAYANK SRIVASTAVA",
+    title: "Mr. Jayank Srivastava",
     src: S2,
     head: "Head Content",
     struct: [
@@ -29,7 +29,7 @@ const speakers = [
     ],
   },
   {
-    title: "DR. SUKUMAR BANDOPADHYAY",
+    title: "Dr. Sukumar Bandopadhyay",
     src: S3,
     head: "Head Content",
     struct: [
@@ -37,7 +37,7 @@ const speakers = [
     ],
   },
   {
-    title: "MR. ABANI R SAMAL",
+    title: "Mr. Abani R Samal",
     src: S4,
     head: "Head Content",
     struct: [
@@ -46,7 +46,7 @@ const speakers = [
     ],
   },
   {
-    title: "MR. AMIT KUMAR",
+    title: "Mr. Amit Kumar",
     src: S5,
     head: "Head Content",
     struct: [

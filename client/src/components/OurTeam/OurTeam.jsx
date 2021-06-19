@@ -22,6 +22,7 @@ import MarketingHead from "./images/MarketingHead.jpg";
 import DraftingHead from "./images/DraftingHead.jpg";
 import MembershipHead from "./images/MembershipHead.jpg";
 import dev1 from "./images/dev1.jpg";
+import Title from "../PageTitle";
 import OurTeam1 from "./images/OurTeam1.jpg";
 
 const officeBearers = [
@@ -162,6 +163,7 @@ const developers = [
 const OurTeam = () => {
   return (
     <div className="our-team">
+      <Title pageTitle="Our Team" />
       <div className="team-heading-bg mt-4 d-flex align-items-center justify-content-center">
         <h1 className="page-heading text-center py-3 text-uppercase">
           Our Team

@@ -47,6 +47,8 @@ const options = {
   loop: true,
   autoplay: true,
   smartSpeed: 3000,
+  touchDrag: false,
+  mouseDrag: false,
 };
 
 class CarouselContainer extends React.Component {

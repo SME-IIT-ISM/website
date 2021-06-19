@@ -1,6 +1,7 @@
 import React from "react";
 import Error404 from "../../Error404/Error404";
 import { Container, Row, Col } from "reactstrap";
+import Title from "../../PageTitle";
 
 const InfoPage = (props) => {
   if (props.infoData === undefined) return <Error404 msg="Unexisting Event" />;
@@ -10,6 +11,7 @@ const InfoPage = (props) => {
   const para = props.infoData.para;
   return (
     <Container className="mt-5 mb-5 events-page">
+      <Title pageTitle={`${title} - Industrial Info`} />
       <Row className="d-flex align-items-center justify-content-center">
         <Col
           xs="12"

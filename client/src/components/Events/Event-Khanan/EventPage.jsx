@@ -2,6 +2,7 @@ import React from "react";
 import Error404 from "../../Error404/Error404";
 import { Container, Row, Col } from "reactstrap";
 import Particles from "./Particles";
+import Title from "../../PageTitle";
 
 const EventPage = (props) => {
   if (props.eventData === undefined) return <Error404 msg="Unexisting Event" />;
@@ -12,6 +13,7 @@ const EventPage = (props) => {
 
   return (
     <div style={{ backgroundColor: "black" }}>
+      <Title pageTitle={`${title} - Khanan`} />
       <Particles />
       <Container
         className="pb-5 events-page-khanan"

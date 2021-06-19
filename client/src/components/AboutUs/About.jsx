@@ -7,10 +7,12 @@ import { GiBullseye } from "react-icons/gi";
 import { FaRegEye } from "react-icons/fa";
 import { IoFlag } from "react-icons/io5";
 import { MdNavigation } from "react-icons/md";
+import Title from "../PageTitle";
 
 const About = () => {
   return (
     <div>
+      <Title pageTitle="About Us" />
       <div className="about-heading-bg mt-4 d-flex align-items-center justify-content-center">
         <h1 className="page-heading text-center py-3 text-uppercase">
           About Us

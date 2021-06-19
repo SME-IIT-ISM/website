@@ -6,11 +6,12 @@ import Info from "./event-page-img.jpg";
 import Fade from "react-reveal/Fade";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import InfoPage from "./IndinfoPage";
+import Title from "../../PageTitle";
 
 const latest = [
   {
     src: Info,
-    title: "Poster Competion",
+    title: "Poster Competition",
     para: "A virtual “WOMINE” event was organized on 10 April 2020 by SME IIT(ISM) Student Chapter for all the budding female engineers, who look up to a career in the mining field. The event witnessed the huge participation of girls from different institutions all over India. As event speakers, we invited some phenomenal women with extensive knowledge and years of experience in the Mining and Mineral Industry.",
   },
 ];
@@ -22,12 +23,12 @@ const infoData = [
   },
   {
     src: Info,
-    title: "INTERN TALKS",
+    title: "Intern Talks",
     para: "SME IIT(ISM) DHANBAD is going to organize an INTERN TALK session on 16th May. Seniors nailing their internship season with commendable achievements, will share their experiences and resolve all your doubts.",
   },
   {
     src: Info,
-    title: "PLACEMENT TALKS",
+    title: "Placement Talks",
     para: "The placement season is near, and everyone will obviously be having a hundred questions eating their head. Well, SME IIT(ISM) Student Chapter is here to relieve you from this bewilderment. Seniors nailing their placement season with commendable achievements, will share their experiences and resolve all your doubts.",
   },
 ];
@@ -35,6 +36,7 @@ const infoData = [
 const Blog = () => {
   return (
     <div>
+      <Title pageTitle="Industrial Info" />
       <div className="ind-info-heading-bg mt-4 d-flex align-items-center justify-content-center">
         <h1 className="page-heading text-center py-3 text-uppercase">
           Industrial Info

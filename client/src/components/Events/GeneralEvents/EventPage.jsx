@@ -1,6 +1,7 @@
 import React from "react";
 import Error404 from "../../Error404/Error404";
 import { Container, Row, Col } from "reactstrap";
+import Title from "../../PageTitle";
 
 const EventPage = ({ eventData }) => {
   if (eventData === undefined) return <Error404 msg="Unexisting Event" />;
@@ -16,6 +17,7 @@ const EventPage = ({ eventData }) => {
   const tab = eventData.tab;
   return (
     <Container className="mt-5 mb-5 events-page">
+      <Title pageTitle={`${title} - General Events`} />
       <Row className="d-flex align-items-center justify-content-center">
         <Col
           xs="12"

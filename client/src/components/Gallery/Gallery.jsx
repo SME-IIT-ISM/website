@@ -14,6 +14,7 @@ import {
   CardBody,
   CardTitle,
 } from "reactstrap";
+import Title from "../PageTitle";
 import GHImage1 from "./BackgroundGalleryA.jpg";
 import ALUMNIMEET1 from "./ALUMNIMEET/ALUMNIMEET1.jpg";
 import ALUMNIMEET2 from "./ALUMNIMEET/ALUMNIMEET2.jpg";
@@ -321,6 +322,7 @@ const Gallery = () => {
 
   return (
     <div className="wholeContainer">
+      <Title pageTitle="Gallery" />
       <Container className="GH-intro">
         <Row className="pt-md-5">
           <Col

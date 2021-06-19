@@ -14,7 +14,7 @@ import Zoom from "react-reveal/Zoom";
 
 const events = [
   {
-    title: "datagenix",
+    title: "Datagenix",
     src: K1,
     struct: [
       "Computers are able to see, hear and learn. Welcome to the future.” With the advent of technology, the forefront of human evolution is Artificial Intelligence, and Machine Learning. We are gradually seeing the rapid use of AI in all industries. The mining industry is no exception.",
@@ -24,14 +24,14 @@ const events = [
     ],
   },
   {
-    title: "gamicon",
+    title: "Gamicon",
     src: K2,
     struct: [
       "The entire idea of accomodating the gaming events into the Spectrum of events which comprise of primarily Technical Events with formal rules can be encapsulated under two reasons: firstly the presence of gaming events let the people participating in the formal events have a break and the second is to make them realise how skills like focus and teamwork can do wonders. The very essence of human existence is the survival with coordination.",
     ],
   },
   {
-    title: "ideate",
+    title: "Ideate",
     src: K3,
     struct: [
       "Having an idea in mind is one thing and proving its worth to others is different. This paper presentation event is aimed to bring out the best of the ideas of the budding technocrats and to inspire them for higher achievements. The event will make you ponder upon your knowledge and contemplate upon skills you have to solve a real life problem.",
@@ -45,7 +45,7 @@ const events = [
     ],
   },
   {
-    title: "khanan-mafia",
+    title: "Khanan Mafia",
     src: K4,
     struct: [
       `Life is like a puzzle, Only if you fit pieces to the right places, you will see the beauty of it.This year Khanan is back with its cosmic event "KHANAN MAFIA" - a virtual treasure hunt.`,
@@ -65,7 +65,7 @@ const events = [
     ],
   },
   {
-    title: "minnovare",
+    title: "Minnovare",
     src: K5,
     struct: [
       "This event puts to test the ultimate presentation skills of the participants. The participants will be required to prepare and present innovative posters as per the problem statement given. The one who says the most in least number of words will take away the prize.",
@@ -77,7 +77,7 @@ const events = [
     ],
   },
   {
-    title: "nirvana",
+    title: "Nirvana",
     src: K6,
     struct: [
       `For any Mining Engineer, it is very important to get an insight into real life problems before entering the field. The event aims to provide exposure to real life mining problems and extract some "out of the box" ideas from aspiring students.`,
@@ -89,7 +89,7 @@ const events = [
     ],
   },
   {
-    title: "placement fever",
+    title: "Placement Fever",
     src: K7,
     struct: [
       `The Khanan Family believes in the wise saying of Carl Sagan - "Somewhere, something incredible is waiting to be known". So, to acknowledge your incredibility and creativity, we are back with our prodigious event-"PLACEMENT FEVER".`,
@@ -102,7 +102,7 @@ const events = [
     ],
   },
   {
-    title: "quizzine",
+    title: "Quizzine",
     src: K8,
     struct: [
       "For any Mining Engineer, the knowledge of every small detail is necessary for proper execution of any procedure. The Mining quiz gives an oppurtunity to test your knowledge about Mining Engineering. For an aware mind, the general quiz is a golden opportunity to have an insight of its surrounding and exposure to various world issues.",
@@ -114,7 +114,7 @@ const events = [
     ],
   },
   {
-    title: "workshop ",
+    title: "Workshop",
     src: K9,
     struct: [
       "The penetration of digitisation into the surveying industry has mandated the acquisition of modern techniques of data analysis and data representation mandatory. The tools though easy to use have not been able to have an impact on the students all around the country. To bridge such gaps between the academics and the industry, KHANAN organises workshops on software pakages like SURPAC, AUTOPLOTTER, MINEX AUTOCAD 3D, etc., The only requisites to join are bringing a fully charged laptop and minds free to learn.",

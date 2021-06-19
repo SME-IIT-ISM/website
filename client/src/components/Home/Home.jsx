@@ -7,6 +7,7 @@ import Sponser from "./Sponser";
 import OverlayText from "./OverlayText";
 import Youtube from "./Youtube";
 import SME from "./Sme";
+import Title from "../PageTitle";
 import Fade from "react-reveal/Fade";
 
 class Home extends Component {
@@ -51,6 +52,7 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
+        <Title pageTitle="Home" />
         <CarouselContainer />
         <br />
         <Fade bottom timeout={500}>

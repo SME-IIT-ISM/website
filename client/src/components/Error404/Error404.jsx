@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Lottie from "react-lottie";
 import animationData from "./error404-lottie.json";
 import "./error404.css";
+import Title from "../PageTitle";
 
 class Error404 extends Component {
   render() {
@@ -16,6 +17,7 @@ class Error404 extends Component {
 
     return (
       <div className="d-flex flex-column justify-content-center align-items-center lottie-404-container">
+        <Title pageTitle="Error" />
         <div>
           <Lottie
             options={defaultOptions}

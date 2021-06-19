@@ -69,15 +69,29 @@ const Footer = (props) => {
 
               <ul className="list-unstyled mb-0">
                 <li className="mb-2">
-                  <FaMapMarkerAlt /> Department of Mining Engineering, IIT (ISM)
-                  Dhanbad, Hirapur, Sardar Patel Nagar, Dhanbad, Jharkhand
-                  826004
+                  <FaMapMarkerAlt />{" "}
+                  <a
+                    href="https://goo.gl/maps/ELzTreCaWQgvDgmA6"
+                    className="text-white"
+                  >
+                    Department of Mining Engineering, IIT (ISM) Dhanbad,
+                    Hirapur, Sardar Patel Nagar, Dhanbad, Jharkhand 826004
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <FaPhoneAlt /> Phone: +91 7297812986
+                  <FaPhoneAlt /> Phone:{" "}
+                  <a href="tel:+917297812986" className="text-white">
+                    +91 7297812986
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <FaEnvelope /> Email: smeiitismstudentchapter@gmail.com
+                  <FaEnvelope /> Email:{" "}
+                  <a
+                    href="mailto:smeiitismstudentchapter@gmail.com"
+                    className="text-white"
+                  >
+                    smeiitismstudentchapter@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>

@@ -14,12 +14,14 @@ import Zoom from "react-reveal/Zoom";
 import "./khanan.css";
 import { events } from "./khanan-components/k-events/KhananEvent";
 import { speakers } from "./khanan-components/Kspeakers";
+import Title from "../../PageTitle";
 
 const eventData = events.concat(speakers);
 
 const HomePage = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
+      <Title pageTitle="Khanan" />
       <Particles />
       <Knav />
       <KhananHeader />
