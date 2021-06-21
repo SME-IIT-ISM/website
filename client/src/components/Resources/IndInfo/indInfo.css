@@ -6,7 +6,7 @@
 }
 .latest {
   height: 60vh;
-  width: 70vw;
+  width: 80vw;
 }
 
 .old {
@@ -17,11 +17,8 @@
 .old:first-child {
   margin-top: 25vh;
 }
-.old p {
-  display: none;
-}
 .latest img {
-  width: 70vw;
+  width: 80vw;
   height: 60vh;
 }
 .old img {
@@ -33,7 +30,7 @@
   margin-bottom: 5vh;
 }
 /* quotes */
-.quotesInfo{
+.quotesInfo {
   color: rgb(55, 71, 133);
 }
 
@@ -56,4 +53,3 @@
     margin-top: -10vh;
   }
 }
-
