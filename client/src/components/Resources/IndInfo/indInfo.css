@@ -32,6 +32,10 @@
   margin-top: 30vh;
   margin-bottom: 5vh;
 }
+/* quotes */
+.quotesInfo{
+  color: rgb(55, 71, 133);
+}
 
 @media screen and (max-width: 769px) {
   .old {
@@ -52,3 +56,4 @@
     margin-top: -10vh;
   }
 }
+

@@ -1,5 +1,6 @@
 import React from "react";
 import "./calender.css";
+import calenderImg from "./calender.jpg";
 import Title from "../../PageTitle";
 
 const AnnualCalender = () => {
@@ -11,6 +12,8 @@ const AnnualCalender = () => {
           Annual Calender
         </h1>
       </div>
+    <div className=" calender d-flex justify-content-center align-items-center  my-5">
+      <img  src={calenderImg} alt=""/></div>
     </div>
   );
 };
