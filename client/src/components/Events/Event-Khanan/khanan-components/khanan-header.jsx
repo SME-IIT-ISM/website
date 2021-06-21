@@ -7,7 +7,7 @@ const KhananHeader = () => {
     <div className="khanan-header" id="home">
       <img src={Klogo} alt="Khanan logo" />
       <a
-        className="bt custom-button-khanan pt-3 "
+        className="bt custom-button-khanan"
         href="/"
         target="_blank"
         rel="noopener noreferrer"

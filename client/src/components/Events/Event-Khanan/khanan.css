@@ -31,8 +31,8 @@
 }
 
 .khanan-header img {
-  width: 13%;
-  height: auto;
+  width: auto;
+  height: 35%;
   position: absolute;
   margin-top: 23vh;
 }
@@ -40,7 +40,7 @@
   font-family: Brush Script MT, Brush Script Std, cursive;
   background-color: #fff;
   color: rgba(0, 0, 0, 1);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 500;
   height: 10%;
   position: absolute;
@@ -130,18 +130,18 @@ a.k-card-link:hover {
 }
 .campus-text {
   margin-left: 50px !important;
+  position: relative;
+  padding-bottom: 5rem !important;
 }
 .custom-button-campus {
   font-family: "Brush Script MT", "Brush Script Std", cursive;
   background-color: #fff;
   color: rgba(0, 0, 0, 1);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 500;
-  height: 20%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin-left: 40vw;
+  position: absolute !important;
+  right: 15px;
+  bottom: 15px;
 }
 .custom-button-campus:hover {
   color: rgba(0, 0, 0, 1) !important;
@@ -187,25 +187,7 @@ a.k-card-link:hover {
 }
 
 /* for media query */
-@media only screen and (max-width: 1400px) {
-  .custom-button-khanan {
-    font-size: 1rem;
-  }
-  .custom-button-campus {
-    font-size: 1rem;
-    height: 12%;
-    margin-left: 20vw;
-  }
-}
 @media only screen and (max-width: 576px) {
-  .khanan-header img {
-    width: 40%;
-    height: 30%;
-  }
-  .custom-button-khanan {
-    font-size: 1rem;
-    height: 10%;
-  }
   .k-content {
     width: 90vw;
     margin-left: 10vw;
@@ -213,9 +195,5 @@ a.k-card-link:hover {
   .campus {
     width: 90vw;
     margin-right: 10vw;
-  }
-  .khanan-header img {
-    width: 40%;
-    height: 30%;
   }
 }

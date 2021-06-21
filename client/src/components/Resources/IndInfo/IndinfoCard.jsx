@@ -10,24 +10,22 @@ const InfoCardL = (props) => {
   const cls = props.cls;
   const date = props.date;
   return (
-    <div>
-      <Container>
-        <Row className={cls}>
-          <Col>
-            <img src={src} alt="" />
-          </Col>
-          <Col>
-            <h2>{title}</h2>
-            <p>
-              {para}&nbsp;&nbsp;,&nbsp;{date}
-            </p>
-            <h4>
-              <a href={`/resources/ind-info/${id}`}>Read More</a>
-            </h4>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+    <Container>
+      <Row className={`${cls} flex-column flex-md-row`}>
+        <Col>
+          <img src={src} alt="" />
+        </Col>
+        <Col className="pt-4">
+          <h3>{title}</h3>
+          <p>
+            {para}, {date}
+          </p>
+          <h5>
+            <a href={`/resources/ind-info/${id}`}>Read More</a>
+          </h5>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

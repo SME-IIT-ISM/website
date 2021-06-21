@@ -173,9 +173,6 @@
   top: 5vw;
   z-index: 4;
 }
-.row {
-  flex-direction: row !important;
-}
 
 .img-container .overlay {
   position: absolute;
@@ -209,10 +206,15 @@
 
 /* for IndInfoSlider */
 .iss.card {
+  height: 70vh;
   border: none;
   border-radius: 20px;
   transition: transform 0.25s ease-in-out;
   overflow: hidden;
+}
+.iss-btn {
+  position: absolute;
+  bottom: 10px;
 }
 .iss .card-img-top {
   height: 40vh;

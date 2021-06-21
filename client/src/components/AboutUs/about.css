@@ -6,6 +6,12 @@
   height: 80vh;
 }
 
+.bodyX {
+  background-image: url("./image/achieve.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .about-head-icons {
   font-size: 5rem;
   color: #374785;

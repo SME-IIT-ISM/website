@@ -23,7 +23,7 @@ const slides = infoData.map((item, index) => {
             {item.date}
           </CardSubtitle>
           <CardText>{item.desc}</CardText>
-          <div>
+          <div className="iss-btn">
             <a className="bt bt-blue" href="/resources/ind-info/">
               Read More
             </a>
@@ -45,23 +45,21 @@ const options = {
   autoplay: true,
   autoplayHoverPause: true,
   dots: true,
-  dotsEach: true,
   dotClass: "custom-dot",
   dotsClass: "custom-dots",
   stagePadding: 70,
   smartSpeed: 1000,
+  dotsSpeed: 500,
+  navSpeed: 500,
   responsive: {
     0: {
       items: 1,
     },
-    576: {
+    767: {
       items: 2,
     },
-    767: {
-      items: 3,
-    },
     1200: {
-      items: 4,
+      items: 3,
     },
   },
 };

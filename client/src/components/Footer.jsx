@@ -73,6 +73,8 @@ const Footer = (props) => {
                   <a
                     href="https://goo.gl/maps/ELzTreCaWQgvDgmA6"
                     className="text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Department of Mining Engineering, IIT (ISM) Dhanbad,
                     Hirapur, Sardar Patel Nagar, Dhanbad, Jharkhand 826004
