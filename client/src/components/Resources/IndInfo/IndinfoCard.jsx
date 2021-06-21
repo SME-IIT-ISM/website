@@ -8,15 +8,14 @@ const InfoCardL = (props) => {
   const src = props.src;
   const id = props.id;
   const cls = props.cls;
-  const cli = props.cli;
   return (
     <div>
       <Container>
         <Row className={cls}>
           <Col>
-            <img className={cli} src={src} alt="" />
+            <img src={src} alt="" />
           </Col>
-          <Col className={cli}>
+          <Col>
             <h2>{title}</h2>
             <p>{para}</p>
             <h4>
