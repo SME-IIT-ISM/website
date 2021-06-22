@@ -22,8 +22,16 @@ import {
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isOpenDD1, setIsOpenDD1] = useState(false);
+  const [isOpenDD2, setIsOpenDD2] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
+
+  const handleOpen1 = () => setIsOpenDD1(true);
+  const handleClose1 = () => setIsOpenDD1(false);
+
+  const handleOpen2 = () => setIsOpenDD2(true);
+  const handleClose2 = () => setIsOpenDD2(false);
 
   return (
     <div>
@@ -44,11 +52,25 @@ const Header = () => {
                 Gallery
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown className="mx-lg-2 text-center" nav inNavbar>
-              <DropdownToggle nav caret>
+            <UncontrolledDropdown
+              isOpen={isOpenDD1}
+              className="mx-lg-2 text-center"
+              nav
+              inNavbar
+            >
+              <DropdownToggle
+                nav
+                caret
+                onMouseEnter={handleOpen1}
+                onMouseLeave={handleClose1}
+              >
                 Events
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu
+                right
+                onMouseEnter={handleOpen1}
+                onMouseLeave={handleClose1}
+              >
                 <a className="nav-dropdown" href="/events/khanan">
                   <DropdownItem className="text-center">Khanan</DropdownItem>
                 </a>
@@ -59,11 +81,25 @@ const Header = () => {
                 </a>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <UncontrolledDropdown className="mx-lg-2 text-center" nav inNavbar>
-              <DropdownToggle nav caret>
+            <UncontrolledDropdown
+              isOpen={isOpenDD2}
+              className="mx-lg-2 text-center"
+              nav
+              inNavbar
+            >
+              <DropdownToggle
+                nav
+                caret
+                onMouseEnter={handleOpen2}
+                onMouseLeave={handleClose2}
+              >
                 Resources
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu
+                right
+                onMouseEnter={handleOpen2}
+                onMouseLeave={handleClose2}
+              >
                 <a className="nav-dropdown" href="/resources/ind-info">
                   <DropdownItem className="text-center">
                     Industrial Info

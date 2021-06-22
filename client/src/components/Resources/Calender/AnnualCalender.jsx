@@ -1,6 +1,6 @@
 import React from "react";
 import "./calender.css";
-import calenderImg from "./calender.png";
+import calenderImg from "./calender.jpg";
 import Title from "../../PageTitle";
 
 const AnnualCalender = () => {
@@ -12,8 +12,18 @@ const AnnualCalender = () => {
           Annual Calender
         </h1>
       </div>
-    <div className=" calender d-flex justify-content-center align-items-center  my-5">
-      <img  src={calenderImg} alt=""/></div>
+      <div className=" calender d-flex flex-column justify-content-center align-items-center  my-5">
+        <img src={calenderImg} alt="" />
+        <a
+          href={calenderImg}
+          className="bt bt-blue mt-5"
+          download="SME_annual_calender"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download Annual Calender
+        </a>
+      </div>
     </div>
   );
 };
