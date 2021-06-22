@@ -105,7 +105,7 @@ const About = () => {
         </Container>
       </Fade>
       <div className="bodyX">
-        <h1 className="pt-5 text-center">Achievements</h1>
+        <h1 className="pt-4 pt-sm-0 text-center heading">Achievements</h1>
         <Timeline />
       </div>
     </div>

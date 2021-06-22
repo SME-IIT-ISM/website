@@ -2,14 +2,8 @@ import Marquee from "react-easy-marquee";
 
 const Announcement = () => {
   const data = [
-    "Announcement 8",
-    "Announcement 7",
-    "Announcement 6",
-    "Announcement 5",
-    "Announcement 4",
-    "Announcement 3",
-    "Announcement 2",
-    "Announcement 1",
+    "Updates will be shared soon...",
+    "Jai Maa Kaali, ISM Bhaukaali",
   ];
 
   return (

@@ -10,6 +10,7 @@ import {
 import {
   Header,
   Footer,
+  ScrollToTop,
   Home,
   Gallery,
   Events,
@@ -34,6 +35,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Redirect to="/" />
         </Switch>
+        <ScrollToTop />
         <Footer />
       </Router>
     </div>

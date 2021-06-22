@@ -1,5 +1,6 @@
 export { default as Header } from "./Header";
 export { default as Footer } from "./Footer";
+export { default as ScrollToTop } from "./ScrollToTop";
 export { default as Home } from "./Home/Home";
 export { default as Gallery } from "./Gallery/Gallery";
 export { default as Events } from "./Events/Events";

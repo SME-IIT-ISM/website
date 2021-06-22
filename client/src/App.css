@@ -121,6 +121,32 @@ h1.page-heading::after {
   color: var(--youtube-color) !important;
 }
 
+/* For scroll to top button */
+.scroll-to-top .top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #1989ca;
+  z-index: 10;
+  width: 60px;
+  text-align: center;
+  height: 60px;
+  line-height: 45px;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding-top: 5px;
+}
+
+.scroll-to-top .top:hover {
+  color: #1989ca;
+  background-color: white;
+  box-shadow: 0 0 10px 5px #1989ca;
+}
+
 /* For reactstrap alert close button */
 .alert-dismissible .close {
   position: absolute;
@@ -141,7 +167,7 @@ button.close {
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
-  opacity: .5;
+  opacity: 0.5;
 }
 .close:hover {
   opacity: 1;

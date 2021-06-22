@@ -1,6 +1,6 @@
 import React from "react";
 import "./calender.css";
-import calenderImg from "./calender.jpg";
+import calenderImg from "./calender.png";
 import Title from "../../PageTitle";
 
 const AnnualCalender = () => {
