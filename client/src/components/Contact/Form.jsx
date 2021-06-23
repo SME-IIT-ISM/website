@@ -18,7 +18,7 @@ const Form = () => {
   );
 
   const onDismiss = () => setVisible(false);
-  const successMsg = "Your message has been sent successfully...";
+  const successMsg = "Thank you, your message has been sent successfully...";
   const errorMsg =
     "!! An error occured while sending the message. Please try again !!";
 
@@ -97,7 +97,7 @@ const Form = () => {
             name="name"
             type="text"
             className="form-control"
-            placeholder="Enter your name"
+            placeholder="Name"
             value={values.name}
             onChange={handleChange}
           />
@@ -112,7 +112,7 @@ const Form = () => {
             name="email"
             type="email"
             className="form-control"
-            placeholder="Enter your email"
+            placeholder="Email"
             aria-describedby="emailHelp"
             value={values.email}
             onChange={handleChange}
