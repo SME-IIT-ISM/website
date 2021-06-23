@@ -13,9 +13,7 @@ const Form = () => {
   const [spinner, setSpinner] = useState(false);
   const [visible, setVisible] = useState(false);
   const [color, setColor] = useState("info");
-  const [callbackMsg, setCallbackMsg] = useState(
-    "This should not be visible, unless the Send button is clicked."
-  );
+  const [callbackMsg, setCallbackMsg] = useState("");
 
   const onDismiss = () => setVisible(false);
   const successMsg = "Thank you, your message has been sent successfully...";
