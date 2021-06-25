@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import KhananCard from "./k-events/KhananCard";
 import S1 from "../khanan-img/vaibhav.PNG";
 import S2 from "../khanan-img/jayank.jpeg";
-import S3 from "../khanan-img/sukumar.png";
+import S3 from "../khanan-img/sukumar.PNG";
 import S4 from "../khanan-img/abani.jpeg";
 import S5 from "../khanan-img/amit.PNG";
 import { events } from "./k-events/KhananEvent";
