@@ -24,7 +24,7 @@ const slides = infoData.map((item, index) => {
           </CardSubtitle>
           <CardText>{item.desc}</CardText>
           <div className="iss-btn">
-            <a className="bt bt-blue" href="/resources/ind-info/">
+            <a className="bt bt-blue" href={`/resources/ind-info/${index}`}>
               Read More
             </a>
           </div>
