@@ -107,7 +107,7 @@ const Footer = (props) => {
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/" className="text-white">
+                  <a href="/events/khanan" className="text-white">
                     Khanan
                   </a>
                 </li>

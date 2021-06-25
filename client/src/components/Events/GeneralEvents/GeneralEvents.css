@@ -33,9 +33,8 @@
 }
 .ge-card {
   padding: 5px;
-  border: 10px solid;
+  border: 5px solid;
   border-image-slice: 1;
-  border-width: 5px;
   border-image-source: linear-gradient(to left, #081b66, #8899dd);
   border-radius: 20px;
 }
