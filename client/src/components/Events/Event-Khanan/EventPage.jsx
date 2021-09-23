@@ -1,19 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Error404 from "../../Error404/Error404";
 import { Container, Row, Col } from "reactstrap";
 import Particles from "./Particles";
-import Title from "../../PageTitle";
 
 const EventPage = (props) => {
-  if (props.eventData === undefined) return <Error404 msg="Unexisting Event" />;
+  const title = props.eventData?.title;
+  const src = props.eventData?.src;
+  const struct = props.eventData?.struct;
 
-  const title = props.eventData.title;
-  const src = props.eventData.src;
-  const struct = props.eventData.struct;
+  useEffect(() => {
+    if (props.eventData === undefined)
+      return <Error404 msg="Unexisting Event" />;
+
+    document.title = `${title} - Khanan - SME IIT ISM`;
+  }, []);
 
   return (
     <div style={{ backgroundColor: "black" }}>
-      <Title pageTitle={`${title} - Khanan`} />
       <Particles />
       <Container
         className="pb-5 events-page-khanan"

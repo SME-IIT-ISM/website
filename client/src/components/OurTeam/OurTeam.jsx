@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ourteam.css";
 import { Container, Row, Col } from "reactstrap";
 import { RiLinkedinBoxFill } from "react-icons/ri";
@@ -15,15 +15,14 @@ import Treasurer from "./images/Treasurer.jpg";
 import DesigningHead from "./images/DesigningHead.jpg";
 import AdDesigningHead from "./images/AdDesigningHead.jpg";
 import PRHead from "./images/PRHead.jpg";
-// import TechnicalHead from "./images/TechnicalHead.jpg";
+import TechnicalHead from "./images/TechnicalHead.jpeg";
 import MediaHead from "./images/MediaHead.jpg";
 import PromotionHead from "./images/PromotionHead.jpg";
 import MarketingHead from "./images/MarketingHead.jpg";
 import DraftingHead from "./images/DraftingHead.jpg";
 import MembershipHead from "./images/MembershipHead.jpg";
 import dev1 from "./images/dev1.jpg";
-import Title from "../PageTitle";
-import OurTeam1 from "./images/OurTeam1.jpg";
+import dev2 from "./images/dev2.jpg";
 
 const officeBearers = [
   {
@@ -102,7 +101,7 @@ const coreTeam = [
     linkedin: "https://www.linkedin.com/in/amlanjyoti-majumdar-371907195/",
   },
   {
-    src: OurTeam1,
+    src: TechnicalHead,
     position: "Technical Head",
     name: "Abhijeet Haldar",
     linkedin: "https://www.linkedin.com/in/abhijeet-haldar-59813a1b4/",
@@ -144,16 +143,16 @@ const developers = [
     src: dev1,
     position: "Web Developer",
     name: "Kartik Saini",
-    linkedin: "https://www.linkedin.com/in/kartik-saini-a1a240195/",
+    linkedin: "https://www.linkedin.com/in/kartik-saini-001/",
   },
   {
-    src: OurTeam1,
+    src: dev2,
     position: "Web Developer",
     name: "Abhinav Kumar Singh",
     linkedin: "https://www.linkedin.com/in/abhinav-kumar-singh-6813501b8/",
   },
   {
-    src: OurTeam1,
+    src: TechnicalHead,
     position: "Web Developer",
     name: "Abhijeet Haldar",
     linkedin: "https://www.linkedin.com/in/abhijeet-haldar-59813a1b4/",
@@ -161,9 +160,12 @@ const developers = [
 ];
 
 const OurTeam = () => {
+  useEffect(() => {
+    document.title = "Our Team - SME IIT ISM";
+  }, []);
+
   return (
     <div className="our-team">
-      <Title pageTitle="Our Team" />
       <div className="team-heading-bg mt-4 d-flex align-items-center justify-content-center">
         <h1 className="page-heading text-center py-3 text-uppercase">
           Our Team

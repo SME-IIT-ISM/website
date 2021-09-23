@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Form from "./Form";
 import "./contact.css";
 import { MDBContainer, MDBIframe } from "mdbreact";
 import { Container, Row, Col } from "reactstrap";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import Title from "../PageTitle";
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "Contact Us - SME IIT ISM";
+  }, []);
+
   return (
     <div>
-      <Title pageTitle="Contact Us" />
       <div className="contact-heading-bg mt-4 d-flex align-items-center justify-content-center">
         <h1 className="page-heading text-center py-3 text-uppercase">
           Contact Us

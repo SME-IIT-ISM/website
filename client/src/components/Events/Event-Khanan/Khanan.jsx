@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import KhananHeader from "./khanan-components/khanan-header";
 import KhananSlider from "./khanan-components/Kslider";
 import Knav from "./khanan-components/knav/Khanan-nav";
@@ -14,14 +14,15 @@ import Zoom from "react-reveal/Zoom";
 import "./khanan.css";
 import { events } from "./khanan-components/k-events/KhananEvent";
 import { speakers } from "./khanan-components/Kspeakers";
-import Title from "../../PageTitle";
 
 const eventData = events.concat(speakers);
 
 const HomePage = () => {
+  useEffect(() => {
+    document.title = "Khanan - SME IIT ISM";
+  }, []);
   return (
     <div style={{ backgroundColor: "black" }}>
-      <Title pageTitle="Khanan" />
       <Particles />
       <Knav />
       <KhananHeader />

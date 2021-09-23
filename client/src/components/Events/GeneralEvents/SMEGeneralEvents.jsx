@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import {
   Container,
@@ -22,7 +22,6 @@ import GEImages9 from "./images/smeevent9.jpg";
 import EventCard from "./EventCard";
 import EventPage from "./EventPage";
 import Fade from "react-reveal/Fade";
-import Title from "../../PageTitle";
 
 const tabs = ["Upcoming", "Past"];
 
@@ -194,9 +193,12 @@ const HomePage = () => {
     if (activeTab !== tab) setActiveTab(tab);
   };
 
+  useEffect(() => {
+    document.title = "General Events - SME IIT ISM";
+  }, []);
+
   return (
     <div>
-      <Title pageTitle="General Events" />
       <div className="ge-heading-bg mt-4 d-flex align-items-center justify-content-center">
         <h1 className="page-heading text-center py-3 text-uppercase">
           SME General Events

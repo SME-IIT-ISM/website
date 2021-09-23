@@ -1,23 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Error404 from "../../Error404/Error404";
 import { Container, Row, Col } from "reactstrap";
-import Title from "../../PageTitle";
 
 const EventPage = ({ eventData }) => {
-  if (eventData === undefined) return <Error404 msg="Unexisting Event" />;
+  const src = eventData?.src;
+  const title = eventData?.title;
+  const head = eventData?.head;
+  const struct = eventData?.struct;
+  const date = eventData?.date;
+  const time = eventData?.time;
+  const contact1 = eventData?.contact1;
+  const contact2 = eventData?.contact2;
+  const tab = eventData?.tab;
 
-  const src = eventData.src;
-  const title = eventData.title;
-  const head = eventData.head;
-  const struct = eventData.struct;
-  const date = eventData.date;
-  const time = eventData.time;
-  const contact1 = eventData.contact1;
-  const contact2 = eventData.contact2;
-  const tab = eventData.tab;
+  useEffect(() => {
+    if (eventData === undefined) return <Error404 msg="Unexisting Event" />;
+
+    document.title = `${title} - General Events - SME IIT ISM`;
+  }, []);
+
   return (
     <Container className="mt-5 mb-5 events-page">
-      <Title pageTitle={`${title} - General Events`} />
       <Row className="d-flex align-items-center justify-content-center">
         <Col
           xs="12"

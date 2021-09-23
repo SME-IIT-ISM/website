@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./indInfo.css";
 import { Container, Row, Col } from "reactstrap";
 import InfoCardL from "./IndinfoCard";
@@ -16,7 +16,6 @@ import Info10 from "./indimg/Info10.jpg";
 import Fade from "react-reveal/Fade";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import InfoPage from "./IndinfoPage";
-import Title from "../../PageTitle";
 
 const infoData = [
   {
@@ -155,9 +154,12 @@ const infoData = [
 ];
 
 const Blog = () => {
+  useEffect(() => {
+    document.title = "Industrial Info - SME IIT ISM";
+  }, []);
+
   return (
     <div>
-      <Title pageTitle="Industrial Info" />
       <div className="ind-info-heading-bg mt-4 d-flex align-items-center justify-content-center">
         <h1 className="page-heading text-center py-3 text-uppercase">
           Industrial Info

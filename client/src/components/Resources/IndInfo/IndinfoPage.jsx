@@ -1,20 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Error404 from "../../Error404/Error404";
 import { Container, Row, Col } from "reactstrap";
-import Title from "../../PageTitle";
 
 const InfoPage = (props) => {
-  if (props.infoData === undefined) return <Error404 msg="Unexisting Event" />;
+  const src = props.infoData?.src;
+  const title = props.infoData?.title;
+  const para = props.infoData?.para;
+  const describe = props.infoData?.describe;
+  const quotes = props.infoData?.quotes;
+  const date = props.infoData?.date;
 
-  const src = props.infoData.src;
-  const title = props.infoData.title;
-  const para = props.infoData.para;
-  const describe = props.infoData.describe;
-  const quotes = props.infoData.quotes;
-  const date = props.infoData.date;
+  useEffect(() => {
+    if (props.infoData === undefined)
+      return <Error404 msg="Unexisting Event" />;
+      
+    document.title = `${title} - Industrial Info - SME IIT ISM`;
+  }, []);
+
   return (
     <Container className="mt-5 mb-5 events-page">
-      <Title pageTitle={`${title} - Industrial Info`} />
       <Row className="d-flex align-items-center justify-content-center">
         <Col
           xs="12"
