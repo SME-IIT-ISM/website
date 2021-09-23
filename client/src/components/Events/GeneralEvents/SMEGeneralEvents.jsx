@@ -42,7 +42,7 @@ const eventData = [
     time: "24*7",
     contact1: "Sumit Kumar Mudi-8210987906",
     contact2: "Abhaya Adri-6206688440",
-    tab: "Upcoming",
+    tab: "Past",
   },
   {
     id: 1,
@@ -58,7 +58,7 @@ const eventData = [
     time: "4 pm",
     contact1: "Jai Anand-7482049368",
     contact2: "Saurabh tiwari-9326105716",
-    tab: "Upcoming",
+    tab: "Past",
   },
   {
     id: 2,
@@ -74,7 +74,7 @@ const eventData = [
     time: "6 pm",
     contact1: "Abhaya Adri-6206688440",
     contact2: "Sudeshna Kundu-7595033047",
-    tab: "Upcoming",
+    tab: "Past",
   },
   {
     id: 3,
@@ -90,7 +90,7 @@ const eventData = [
     time: "6 pm",
     contact1: "Sumit Kumar Mudi-8210987906",
     contact2: "Sudeshna Kundu-7595033047",
-    tab: "Upcoming",
+    tab: "Past",
   },
   {
     id: 4,
@@ -106,7 +106,7 @@ const eventData = [
     time: " ",
     contact1: "Aryan Raj Singh-9460655228",
     contact2: "Anjali-9608328431",
-    tab: "Upcoming",
+    tab: "Past",
   },
   {
     id: 5,
