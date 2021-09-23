@@ -36,6 +36,17 @@
   position: absolute;
   margin-top: 23vh;
 }
+
+.k-count{
+  position: absolute;
+  left:20;
+  top: 91%;
+}
+.k-count span {
+  color: #fff;
+  font-size: 3.5vh;
+}
+
 .custom-button-khanan {
   font-family: Brush Script MT, Brush Script Std, cursive;
   background-color: #fff;

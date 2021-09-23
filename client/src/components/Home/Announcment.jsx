@@ -2,8 +2,7 @@ import Marquee from "react-easy-marquee";
 
 const Announcement = () => {
   const data = [
-    "Updates will be shared soon...",
-    "Jai Maa Kaali, ISM Bhaukaali",
+    "Khanan is coming ! Be Ready",
   ];
 
   return (
