@@ -14,6 +14,7 @@ import Zoom from "react-reveal/Zoom";
 import "./khanan.css";
 import { events } from "./khanan-components/k-events/KhananEvent";
 import { speakers } from "./khanan-components/Kspeakers";
+import PreEvents from "./khanan-components/PreEvent";
 
 const eventData = events.concat(speakers);
 
@@ -22,7 +23,7 @@ const HomePage = () => {
     document.title = "Khanan - SME IIT ISM";
   }, []);
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div style={{ backgroundColor: "black" }} className="k-main">
       <Particles />
       <Knav />
       <KhananHeader />
@@ -30,6 +31,7 @@ const HomePage = () => {
       <Zoom timeout={600}>
         <KhananContent />
       </Zoom>
+      <PreEvents/>
       <Kevent />
       <Zoom timeout={600}>
         <Campus />

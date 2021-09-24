@@ -1,6 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
 /* font-family: 'Merienda', cursive; */
 
+::-webkit-scrollbar{
+  width: 14px;
+}
+::-webkit-scrollbar-track{
+  background-color: #000;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: #1989ca;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #1989ca;
+}
+
 .khanan-website {
   font-family: "Merienda", cursive;
 }
@@ -89,6 +104,64 @@
 }
 .k-content-text {
   margin-left: 15px !important;
+}
+
+/* for Pre Event */
+.p-events{
+  max-width : 75vw;
+  margin-left: 12.5vw;
+  margin-top: 10vh;
+}
+.p-events img {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+
+.main-content .p-nav {
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  top: 40%;
+}
+
+.main-content .p-nav .owl-prev,
+.main-content .p-nav .owl-next {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  color: inherit;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  border: none;
+  z-index: 100;
+}
+.main-content .p-nav .owl-prev {
+  left: 5%;
+}
+.main-content .p-nav .owl-next {
+  right: 5%;
+}
+.main-content .p-nav .owl-prev span,
+.main-content .p-nav .owl-next span {
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  transform: rotate(45deg);
+}
+.main-content .p-nav .owl-prev span {
+  left: 40%;
+  top: 37%;
+  border-bottom: 3px solid #fff;
+  border-left: 3px solid #fff;
+}
+.main-content .p-nav .owl-next span {
+  right: 40%;
+  top: 37%;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
 }
 
 /* For khanan kcards*/
@@ -195,6 +268,51 @@ a.k-card-link:hover {
   background-clip: text;
   color: transparent;
   font-size: 1.5rem;
+}
+
+/* Custom Slider */
+#scrollbar-wrapper
+{
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.scrollbar
+{
+	height: 800vh;
+	width: 30px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+
+#style-1::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
 }
 
 /* for media query */
