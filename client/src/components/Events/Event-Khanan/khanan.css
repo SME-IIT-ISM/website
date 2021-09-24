@@ -315,6 +315,43 @@ a.k-card-link:hover {
 	background-color: #555;
 }
 
+/* For Ksponser */
+.Ksponser-logo{
+  width: 200px;
+  margin-left: 65px;
+  margin-top: 30px;
+}
+.Ksponser-logo-s{
+  width: 200px;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+.ksponsor{
+  position: absolute;
+}
+.k-sponsor-1{
+    color: #D4AF37;
+    position: relative;
+    top: 85px;
+    margin-bottom: 50px;
+}
+.k-sponsor-2{
+  color: #C0C0C0;
+  position: relative;
+  top: 80px;
+  margin-bottom: 50px;
+}.k-sponsor-3{
+  color: #D3D6D8;
+  position: relative;
+  top: 105px;
+  margin-bottom: 50px;
+}.k-sponsor-4{
+  color: #ED851A;
+  position: relative;
+  top: 80px;
+  margin-bottom: 50px;
+}
+
 /* for media query */
 @media only screen and (max-width: 576px) {
   .k-content {

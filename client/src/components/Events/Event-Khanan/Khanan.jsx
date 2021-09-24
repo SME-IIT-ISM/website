@@ -15,6 +15,7 @@ import "./khanan.css";
 import { events } from "./khanan-components/k-events/KhananEvent";
 import { speakers } from "./khanan-components/Kspeakers";
 import PreEvents from "./khanan-components/PreEvent";
+import KSponser from "./khanan-components/KSponser";
 
 const eventData = events.concat(speakers);
 
@@ -38,6 +39,7 @@ const HomePage = () => {
       </Zoom>
       <Speakers />
       <KhananSlider />
+      <KSponser/>
     </div>
   );
 };
