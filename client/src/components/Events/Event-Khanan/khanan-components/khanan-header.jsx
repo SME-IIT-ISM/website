@@ -8,7 +8,7 @@ const KhananHeader = () => {
       <img src={Klogo} alt="Khanan logo" />
       <a
         className="bt custom-button-khanan"
-        href="/"
+        href="https://forms.gle/N1SQKpeDCVKyCCgE9"
         target="_blank"
         rel="noopener noreferrer"
       >

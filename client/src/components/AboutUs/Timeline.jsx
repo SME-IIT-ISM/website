@@ -6,6 +6,24 @@ import Slide from "react-reveal/Slide";
 const Timeline = () => {
   return (
     <div className="page">
+     <Slide timeout={500} left>
+        <Tcard
+          ach="Two teams from our society -1. 'MineSquad' which consisted of 
+Sumit Kumar Mudi, Anusha Priyadarshi, Sudeshna Kundu, Amlanjyoti 
+Majumdar. 2.'SpaceMinerz' consisted of Syed Ali Haider,Suyash Ranjan, Aman Raj, Jai Anand, Rishabh Kaushal.Both teams sent their entries and  pitched their ideas excellently through their videos."
+          title="MOVE MINING COMPETITION"
+          year="Year 2020-21"
+        />
+      </Slide>
+      <Slide timeout={500} left>
+        <Tcard
+          ach="SME IIT (ISM)   office bearers, who performed phenomenally well in their placement season who evidently added glory to our Student Chapter.
+
+Suba Sankar Sahu in Arcelor Mittal,Santh Prithviraj in  Essel Mining,Ranjeev Bharti in PWC,Darshil Asawa in Vedanta IZL, Satyam Kumar in Vedanta HZL,Navendu Kumar in Vedanta HIZL, Biplab Ghosh in Tata Steel, Harish Machra in Vedanta HIZL,Nagam Ramsai in Orica, Vikas Yadav in Essel Mining,Himanshu Meghwal in Vedanta HIZL, Parth Hetamsaria in KPMG,Aswini Kumar in Aditya Birla,Sanchit Kumar in Tata Steel."
+          title="SUCCESSFUL IN PLACEMENT SEASON"
+          year="Year 2020-21"
+        />
+      </Slide>
       <Slide timeout={500} left>
         <Tcard
           ach="Satyam Kumar (John SidneyMarshall&Mining and Exploration Division Scholarship) , SanthPrithvi raj (John Sidney Marshall Scholarship) ,BiplabGhosh (John Sidney Marshall Scholarship) ,NagamRamsai (Coal and Energy Division Scholarship) ,AaryaRaj Singh Ranawat(John Sidney Marshall Scholarship) won SME scholarship award "
