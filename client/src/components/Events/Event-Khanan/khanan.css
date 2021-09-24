@@ -108,15 +108,17 @@
 
 /* for Pre Event */
 .p-events{
-  max-width : 75vw;
   margin-left: 12.5vw;
   margin-top: 10vh;
+  width: 92%;
+  transition: all 0.4s;
 }
-.p-events img {
-  width: 100%;
-  height: auto;
-  object-fit: fill;
-}
+.p-events:hover {
+  width: 95%;
+  opacity: 0.7;
+  border-color: #ff0881;
+  border-style: solid;
+} 
 
 .main-content .p-nav {
   height: 10px;

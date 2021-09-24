@@ -126,6 +126,11 @@ const Kevent = () => {
   return (
     <Container id="events">
       <Row>
+        <Col>
+        <h2 className="k-sub-heading mt-5">EVENTS</h2>
+        </Col>
+        </Row>
+      <Row>
         {events.map((item, index) => {
           return (
             <Col xs="12" sm="6" lg="4" key={index}>

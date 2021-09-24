@@ -38,6 +38,11 @@ const EventPage = (props) => {
           </Col>
         </Row>
         <Row className="mt-4 d-flex align-items-center justify-content-center">
+          <Col className="text-center" xs="12" lg="9" xl="8">
+            <h1>{title}</h1>
+          </Col>
+        </Row>
+        <Row className="mt-4 d-flex align-items-center justify-content-center">
           <Col xs="12" lg="9" xl="8" className="content-bg px-3">
             {struct.map((item, id) => {
               return (
