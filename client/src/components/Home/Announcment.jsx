@@ -2,8 +2,8 @@ import Marquee from "react-easy-marquee";
 
 const Announcement = () => {
   const data = [
-    "Khanan is coming ! Be Ready","Recuerdos is going on! Click here to participate",
-    "Jharoka is going on! Click here for more info"
+    "Khanan is coming ! Be Ready","Recuerdos is going on! Check on the khanan page ",
+    "Jharoka is going on! Check on the khanan page"
   ];
 
   return (

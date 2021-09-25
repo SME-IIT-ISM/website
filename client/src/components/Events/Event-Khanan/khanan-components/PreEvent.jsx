@@ -19,7 +19,7 @@ const preevents = [
       "We have come up with an amazing opportunity that would definitely add to your poetry creation. ",
       "Chayanika Sangh presents Jharokhe- a poetry-recitation competition in association with Khanan'21 The Annual Geo Mining Fest ",
       "In order to participate in it, you will have to send a video reciting of your self composed poem. The duration of video will be ranging from 1-2 minutes. The total prize pool of this competition is ₹8000. All the entries will be posted through the instagram handle of Chayanika sangh ",
-      "To participate fill the following form :https://forms.gle/RCsyQaiVbBbvALpG8",
+      "To participate fill the following form : https://forms.gle/RCsyQaiVbBbvALpG8",
 
     ],
   },
