@@ -5,7 +5,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import Image1 from "./k-pre-events/p1.jpeg";
 import Image2 from "./k-pre-events/p2.jpeg";
 import Image3 from "./k-pre-events/p3.jpeg";
-import Image4 from "./k-pre-events/p1.jpeg";
+import Image4 from "./k-pre-events/p4.png";
 
 // image options
 const preevents = [
@@ -56,8 +56,8 @@ const preevents = [
     ],
   },
   {
-    title: "Hindi",
-    src: Image1,
+    title: "panDANCEmic2.0",
+    src: Image4,
     struct:
     [
       "something",

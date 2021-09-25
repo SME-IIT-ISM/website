@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import KhananCard from "./k-events/KhananCard";
-import S1 from "../khanan-img/vaibhav.PNG";
-import S2 from "../khanan-img/jayank.jpeg";
-import S3 from "../khanan-img/sukumar.PNG";
-import S4 from "../khanan-img/abani.jpeg";
-import S5 from "../khanan-img/amit.PNG";
+import S1 from "../khanan-img/vaibhavRaj.jpg";
+import S2 from "../khanan-img/satish.jpg";
+import S3 from "../khanan-img/subroto.jpg";
+import S4 from "../khanan-img/abani.jpg";
+// import S5 from "../khanan-img/amit.PNG";
 import { events } from "./k-events/KhananEvent";
 import Zoom from "react-reveal/Zoom";
 
@@ -15,25 +15,25 @@ const speakers = [
     src: S1,
     head: "Head Content",
     struct: [
-      "Vaibhav Raj is working as Associate Service Fellow at National Institute for Occupational Safety and Health (NIOSH) USA. He has been with NIOSH for over 5 years working on occupational safety and health issues pertinent to the mining industry. He received his Ph.D. from the University of Alaska Fairbanks (UAF), the USA in 2015. His Ph.D. work was focused on computational fluid dynamics (CFD) modeling of an open pit under air inversion.",
+      "Khanan ’21 feels elated to announce that a great mind will be here to enlighten us with his immense knowledge and experience in the field of mining and widen our scope on the same. Unveiling the speaker of Khanan '21, Vaibhav Raj. He is currently working as Associate Service Fellow at National Institute for Occupational Safety and Health (NIOSH), USA. He has been with NIOSH for over 5 years working on occupational safety and health issues pertinent to the mining industry. ",
       "Topic: AN OVERVIEW OF NIOSH MINING HEALTH AND SAFETY RESEARCH",
     ],
   },
   {
-    title: "Mr. Jayank Srivastava",
+    title: "Mr. Satish Penmetsa",
     src: S2,
     head: "Head Content",
     struct: [
-      "Jayank is a Stanford University post graduate in Environmental Engineering and an IIT-BHU graduate in Mining Engineering. Currently works with Google in New York City, USA. Jayank has had 12+ years of consulting, digital commerce (B2C and B2B) and entrepreneurial experience across Asia and the US. Jayank has worked across various startups like Flipkart.com in India to Souq.com in Dubai, and had his own online education management startup in the US",
+      "Satish Penmetsa.Currently the CEO of GroundHog,a mobile fleet management system for underground mining companies.It specializes in helping Mines, Aggregates, Quarries and Oilfields significantly improve productivity and safety by going Digital. He has made rapidInspect, mobile fleet maintenance software system for mining and heavy equipment companies. SunSight,a Field Management Software for solar energy providers. He is expert in understanding a business context, and recommending appropriate software solutions.Don't miss the opportunity to hear this inspiring man speak at KHANAN'21!!!",
       "Topic: CAREER PIVOTS",
     ],
   },
   {
-    title: "Dr. Sukumar Bandopadhyay",
+    title: "Mr. Subroto Ghosh",
     src: S3,
     head: "Head Content",
     struct: [
-      "Dr. Sukumar Bandopadhyay is currently the Director of Mining Analytics, International (MAI), a consulting (LLC) firm with expertise in Big Data, Data Analytics, and Artificial Intelligence. Prior to starting his own consulting services he served as a Professor of Mining Engineering for more than three decades at the University of Alaska Fairbanks. He has also served for several years as the Dean of the School of Mineral Engineering, Head of the Mining and Geological Department, Director of the Mineral Industry Research Laboratory, and Director of the Petroleum Development Laboratory at the University of Alaska Fairbanks.",
+      "We have organized a webinar on  October 2021 to enlighten you about the various aspects of the industry. We have invited Subrato Kumar Ghosh, an alumnus of IIT(ISM) Dhanbad and currently the Managing Director for Indian operations of Steffen, Robertson and Kirsten (SRK), a mining consultancy company. He has around 30 years of experience in mineral exploration, mining geology, and property-specific geologic and economic evaluations. He has worked on mining projects of multiple commodities, including coal and lignite, copper, iron ore, chromite, gypsum, and limestone. He is well aware of the scenario of the industry all over the world, including India, Indonesia, Armenia, Australia, China, Iran, South Africa, Zambia, Tanzania, DRC, Mozambique, Namibia, and Cameroon. He will talk about his experiences worldwide while working as a consultant in the mining industry.",
     ],
   },
   {
@@ -41,19 +41,19 @@ const speakers = [
     src: S4,
     head: "Head Content",
     struct: [
-      "Mr. Abani is an alumnus of IIT(ISM) Dhanbad and is an expert in the field of Economic Geology and Geostatistics. He is the owner of GeoGlobal LLC, that lends its advisory services to mining industries all over the world, and he has taught Mineral Deposit Evaluation as a professor in the University of Utah. His claim to fame comes from his overall astounding knowledge in Advanced Geostatistical Analysis and Mineral Resource Evaluation.",
+      "He is an alumnus of IIT (ISM) DHANBAD and currently managing his own firm GeoGlobal LLC as founder principal where his main work is in evaluation and advisory of the minerals. he also worked as an adjunct associate professor at the University of Utah and before that he was a principal advisor at Rio Tinto. His main rose to fame due to his incomparable knowledge of evaluation and exploration of minerals . Even world bank is seeking advice from him then why are you left behind  Don’t lose to grab this great opportunity",
       "Topic: MAKING INDIAN MINERAL INDUSTRY COMPETITIVE",
     ],
   },
-  {
-    title: "Mr. Amit Kumar",
-    src: S5,
-    head: "Head Content",
-    struct: [
-      "Mr. Amit Kumar is currently General Manager of Mine Planning in Thyssenkrupp Industries India Pvt. Ltd.. He has also worked Worked as a Mine Planning Manager in MECON Limited and As a Manager, Mining in Tata Steel, Raw Material Division.He is also certified as a First Class Mine Manager's Certificate of compentency in Coal by Directorate General of Mines Safety, Govt. Of India",
-      "Topic: CONCEPTUAL PLANNING AND MINE DEVELOPMENT",
-    ],
-  },
+  // {
+  //   title: "Mr. Amit Kumar",
+  //   src: S5,
+  //   head: "Head Content",
+  //   struct: [
+  //     "Mr. Amit Kumar is currently General Manager of Mine Planning in Thyssenkrupp Industries India Pvt. Ltd.. He has also worked Worked as a Mine Planning Manager in MECON Limited and As a Manager, Mining in Tata Steel, Raw Material Division.He is also certified as a First Class Mine Manager's Certificate of compentency in Coal by Directorate General of Mines Safety, Govt. Of India",
+  //     "Topic: CONCEPTUAL PLANNING AND MINE DEVELOPMENT",
+  //   ],
+  // },
 ];
 
 const Speakers = () => {
