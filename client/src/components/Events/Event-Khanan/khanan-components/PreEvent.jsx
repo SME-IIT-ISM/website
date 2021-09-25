@@ -69,7 +69,7 @@ const slides = preevents.map((item, index) => {
   const id = {index};
   return (
     <div className="p-events" key={index}>
-        <a href={`/events/khanan/${index+14}`} className="k-card-link">
+        <a href={`/events/khanan/${index+13}`} className="k-card-link">
       <img src={item.src} alt={item.altText} />
       </a>
     </div>
