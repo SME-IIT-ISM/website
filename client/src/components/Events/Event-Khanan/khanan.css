@@ -35,6 +35,16 @@
   background: linear-gradient(45deg, #6827b0, #ff0881);
 }
 
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 80%;
+}
+.modal-body {
+  /* 100% = dialog height, 120px = header + footer */
+ padding: 0 !important;
+}
+
 /* khanan-header.js*/
 .khanan-header {
   position: relative;

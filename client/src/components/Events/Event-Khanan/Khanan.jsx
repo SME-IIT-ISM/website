@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react";
+import React, { Component, useEffect, useState } from "react";
 import KhananHeader from "./khanan-components/khanan-header";
 import KhananSlider from "./khanan-components/Kslider";
 import Knav from "./khanan-components/knav/Khanan-nav";
@@ -16,16 +16,33 @@ import { events } from "./khanan-components/k-events/KhananEvent";
 import { speakers } from "./khanan-components/Kspeakers";
 import PreEvents, { preevents } from "./khanan-components/PreEvent";
 import KSponser from "./khanan-components/KSponser";
-
+import ReactPlayer from "react-player/youtube";
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 var eventData = events.concat(speakers,preevents);
 
 const HomePage = () => {
-  useEffect(() => {
+  const [modal, setModal] = useState(true);
+  useEffect(()=>{
     document.title = "Khanan - SME IIT ISM";
-  }, []);
+  },[])
+
+  const toggle = () => setModal(!modal);
+
   return (
     <div style={{ backgroundColor: "black" }} className="k-main">
+       <Modal isOpen={modal} toggle={toggle} className="popup"  centered="true"  size="lg">
+        <ModalBody>
+        <ReactPlayer
+              className="k-yt-player"
+              url="https://youtu.be/zAXGRM9VWmM"
+              controls={true}
+              width="100%"
+              height="100%"
+              pip={true}
+            />
+        </ModalBody>
+      </Modal>
       <Particles />
       <Knav />
       <KhananHeader />
