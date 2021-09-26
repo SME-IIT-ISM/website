@@ -60,7 +60,18 @@ const preevents = [
     src: Image4,
     struct:
     [
-      "something",
+      "RULES :","Following are the rules for panDANCEmic 2.0 ","panDANCEmic 2.0 is a solo dance event open to all."
+      ,"NO ENTRY FEES for participation.","Participants can choose any song or dance form they might want to perform to.",
+      "Participants must shoot the entire video in a single take; edited videos will not be entertained.","Participants can send in dance videos of not more than 50 seconds from 25th September to 3rd October to be considered for judgement.",
+      "Participants are requested to send entries along with the given information:","Participant’s name","Instagram ID",
+      "Place","College/ Academy name","To send in entries:","Attach the entry in Google form present in the Instagram bio."
+      ,"In case of ambiguity, send entries in document format on Whatsapp to-","Tejaswini Velivela:+91 6305504270",
+      "Shovit Kumar:+91 7488760269","Judging criteria","The entries will be judged according to the following criteria:"
+      ,"The videos will be posted from the official Instagram and Facebook handles of LITM on a first come first serve policy.","The points carried by post reactions are as follows:",
+      "Instagram","1 like=5 point","1 share(in story)=10 points","Facebook","1 like/react=5 points","1 share(not multiple)=10 points"
+      ,"The final scores will be based 70% on the assessment by the Judge and 30% on the reactions on Instagram and Facebook posts.","Participants must follow the Instagram and Facebook handles of LITM.",
+      "The Instagram handle of LITM should be mentioned while sharing the post in an Instagram story.","The names of the winners will be declared via the Facebook and Instagram handles of KHANAN.",
+      "Winners will receive exciting goodies and cash worth 10k and certificates. Besides the winners, some exceptional performances will be given special goodies and a special mention through our social media handles."
     ],
   },
 ];
