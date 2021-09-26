@@ -23,26 +23,38 @@ var eventData = events.concat(speakers,preevents);
 
 const HomePage = () => {
   const [modal, setModal] = useState(true);
+
   useEffect(()=>{
     document.title = "Khanan - SME IIT ISM";
+    if(sessionStorage.getItem('1'))
+    {
+      setModal(false);
+    }
   },[])
-
-  const toggle = () => setModal(!modal);
+  // if(data!=null)
+  // {
+  //   setModal(data);
+  // }
+  const toggle = () => {
+    setModal(!modal);
+     sessionStorage.setItem('1', true);
+     console.log( sessionStorage.getItem('1'));
+  }
 
   return (
     <div style={{ backgroundColor: "black" }} className="k-main">
-       <Modal isOpen={modal} toggle={toggle} className="popup"  centered="true"  size="lg">
+      {modal && <Modal isOpen={modal} toggle={toggle} className="popup"  centered="true"  size="lg">
         <ModalBody>
         <ReactPlayer
               className="k-yt-player"
-              url="https://youtu.be/zAXGRM9VWmM"
+              url="https://youtu.be/5a69OLosWZg"
               controls={true}
               width="100%"
               height="100%"
               pip={true}
             />
         </ModalBody>
-      </Modal>
+      </Modal>}
       <Particles />
       <Knav />
       <KhananHeader />
