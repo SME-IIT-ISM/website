@@ -112,7 +112,7 @@ const options = {
       items: 2,
     },
     1200: {
-      items: 4,
+      items: 3,
     },
   },
 };

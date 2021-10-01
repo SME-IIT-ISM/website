@@ -20,7 +20,7 @@
   border-radius: 25px;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background: #10557e;
+  background: #fff;
 }
 
 .khanan-website {
@@ -31,6 +31,9 @@
 .khanan-event-navbar {
   background: linear-gradient(45deg, #6827b0, #ff0881);
   transition: all 1s ease 0s;
+}
+.khanan-event-navbar .fixed-top{
+  position: initial;
 }
 
 .khanan-event-navbar .dropdown-menu {
@@ -55,7 +58,7 @@
 .khanan-header {
   position: relative;
   width: 100%;
-  height: 65vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -337,13 +340,23 @@ a.k-card-link:hover {
 /* For Ksponser */
 .Ksponser-logo{
   width: 200px;
-  margin-left: 65px;
+  margin-left: 50px;
   margin-top: 30px;
+  z-index: 100;
+
 }
 .Ksponser-logo-s{
-  width: 200px;
-  margin-left: 110px;
+  width: 250px;
+  margin-left: 170px;
   margin-top: 50px;
+  z-index: 100;
+}
+.Ksponser-logo-n{
+  width: 125px;
+  margin-left: 50px;
+  margin-top: 0px;
+  z-index: 100;
+
 }
 .ksponsor{
   position: absolute;
@@ -352,8 +365,8 @@ a.k-card-link:hover {
     color: #D4AF37;
     position: relative;
     top: 85px;
-    margin-bottom: 50px;
-}
+    left: 15px;
+  }
 .k-sponsor-2{
   color: #C0C0C0;
   position: relative;
@@ -368,6 +381,12 @@ a.k-card-link:hover {
   color: #ED851A;
   position: relative;
   top: 80px;
+  margin-bottom: 50px;
+}
+.k-sponsor-5{
+  color: #ED851A;
+  position: relative;
+  top: 90px;
   margin-bottom: 50px;
 }
 
