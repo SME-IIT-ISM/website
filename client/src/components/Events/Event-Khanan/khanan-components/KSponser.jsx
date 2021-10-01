@@ -26,7 +26,7 @@ const KSponser = () => {
           className="d-flex align-items-center justify-content-center mb-5"
         >
           <div className="ksponsor">
-            <img className="Ksponser-logo" src={sand} alt="intro" />
+          <a href="https://www.home.sandvik/en/"><img className="Ksponser-logo" src={sand} alt="intro" /></a>
           </div>
           
           <p className="k-sponsor-3" id="plat"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title&nbsp;&amp;&nbsp;Platinum Sponsor</b></p>
@@ -37,7 +37,8 @@ const KSponser = () => {
           className="d-flex align-items-center justify-content-center mb-5 mt-5"
         >
           <div className="ksponsor">
-            <img className="Ksponser-logo-n" src={nmdc} alt="intro" />
+            <a href="https://www.ndmc.gov.in/Default.aspx">
+            <img className="Ksponser-logo-n" src={nmdc} alt="intro" /></a>
           </div>
           
           <p className="k-sponsor-3" id="plat"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Platinum Sponsor</b></p>
@@ -49,7 +50,9 @@ const KSponser = () => {
           md="3"
         >
           <div className="ksponsor">
+            <a href="https://www.jsw.in/">
           <img className="Ksponser-logo-s" src={jsw} alt="intro"  />
+          </a>
           </div>
           <p className="k-sponsor-1"><b>&nbsp;&nbsp;Gold Sponsor </b></p>
         </Col>
@@ -62,7 +65,9 @@ const KSponser = () => {
           md="3"
         >
           <div className="ksponsor" >
+            <a href="https://www.epiroc.com/">
             <img className="Ksponser-logo" src={epi} alt="intro" />
+            </a>
           </div>
           <p className="k-sponsor-2"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Silver Sponsor</b></p>
         </Col>
@@ -73,7 +78,9 @@ const KSponser = () => {
           className="d-flex align-items-center justify-content-center mb-5"
         >
           <div className="ksponsor" >
+            <a href="https://www.weblibox.com/">
             <img className="Ksponser-logo" src={web} alt="intro" />
+            </a>
           </div>
           <p className="k-sponsor-4" id="gift"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gifting Partner</b></p>
         </Col>
@@ -84,7 +91,9 @@ const KSponser = () => {
           className="d-flex align-items-center justify-content-center mb-5"
         >
           <div className="ksponsor" >
+            <a href="https://www.linkedin.com/company/engineers-parcel/about/">
             <img className="Ksponser-logo" src={tm} alt="intro" />
+            </a>
           </div>
           <p className="k-sponsor-5" id="gift"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gifting Partner</b></p>
         </Col>
