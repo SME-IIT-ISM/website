@@ -123,6 +123,9 @@
 }
 
 /* for Sponser.js*/
+.sponser-container{
+  background-attachment: fixed;
+}
 .sponser-logo {
   width: 10vw;
   margin-top: auto;

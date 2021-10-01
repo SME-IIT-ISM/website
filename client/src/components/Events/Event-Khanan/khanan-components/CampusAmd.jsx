@@ -7,8 +7,8 @@ const Campus = () => {
       <Row>
         <Col className="campus-text p-3">
           <p>
-            Looking for a chance to lead your college? Register for campus
-            ambassador now and get a chance to be an extended part of organizing
+            Looking for a chance to lead your college? Register for <b><l>CAMPUS
+            AMBASSADOR</l></b> now and get a chance to be an extended part of organizing
             team of KHANAN'20. Here we offer you a chance to represent your
             college and get acknowledged for this enthusiastic work. All you
             have to do is lead the contingent from your college and make sure

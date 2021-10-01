@@ -17,7 +17,7 @@ import { speakers } from "./khanan-components/Kspeakers";
 import PreEvents, { preevents } from "./khanan-components/PreEvent";
 import KSponser from "./khanan-components/KSponser";
 import ReactPlayer from "react-player/youtube";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Modal,ModalBody } from 'reactstrap';
 
 var eventData = events.concat(speakers,preevents);
 
@@ -62,6 +62,7 @@ const HomePage = () => {
       <Zoom timeout={600}>
         <KhananContent />
       </Zoom>
+      <KSponser/>
       <PreEvents/>
       <Kevent />
       <Zoom timeout={600}>
@@ -69,7 +70,6 @@ const HomePage = () => {
       </Zoom>
       <Speakers />
       <KhananSlider />
-      <KSponser/>
     </div>
   );
 };
