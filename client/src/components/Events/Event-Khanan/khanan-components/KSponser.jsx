@@ -6,6 +6,7 @@ import sand from "../khanan-img/Sandvik_sponsor.png";
 import web from "../khanan-img/weblibox.png";
 import nmdc from "../khanan-img/nmdc.png";
 import tm from "../khanan-img/tm.png";
+import ds from "../khanan-img/ds.jpg";
 
 const KSponser = () => {
   return (
@@ -37,7 +38,7 @@ const KSponser = () => {
           className="d-flex align-items-center justify-content-center mb-5 mt-5"
         >
           <div className="ksponsor">
-            <a href="https://www.ndmc.gov.in/Default.aspx">
+            <a href="https://www.nmdc.co.in/">
             <img className="Ksponser-logo-n" src={nmdc} alt="intro" /></a>
           </div>
           
