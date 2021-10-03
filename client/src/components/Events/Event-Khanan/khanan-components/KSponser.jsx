@@ -149,19 +149,20 @@ const KSponser = () => {
           md="3"
           className="d-flex align-items-center justify-content-center mb-5"
         >
+          {" "}
           <Container>
             <Row>
               <Col className="d-flex align-items-center justify-content-center">
                 <div className="Clickable">
-                  <a href="https://www.weblibox.com/">
-                    <img className="Ksponser-logo" src={web} alt="intro" />
+                  <a href="https://engineersparcel.in/">
+                    <img className="Ksponser-logo" src={tm} alt="intro" />
                   </a>
                 </div>
               </Col>
             </Row>
             <Row>
-              <Col className="d-flex align-items-top justify-content-center k-sponsor-4">
-                <p id="gift">
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-4">
+                <p>
                   <b>Gifting Partner</b>
                 </p>
               </Col>
@@ -177,15 +178,15 @@ const KSponser = () => {
             <Row>
               <Col className="d-flex align-items-center justify-content-center">
                 <div className="Clickable">
-                  <a href="https://engineersparcel.in/">
-                    <img className="Ksponser-logo" src={tm} alt="intro" />
+                  <a href="https://www.weblibox.com/">
+                    <img className="Ksponser-logo" src={web} alt="intro" />
                   </a>
                 </div>
               </Col>
             </Row>
             <Row>
-              <Col className="d-flex align-items-center justify-content-center k-sponsor-4">
-                <p>
+              <Col className="d-flex align-items-top justify-content-center k-sponsor-4">
+                <p id="gift">
                   <b>Gifting Partner</b>
                 </p>
               </Col>
