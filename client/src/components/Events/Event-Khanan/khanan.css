@@ -330,11 +330,11 @@ a.k-card-link:hover {
 
 /* For Ksponser */
 .Ksponser-logo {
-  width: 20vw;
+  width: 16vw;
   z-index: 100;
 }
 .Ksponser-logo-s {
-  width: 20vw;
+  width: 16vw;
   z-index: 100;
 }
 .Ksponser-logo-n {
@@ -368,7 +368,7 @@ a.k-card-link:hover {
     margin-right: 10vw;
   }
   .Ksponser-logo {
-    width: 60vw;
+    width: 40vw;
   }
   .Ksponser-logo-s {
     width: 40vw;

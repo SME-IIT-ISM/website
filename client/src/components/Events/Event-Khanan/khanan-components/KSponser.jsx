@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import jsw from "../khanan-img/JSW_Sponsor.jpg";
-import epi from "../khanan-img/Epiroc.png";
+import epi from "../khanan-img/Epiroc.svg";
 import sand from "../khanan-img/Sandvik_sponsor.png";
 import web from "../khanan-img/weblibox.png";
 import nmdc from "../khanan-img/nmdc.png";
 import tm from "../khanan-img/tm.png";
-import ds from "../khanan-img/ds.jpg";
+import ds from "../khanan-img/ds.png";
 
 const KSponser = () => {
   return (
