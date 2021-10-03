@@ -14,79 +14,213 @@ import Zoom from "react-reveal/Zoom";
 
 const events = [
   {
-    title: "Datagenix",
+    title: "TWIST-A-TALE",
     src: K1,
     struct: [
-      "Computers are able to see, hear and learn. Welcome to the future.” With the advent of technology, the forefront of human evolution is Artificial Intelligence, and Machine Learning. We are gradually seeing the rapid use of AI in all industries. The mining industry is no exception.",
-      "The Khanan '20 team presents before you 'Datagenix', a Machine Learning Hackathon, where participants will be given a problem statement, and they have to come up with a Machine Learning based solution or model within the stipulated time.",
-      "The top participants will win exciting goodies and prizes All participants will be awarded participation certificates.",
-      "So what are you waiting for? Come embrace the future.",
+      "Hey Cinephiles!",
+      `KHANAN'21 brings the “TWIST A TALE” contest for all the movie buffs who wish to showcase their creativity and step into the shoes of scriptwriters.
+      `,
+      "The rules are pretty simple. You have to pick any one movie or web series of your liking from the list of 5 twisted plots that we provide. That is, we'll change one major event in the plot and you have to make use of your creativity and imagination to make the story reach its satisfactory conclusion. The ones with the most gripping and exciting plots win!!!",
+      "Rules:",
+      "NOTE: Participants have to register (https://forms.gle/fC1Nq71Mg98PEb8p7) for the event before 08:00 PM on 8th October, 2021.",
+      "1) Participants will have to choose one of the five options for movies/series with changed plot provided to them at the beginning of the contest.",
+      "2) Participants will have to bring it to a satisfactory and exciting conclusion.",
+      "3) Participants should refrain from introducing a completely new major character in the story line. Not to mention, the basic setting of the story should be kept the same to keep intact the original essence of the story.",
+      "4) Word limit will be 1000-1500 words.",
+      "5) A Google Form will be provided to the registered participants via mail and WhatsApp at the time of event which will have the link to questions and for uploading the story. The event will start at 12 noon on 11th of October and will continue up to 2 PM.",
+      "6) Typed entries in English shall be accepted and should be submitted in pdf format.",
+      "7) Indulgence in any kind of plagiarism will result in direct disqualification from the contest.",
+      "Judging criteria:",
+      "Adherence to word limit: 10%",
+      "Consistency of storyline and characters with original: 20%",
+      "Quality of build-up and character development: 40%",
+      "Conclusion: 30%",
+      "So, what are you waiting for? Give the scriptwriter inside you the chance to shine out by imagining the best conclusion!",
+      "Register for the contest Now!!!"
     ],
+    contact1:"Abhya Adri (Event Coordinator): 6206688440",
+    contact2: "Ayushman Tiwari (Event Organiser): 7470584535",
+    srclink:"https://docs.google.com/forms/d/e/1FAIpQLSeT2jUTvYsb-1tr0MCiXkhPVWMHCFOge6IDfWqKCev3REeGaQ/viewform"
   },
   {
     title: "Gamicon",
     src: K2,
     struct: [
       "The entire idea of accomodating the gaming events into the Spectrum of events which comprise of primarily Technical Events with formal rules can be encapsulated under two reasons: firstly the presence of gaming events let the people participating in the formal events have a break and the second is to make them realise how skills like focus and teamwork can do wonders. The very essence of human existence is the survival with coordination.",
+      "RULES:",
+      "1. Registered players' level must be 25+ or else the team will be disqualified.",
+      "2. Unregistered players not allowed.",
+      "3. Maximum 5-man roaster allowed.",
+      "4. To get qualified for the next round you have to attend all the match",
+      "5. Hacking or use of any third-party app in the game is not allowed. If we found any misbehave, the team will be banned permanently.",
+      "6. Sharing of id pass is not allowed. (if we found, the whole team will be disqualified from all scrims & partnered tournaments)",
+      "7. Only the one who registered will get id pass.",
+      "8. You have to sit in your allowed slots 5 minutes before the match time.",
+      "9.  You have to download and keep all the maps if someone got kicked for that reason management will not be responsible.",
+      "10. After registration no changes in roaster will be allowed.",
+      "11. Change of group is not allowed.",
+      "12. No melee, pan, or fist is allowed, this may lead your team to ban.",
+      `13. Don't keep your mic to all and no use of abusive language should be done in-game. (if found your team will be banned).`,
+      "14. If you feel any kind of hacking is used then record your death replay as proof. Death reply should be on otherwise We're not responsible for any kind of malicious acts in the game."
     ],
+    contact1:"AKASHDEEP : 7992299035",
+    
+    srclink:"https://docs.google.com/forms/d/e/1FAIpQLSfdx7cZ25FmzXRqCpHf3gGwbO8Gn1ufwL4tArjRqiNt1O2b2g/viewform"
+    
   },
   {
     title: "Ideate",
     src: K3,
     struct: [
-      "Having an idea in mind is one thing and proving its worth to others is different. This paper presentation event is aimed to bring out the best of the ideas of the budding technocrats and to inspire them for higher achievements. The event will make you ponder upon your knowledge and contemplate upon skills you have to solve a real life problem.",
-      "The competition will be organized in two phases. The first stage will be online submission while the second one will be at Zoom link during KHANAN'20.",
-      "The PRELIMINARY round will aim to float initial challenge to all the participants. The abstract should be submitted in pdf format which should be mailed to khanan.sme@gmail.com before deadline. Papers that have already been accepted in standard national conferences or published in journals shall get a direct entry to the second round.",
-      "Teams will be short listed on the basis of the merit of their submission. Short listed participants will be eligible to appear for Paper Presentation at Zoom meeting during KHANAN'20.",
-      "Second Round will be a presentation cum debate cum questionnaire round whereby the participants will have to present their work done on the topic before other teams and judges.",
-      "The abstract should be submitted before the deadline.",
-      "Each team can consist a maximum of 3 members.",
-      "Authors must make sure their participation in KHANAN’20 does not lead to violation of Copyright laws of conferences/seminars they have previously attended.",
+      `Have an idea that you think can change the world? Why not share it with the world now?
+      Khanan’21 brings you this fantastic opportunity with Ideate. Ideate is a paper presentation event
+      that brings out the best of the budding technocrats’ ideas and inspires them for higher
+      achievements. The event will make you ponder upon your knowledge and contemplate your
+      skills to solve real-life problems. Come up with your idea, prove its worth to others and get
+      amazing goodies and prizes!`,
+      "Why wait? Get, set, Ideate!",
+      "Rules:",
+       `1. You can participate in teams with a maximum of 3 members. They must be from the
+       same college.`,
+       `2. The event will be organized in 2 rounds. In the Preliminary Round, the participating
+       teams will have to select a topic from a list, think of a solution and prepare an abstract.
+       The Second Round will be a Questionnaire Round where the selected teams will have to
+       elaborate on the abstract they have prepared.`,
+       `3. We will float a Google form on October 1, 2021. To participate, the interested teams will
+       have to fill up:`,
+       "The name of the team",
+       "The name of the team leader",
+       "The name of other members",
+       "Their contact details",
+       "The name of their college.",
+       `4. The same form will have the list of problems for the teams to choose. They have to fill
+       their details and the abstract of their solution before October 8th , 2021, by 8 PM.`,
+      `5. The form will be closed by October 8th , 2021, at 8 PM. So, they must provide their
+      details and the solution before the deadline, otherwise their participation will not be
+      considered.`,
+      "6. The abstract must be 2-3 pages and in pdf format in A4 size print setup.",
+      `7. Name your abstract as: Ideate_TeamName_Title_of_submission. For example if a team
+      by the name MoveMiners takes part in IDEATE and has prepared abstract on
+      Environmental impact of CO2 emissions then the pdf name should be:
+      Ideate_MoveMiners_Environmental_Impact_Of_Carbon_Emissions`,
+      "8. The teams will be shortlisted based on the merit of the papers they have submitted.",
+      "9. The papers that have already been submitted in standard national conferences or published in journals shall get a direct entry to the Final Round.",
+      `10.The shortlisted teams will be eligible to present their papers in the Second Round at the
+      event. Before the commencement of the Second Round, we shall contact the members of
+      the shortlisted team and allot them the slots for them to present their papers.`,
+      `11. The Second Round will be a presentation-cum-debate-cum-questionnaire round. 10
+      minutes will be allotted for the presentation, and an extra 5 minutes will be alloted for the
+      questionnaire. The participants shortlisted in the Preliminary Round will have to present
+      their work done in front of judges and other teams.`,
+      "12.The presentation must be in ppt format and can contain 7-8 pages.",
+      "13.The ideas and the works should not be plagiarised.",
+      "14.The teams must make sure their participation in the event does not violate the copyright laws of conferences and seminars they have previously attended.",
+
     ],
+    contact1:"SUMIT KUMAR MUDI : 8210987906",
+    
+    srclink:"https://docs.google.com/forms/d/e/1FAIpQLSf7_Rvltx64VZeQGOxYHg_5jT8S9sdeRf2LcO3X4ejVCunImQ/viewform"
   },
   {
     title: "Khanan Mafia",
     src: K4,
     struct: [
-      `Life is like a puzzle, Only if you fit pieces to the right places, you will see the beauty of it.This year Khanan is back with its cosmic event "KHANAN MAFIA" - a virtual treasure hunt.`,
-      "Treasure Hunt Window: 4 Oct'20 10:00 AM IST to 4 Oct'20 04:00 PM IST.",
-      "Treasure Hunt Duration: 6 hrs.",
-      "The answer to this riddle give you the name of the page where the next clue will be present. And so on... Every problem is a clue and every clue is another problem.",
-      "Total number of questions: 15",
-      "Questions will appear one by one.",
-      "Only the person who registered/team leader will be able to play the quiz.",
-      "You'll be given 3 attempts to answer questions. After three 3 wrong answers, your team will be disqualified.",
-      "Questions will be sent to the team leader’s Whatsapp and the team leader have to answer the question within 3 attempts to remain in the treasure hunt.",
-      "Each team can consist of a maximum of 4 members.",
-      "Each member of the team must be from the same college.",
-      "Each participant must have to register in only one team. If anyone found registered in more than 1 team he/she will be disqualified from the event.",
-      "The First 3 teams to complete the treasure hunt earliest will be announced as the winner of Khanan Mafia.",
-      "All decisions in the matter of eligibility, authenticity & final judgment will be with Khanan Mafia organizer.",
+     `Life is like a puzzle, only if you fit pieces to the right places, you will see the beauty of it. That’s why to save you people from the monotonous online routine, KHANAN’21 presents before you the most audacious event "KHANAN MAFIA" - a virtual treasure hunt.
+     Treasure Hunt Window starts on 10th October.`,
+     "And the rules are pretty simple. Here it is—",
+     "1. The answer to this riddle gives you the name of the page where the next clue will be present. And so on... Every problem is a clue and every clue is another problem.",
+     "2. Total number of questions: 15",
+     "3. Questions will appear one by one.",
+     "4. Only the person who registered/team leader will be able to play the quiz.",
+     "5. You'll be given 3 attempts to answer each question. After 3 wrong answers, your team will be disqualified.",
+     "6. Questions will be sent to the team leader’s WhatsApp and the team leader has to answer each question within 3 attempts to remain in the treasure hunt.",
+     "7. Each team can consist of a maximum of 3 members.",
+     "8. Each member of the team must be from the same college. Each participant must have to register in only one team. If anyone is found registered in more than 1 team, he/she will be disqualified from the event.",
+     "9. Top 3 teams which answer the maximum number of questions till the end time will win.",
+     "10. All decisions in the matter of eligibility, authenticity & final judgment will be with the Khanan Mafia organizer.",
+     "Total prize money for top 3 teams = 6000",
+     
+
+
     ],
+    contact1:"SUMIT KUMAR MUDI : 8210987906",
+    contact2: " AMBUJ GUPTA : 9798872884",
+    srclink:"https://forms.gle/TMbAJ9BPxnyTRcjJA"
+    
   },
   {
     title: "Minnovare",
     src: K5,
     struct: [
-      "This event puts to test the ultimate presentation skills of the participants. The participants will be required to prepare and present innovative posters as per the problem statement given. The one who says the most in least number of words will take away the prize.",
-      "Participants should choose a burning problem statement related to real life and should provide an innovative solution. The abstract should be mailed to khanan.sme@gmail.com.",
-      "Sort listed teams on the basis of submitted abstracts would reach the second round.",
-      "In round 2, the sort listed teams would have to present their ideas which would be conducted at Zoom link.",
-      "The abstract should be submitted before the deadline.",
-      "Each team can consist a maximum of 3 members.",
+      `For any Mining Engineer, it is very important to get an insight into real-life problems before entering the field. The event aims to provide exposure to real-life mining problems and extract some “out of the box” ideas from aspiring students.`,
+      "Participants should choose a burning problem statement related to real life and should provide an innovative solution. This event puts to test the ultimate presentation skills of the participants. The one who says the most in the least number of words wins!",
+      "Rules:",
+      "1. The team can have a maximum of 3 members and they have to be from the same college.",
+      "2. There will be two rounds. In Round 1, participants will have to choose a burning problem statement by themselves that is faced in real life by the mining industry in India or abroad, and come up with an innovative abstract solution to that problem.",
+      "3. The Abstract submission (Document format (A4 size) of 2-3 pages) for round 1 has to be submitted in the Google Form provided (https://forms.gle/GSvnYQsfuSgGwKyr7) before the deadline of Round 1: 08:00 PM on 8th October 2021.",
+      "4. The abstract should be named according to the following way:  ",
+      "Minnovare_TeamName_Title_of_submission",
+      "For example, if a team by the name MoveMiners takes part in MINNOVARE and has prepared an abstract on the Environmental impact of CO2 emissions then the pdf name should be:",
+      "Minnovare_MoveMiners_Environmental_Impact_Of_Carbon_Emissions.",
+      "5. 6 teams will be shortlisted on the basis of submitted abstracts to reach the second round.",
+      "6. In round 2, the shortlisted teams would have to present their ideas in the form of Presentation: (PPT format) of 7-8 pages for presenting before the judges at the time of the 2nd round which will be conducted at the meet link provided to them.",
+      "7. In round 2, each team will have 10 minutes to present their ideas and innovation through a presentation on their problem sets and 5 minutes for the judge to ask you questions about your idea which are to be answered practically.",
+      "8.  Participants should be on the dot for the presentation.",
+      "9. Finally, the top 3 teams will be declared as the winners of the contest."
     ],
+    contact1:"THOTA TANUJA : 8688910877",
+    contact2: "AYUSHMAN TIWARI : 7470584535",
+    srclink:"https://docs.google.com/forms/d/e/1FAIpQLScq-M8dV5WJHIjbjjZp__PsFvrS8rPjglaeBfBZ8Jo2KHShUQ/viewform"
+    
   },
   {
     title: "Nirvana",
     src: K6,
     struct: [
-      `For any Mining Engineer, it is very important to get an insight into real life problems before entering the field. The event aims to provide exposure to real life mining problems and extract some "out of the box" ideas from aspiring students.`,
-      "For the selection round each team has to prepare an abstract of the solution based on the given problem statement.",
-      `Teams selected for the second round should join Zoom link for the case study face off – “Innovare”.`,
-      "Each team will be given a slot of 15 minutes to present which shall include 2 minutes of questionnaire.",
-      "The abstract should be submitted before the deadline.",
-      "Each team can consist a maximum of 3 members.",
+      `“Knowledge without practice is useless. Practice without knowledge is fatal."`,
+     `Besides theoretical knowledge, a technically sound mining engineer must be aware of the various
+     real-life issues an engineer faces in a mine. Nirvana by Khanan’21 invites every aspiring mining
+     
+     engineer to put their skills to test with several case study questions and gain an insight into the real-
+     life problems in a mine. We aim to bring out a student’s creative side and encourage some out-of-
+     the-box solutions in this event.`,
+     "Pitch your unique idea to the world and win goodies and prizes worth Rs. 10,000!",
+     "Rules:",
+     "1. Each team can have 2-3 members. The members should be from the same college.",
+     "2. The event will be organized in 2 rounds.",
+     "3. We will float a Google Form on October 1, 2021. To participate, interested teams must enter:",
+     "its name",
+     "name of its leader",
+     "the names of its members",
+     "their contact details and",
+     "the name of their college",
+     `4. The problem statement will also be present in the same Google form. The teams have to
+     prepare an abstract of the solution to the problem and submit it in the same Google form by
+     October 8, 2021, at 8 pm.`,
+     `5. The name of the abstract to be submitted must be in the format:
+
+     Nirvana_TeamName_TitleOfSubmission
+     E.g. A team with the name “Movers&Shakers” has prepared an abstract “Environmental
+     Impact of Rock Blasting”. So they will name the abstract as: “Nirvana_
+     Movers&Shakers_Environmetal_Impact_Of_Rock_Blasting”.`,
+     "6. The abstract should be limited to 2-3pages in pdf format and an A4 size print setup. We will NOT accept it in any other form.",
+     "7. Only one submission is allowed per team by the team leader.",
+     "8. The form will be closed by October 8, 2021, at 8 pm. Late submissions will not be accepted. So, interested teams must fill up their details before the deadline.",
+     "9. The top 6 teams will be shortlisted based on the merit of the papers they submit.",
+     "10. The shortlisted teams will be eligible to appear for the Final Round.",
+     "11. The Final Round is a presentation-cum-questionnaire round.",
+     `12. The teams will be allotted a slot of 15 minutes. In the first 10 minutes, they will have to
+     present their idea in front of a panel of judges. The remaining 5 minutes will be allotted for
+     the questionnaire.`,
+     "13. Before the commencement of the Final Round, we will contact the members of the shortlisted teams and notify them about the slot they have been allotted.",
+     "14. The presentation should be limited to 7-8 slides in .ppt format.",
+     "15. The ideas and the works should not be plagiarised.",
+     "16. The teams should remember that their appearance in the event does not violate any copyright laws of seminars and conferences they previously attended.",
+     
     ],
+    contact1:"ABHYA ADRI : 6206688440",
+    contact2: "KESHAV LAKHOTIA: : 7470584535",
+    srclink:"https://docs.google.com/forms/d/e/1FAIpQLSdIB7OsqIB-B6mq-WVsgH_hHS4e64ZNNLTIiaHFVKbXQ-QX6A/viewform"
   },
   {
     title: "Placement Fever",
@@ -100,9 +234,12 @@ const events = [
       "Individual entries are only allowed in this event.",
       "In case of any discrepancy, the decision of panel would be binding.",
     ],
+    contact1:"TANYA ANSHUM : 8210987906",
+    contact2: "ANUJ KUMAR RAJ : 9798872884",
+    srclink:"https://forms.gle/R4p4KpGC5aqvB3K9A"
   },
   {
-    title: "Quizzine",
+    title: "Mining Quiz",
     src: K8,
     struct: [
       "For any Mining Engineer, the knowledge of every small detail is necessary for proper execution of any procedure. The Mining quiz gives an oppurtunity to test your knowledge about Mining Engineering. For an aware mind, the general quiz is a golden opportunity to have an insight of its surrounding and exposure to various world issues.",
@@ -119,6 +256,8 @@ const events = [
     struct: [
       "The penetration of digitisation into the surveying industry has mandated the acquisition of modern techniques of data analysis and data representation mandatory. The tools though easy to use have not been able to have an impact on the students all around the country. To bridge such gaps between the academics and the industry, KHANAN organises workshops on software pakages like SURPAC, AUTOPLOTTER, MINEX AUTOCAD 3D, etc., The only requisites to join are bringing a fully charged laptop and minds free to learn.",
     ],
+    
+    srclink:"https://forms.gle/6XGn9MQvr7uwDrcs8"
   },
 ];
 

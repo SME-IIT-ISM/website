@@ -19,9 +19,11 @@ const preevents = [
       "We have come up with an amazing opportunity that would definitely add to your poetry creation. ",
       "Chayanika Sangh presents Jharokhe- a poetry-recitation competition in association with Khanan'21 The Annual Geo Mining Fest ",
       "In order to participate in it, you will have to send a video reciting of your self composed poem. The duration of video will be ranging from 1-2 minutes. The total prize pool of this competition is ₹8000. All the entries will be posted through the instagram handle of Chayanika sangh ",
-      "To participate fill the following form : https://forms.gle/RCsyQaiVbBbvALpG8",
-
+      
     ],
+    contact1:"TANYA ANSHUM : 8210987906",
+    contact2: "ANUJ KUMAR RAJ : 9798872884",
+    srclink:"https://docs.google.com/forms/d/e/1FAIpQLScnlhwr4aLk6v5P9jRs2ZJSiwVhl3FAbR1ei2D7ZHg3WwHjbA/closedform"
   },
   {
     title: "Chess-O-Mania",
@@ -39,6 +41,9 @@ const preevents = [
       "Last date to register : 27 Sep’ 21",
       "Note: To be eligible for prizes, you need to be registered through the given link."
     ],
+    contact1:"ANJALI KUMARI : 7992287987",
+    contact2: "ANKAN SEN : 8348385129",
+    srclink:"https://forms.gle/dJ6aPQgPrJVjxWSr8"
     },
   {
     title: "RECUERDOS",
@@ -54,6 +59,9 @@ const preevents = [
        "Still waiting?? Bring out the photographer inside you and add some creative spice to your life by registering for the contest!!!",
 
     ],
+    contact1:"Amit Raj: 9472750675",
+    contact2: "Keshav Lakhotia: 7340598208",
+    srclink:"https://docs.google.com/forms/d/e/1FAIpQLSeSOx7YSb30b3xz3-UQbBtJpxBDZc9o68eUFMoXvZp98Q-PUA/viewform"
   },
   {
     title: "panDANCEmic2.0",
@@ -73,6 +81,9 @@ const preevents = [
       "The Instagram handle of LITM should be mentioned while sharing the post in an Instagram story.","The names of the winners will be declared via the Facebook and Instagram handles of KHANAN.",
       "Winners will receive exciting goodies and cash worth 10k and certificates. Besides the winners, some exceptional performances will be given special goodies and a special mention through our social media handles."
     ],
+    contact1:"Tejaswini Velivela : 6305504270",
+    contact2: "Shovit Kumar : 7488760269",
+    srclink:"https://docs.google.com/forms/d/e/1FAIpQLSf6ao_Yj5L7CuTD4lzxJvJruIVL5isYvV9fchdBOcSG88ubRA/viewform"
   },
 ];
 

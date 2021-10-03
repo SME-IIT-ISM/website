@@ -7,6 +7,10 @@ const EventPage = (props) => {
   const title = props.eventData?.title;
   const src = props.eventData?.src;
   const struct = props.eventData?.struct;
+  const contact1=props.eventData?.contact1;
+  const contact2=props.eventData?.contact2;
+  const srclink=props.eventData?.srclink
+
 
   useEffect(() => {
     if (props.eventData === undefined)
@@ -48,12 +52,12 @@ const EventPage = (props) => {
             })}
           </Col>
         </Row>
-        {/* <Row className="mt-4 d-flex align-items-center justify-content-center">
+        <Row className="mt-4 d-flex align-items-center justify-content-center">
           <Col xs="12" md="6" lg="4" className="text-center">
             <div>
               <a
                 className="bt bt-white text-center"
-                href="/"
+                href={srclink}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -63,14 +67,14 @@ const EventPage = (props) => {
           </Col>
           <Col xs="12" md="6" lg="5" xl="4" className="text-center text-white mt-4">
             <b>
-              <p>Time: {time}</p>
-              <p>Date: {date}</p>
+              {/* <p>Time: {time}</p>
+              <p>Date: {date}</p> */}
               <p>Contact on:</p>
               <p>{contact1}</p>
               <p>{contact2}</p>
             </b>
           </Col>
-        </Row> */}
+        </Row>
         <Row className="mt-5 d-flex align-items-center justify-content-center">
           <Col xs="12" lg="9" xl="8">
             <div>
