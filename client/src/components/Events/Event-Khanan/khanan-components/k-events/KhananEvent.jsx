@@ -249,6 +249,9 @@ const events = [
       "Each team will consists of a maximum of 2 participants.",
       "Individuals must register online to participate.",
     ],
+    contact1:"SUMIT KUMAR MUDI : 8210987906",
+    
+    srclink:"https://docs.google.com/forms/d/e/1FAIpQLScQYFQGnbO_Hnl7biIhhBQC7t8lfDghSst9LbkKMOQXScJApQ/viewform"
   },
   {
     title: "Workshop",
