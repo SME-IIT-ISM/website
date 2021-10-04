@@ -229,19 +229,25 @@ const events = [
     title: "Placement Fever",
     src: K7,
     struct: [
-      `The Khanan Family believes in the wise saying of Carl Sagan - "Somewhere, something incredible is waiting to be known". So, to acknowledge your incredibility and creativity, we are back with our prodigious event-"PLACEMENT FEVER".`,
-      "This event puts the students through a simulated version of the campus placement process. Beginning with an aptitude test, the participants will go on to appear for group discussions and eventually sit for personal interviews.",
-      "In the 2nd round, event calls for your unique ideas and your ability to present them in a PPT format.The participants are expected to submit an ingenious PPT on a given topic(which will be informed well before time). And further given a chance to be presented before our panel of judges. This PPT presentation round will be conducted on google/Zoom meet with a 5 min. time slot for each qualifier.",
-      `Top 8 Students will emerge for the" Megadeth" round, the Personal Interview. Both HR & Technical interviews will be conducted in a simulated environment.`,
-      "The top three students will get a certificate of merit; however each of the participants will receive the certificate of participation.",
-      "Individual entries are only allowed in this event.",
-      "In case of any discrepancy, the decision of panel would be binding.",
-      "Contact:",
-      "TANYA ANSHUM : 8210987906",
-      "ANUJ KUMAR RAJ : 9798872884",
+     `The Khanan Family believes in the wise saying of Carl Sagan - "Somewhere, something incredible is waiting to be known". So, to acknowledge your incredibility and creativity, we are back with our prodigious event - "PLACEMENT FEVER".
+     `,
+     "This event puts the students through a simulated version of the campus placement process.",
+     "Registration Deadline: 8th  October 8:00PM",
+     "Rules:",
+     "1. Individual entries are only allowed in this event.",
+     "2. There will be three rounds - Aptitude Test, Group Discussion, and Personal Interview.",
+     "3. The first round (Aptitude test) will have 60 questions. The time allotted will be 30 minutes. The top 20 participants from the aptitude test will enter in the second round.",
+     "4. The participants will be divided into five groups, each group consisting of 4 participants for Group Discussion. The top participants of each group will slide in the final round.",
+     `5. Top 5 Students will emerge for the "Megadeth" round, the Personal Interview. Both HR & Technical interviews will be conducted in a simulated environment.`,
+     "6. The top three students will be declared as winners and will get a certificate of merit. Each of the participants who make upto Interview round will get Certificate.",
+     "7. In case of any discrepancy, the decision of the panel would be binding.",
+     "Contact:",
+      "TANYA ANSHUM : 7488215775",
+      "Anuj kumar raj : 8298056949"
     ],
 
-    srclink: "https://forms.gle/R4p4KpGC5aqvB3K9A",
+
+    srclink: "https://docs.google.com/forms/d/e/1FAIpQLSfGtRCtRWvVpxhIBsAT3llnls8fmpvdyqb1TcNywtiLXq1F7g/viewform",
   },
   {
     title: "Mining Quiz",
