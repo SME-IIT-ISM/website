@@ -36,11 +36,13 @@ const events = [
       "Quality of build-up and character development: 40%",
       "Conclusion: 30%",
       "So, what are you waiting for? Give the scriptwriter inside you the chance to shine out by imagining the best conclusion!",
-      "Register for the contest Now!!!"
+      "Register for the contest Now!!!",
+      "Contact:",
+      "Abhya Adri (Event Coordinator): 6206688440",
+      "Ayushman Tiwari (Event Organiser): 7470584535",
     ],
-    contact1:"Abhya Adri (Event Coordinator): 6206688440",
-    contact2: "Ayushman Tiwari (Event Organiser): 7470584535",
-    srclink:"https://docs.google.com/forms/d/e/1FAIpQLSeT2jUTvYsb-1tr0MCiXkhPVWMHCFOge6IDfWqKCev3REeGaQ/viewform"
+    srclink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeT2jUTvYsb-1tr0MCiXkhPVWMHCFOge6IDfWqKCev3REeGaQ/viewform",
   },
   {
     title: "Gamicon",
@@ -61,12 +63,12 @@ const events = [
       "11. Change of group is not allowed.",
       "12. No melee, pan, or fist is allowed, this may lead your team to ban.",
       `13. Don't keep your mic to all and no use of abusive language should be done in-game. (if found your team will be banned).`,
-      "14. If you feel any kind of hacking is used then record your death replay as proof. Death reply should be on otherwise We're not responsible for any kind of malicious acts in the game."
+      "14. If you feel any kind of hacking is used then record your death replay as proof. Death reply should be on otherwise We're not responsible for any kind of malicious acts in the game.",
+      "Contact:",
+      "AKASHDEEP : 7992299035",
     ],
-    contact1:"AKASHDEEP : 7992299035",
-    
-    srclink:"https://docs.google.com/forms/d/e/1FAIpQLSfdx7cZ25FmzXRqCpHf3gGwbO8Gn1ufwL4tArjRqiNt1O2b2g/viewform"
-    
+    srclink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfdx7cZ25FmzXRqCpHf3gGwbO8Gn1ufwL4tArjRqiNt1O2b2g/viewform",
   },
   {
     title: "Ideate",
@@ -80,20 +82,20 @@ const events = [
       amazing goodies and prizes!`,
       "Why wait? Get, set, Ideate!",
       "Rules:",
-       `1. You can participate in teams with a maximum of 3 members. They must be from the
+      `1. You can participate in teams with a maximum of 3 members. They must be from the
        same college.`,
-       `2. The event will be organized in 2 rounds. In the Preliminary Round, the participating
+      `2. The event will be organized in 2 rounds. In the Preliminary Round, the participating
        teams will have to select a topic from a list, think of a solution and prepare an abstract.
        The Second Round will be a Questionnaire Round where the selected teams will have to
        elaborate on the abstract they have prepared.`,
-       `3. We will float a Google form on October 1, 2021. To participate, the interested teams will
+      `3. We will float a Google form on October 1, 2021. To participate, the interested teams will
        have to fill up:`,
-       "The name of the team",
-       "The name of the team leader",
-       "The name of other members",
-       "Their contact details",
-       "The name of their college.",
-       `4. The same form will have the list of problems for the teams to choose. They have to fill
+      "The name of the team",
+      "The name of the team leader",
+      "The name of other members",
+      "Their contact details",
+      "The name of their college.",
+      `4. The same form will have the list of problems for the teams to choose. They have to fill
        their details and the abstract of their solution before October 8th , 2021, by 8 PM.`,
       `5. The form will be closed by October 8th , 2021, at 8 PM. So, they must provide their
       details and the solution before the deadline, otherwise their participation will not be
@@ -115,38 +117,36 @@ const events = [
       "12.The presentation must be in ppt format and can contain 7-8 pages.",
       "13.The ideas and the works should not be plagiarised.",
       "14.The teams must make sure their participation in the event does not violate the copyright laws of conferences and seminars they have previously attended.",
-
+      "Contact:",
+      "SUMIT KUMAR MUDI : 8210987906",
     ],
-    contact1:"SUMIT KUMAR MUDI : 8210987906",
-    
-    srclink:"https://docs.google.com/forms/d/e/1FAIpQLSf7_Rvltx64VZeQGOxYHg_5jT8S9sdeRf2LcO3X4ejVCunImQ/viewform"
+
+    srclink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSf7_Rvltx64VZeQGOxYHg_5jT8S9sdeRf2LcO3X4ejVCunImQ/viewform",
   },
   {
     title: "Khanan Mafia",
     src: K4,
     struct: [
-     `Life is like a puzzle, only if you fit pieces to the right places, you will see the beauty of it. That’s why to save you people from the monotonous online routine, KHANAN’21 presents before you the most audacious event "KHANAN MAFIA" - a virtual treasure hunt.
+      `Life is like a puzzle, only if you fit pieces to the right places, you will see the beauty of it. That’s why to save you people from the monotonous online routine, KHANAN’21 presents before you the most audacious event "KHANAN MAFIA" - a virtual treasure hunt.
      Treasure Hunt Window starts on 10th October.`,
-     "And the rules are pretty simple. Here it is—",
-     "1. The answer to this riddle gives you the name of the page where the next clue will be present. And so on... Every problem is a clue and every clue is another problem.",
-     "2. Total number of questions: 15",
-     "3. Questions will appear one by one.",
-     "4. Only the person who registered/team leader will be able to play the quiz.",
-     "5. You'll be given 3 attempts to answer each question. After 3 wrong answers, your team will be disqualified.",
-     "6. Questions will be sent to the team leader’s WhatsApp and the team leader has to answer each question within 3 attempts to remain in the treasure hunt.",
-     "7. Each team can consist of a maximum of 3 members.",
-     "8. Each member of the team must be from the same college. Each participant must have to register in only one team. If anyone is found registered in more than 1 team, he/she will be disqualified from the event.",
-     "9. Top 3 teams which answer the maximum number of questions till the end time will win.",
-     "10. All decisions in the matter of eligibility, authenticity & final judgment will be with the Khanan Mafia organizer.",
-     "Total prize money for top 3 teams = 6000",
-     
-
-
+      "And the rules are pretty simple. Here it is—",
+      "1. The answer to this riddle gives you the name of the page where the next clue will be present. And so on... Every problem is a clue and every clue is another problem.",
+      "2. Total number of questions: 15",
+      "3. Questions will appear one by one.",
+      "4. Only the person who registered/team leader will be able to play the quiz.",
+      "5. You'll be given 3 attempts to answer each question. After 3 wrong answers, your team will be disqualified.",
+      "6. Questions will be sent to the team leader’s WhatsApp and the team leader has to answer each question within 3 attempts to remain in the treasure hunt.",
+      "7. Each team can consist of a maximum of 3 members.",
+      "8. Each member of the team must be from the same college. Each participant must have to register in only one team. If anyone is found registered in more than 1 team, he/she will be disqualified from the event.",
+      "9. Top 3 teams which answer the maximum number of questions till the end time will win.",
+      "10. All decisions in the matter of eligibility, authenticity & final judgment will be with the Khanan Mafia organizer.",
+      "Total prize money for top 3 teams = 6000",
+      "Contact:",
+      "SUMIT KUMAR MUDI : 8210987906",
+      " AMBUJ GUPTA : 9798872884",
     ],
-    contact1:"SUMIT KUMAR MUDI : 8210987906",
-    contact2: " AMBUJ GUPTA : 9798872884",
-    srclink:"https://forms.gle/TMbAJ9BPxnyTRcjJA"
-    
+    srclink: "https://forms.gle/TMbAJ9BPxnyTRcjJA",
   },
   {
     title: "Minnovare",
@@ -166,61 +166,64 @@ const events = [
       "6. In round 2, the shortlisted teams would have to present their ideas in the form of Presentation: (PPT format) of 7-8 pages for presenting before the judges at the time of the 2nd round which will be conducted at the meet link provided to them.",
       "7. In round 2, each team will have 10 minutes to present their ideas and innovation through a presentation on their problem sets and 5 minutes for the judge to ask you questions about your idea which are to be answered practically.",
       "8.  Participants should be on the dot for the presentation.",
-      "9. Finally, the top 3 teams will be declared as the winners of the contest."
+      "9. Finally, the top 3 teams will be declared as the winners of the contest.",
+      "Contact:",
+      "THOTA TANUJA : 8688910877",
+      "AYUSHMAN TIWARI : 7470584535",
     ],
-    contact1:"THOTA TANUJA : 8688910877",
-    contact2: "AYUSHMAN TIWARI : 7470584535",
-    srclink:"https://docs.google.com/forms/d/e/1FAIpQLScq-M8dV5WJHIjbjjZp__PsFvrS8rPjglaeBfBZ8Jo2KHShUQ/viewform"
-    
+    srclink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScq-M8dV5WJHIjbjjZp__PsFvrS8rPjglaeBfBZ8Jo2KHShUQ/viewform",
   },
   {
     title: "Nirvana",
     src: K6,
     struct: [
       `“Knowledge without practice is useless. Practice without knowledge is fatal."`,
-     `Besides theoretical knowledge, a technically sound mining engineer must be aware of the various
+      `Besides theoretical knowledge, a technically sound mining engineer must be aware of the various
      real-life issues an engineer faces in a mine. Nirvana by Khanan’21 invites every aspiring mining
      
      engineer to put their skills to test with several case study questions and gain an insight into the real-
      life problems in a mine. We aim to bring out a student’s creative side and encourage some out-of-
      the-box solutions in this event.`,
-     "Pitch your unique idea to the world and win goodies and prizes worth Rs. 10,000!",
-     "Rules:",
-     "1. Each team can have 2-3 members. The members should be from the same college.",
-     "2. The event will be organized in 2 rounds.",
-     "3. We will float a Google Form on October 1, 2021. To participate, interested teams must enter:",
-     "its name",
-     "name of its leader",
-     "the names of its members",
-     "their contact details and",
-     "the name of their college",
-     `4. The problem statement will also be present in the same Google form. The teams have to
+      "Pitch your unique idea to the world and win goodies and prizes worth Rs. 10,000!",
+      "Rules:",
+      "1. Each team can have 2-3 members. The members should be from the same college.",
+      "2. The event will be organized in 2 rounds.",
+      "3. We will float a Google Form on October 1, 2021. To participate, interested teams must enter:",
+      "its name",
+      "name of its leader",
+      "the names of its members",
+      "their contact details and",
+      "the name of their college",
+      `4. The problem statement will also be present in the same Google form. The teams have to
      prepare an abstract of the solution to the problem and submit it in the same Google form by
      October 8, 2021, at 8 pm.`,
-     `5. The name of the abstract to be submitted must be in the format:
+      `5. The name of the abstract to be submitted must be in the format:
 
      Nirvana_TeamName_TitleOfSubmission
      E.g. A team with the name “Movers&Shakers” has prepared an abstract “Environmental
      Impact of Rock Blasting”. So they will name the abstract as: “Nirvana_
      Movers&Shakers_Environmetal_Impact_Of_Rock_Blasting”.`,
-     "6. The abstract should be limited to 2-3pages in pdf format and an A4 size print setup. We will NOT accept it in any other form.",
-     "7. Only one submission is allowed per team by the team leader.",
-     "8. The form will be closed by October 8, 2021, at 8 pm. Late submissions will not be accepted. So, interested teams must fill up their details before the deadline.",
-     "9. The top 6 teams will be shortlisted based on the merit of the papers they submit.",
-     "10. The shortlisted teams will be eligible to appear for the Final Round.",
-     "11. The Final Round is a presentation-cum-questionnaire round.",
-     `12. The teams will be allotted a slot of 15 minutes. In the first 10 minutes, they will have to
+      "6. The abstract should be limited to 2-3pages in pdf format and an A4 size print setup. We will NOT accept it in any other form.",
+      "7. Only one submission is allowed per team by the team leader.",
+      "8. The form will be closed by October 8, 2021, at 8 pm. Late submissions will not be accepted. So, interested teams must fill up their details before the deadline.",
+      "9. The top 6 teams will be shortlisted based on the merit of the papers they submit.",
+      "10. The shortlisted teams will be eligible to appear for the Final Round.",
+      "11. The Final Round is a presentation-cum-questionnaire round.",
+      `12. The teams will be allotted a slot of 15 minutes. In the first 10 minutes, they will have to
      present their idea in front of a panel of judges. The remaining 5 minutes will be allotted for
      the questionnaire.`,
-     "13. Before the commencement of the Final Round, we will contact the members of the shortlisted teams and notify them about the slot they have been allotted.",
-     "14. The presentation should be limited to 7-8 slides in .ppt format.",
-     "15. The ideas and the works should not be plagiarised.",
-     "16. The teams should remember that their appearance in the event does not violate any copyright laws of seminars and conferences they previously attended.",
-     
+      "13. Before the commencement of the Final Round, we will contact the members of the shortlisted teams and notify them about the slot they have been allotted.",
+      "14. The presentation should be limited to 7-8 slides in .ppt format.",
+      "15. The ideas and the works should not be plagiarised.",
+      "16. The teams should remember that their appearance in the event does not violate any copyright laws of seminars and conferences they previously attended.",
+      "Contact:",
+      "ABHYA ADRI : 6206688440",
+      "KESHAV LAKHOTIA: : 7470584535",
     ],
-    contact1:"ABHYA ADRI : 6206688440",
-    contact2: "KESHAV LAKHOTIA: : 7470584535",
-    srclink:"https://docs.google.com/forms/d/e/1FAIpQLSdIB7OsqIB-B6mq-WVsgH_hHS4e64ZNNLTIiaHFVKbXQ-QX6A/viewform"
+
+    srclink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdIB7OsqIB-B6mq-WVsgH_hHS4e64ZNNLTIiaHFVKbXQ-QX6A/viewform",
   },
   {
     title: "Placement Fever",
@@ -233,10 +236,12 @@ const events = [
       "The top three students will get a certificate of merit; however each of the participants will receive the certificate of participation.",
       "Individual entries are only allowed in this event.",
       "In case of any discrepancy, the decision of panel would be binding.",
+      "Contact:",
+      "TANYA ANSHUM : 8210987906",
+      "ANUJ KUMAR RAJ : 9798872884",
     ],
-    contact1:"TANYA ANSHUM : 8210987906",
-    contact2: "ANUJ KUMAR RAJ : 9798872884",
-    srclink:"https://forms.gle/R4p4KpGC5aqvB3K9A"
+
+    srclink: "https://forms.gle/R4p4KpGC5aqvB3K9A",
   },
   {
     title: "Mining Quiz",
@@ -248,10 +253,12 @@ const events = [
       "The second phase will have the top 10 teams competing against each other in the buzzer round.",
       "Each team will consists of a maximum of 2 participants.",
       "Individuals must register online to participate.",
+      "Contact:",
+      "SUMIT KUMAR MUDI : 8210987906",
     ],
-    contact1:"SUMIT KUMAR MUDI : 8210987906",
-    
-    srclink:"https://docs.google.com/forms/d/e/1FAIpQLScQYFQGnbO_Hnl7biIhhBQC7t8lfDghSst9LbkKMOQXScJApQ/viewform"
+
+    srclink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScQYFQGnbO_Hnl7biIhhBQC7t8lfDghSst9LbkKMOQXScJApQ/viewform",
   },
   {
     title: "Workshop",
@@ -259,8 +266,8 @@ const events = [
     struct: [
       "The penetration of digitisation into the surveying industry has mandated the acquisition of modern techniques of data analysis and data representation mandatory. The tools though easy to use have not been able to have an impact on the students all around the country. To bridge such gaps between the academics and the industry, KHANAN organises workshops on software pakages like SURPAC, AUTOPLOTTER, MINEX AUTOCAD 3D, etc., The only requisites to join are bringing a fully charged laptop and minds free to learn.",
     ],
-    
-    srclink:"https://forms.gle/6XGn9MQvr7uwDrcs8"
+
+    srclink: "https://forms.gle/6XGn9MQvr7uwDrcs8",
   },
 ];
 
@@ -269,9 +276,9 @@ const Kevent = () => {
     <Container id="events">
       <Row>
         <Col>
-        <h2 className="k-sub-heading mt-5">EVENTS</h2>
+          <h2 className="k-sub-heading mt-5">EVENTS</h2>
         </Col>
-        </Row>
+      </Row>
       <Row>
         {events.map((item, index) => {
           return (

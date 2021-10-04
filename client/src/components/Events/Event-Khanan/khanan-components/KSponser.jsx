@@ -55,7 +55,7 @@ const KSponser = () => {
             <Row>
               <Col className="d-flex align-items-center justify-content-center">
                 <div className="Clickable">
-                  <a href="https://www.home.sandvik/en/">
+                  <a href="https://www.3ds.com/">
                     <img className="Ksponser-logo" src={ds} alt="intro" />
                   </a>
                 </div>
