@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import K1 from "./k-event-images/datagenix.jpg";
+import K1 from "./k-event-images/twistATale.jpg";
 import K2 from "./k-event-images/gamicon.jpg";
 import K3 from "./k-event-images/ideate.jpg";
 import K4 from "./k-event-images/khanan mafia.jpg";
@@ -8,7 +8,8 @@ import K5 from "./k-event-images/minnovare.jpg";
 import K6 from "./k-event-images/nirvana.jpg";
 import K7 from "./k-event-images/placement fever.jpg";
 import K8 from "./k-event-images/quizzine.jpg";
-import K9 from "./k-event-images/workshop.jpg";
+import K10 from "./k-event-images/LisCad.jpg";
+import K9 from "./k-event-images/O-piblast.jpg";
 import KhananCard from "./KhananCard";
 import Zoom from "react-reveal/Zoom";
 
@@ -219,7 +220,7 @@ const events = [
       "16. The teams should remember that their appearance in the event does not violate any copyright laws of seminars and conferences they previously attended.",
       "Contact:",
       "ABHYA ADRI : 6206688440",
-      "KESHAV LAKHOTIA: : 7470584535",
+      "KESHAV LAKHOTIA: : 7340598208",
     ],
 
     srclink:
@@ -267,14 +268,36 @@ const events = [
       "https://docs.google.com/forms/d/e/1FAIpQLScQYFQGnbO_Hnl7biIhhBQC7t8lfDghSst9LbkKMOQXScJApQ/viewform",
   },
   {
-    title: "Workshop",
+    title: "O-piblast Workshop",
     src: K9,
     struct: [
-      "The penetration of digitisation into the surveying industry has mandated the acquisition of modern techniques of data analysis and data representation mandatory. The tools though easy to use have not been able to have an impact on the students all around the country. To bridge such gaps between the academics and the industry, KHANAN organises workshops on software pakages like SURPAC, AUTOPLOTTER, MINEX AUTOCAD 3D, etc., The only requisites to join are bringing a fully charged laptop and minds free to learn.",
+      `“An investment in knowledge pays the best interest”- Benjamin Franklin `,
+      "Learning from the experienced minds of our nation is an opportunity of rare luck. Khanan’21 takes here the pleasure to announce that one such great mind will be here to enlighten us with his immense knowledge and experience, which will open the doors of innumerable opportunities in our near-coming future. ",
+      `A webinar has been organized on "O-Pitblast" a 3D Blasting Software and it’s our great honour and pleasure to unveil the next speaker of Khanan’21 Dr. Bhanwar Singh Choudhary , currently the Associate Professor in the Department of Mining Engineering at IIT(ISM) Dhanbad, obtained his PhD from IIT(BHU) Varanasi and holds the area of expertise in Drilling and Blasting Technology, Computer Aided Mine Planning, Tunnel Engineering. He has more than 20 years of experience in educating and guiding his students at our prestigious college`,
+      "Don’t miss out this golden opportunity to learn new things from such a inspiring person, that will guide you reach the summit of excellence; be one step ahead of others by registering it right now!",
+      "Contact:",
+      "SUMIT KUMAR MUDI : 8210987906",
+      " AMBUJ GUPTA : 9798872884",
     ],
 
-    srclink: "https://forms.gle/6XGn9MQvr7uwDrcs8",
+    srclink: "https://docs.google.com/forms/d/e/1FAIpQLScMecuyr6mXtelO9YjlB7DFqedLrYgpofZlkNvXg6l8p6V3mA/viewform",
   },
+  {
+    title: "lisCAD Workshop",
+    src: K10,
+    struct: [
+     `"Tell me and I forget. Teach me and I remember. Involve me and I learn".`,
+     "as said by Benjamin Franklin with this line we want to introduce our next and one of our most passionate speaker",
+     "DAYAMOY KARMAKAR, he is not just a speaker he is a teacher a mentor has vast experience of the mining industry as he worked with Essel mining as a survey officer, he has also worked with Tata Steel limited as a survey manager and Balaji industry limited as associate survey manger being in IIT (ISM) Dhanbad he mentored many students in there research work ",
+     "So we welcome you to the amazing session on LisCAD software.",
+     "Don’t miss out this opportunity to learn one of the most crucial software from such a inspiring person; be one step ahead of others by registering it right now! ",
+     "Contact:",
+     "SUMIT KUMAR MUDI : 8210987906",
+     " AMBUJ GUPTA : 9798872884",
+    ],
+
+    srclink: "https://docs.google.com/forms/d/e/1FAIpQLSeXZdpp5qs4tG2FERK-lnpiPrk1MUxtv1rPM1uLQu238t4odg/viewform",
+  }
 ];
 
 const Kevent = () => {
@@ -288,7 +311,7 @@ const Kevent = () => {
       <Row>
         {events.map((item, index) => {
           return (
-            <Col xs="12" sm="6" lg="4" key={index}>
+            <Col xs="12" sm="6" lg="4" key={index} >
               <Zoom timeout={600}>
                 <KhananCard title={item.title} img={item.src} id={index} />
               </Zoom>
