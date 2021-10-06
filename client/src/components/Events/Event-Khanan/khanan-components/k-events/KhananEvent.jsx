@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import K1 from "./k-event-images/twistATale.jpg";
+import K1 from "./k-event-images/twistATale.png";
 import K2 from "./k-event-images/gamicon.jpg";
 import K3 from "./k-event-images/ideate.jpg";
 import K4 from "./k-event-images/khanan mafia.jpg";
@@ -8,8 +8,9 @@ import K5 from "./k-event-images/minnovare.jpg";
 import K6 from "./k-event-images/nirvana.jpg";
 import K7 from "./k-event-images/placement fever.jpg";
 import K8 from "./k-event-images/quizzine.jpg";
-import K10 from "./k-event-images/LisCad.jpg";
-import K9 from "./k-event-images/O-piblast.jpg";
+import K10 from "./k-event-images/LisCad.png";
+import K9 from "./k-event-images/O-piblast.png";
+import K11 from "./k-event-images/generalQuiz.png";
 import KhananCard from "./KhananCard";
 import Zoom from "react-reveal/Zoom";
 
@@ -266,6 +267,28 @@ const events = [
 
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLScQYFQGnbO_Hnl7biIhhBQC7t8lfDghSst9LbkKMOQXScJApQ/viewform",
+  },
+  {
+    title:"General Quiz",
+    src:K11,
+    struct:["We wish to show you that quizzing isn't memorizing boring facts, but a rousing activity of nimble thinking.",
+  "No need to learn any facts! Just bring a curious mind which hungers to know the interesting stories behind everything cool.",
+  "Don't be afraid if you think you don't know anything about quizzing! We'll be explaining all the nitty gritties of quizzing as the event progresses.",
+  "So mark your calendars and join us on 10 October at 8:00 AM.",
+  "1. The quiz will be conducted in two phases, prelims and the finals. Prelims will be held at 8 AM on 10th October, followed by the finals at 8 AM on 11th October.",
+"2. The quiz is open only for college students.",
+"3. There can be a maximum of 3 members in a team.",
+"4. The prelims will be held on a Zoom call, and the answers have to be filled in Google forms. The link for the call will be provided well before time.",
+"5. The top 8 teams will qualify for the finals, which will be held over a Zoom call.",
+"6. Using unfair means is strictly discouraged and anyone caught will be disqualified from the quiz without any explanation.",
+"7. Further details regarding the format of the prelims and finals will be provided on the day of the quiz.",
+"8. The decision of the Quiz Masters will be final and binding.",
+"Contacts :",
+"Taha Hussain : 7766088557",
+"Harsh Kumar Singh : 8102813843"
+
+],
+srclink:"https://docs.google.com/forms/d/10UCKK5M-FFuQf9SxNBl3wpVw9gDJuoV73xdBwHYtWA4/viewform?edit_requested=true"
   },
   {
     title: "O-piblast Workshop",

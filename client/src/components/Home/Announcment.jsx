@@ -4,7 +4,7 @@ const Announcement = () => {
   const data = [
     "Khanan is coming ! Be Ready","Registration process for Khanan-21 events are going on. Checkout the khanan page",
     
-    "Recuerdos is going on! Check on the khanan page "
+    
   ];
 
   return (
