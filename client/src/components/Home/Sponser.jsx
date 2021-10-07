@@ -17,11 +17,11 @@ import ss from "./sponsers/ss.png";
 import ucl from "./sponsers/ucl.png";
 import wb from "./sponsers/wb.png";
 import tm from "./sponsers/tm.png";
-import jsw from "./sponsers/jsw.png";
+import jsw from "./sponsers/jsw1.jpg";
 import wcl from "./sponsers/wcl.png";
 import epiroc from "./sponsers/Epiroc.png";
 import ds from "./sponsers/ds.png";
-import ongc from "./sponsers/ongc.png";
+import ongc from "./sponsers/ongc1.png";
 
 const Sponser = () => {
   return (
