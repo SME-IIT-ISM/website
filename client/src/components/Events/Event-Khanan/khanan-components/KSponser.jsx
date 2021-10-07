@@ -9,6 +9,7 @@ import tm from "../khanan-img/tm.png";
 import ds from "../khanan-img/ds.png";
 import mcl from "../khanan-img/mcl.jpeg";
 import wcl from "../khanan-img/wcl.png";
+import ongc from "../khanan-img/ongc.png";
 const KSponser = () => {
   return (
     <Container>
@@ -38,7 +39,7 @@ const KSponser = () => {
             </Row>
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
-                <p>
+                <p className="text-center">
                   <b>Title&nbsp;&amp;&nbsp;Platinum Sponsor</b>
                 </p>
               </Col>
@@ -64,7 +65,7 @@ const KSponser = () => {
             </Row>
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
-                <p>
+                <p className="text-center">
                   <b>Platinum Sponsor</b>
                 </p>
               </Col>
@@ -88,7 +89,7 @@ const KSponser = () => {
             </Row>
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
-                <p>
+                <p className="text-center">
                   <b>Platinum Sponsor</b>
                 </p>
               </Col>
@@ -96,6 +97,32 @@ const KSponser = () => {
           </Container>
         </Col>
         <Col
+          className="d-flex align-items-center justify-content-center mb-5"
+          xs="10"
+          md="3"
+        >
+          <Container>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center">
+                <div className="Clickable">
+                  <a href="https://www.ongcindia.com/wps/wcm/connect/en/home">
+                    <img className="Ksponser-logo-n" src={ongc} alt="intro" />
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className=" d-flex align-items-center justify-content-center k-sponsor-2">
+                <p className="text-center">
+                  <b>Platinum Sponsor</b>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+      </Row>
+      <Row className="d-flex align-items-center justify-content-center mb-5">
+      <Col
           className="d-flex align-items-center justify-content-center mb-5"
           xs="10"
           md="3"
@@ -112,15 +139,13 @@ const KSponser = () => {
             </Row>
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-1">
-                <p>
+                <p className="text-center">
                   <b>Gold Sponsor </b>
                 </p>
               </Col>
             </Row>
           </Container>
         </Col>
-      </Row>
-      <Row className="d-flex align-items-center justify-content-center mb-5">
         <Col
           className="d-flex align-items-center justify-content-center mb-5"
           xs="10"
@@ -138,7 +163,7 @@ const KSponser = () => {
             </Row>
             <Row>
               <Col className=" d-flex align-items-center justify-content-center k-sponsor-1">
-                <p>
+                <p className="text-center">
                   <b> Gold Sponsor</b>
                 </p>
               </Col>
@@ -163,14 +188,18 @@ const KSponser = () => {
             </Row>
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-1">
-                <p>
+                <p className="text-center">
                   <b>Gold Partner</b>
                 </p>
               </Col>
             </Row>
           </Container>
         </Col>
-        <Col
+        
+        
+      </Row>
+      <Row className="d-flex align-items-center justify-content-center mb-5">
+      <Col
           xs="10"
           md="3"
           className="d-flex align-items-center justify-content-center mb-5"
@@ -187,16 +216,13 @@ const KSponser = () => {
             </Row>
             <Row>
               <Col className="d-flex align-items-top justify-content-center k-sponsor-3">
-                <p >
+                <p className="text-center">
                   <b>Silver Partner</b>
                 </p>
               </Col>
             </Row>
           </Container>
         </Col>
-        
-      </Row>
-      <Row className="d-flex align-items-center justify-content-center mb-5">
         <Col
           className="d-flex align-items-center justify-content-center mb-5"
           xs="10"
@@ -214,7 +240,7 @@ const KSponser = () => {
             </Row>
             <Row>
               <Col className=" d-flex align-items-center justify-content-center k-sponsor-4">
-                <p >
+                <p className="text-center">
                   <b> Gifting Sponsor</b>
                 </p>
               </Col>
@@ -239,7 +265,7 @@ const KSponser = () => {
             </Row>
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-4">
-                <p>
+                <p className="text-center">
                   <b>Gifting Partner</b>
                 </p>
               </Col>
