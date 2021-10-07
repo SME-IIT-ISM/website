@@ -7,7 +7,8 @@ import web from "../khanan-img/weblibox.png";
 import nmdc from "../khanan-img/nmdc.png";
 import tm from "../khanan-img/tm.png";
 import ds from "../khanan-img/ds.png";
-
+import mcl from "../khanan-img/mcl.jpeg";
+import wcl from "../khanan-img/wcl.png";
 const KSponser = () => {
   return (
     <Container>
@@ -103,8 +104,8 @@ const KSponser = () => {
             <Row>
               <Col className="d-flex align-items-center justify-content-center">
                 <div className="Clickable">
-                  <a href="https://www.jsw.in/">
-                    <img className="Ksponser-logo-s" src={jsw} alt="intro" />
+                  <a href="http://westerncoal.in/">
+                    <img className="Ksponser-logo-s" src={wcl} alt="intro" />
                   </a>
                 </div>
               </Col>
@@ -129,16 +130,16 @@ const KSponser = () => {
             <Row>
               <Col className="d-flex align-items-center justify-content-center">
                 <div className="Clickable">
-                  <a href="https://www.epiroc.com/">
-                    <img className="Ksponser-logo" src={epi} alt="intro" />
+                  <a href="https://www.mahanadicoal.in/">
+                    <img className="Ksponser-logo" src={mcl} alt="intro" />
                   </a>
                 </div>
               </Col>
             </Row>
             <Row>
-              <Col className=" d-flex align-items-center justify-content-center k-sponsor-3">
+              <Col className=" d-flex align-items-center justify-content-center k-sponsor-1">
                 <p>
-                  <b> Silver Sponsor</b>
+                  <b> Gold Sponsor</b>
                 </p>
               </Col>
             </Row>
@@ -154,16 +155,16 @@ const KSponser = () => {
             <Row>
               <Col className="d-flex align-items-center justify-content-center">
                 <div className="Clickable">
-                  <a href="https://engineersparcel.in/">
-                    <img className="Ksponser-logo" src={tm} alt="intro" />
+                  <a href="https://www.jsw.in/">
+                    <img className="Ksponser-logo" src={jsw} alt="intro" />
                   </a>
                 </div>
               </Col>
             </Row>
             <Row>
-              <Col className="d-flex align-items-center justify-content-center k-sponsor-4">
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-1">
                 <p>
-                  <b>Gifting Partner</b>
+                  <b>Gold Partner</b>
                 </p>
               </Col>
             </Row>
@@ -178,6 +179,58 @@ const KSponser = () => {
             <Row>
               <Col className="d-flex align-items-center justify-content-center">
                 <div className="Clickable">
+                  <a href="https://www.epiroc.com/">
+                    <img className="Ksponser-logo" src={epi} alt="intro" />
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="d-flex align-items-top justify-content-center k-sponsor-3">
+                <p >
+                  <b>Silver Partner</b>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+        
+      </Row>
+      <Row className="d-flex align-items-center justify-content-center mb-5">
+        <Col
+          className="d-flex align-items-center justify-content-center mb-5"
+          xs="10"
+          md="3"
+        >
+          <Container>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center">
+                <div className="Clickable">
+                  <a href="https://engineersparcel.in/">
+                    <img className="Ksponser-logo" src={tm} alt="intro" />
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className=" d-flex align-items-center justify-content-center k-sponsor-4">
+                <p >
+                  <b> Gifting Sponsor</b>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+        <Col
+          xs="10"
+          md="3"
+          className="d-flex align-items-center justify-content-center mb-5"
+        >
+          {" "}
+          <Container>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center">
+                <div className="Clickable">
                   <a href="https://www.weblibox.com/">
                     <img className="Ksponser-logo" src={web} alt="intro" />
                   </a>
@@ -185,14 +238,16 @@ const KSponser = () => {
               </Col>
             </Row>
             <Row>
-              <Col className="d-flex align-items-top justify-content-center k-sponsor-4">
-                <p id="gift">
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-4">
+                <p>
                   <b>Gifting Partner</b>
                 </p>
               </Col>
             </Row>
           </Container>
         </Col>
+      
+        
       </Row>
     </Container>
   );

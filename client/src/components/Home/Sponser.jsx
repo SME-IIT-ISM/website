@@ -18,6 +18,7 @@ import ucl from "./sponsers/ucl.png";
 import wb from "./sponsers/wb.png";
 import tm from "./sponsers/tm.png";
 import jsw from "./sponsers/jsw.png";
+import wcl from "./sponsers/wcl.png";
 import epiroc from "./sponsers/Epiroc.png";
 import ds from "./sponsers/ds.png";
 
@@ -156,6 +157,15 @@ const Sponser = () => {
           md="2"
           className="d-flex align-items-center justify-content-center"
         >
+          <a href="http://westerncoal.in/">
+            <img className="sponser-logo" src={wcl} alt="intro" />
+          </a>
+        </Col>
+        <Col
+          xs="4"
+          md="2"
+          className="d-flex align-items-center justify-content-center"
+        >
           <a href="https://www.thesouledstore.com/">
             <img className="sponser-logo" src={ss} alt="intro" />
           </a>
@@ -187,6 +197,9 @@ const Sponser = () => {
             <img className="sponser-logo" src={jsw} alt="intro" />
           </a>
         </Col>
+        
+        </Row>
+        <Row>
         <Col
           xs="4"
           md="2"
@@ -196,8 +209,6 @@ const Sponser = () => {
             <img className="sponser-logo" src={epiroc} alt="intro" />
           </a>
         </Col>
-        </Row>
-        <Row>
         <Col
           xs="4"
           md="2"

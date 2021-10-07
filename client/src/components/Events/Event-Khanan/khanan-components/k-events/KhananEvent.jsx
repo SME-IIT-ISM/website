@@ -219,6 +219,7 @@ const events = [
       "14. The presentation should be limited to 7-8 slides in .ppt format.",
       "15. The ideas and the works should not be plagiarised.",
       "16. The teams should remember that their appearance in the event does not violate any copyright laws of seminars and conferences they previously attended.",
+      
       "Contact:",
       "ABHYA ADRI : 6206688440",
       "KESHAV LAKHOTIA: : 7340598208",
