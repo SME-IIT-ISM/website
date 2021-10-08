@@ -45,6 +45,8 @@ const events = [
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSeT2jUTvYsb-1tr0MCiXkhPVWMHCFOge6IDfWqKCev3REeGaQ/viewform",
+    zoomlink: " https://meet.google.com/dmf-ihim-add",
+    con: true,
   },
   {
     title: "Gamicon",
@@ -71,6 +73,8 @@ const events = [
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfdx7cZ25FmzXRqCpHf3gGwbO8Gn1ufwL4tArjRqiNt1O2b2g/viewform",
+    zoomlink: "",
+    con: false,
   },
   {
     title: "Ideate",
@@ -125,6 +129,8 @@ const events = [
 
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSf7_Rvltx64VZeQGOxYHg_5jT8S9sdeRf2LcO3X4ejVCunImQ/viewform",
+    zoomlink: "",
+    con: "",
   },
   {
     title: "Khanan Mafia",
@@ -149,6 +155,8 @@ const events = [
       " AMBUJ GUPTA : 9798872884",
     ],
     srclink: "https://forms.gle/TMbAJ9BPxnyTRcjJA",
+    zoomlink: "",
+    con: "",
   },
   {
     title: "Minnovare",
@@ -175,6 +183,8 @@ const events = [
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLScq-M8dV5WJHIjbjjZp__PsFvrS8rPjglaeBfBZ8Jo2KHShUQ/viewform",
+    zoomlink: "",
+    con: "",
   },
   {
     title: "Nirvana",
@@ -227,6 +237,8 @@ const events = [
 
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSdIB7OsqIB-B6mq-WVsgH_hHS4e64ZNNLTIiaHFVKbXQ-QX6A/viewform",
+    zoomlink: "",
+    con: "",
   },
   {
     title: "Placement Fever",
@@ -249,8 +261,9 @@ const events = [
       "Anuj kumar raj : 8298056949"
     ],
 
-
-    srclink: "https://docs.google.com/forms/d/e/1FAIpQLSfGtRCtRWvVpxhIBsAT3llnls8fmpvdyqb1TcNywtiLXq1F7g/viewform",
+    srclink: "https://forms.gle/R4p4KpGC5aqvB3K9A",
+    zoomlink: "",
+    con: "",
   },
   {
     title: "Mining Quiz",
@@ -268,6 +281,8 @@ const events = [
 
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLScQYFQGnbO_Hnl7biIhhBQC7t8lfDghSst9LbkKMOQXScJApQ/viewform",
+    zoomlink: "",
+    con: "",
   },
   {
     title:"General Quiz",
@@ -304,7 +319,9 @@ srclink:"https://docs.google.com/forms/d/10UCKK5M-FFuQf9SxNBl3wpVw9gDJuoV73xdBwH
       " AMBUJ GUPTA : 9798872884",
     ],
 
-    srclink: "https://docs.google.com/forms/d/e/1FAIpQLScMecuyr6mXtelO9YjlB7DFqedLrYgpofZlkNvXg6l8p6V3mA/viewform",
+    srclink: "https://forms.gle/6XGn9MQvr7uwDrcs8",
+    zoomlink: "",
+    con: "",
   },
   {
     title: "lisCAD Workshop",

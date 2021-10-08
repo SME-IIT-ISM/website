@@ -39,8 +39,8 @@ const KSponser = () => {
             </Row>
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
-                <p className="text-center">
-                  <b>Title&nbsp;&amp;&nbsp;Platinum Sponsor</b>
+                <p>
+                  <b>Title&amp;Platinum Sponsor</b>
                 </p>
               </Col>
             </Row>
