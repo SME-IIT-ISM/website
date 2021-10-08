@@ -46,7 +46,7 @@ const events = [
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSeT2jUTvYsb-1tr0MCiXkhPVWMHCFOge6IDfWqKCev3REeGaQ/viewform",
     zoomlink: " https://meet.google.com/dmf-ihim-add",
-    con: true,
+    con: false,
   },
   {
     title: "Gamicon",
@@ -129,8 +129,8 @@ const events = [
 
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSf7_Rvltx64VZeQGOxYHg_5jT8S9sdeRf2LcO3X4ejVCunImQ/viewform",
-    zoomlink: "",
-    con: "",
+    zoomlink: "https://meet.google.com/dmf-ihim-add",
+    con: true,
   },
   {
     title: "Khanan Mafia",
@@ -183,8 +183,8 @@ const events = [
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLScq-M8dV5WJHIjbjjZp__PsFvrS8rPjglaeBfBZ8Jo2KHShUQ/viewform",
-    zoomlink: "",
-    con: "",
+    zoomlink: "https://meet.google.com/ttx-zmfa-bvw",
+    con: true,
   },
   {
     title: "Nirvana",
@@ -237,8 +237,8 @@ const events = [
 
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSdIB7OsqIB-B6mq-WVsgH_hHS4e64ZNNLTIiaHFVKbXQ-QX6A/viewform",
-    zoomlink: "",
-    con: "",
+    zoomlink: "https://meet.google.com/ipb-tdeo-kdy",
+    con: true,
   },
   {
     title: "Placement Fever",
@@ -262,8 +262,8 @@ const events = [
     ],
 
     srclink: "https://forms.gle/R4p4KpGC5aqvB3K9A",
-    zoomlink: "",
-    con: "",
+    zoomlink: "https://meet.google.com/kvx-demi-pzy",
+    con: true,
   },
   {
     title: "Mining Quiz",
@@ -281,8 +281,8 @@ const events = [
 
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLScQYFQGnbO_Hnl7biIhhBQC7t8lfDghSst9LbkKMOQXScJApQ/viewform",
-    zoomlink: "",
-    con: "",
+      zoomlink: "https://meet.google.com/fcf-zttd-xew",
+      con: true,
   },
   {
     title:"General Quiz",
@@ -320,8 +320,8 @@ srclink:"https://docs.google.com/forms/d/10UCKK5M-FFuQf9SxNBl3wpVw9gDJuoV73xdBwH
     ],
 
     srclink: "https://forms.gle/6XGn9MQvr7uwDrcs8",
-    zoomlink: "",
-    con: "",
+    zoomlink: "https://us02web.zoom.us/j/82295620499?pwd=WHFVaEdkSHBvVFpRMUViaUg2Mkt2QT09",
+    con: true,
   },
   {
     title: "lisCAD Workshop",
@@ -338,6 +338,8 @@ srclink:"https://docs.google.com/forms/d/10UCKK5M-FFuQf9SxNBl3wpVw9gDJuoV73xdBwH
     ],
 
     srclink: "https://docs.google.com/forms/d/e/1FAIpQLSeXZdpp5qs4tG2FERK-lnpiPrk1MUxtv1rPM1uLQu238t4odg/viewform",
+    zoomlink: "https://us02web.zoom.us/j/83922869325?pwd=WXFFeFNnNDUzUjdFMjVsZ21aQVNRZz09",
+    con: true,
   }
 ];
 

@@ -22,6 +22,8 @@ const speakers = [
     ],
     srclink:
       "https://docs.google.com/forms/d/1t8K-pd_-9LqIoF_lP6BGQvRhco9FY10ugHhGKkbi2vM/viewform?edit_requested=true",
+      zoomlink: "https://us02web.zoom.us/j/89391818363?pwd=aHhYcURsUmlkZFdoblFacDhVZ2h3dz09",
+      con: true,
   },
   {
     title: "Mr. Satish Penmetsa",
@@ -35,9 +37,12 @@ const speakers = [
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSeaqmHIY3jMNld_PbVLlcuZnTa96UFEER59Ntv7oux51sj6Uw/viewform",
+      zoomlink: "https://us02web.zoom.us/j/84154830403?pwd=eGV5TGg3akdwV0J2ZVdndWVtdDRUUT09",
+      con: true,
+
   },
   {
-    title: "Mr. Subroto Ghosh",
+    title: "Mr. Subrato Ghosh",
     src: S3,
     head: "Head Content",
     struct: [
@@ -48,6 +53,8 @@ const speakers = [
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfwavNShwpcpaRAHvaF6wKeD69I2KN4BZ62iRqWUtGiQoynnw/viewform",
+      zoomlink: "https://us02web.zoom.us/j/82841271687?pwd=ODlNMGFOUEhDSmJURmhPUzJsaHdtZz09",
+      con: true,
   },
   {
     title: "Mr. Abani R Samal",
@@ -61,6 +68,8 @@ const speakers = [
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfgc3pXIFzwaJw7evMvPb9wPJL2pE4OCgurJgtHtC45rK_5AQ/viewform",
+      zoomlink: "https://us02web.zoom.us/j/86225289683?pwd=YVJYMktQcGRPaTVDV1B6bUZEbU9EZz09",
+      con: true,
   },
   // {
   //   title: "Mr. Amit Kumar",
