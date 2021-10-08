@@ -2,8 +2,9 @@ import Marquee from "react-easy-marquee";
 
 const Announcement = () => {
   const data = [
-    "Khanan is coming ! Be Ready","Recuerdos is going on! Check on the khanan page ",
-    "Jharoka is going on! Check on the khanan page"
+    "Khanan is coming ! Be Ready","Registration process for Khanan-21 events are going on. Checkout the khanan page",
+    
+    
   ];
 
   return (
@@ -20,11 +21,21 @@ const Announcement = () => {
           pauseOnHover={true}
           reverse={true}
         >
-          {data.map((item, id) => (
+          {/* {data.map((item, id) => (
             <p key={id}>
               <b>{item}</b>
             </p>
-          ))}
+          ))} */}
+          <p>
+            <b>Khanan is coming ! Be Ready</b>
+          </p>
+         
+          <a className="text-decoration-none text-dark" href="https://drive.google.com/drive/folders/1efY1BrZUBAml268Et3YiPsXdNmnZykOS?usp=sharing" target="_blank"  >
+          <b>Problem statement of Nirvana is released. Check out Now</b>
+          </a>
+          <a className="text-decoration-none text-dark" href="/events/khanan">
+            <b>Registration process for Khanan-21 events are going on . Click here to participate</b>
+          </a>
         </Marquee>
       </div>
     </div>

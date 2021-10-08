@@ -196,7 +196,7 @@ const OurTeam = () => {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">
-                    <b>Dheeraj Kumar</b>
+                    <b>Prof. Dheeraj Kumar</b>
                   </h5>
                   <p className="card-text text-secondary">Faculty Advisor</p>
                 </div>

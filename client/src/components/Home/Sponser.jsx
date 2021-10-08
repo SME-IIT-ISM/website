@@ -17,9 +17,11 @@ import ss from "./sponsers/ss.png";
 import ucl from "./sponsers/ucl.png";
 import wb from "./sponsers/wb.png";
 import tm from "./sponsers/tm.png";
-import jsw from "./sponsers/jsw.png";
+import jsw from "./sponsers/jsw1.jpg";
+import wcl from "./sponsers/wcl.png";
 import epiroc from "./sponsers/Epiroc.png";
 import ds from "./sponsers/ds.png";
+import ongc from "./sponsers/ongc1.png";
 
 const Sponser = () => {
   return (
@@ -156,8 +158,17 @@ const Sponser = () => {
           md="2"
           className="d-flex align-items-center justify-content-center"
         >
-          <a href="https://www.thesouledstore.com/">
-            <img className="sponser-logo" src={ss} alt="intro" />
+          <a href="http://westerncoal.in/">
+            <img className="sponser-logo" src={wcl} alt="intro" />
+          </a>
+        </Col>
+        <Col
+          xs="4"
+          md="2"
+          className="d-flex align-items-center justify-content-center"
+        >
+          <a href="https://www.ongcindia.com/wps/wcm/connect/en/home/">
+            <img className="sponser-logo" src={ongc} alt="intro" />
           </a>
         </Col>
         <Col
@@ -183,10 +194,24 @@ const Sponser = () => {
           md="2"
           className="d-flex align-items-center justify-content-center"
         >
+          <a href="https://www.thesouledstore.com/">
+            <img className="sponser-logo" src={ss} alt="intro" />
+          </a>
+        </Col>
+        </Row>
+        <Row>
+        <Col
+          xs="4"
+          md="2"
+          className="d-flex align-items-center justify-content-center"
+        >
           <a href="https://www.jsw.in/">
             <img className="sponser-logo" src={jsw} alt="intro" />
           </a>
         </Col>
+        
+        
+        
         <Col
           xs="4"
           md="2"
@@ -196,8 +221,6 @@ const Sponser = () => {
             <img className="sponser-logo" src={epiroc} alt="intro" />
           </a>
         </Col>
-        </Row>
-        <Row>
         <Col
           xs="4"
           md="2"

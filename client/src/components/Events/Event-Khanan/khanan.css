@@ -267,6 +267,10 @@ a.k-card-link:hover {
 }
 
 /* For event pages */
+.events-page-khanan{
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
 .events-page-khanan h1 {
   background-image: linear-gradient(45deg, #ff0881, #6827b0);
   background-clip: text;
@@ -333,6 +337,7 @@ a.k-card-link:hover {
   width: 16vw;
   z-index: 100;
 }
+
 .Ksponser-logo-s {
   width: 16vw;
   z-index: 100;

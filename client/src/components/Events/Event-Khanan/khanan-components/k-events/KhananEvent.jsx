@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import K1 from "./k-event-images/datagenix.jpg";
+import K1 from "./k-event-images/twistATale.png";
 import K2 from "./k-event-images/gamicon.jpg";
 import K3 from "./k-event-images/ideate.jpg";
 import K4 from "./k-event-images/khanan mafia.jpg";
@@ -8,7 +8,9 @@ import K5 from "./k-event-images/minnovare.jpg";
 import K6 from "./k-event-images/nirvana.jpg";
 import K7 from "./k-event-images/placement fever.jpg";
 import K8 from "./k-event-images/quizzine.jpg";
-import K9 from "./k-event-images/workshop.jpg";
+import K10 from "./k-event-images/LisCad.png";
+import K9 from "./k-event-images/O-piblast.png";
+import K11 from "./k-event-images/generalQuiz.png";
 import KhananCard from "./KhananCard";
 import Zoom from "react-reveal/Zoom";
 
@@ -227,9 +229,10 @@ const events = [
       "14. The presentation should be limited to 7-8 slides in .ppt format.",
       "15. The ideas and the works should not be plagiarised.",
       "16. The teams should remember that their appearance in the event does not violate any copyright laws of seminars and conferences they previously attended.",
+      
       "Contact:",
       "ABHYA ADRI : 6206688440",
-      "KESHAV LAKHOTIA: : 7470584535",
+      "KESHAV LAKHOTIA: : 7340598208",
     ],
 
     srclink:
@@ -241,16 +244,21 @@ const events = [
     title: "Placement Fever",
     src: K7,
     struct: [
-      `The Khanan Family believes in the wise saying of Carl Sagan - "Somewhere, something incredible is waiting to be known". So, to acknowledge your incredibility and creativity, we are back with our prodigious event-"PLACEMENT FEVER".`,
-      "This event puts the students through a simulated version of the campus placement process. Beginning with an aptitude test, the participants will go on to appear for group discussions and eventually sit for personal interviews.",
-      "In the 2nd round, event calls for your unique ideas and your ability to present them in a PPT format.The participants are expected to submit an ingenious PPT on a given topic(which will be informed well before time). And further given a chance to be presented before our panel of judges. This PPT presentation round will be conducted on google/Zoom meet with a 5 min. time slot for each qualifier.",
-      `Top 8 Students will emerge for the" Megadeth" round, the Personal Interview. Both HR & Technical interviews will be conducted in a simulated environment.`,
-      "The top three students will get a certificate of merit; however each of the participants will receive the certificate of participation.",
-      "Individual entries are only allowed in this event.",
-      "In case of any discrepancy, the decision of panel would be binding.",
-      "Contact:",
-      "TANYA ANSHUM : 8210987906",
-      "ANUJ KUMAR RAJ : 9798872884",
+     `The Khanan Family believes in the wise saying of Carl Sagan - "Somewhere, something incredible is waiting to be known". So, to acknowledge your incredibility and creativity, we are back with our prodigious event - "PLACEMENT FEVER".
+     `,
+     "This event puts the students through a simulated version of the campus placement process.",
+     "Registration Deadline: 8th  October 8:00PM",
+     "Rules:",
+     "1. Individual entries are only allowed in this event.",
+     "2. There will be three rounds - Aptitude Test, Group Discussion, and Personal Interview.",
+     "3. The first round (Aptitude test) will have 60 questions. The time allotted will be 30 minutes. The top 20 participants from the aptitude test will enter in the second round.",
+     "4. The participants will be divided into five groups, each group consisting of 4 participants for Group Discussion. The top participants of each group will slide in the final round.",
+     `5. Top 5 Students will emerge for the "Megadeth" round, the Personal Interview. Both HR & Technical interviews will be conducted in a simulated environment.`,
+     "6. The top three students will be declared as winners and will get a certificate of merit. Each of the participants who make upto Interview round will get Certificate.",
+     "7. In case of any discrepancy, the decision of the panel would be binding.",
+     "Contact:",
+      "TANYA ANSHUM : 7488215775",
+      "Anuj kumar raj : 8298056949"
     ],
 
     srclink: "https://forms.gle/R4p4KpGC5aqvB3K9A",
@@ -277,16 +285,60 @@ const events = [
     con: "",
   },
   {
-    title: "Workshop",
+    title:"General Quiz",
+    src:K11,
+    struct:["We wish to show you that quizzing isn't memorizing boring facts, but a rousing activity of nimble thinking.",
+  "No need to learn any facts! Just bring a curious mind which hungers to know the interesting stories behind everything cool.",
+  "Don't be afraid if you think you don't know anything about quizzing! We'll be explaining all the nitty gritties of quizzing as the event progresses.",
+  "So mark your calendars and join us on 10 October at 8:00 AM.",
+  "1. The quiz will be conducted in two phases, prelims and the finals. Prelims will be held at 8 AM on 10th October, followed by the finals at 8 AM on 11th October.",
+"2. The quiz is open only for college students.",
+"3. There can be a maximum of 3 members in a team.",
+"4. The prelims will be held on a Zoom call, and the answers have to be filled in Google forms. The link for the call will be provided well before time.",
+"5. The top 8 teams will qualify for the finals, which will be held over a Zoom call.",
+"6. Using unfair means is strictly discouraged and anyone caught will be disqualified from the quiz without any explanation.",
+"7. Further details regarding the format of the prelims and finals will be provided on the day of the quiz.",
+"8. The decision of the Quiz Masters will be final and binding.",
+"Contacts :",
+"Taha Hussain : 7766088557",
+"Harsh Kumar Singh : 8102813843"
+
+],
+srclink:"https://docs.google.com/forms/d/10UCKK5M-FFuQf9SxNBl3wpVw9gDJuoV73xdBwHYtWA4/viewform?edit_requested=true"
+  },
+  {
+    title: "O-piblast Workshop",
     src: K9,
     struct: [
-      "The penetration of digitisation into the surveying industry has mandated the acquisition of modern techniques of data analysis and data representation mandatory. The tools though easy to use have not been able to have an impact on the students all around the country. To bridge such gaps between the academics and the industry, KHANAN organises workshops on software pakages like SURPAC, AUTOPLOTTER, MINEX AUTOCAD 3D, etc., The only requisites to join are bringing a fully charged laptop and minds free to learn.",
+      `“An investment in knowledge pays the best interest”- Benjamin Franklin `,
+      "Learning from the experienced minds of our nation is an opportunity of rare luck. Khanan’21 takes here the pleasure to announce that one such great mind will be here to enlighten us with his immense knowledge and experience, which will open the doors of innumerable opportunities in our near-coming future. ",
+      `A webinar has been organized on "O-Pitblast" a 3D Blasting Software and it’s our great honour and pleasure to unveil the next speaker of Khanan’21 Dr. Bhanwar Singh Choudhary , currently the Associate Professor in the Department of Mining Engineering at IIT(ISM) Dhanbad, obtained his PhD from IIT(BHU) Varanasi and holds the area of expertise in Drilling and Blasting Technology, Computer Aided Mine Planning, Tunnel Engineering. He has more than 20 years of experience in educating and guiding his students at our prestigious college`,
+      "Don’t miss out this golden opportunity to learn new things from such a inspiring person, that will guide you reach the summit of excellence; be one step ahead of others by registering it right now!",
+      "Contact:",
+      "SUMIT KUMAR MUDI : 8210987906",
+      " AMBUJ GUPTA : 9798872884",
     ],
 
     srclink: "https://forms.gle/6XGn9MQvr7uwDrcs8",
     zoomlink: "",
     con: "",
   },
+  {
+    title: "lisCAD Workshop",
+    src: K10,
+    struct: [
+     `"Tell me and I forget. Teach me and I remember. Involve me and I learn".`,
+     "as said by Benjamin Franklin with this line we want to introduce our next and one of our most passionate speaker",
+     "DAYAMOY KARMAKAR, he is not just a speaker he is a teacher a mentor has vast experience of the mining industry as he worked with Essel mining as a survey officer, he has also worked with Tata Steel limited as a survey manager and Balaji industry limited as associate survey manger being in IIT (ISM) Dhanbad he mentored many students in there research work ",
+     "So we welcome you to the amazing session on LisCAD software.",
+     "Don’t miss out this opportunity to learn one of the most crucial software from such a inspiring person; be one step ahead of others by registering it right now! ",
+     "Contact:",
+     "SUMIT KUMAR MUDI : 8210987906",
+     " AMBUJ GUPTA : 9798872884",
+    ],
+
+    srclink: "https://docs.google.com/forms/d/e/1FAIpQLSeXZdpp5qs4tG2FERK-lnpiPrk1MUxtv1rPM1uLQu238t4odg/viewform",
+  }
 ];
 
 const Kevent = () => {
@@ -300,7 +352,7 @@ const Kevent = () => {
       <Row>
         {events.map((item, index) => {
           return (
-            <Col xs="12" sm="6" lg="4" key={index}>
+            <Col xs="12" sm="6" lg="4" key={index} >
               <Zoom timeout={600}>
                 <KhananCard title={item.title} img={item.src} id={index} />
               </Zoom>
