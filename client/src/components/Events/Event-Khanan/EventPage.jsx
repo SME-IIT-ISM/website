@@ -8,7 +8,10 @@ const EventPage = (props) => {
   const src = props.eventData?.src;
   const struct = props.eventData?.struct;
   const srclink = props.eventData?.srclink;
+  const zoom = props.eventData?.zoomlink;
+  const con = props.eventData?.con;
 
+  console.log(con === true);
   useEffect(() => {
     if (props.eventData === undefined)
       return <Error404 msg="Unexisting Event" />;
@@ -63,6 +66,22 @@ const EventPage = (props) => {
             </div>
           </Col>
         </Row>
+        {con === true && (
+          <Row className=" d-flex align-items-center justify-content-center">
+            <Col xs="12" md="6" lg="4" className="text-center">
+              <div>
+                <a
+                  className="bt bt-white text-center"
+                  href={zoom}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Join the meet
+                </a>
+              </div>
+            </Col>
+          </Row>
+        )}
         <Row className="mt-5 d-flex align-items-center justify-content-center">
           <Col xs="12" lg="9" xl="8">
             <div>
