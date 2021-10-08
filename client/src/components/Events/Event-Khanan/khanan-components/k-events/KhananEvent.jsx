@@ -276,7 +276,7 @@ const events = [
   "No need to learn any facts! Just bring a curious mind which hungers to know the interesting stories behind everything cool.",
   "Don't be afraid if you think you don't know anything about quizzing! We'll be explaining all the nitty gritties of quizzing as the event progresses.",
   "So mark your calendars and join us on 10 October at 8:00 AM.",
-  "1. The quiz will be conducted in two phases, prelims and the finals. Prelims will be held at 8 AM on 10th October, followed by the finals at 8 AM on 11th October.",
+  "The quiz will be conducted in two phases, prelims and the finals. Prelims will be held at 8 AM on 10th October, followed by the finals at 6:30 PM on the same day.",
 "2. The quiz is open only for college students.",
 "3. There can be a maximum of 3 members in a team.",
 "4. The prelims will be held on a Zoom call, and the answers have to be filled in Google forms. The link for the call will be provided well before time.",
