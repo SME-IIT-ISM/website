@@ -189,7 +189,7 @@ const KSponser = () => {
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-1">
                 <p className="text-center">
-                  <b>Gold Partner</b>
+                  <b>Gold Sponsor</b>
                 </p>
               </Col>
             </Row>
@@ -217,7 +217,7 @@ const KSponser = () => {
             <Row>
               <Col className="d-flex align-items-top justify-content-center k-sponsor-3">
                 <p className="text-center">
-                  <b>Silver Partner</b>
+                  <b>Silver Sponsor</b>
                 </p>
               </Col>
             </Row>
@@ -266,7 +266,7 @@ const KSponser = () => {
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-4">
                 <p className="text-center">
-                  <b>Gifting Partner</b>
+                  <b>Gifting Sponsor</b>
                 </p>
               </Col>
             </Row>
