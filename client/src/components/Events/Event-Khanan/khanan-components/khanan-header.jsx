@@ -15,7 +15,7 @@ const KhananHeader = () => {
         REGISTER
       </a>
       <div className="k-count">
-        <Countdown/>
+        {/* <Countdown/> */}
         </div>
     </div>
   );

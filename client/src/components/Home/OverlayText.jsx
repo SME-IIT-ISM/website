@@ -34,7 +34,7 @@ const OverlayText = (props) => {
                 willing to take it?
               </p>
               <div className="text-center h1">
-            <Countdown />
+            {/* <Countdown /> */}
           </div>
               <a className="bt bt-white khanan-bt" href="/events/khanan">
                 Register Now
