@@ -8,6 +8,13 @@ const Timeline = () => {
     <div className="page">
      <Slide timeout={500} left>
         <Tcard
+          ach="Shivendra Kumar Acharya (Mining & Exploration Division Scholarship) ,Jai Anand (Stantec-McIntosh Engineering  Scholarship & Coal and Energy Division Scholarship) , Sudeshna Kundu (Mining & Exploration Division Scholarship) won SME scholarship award"
+          title="SME Scolarship"
+          year="Year 2021-22"
+        />
+      </Slide>
+     <Slide timeout={500} left>
+        <Tcard
           ach="Two teams from our society -1. 'MineSquad' which consisted of 
 Sumit Kumar Mudi, Anusha Priyadarshi, Sudeshna Kundu, Amlanjyoti 
 Majumdar. 2.'SpaceMinerz' consisted of Syed Ali Haider,Suyash Ranjan, Aman Raj, Jai Anand, Rishabh Kaushal.Both teams sent their entries and  pitched their ideas excellently through their videos."
