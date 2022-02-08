@@ -28,9 +28,10 @@ const Announcement = () => {
           ))} */}
          
          
-          <a className="text-decoration-none text-dark" href="https://drive.google.com/drive/folders/1efY1BrZUBAml268Et3YiPsXdNmnZykOS?usp=sharing" target="_blank"  >
+          {/* <a className="text-decoration-none text-dark" href="https://drive.google.com/drive/folders/1efY1BrZUBAml268Et3YiPsXdNmnZykOS?usp=sharing" target="_blank"  >
           <b>Problem statement of Nirvana is released. Check out Now</b>
-          </a>
+          </a> */}
+          <p>Welcome to SME IIT ISM Student Chapter</p>
           
         </Marquee>
       </div>
