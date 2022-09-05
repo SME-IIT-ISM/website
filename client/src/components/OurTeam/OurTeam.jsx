@@ -9,39 +9,48 @@ import SecretaryErra from "./images/SecretaryErra.jpg";
 import Secretary from "./images/Secretary.jpg";
 import AdSecretory from "./images/AdSecretory.jpg";
 import BDHead from "./images/BDHead.jpg";
+import AdBDHead from "./images/ProfileIcon.jpg";
 import EventHead from "./images/EventHead.jpg";
 import AdEventHead from "./images/AdEventHead.jpg";
 import Treasurer from "./images/Treasurer.jpg";
+import AdTreasurerHead from "./images/ProfileIcon.jpg";
 import DesigningHead from "./images/DesigningHead.jpg";
-import AdDesigningHead from "./images/AdDesigningHead.jpg";
+// import AdDesigningHead from "./images/AdDesigningHead.jpg";
+import AdDesigningHead from "./images/ProfileIcon.jpg";
 import PRHead from "./images/PRHead.jpg";
-import TechnicalHead from "./images/TechnicalHead.jpeg";
+import TechnicalHead from "./images/ProfileIcon.jpg";
+import AdTechnicalHead from "./images/AdTechnicalHead.jpeg";
 import MediaHead from "./images/MediaHead.jpg";
 import PromotionHead from "./images/PromotionHead.jpg";
-import MarketingHead from "./images/MarketingHead.jpg";
+import AdPromotionHead from "./images/AdPromotionHead.jpg";
+// import MarketingHead from "./images/MarketingHead.jpg";
+import MarketingHead from "./images/ProfileIcon.jpg";
+import AdMarketingHead from "./images/ProfileIcon.jpg";
 import DraftingHead from "./images/DraftingHead.jpg";
+import AdDraftingHead from "./images/ProfileIcon.jpg";
 import MembershipHead from "./images/MembershipHead.jpg";
+import LogisticsHead from "./images/ProfileIcon.jpg";
 import dev1 from "./images/dev1.jpg";
 import dev2 from "./images/dev2.jpg";
-
+import dev3 from "./images/dev3.jpg";
 const officeBearers = [
   {
     src: President,
     position: "President",
-    name: "Shivendra Kumar Acharya",
-    linkedin: "https://www.linkedin.com/in/shivendra-kumar-acharya-6350a5187/",
+    name: "Sudeshna Kundu",
+    linkedin: "https://www.linkedin.com/in/sudeshna-kundu-61490b1a8/",
   },
   {
     src: VicePresident,
     position: "Vice President",
-    name: "Anjali Atreyi",
-    linkedin: "https://www.linkedin.com/in/anjali-atreyi-870375198/",
+    name: "Santu Kumar",
+    linkedin: "https://www.linkedin.com/in/santu-kumar-047abb19b/",
   },
   {
     src: SecretaryErra,
     position: "Secretary ERRA",
-    name: "Madhav Singhal",
-    linkedin: "https://www.linkedin.com/in/madhav-singhal-7708a3186/",
+    name: "Jai Anand",
+    linkedin: "https://www.linkedin.com/in/jai-anand-0890b5197/",
   },
 ];
 
@@ -49,93 +58,135 @@ const coreTeam = [
   {
     src: Secretary,
     position: "Secretary",
-    name: "Jai Anand",
-    linkedin: "https://www.linkedin.com/in/jai-anand-0890b5197/",
+    name: "Gaurav Kumar",
+    linkedin: "https://www.linkedin.com/in/gaurav-kumar-044bb4219/",
   },
   {
     src: AdSecretory,
     position: "Ad. Secretory",
-    name: "Suyash Ranjan",
-    linkedin: "https://www.linkedin.com/mwlite/in/suyash-ranjan-6380951a5/",
+    name: "Yadav Navdesh Uttam",
+    linkedin: "https://www.linkedin.com/in/navdesh-yadav-5a9a47193/",
   },
   {
     src: BDHead,
     position: "BD Head",
-    name: "Sudeshna Kundu",
-    linkedin: "https://www.linkedin.com/in/sudeshna-kundu-61490b1a8/",
+    name: "Shubham Pandey",
+    linkedin: "https://www.linkedin.com/in/shubham-pandey-1898b021b",
+  },
+  {
+    src:AdBDHead,
+    position: "Ad. BD Head",
+    name: "Rohit Kumar Mondal",
+    linkedin: "https://www.linkedin.com/in/rohit-kumar-mondal-b73052222/",
   },
   {
     src: EventHead,
     position: "Event Head",
-    name: "Sumit Kumar Mudi",
-    linkedin: "https://www.linkedin.com/in/sumit-kumar-mudi-0a767a1b8/",
+    name: "Anuj Kumar Raj",
+    linkedin: "https://www.linkedin.com/in/anuj-kumar-raj-170593213/",
   },
   {
     src: AdEventHead,
     position: "Ad. Event Head",
-    name: "Abhya Adri",
-    linkedin: "https://www.linkedin.com/in/abhya-adri-a3a428208/",
+    name: "Ayushman Tiwari",
+    linkedin: "https://www.linkedin.com/in/ayushman-tiwari-9757871b9/",
   },
   {
     src: Treasurer,
     position: "Treasurer",
-    name: "Rishabh Kaushal",
-    linkedin: "https://www.linkedin.com/in/rishabh-kaushal-2031791a7/",
+    name: "Sudhanshu Suman Prasad",
+    linkedin: "https://www.linkedin.com/in/sudhanshu-suman-prasad-902486201/",
+  },
+  {
+    src: AdTreasurerHead,
+    position: "Ad. Treasurer Head",
+    name: "Himanshu Shekhar",
+    linkedin: "https://www.linkedin.com/in/himanshu-shekhar-544b92204/",
   },
   {
     src: DesigningHead,
     position: "Designing Head",
-    name: "Syed Ali Hyder",
-    linkedin: "https://www.linkedin.com/in/syed-ahaider/",
+    name: "Vedant Kothiya",
+    linkedin: "https://www.linkedin.com/in/vedant-kothiya-438527215/",
   },
   {
     src: AdDesigningHead,
     position: "Ad. Designing Head",
-    name: "Ashmit Sharma",
-    linkedin: "https://www.linkedin.com/in/ashmit-sharma-78674319b/",
+    name: "Harish Varma",
+    linkedin: "https://www.linkedin.com/in/shubham-pandey-1898b021b",
   },
   {
     src: PRHead,
     position: "PR Head",
-    name: "AmlanJyoti Majumdar",
-    linkedin: "https://www.linkedin.com/in/amlanjyoti-majumdar-371907195/",
+    name: "Akashdeep",
+    linkedin: "https://www.linkedin.com/in/iamakashdeepmehta/",
   },
   {
     src: TechnicalHead,
     position: "Technical Head",
-    name: "Abhijeet Haldar",
-    linkedin: "https://www.linkedin.com/in/abhijeet-haldar-59813a1b4/",
+    name: "Rajnish Kumar",
+    linkedin: "https://www.linkedin.com/in/rajnishism/",
+  },
+  {
+    src: AdTechnicalHead,
+    position: "Ad. Technical Head",
+    name: "Balbir Prasad",
+    linkedin: "https://www.linkedin.com/in/balbir-prasad-362aa2121/",
   },
   {
     src: MediaHead,
     position: "Media Head",
-    name: "Mohit Kumar",
-    linkedin: "https://www.linkedin.com/in/mohit-kumar-aa3916213/",
+    name: "Manish Vijay Garje",
+    linkedin: "https://www.linkedin.com/in/manish-garje-b6b193204/",
   },
   {
     src: PromotionHead,
     position: "Promotion Head",
-    name: "Aman Raj",
-    linkedin: "https://www.linkedin.com/in/aman-raj-b35b03184/",
+    name: "Ayush Gupta",
+    linkedin: "https://www.linkedin.com/in/ayush-gupta-45b567221/",
+  },
+  {
+    src: AdPromotionHead,
+    position: "Ad. Promotion Head",
+    name: "Yashi Sachan",
+    linkedin: "https://www.linkedin.com/in/yashi-sachan-373235212/",
   },
   {
     src: MarketingHead,
     position: "Marketing Head",
-    name: "Chelsi Mehta",
-    linkedin: "https://www.linkedin.com/in/chelsi-mehta-536aa6187/",
+    name: "Aditi Anand",
+    linkedin: "https://www.linkedin.com/in/aditi-anand-8ba31a212/",
+  },
+  {
+    src: AdMarketingHead,
+    position: "Ad. Marketing Head",
+    name: "Priyanshu Jha",
+    linkedin: "https://www.linkedin.com/in/priyanshu-jha-a09662204/",
   },
   {
     src: DraftingHead,
     position: "Drafting Head",
-    name: "Anusha Priyadarshi",
-    linkedin: "https://www.linkedin.com/in/anusha-priyadarshi-baa9a01b8/",
+    name: "Pavitra Bhargava",
+    linkedin: "https://www.linkedin.com/in/pavitra-bhargava-788197224/",
+  },
+  {
+    src: AdDraftingHead,
+    position: "Ad. Drafting Head",
+    name: "Naveen Kumar Saini",
+    linkedin: "https://www.linkedin.com/in/naveen-saini-267476204/",
   },
   {
     src: MembershipHead,
     position: "Membership Head",
-    name: "Santu Kumar",
-    linkedin: "https://www.linkedin.com/in/santu-kumar-047abb19b/",
+    name: "Raushan Kumar",
+    linkedin: "https://www.linkedin.com/in/raushan-kumar-7ba163205/",
   },
+  {
+    src: LogisticsHead,
+    position: "Logistics Head",
+    name: "Ambuj Gupta",
+    linkedin: "https://www.linkedin.com/in/ambuj-gupta-695215221/",
+  }
 ];
 
 const developers = [
@@ -152,7 +203,7 @@ const developers = [
     linkedin: "https://www.linkedin.com/in/abhinav-kumar-singh-6813501b8/",
   },
   {
-    src: TechnicalHead,
+    src: dev3,
     position: "Web Developer",
     name: "Abhijeet Haldar",
     linkedin: "https://www.linkedin.com/in/abhijeet-haldar-59813a1b4/",
