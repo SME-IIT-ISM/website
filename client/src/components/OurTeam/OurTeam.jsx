@@ -24,6 +24,7 @@ import MediaHead from "./images/MediaHead.jpg";
 import PromotionHead from "./images/PromotionHead.jpg";
 import AdPromotionHead from "./images/AdPromotionHead.jpg";
 // import MarketingHead from "./images/MarketingHead.jpg";
+//comments 
 import MarketingHead from "./images/ProfileIcon.jpg";
 import AdMarketingHead from "./images/ProfileIcon.jpg";
 import DraftingHead from "./images/DraftingHead.jpg";
