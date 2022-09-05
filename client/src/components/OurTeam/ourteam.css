@@ -27,7 +27,7 @@
 
 .team .card-img-top {
   width: 100%;
-  height: auto;
+  height: 400px;
   object-fit: cover;
   border-radius: 20px;
 }
