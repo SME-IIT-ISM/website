@@ -15,14 +15,16 @@ import AdEventHead from "./images/AdEventHead.jpg";
 import Treasurer from "./images/Treasurer.jpg";
 import AdTreasurerHead from "./images/ProfileIcon.jpg";
 import DesigningHead from "./images/DesigningHead.jpg";
-import AdDesigningHead from "./images/AdDesigningHead.jpg";
+// import AdDesigningHead from "./images/AdDesigningHead.jpg";
+import AdDesigningHead from "./images/ProfileIcon.jpg";
 import PRHead from "./images/PRHead.jpg";
 import TechnicalHead from "./images/ProfileIcon.jpg";
 import AdTechnicalHead from "./images/ProfileIcon.jpg";
 import MediaHead from "./images/MediaHead.jpg";
 import PromotionHead from "./images/PromotionHead.jpg";
-import AdPromotionHead from "./images/ProfileIcon.jpg";
-import MarketingHead from "./images/MarketingHead.jpg";
+import AdPromotionHead from "./images/AdPromotionHead.jpg";
+// import MarketingHead from "./images/MarketingHead.jpg"; 
+import MarketingHead from "./images/ProfileIcon.jpg";
 import AdMarketingHead from "./images/ProfileIcon.jpg";
 import DraftingHead from "./images/DraftingHead.jpg";
 import AdDraftingHead from "./images/ProfileIcon.jpg";
@@ -30,7 +32,7 @@ import MembershipHead from "./images/MembershipHead.jpg";
 import LogisticsHead from "./images/ProfileIcon.jpg";
 import dev1 from "./images/dev1.jpg";
 import dev2 from "./images/dev2.jpg";
-
+import dev3 from "./images/dev3.jpg";
 const officeBearers = [
   {
     src: President,
@@ -104,8 +106,8 @@ const coreTeam = [
   {
     src: DesigningHead,
     position: "Designing Head",
-    name: "Syed Ali Hyder",
-    linkedin: "https://www.linkedin.com/in/syed-ahaider/",
+    name: "Vedant Kothiya",
+    linkedin: "https://www.linkedin.com/in/vedant-kothiya-438527215/",
   },
   {
     src: AdDesigningHead,
@@ -201,7 +203,7 @@ const developers = [
     linkedin: "https://www.linkedin.com/in/abhinav-kumar-singh-6813501b8/",
   },
   {
-    src: TechnicalHead,
+    src: dev3,
     position: "Web Developer",
     name: "Abhijeet Haldar",
     linkedin: "https://www.linkedin.com/in/abhijeet-haldar-59813a1b4/",
