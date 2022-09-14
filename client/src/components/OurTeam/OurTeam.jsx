@@ -64,7 +64,7 @@ const coreTeam = [
   },
   {
     src: AdSecretory,
-    position: "Ad. Secretory",
+    position: "Ad. Secretary",
     name: "Yadav Navdesh Uttam",
     linkedin: "https://www.linkedin.com/in/navdesh-yadav-5a9a47193/",
   },
