@@ -107,7 +107,7 @@ const Header = () => {
                 </a>
                 <a className="nav-dropdown" href="/resources/calender">
                   <DropdownItem className="text-center">
-                    Annual Calender
+                    Annual Calendar
                   </DropdownItem>
                 </a>
               </DropdownMenu>
