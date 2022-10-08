@@ -43,7 +43,11 @@ const HomePage = () => {
 
   return (
     <div style={{ backgroundColor: "black" }} className="k-main">
+
       {modal && <Modal isOpen={modal} toggle={toggle} className="popup"  centered="true"  size="lg">
+      <div style={{backgroundColor: "black", display:"flex"}}>
+      <button   clasName="btn btn-danger" onClick={toggle} style={{ color: "white", backgroundColor: "black", marginLeft:"auto"}}> Close  </button>
+      </div>
         <ModalBody>
         <ReactPlayer
               className="k-yt-player"
