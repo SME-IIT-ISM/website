@@ -1,5 +1,5 @@
 import React from "react";
-import Klogo from "../khanan-img/Khanan'21-logo.png";
+import Klogo from "../khanan-img/Khanan'22-logo.png";
 import "../khanan.css";
 import Countdown from "../../../Home/Countdown";
 const KhananHeader = () => {

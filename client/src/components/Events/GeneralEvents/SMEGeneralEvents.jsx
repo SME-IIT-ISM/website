@@ -19,6 +19,9 @@ import GEImages6 from "./images/smeevent6.jpg";
 import GEImages7 from "./images/smeevent7.jpg";
 import GEImages8 from "./images/smeevent8.jpg";
 import GEImages9 from "./images/smeevent9.jpg";
+import GEImages10 from "./images/smeevent10.png";
+import GEImages11 from "./images/smeevent11.png";
+import GEImages12 from "./images/smeevent12.jpeg";
 import EventCard from "./EventCard";
 import EventPage from "./EventPage";
 import Fade from "react-reveal/Fade";
@@ -26,6 +29,7 @@ import Fade from "react-reveal/Fade";
 const tabs = ["Upcoming", "Past"];
 
 const eventData = [
+
   {
     id: 0,
     src: GEImages1,
@@ -183,6 +187,60 @@ const eventData = [
     contact1: "Jai Anand-7482049368",
     contact2: "Anjali-9608328431",
     tab: "Past",
+  },
+  {
+    id: 9,
+    src: GEImages10,
+    title: "Pitch 2 Heal",
+    head: "A virtual “WOMINE” event was organized on 10 April 2020 by SME IIT(ISM) Student Chapter for all the budding female engineers, who look up to a career in the mining field. The event witnessed the huge participation of girls from different institutions all over India. As event speakers, we invited some phenomenal women with extensive knowledge and years of experience in the Mining and Mineral Industry.",
+    struct: [
+      "Few things in life affects us as deeply and deeply as drug abuse by altering our perceptions and relationships to every aspect of life. It is a devastating state that has been running a riot for decade and there is an urgent need to put an end to it.",
+      "The SME IIT (ISM) Dhanbad student chapter is glad to announce a poster making competition on this particular topic. The door we opened is a door to unlimited possibilities and expectation to all those parents whose kid has become addicted. By your poster you are free to express, influence and crush down fears and worries.",
+      "Deadline for submission 17th june ( 11:59 pm).",
+      "Prize of worth Rs 1000 (1st prize Rs 500, 2nd prize Rs 300, 3rd prize Rs 200).",
+      "Top 10 winners will be awarded a ranked certificate and the participating candidates will be awarded a participation certificate.",
+    ],
+    date: "15 June 2021-17 June 2021",
+    time: "24*7",
+    contact1: "Sumit Kumar Mudi-8210987906",
+    contact2: "Abhaya Adri-6206688440",
+    tab: "Past",
+  },
+  {
+    id: 10,
+    src: GEImages11,
+    title: "AR VR in Mining",
+    head: "Technology and innovation today has taken over every working sector. There is no field left untouched with the influence of technology and so even the mining industry follows suit. Lack of digitisation, lack of research and development for training, and incompatibility with market needs have been some of the challenges that the mining sector has been facing since decades. These difficulties however can be addressed today by using newer technology innovations such as Augmented Reality(AR) and Virtual Reality(VR). AR and VR combine the digital world with the real world. The goal of using AR and VR is to solve the problem of innovation as well as reduce the hazardous working conditions for human beings that would lead to a marked difference in productivity by making mining smarter than what it is today. To expand further upon the application of AR and VR in the mining industry and provide students with insights of the newer technological advancements, SME IIT (ISM) Student Chapter is organizing a demonstration on the same at Seminar hall, Mining Department So, do not miss this wonderful opportunity to attend the event and widen your scope of knowledge on newer innovations in the mining sector!!",
+    struct: [
+      "Few things in life affects us as deeply and deeply as drug abuse by altering our perceptions and relationships to every aspect of life. It is a devastating state that has been running a riot for decade and there is an urgent need to put an end to it.",
+      "The SME IIT (ISM) Dhanbad student chapter is glad to announce a poster making competition on this particular topic. The door we opened is a door to unlimited possibilities and expectation to all those parents whose kid has become addicted. By your poster you are free to express, influence and crush down fears and worries.",
+      "Deadline for submission 17th june ( 11:59 pm).",
+      "Prize of worth Rs 1000 (1st prize Rs 500, 2nd prize Rs 300, 3rd prize Rs 200).",
+      "Top 10 winners will be awarded a ranked certificate and the participating candidates will be awarded a participation certificate.",
+    ],
+    date: "15 June 2021-17 June 2021",
+    time: "24*7",
+    contact1: "Sumit Kumar Mudi-8210987906",
+    contact2: "Abhaya Adri-6206688440",
+    tab: "Past",
+  },
+  {
+    id: 11,
+    src: GEImages12,
+    title: "Khanan'22 ",
+    head: "Technology and innovation today has taken over every working sector. There is no field left untouched with the influence of technology and so even the mining industry follows suit. Lack of digitisation, lack of research and development for training, and incompatibility with market needs have been some of the challenges that the mining sector has been facing since decades. These difficulties however can be addressed today by using newer technology innovations such as Augmented Reality(AR) and Virtual Reality(VR). AR and VR combine the digital world with the real world. The goal of using AR and VR is to solve the problem of innovation as well as reduce the hazardous working conditions for human beings that would lead to a marked difference in productivity by making mining smarter than what it is today. To expand further upon the application of AR and VR in the mining industry and provide students with insights of the newer technological advancements, SME IIT (ISM) Student Chapter is organizing a demonstration on the same at Seminar hall, Mining Department So, do not miss this wonderful opportunity to attend the event and widen your scope of knowledge on newer innovations in the mining sector!!",
+    struct: [
+      "Few things in life affects us as deeply and deeply as drug abuse by altering our perceptions and relationships to every aspect of life. It is a devastating state that has been running a riot for decade and there is an urgent need to put an end to it.",
+      "The SME IIT (ISM) Dhanbad student chapter is glad to announce a poster making competition on this particular topic. The door we opened is a door to unlimited possibilities and expectation to all those parents whose kid has become addicted. By your poster you are free to express, influence and crush down fears and worries.",
+      "Deadline for submission 17th june ( 11:59 pm).",
+      "Prize of worth Rs 1000 (1st prize Rs 500, 2nd prize Rs 300, 3rd prize Rs 200).",
+      "Top 10 winners will be awarded a ranked certificate and the participating candidates will be awarded a participation certificate.",
+    ],
+    date: "15 June 2021-17 June 2021",
+    time: "24*7",
+    contact1: "Sumit Kumar Mudi-8210987906",
+    contact2: "Abhaya Adri-6206688440",
+    tab: "Upcoming",
   },
 ];
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import K1 from "./k-event-images/twistATale.png";
+import K1 from "./k-event-images/dezyn-o-mania.jpeg";
 import K2 from "./k-event-images/gamicon.jpg";
 import K3 from "./k-event-images/ideate.jpg";
 import K4 from "./k-event-images/khanan mafia.jpg";
@@ -10,13 +10,13 @@ import K7 from "./k-event-images/placement fever.jpg";
 import K8 from "./k-event-images/quizzine.jpg";
 import K10 from "./k-event-images/LisCad.png";
 import K9 from "./k-event-images/O-piblast.png";
-import K11 from "./k-event-images/generalQuiz.png";
+import K11 from "./k-event-images/kalakriti.jpg";
 import KhananCard from "./KhananCard";
 import Zoom from "react-reveal/Zoom";
 
 const events = [
   {
-    title: "TWIST-A-TALE",
+    title: "Dezyno-o-mania",
     src: K1,
     struct: [
       "Hey Cinephiles!",
@@ -77,7 +77,7 @@ const events = [
     con: false,
   },
   {
-    title: "Ideate",
+    title: "Recruous",
     src: K3,
     struct: [
       `Have an idea that you think can change the world? Why not share it with the world now?
@@ -159,7 +159,7 @@ const events = [
     con: "",
   },
   {
-    title: "Minnovare",
+    title: "Envisage",
     src: K5,
     struct: [
       `For any Mining Engineer, it is very important to get an insight into real-life problems before entering the field. The event aims to provide exposure to real-life mining problems and extract some “out of the box” ideas from aspiring students.`,
@@ -186,60 +186,60 @@ const events = [
     zoomlink: "https://meet.google.com/ttx-zmfa-bvw",
     con: true,
   },
-  {
-    title: "Nirvana",
-    src: K6,
-    struct: [
-      `“Knowledge without practice is useless. Practice without knowledge is fatal."`,
-      `Besides theoretical knowledge, a technically sound mining engineer must be aware of the various
-     real-life issues an engineer faces in a mine. Nirvana by Khanan’21 invites every aspiring mining
-     
-     engineer to put their skills to test with several case study questions and gain an insight into the real-
-     life problems in a mine. We aim to bring out a student’s creative side and encourage some out-of-
-     the-box solutions in this event.`,
-      "Pitch your unique idea to the world and win goodies and prizes worth Rs. 10,000!",
-      "Rules:",
-      "1. Each team can have 2-3 members. The members should be from the same college.",
-      "2. The event will be organized in 2 rounds.",
-      "3. We will float a Google Form on October 1, 2021. To participate, interested teams must enter:",
-      "its name",
-      "name of its leader",
-      "the names of its members",
-      "their contact details and",
-      "the name of their college",
-      `4. The problem statement will also be present in the same Google form. The teams have to
-     prepare an abstract of the solution to the problem and submit it in the same Google form by
-     October 8, 2021, at 8 pm.`,
-      `5. The name of the abstract to be submitted must be in the format:
-
-     Nirvana_TeamName_TitleOfSubmission
-     E.g. A team with the name “Movers&Shakers” has prepared an abstract “Environmental
-     Impact of Rock Blasting”. So they will name the abstract as: “Nirvana_
-     Movers&Shakers_Environmetal_Impact_Of_Rock_Blasting”.`,
-      "6. The abstract should be limited to 2-3pages in pdf format and an A4 size print setup. We will NOT accept it in any other form.",
-      "7. Only one submission is allowed per team by the team leader.",
-      "8. The form will be closed by October 8, 2021, at 8 pm. Late submissions will not be accepted. So, interested teams must fill up their details before the deadline.",
-      "9. The top 6 teams will be shortlisted based on the merit of the papers they submit.",
-      "10. The shortlisted teams will be eligible to appear for the Final Round.",
-      "11. The Final Round is a presentation-cum-questionnaire round.",
-      `12. The teams will be allotted a slot of 15 minutes. In the first 10 minutes, they will have to
-     present their idea in front of a panel of judges. The remaining 5 minutes will be allotted for
-     the questionnaire.`,
-      "13. Before the commencement of the Final Round, we will contact the members of the shortlisted teams and notify them about the slot they have been allotted.",
-      "14. The presentation should be limited to 7-8 slides in .ppt format.",
-      "15. The ideas and the works should not be plagiarised.",
-      "16. The teams should remember that their appearance in the event does not violate any copyright laws of seminars and conferences they previously attended.",
-      
-      "Contact:",
-      "ABHYA ADRI : 6206688440",
-      "KESHAV LAKHOTIA: : 7340598208",
-    ],
-
-    srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdIB7OsqIB-B6mq-WVsgH_hHS4e64ZNNLTIiaHFVKbXQ-QX6A/viewform",
-    zoomlink: "https://meet.google.com/ipb-tdeo-kdy",
-    con: true,
-  },
+  // {
+  //   title: "Nirvana",
+  //   src: K6,
+  //   struct: [
+  //     `“Knowledge without practice is useless. Practice without knowledge is fatal."`,
+  //     `Besides theoretical knowledge, a technically sound mining engineer must be aware of the various
+  //    real-life issues an engineer faces in a mine. Nirvana by Khanan’21 invites every aspiring mining
+  //
+  //    engineer to put their skills to test with several case study questions and gain an insight into the real-
+  //    life problems in a mine. We aim to bring out a student’s creative side and encourage some out-of-
+  //    the-box solutions in this event.`,
+  //     "Pitch your unique idea to the world and win goodies and prizes worth Rs. 10,000!",
+  //     "Rules:",
+  //     "1. Each team can have 2-3 members. The members should be from the same college.",
+  //     "2. The event will be organized in 2 rounds.",
+  //     "3. We will float a Google Form on October 1, 2021. To participate, interested teams must enter:",
+  //     "its name",
+  //     "name of its leader",
+  //     "the names of its members",
+  //     "their contact details and",
+  //     "the name of their college",
+  //     `4. The problem statement will also be present in the same Google form. The teams have to
+  //    prepare an abstract of the solution to the problem and submit it in the same Google form by
+  //    October 8, 2021, at 8 pm.`,
+  //     `5. The name of the abstract to be submitted must be in the format:
+  //
+  //    Nirvana_TeamName_TitleOfSubmission
+  //    E.g. A team with the name “Movers&Shakers” has prepared an abstract “Environmental
+  //    Impact of Rock Blasting”. So they will name the abstract as: “Nirvana_
+  //    Movers&Shakers_Environmetal_Impact_Of_Rock_Blasting”.`,
+  //     "6. The abstract should be limited to 2-3pages in pdf format and an A4 size print setup. We will NOT accept it in any other form.",
+  //     "7. Only one submission is allowed per team by the team leader.",
+  //     "8. The form will be closed by October 8, 2021, at 8 pm. Late submissions will not be accepted. So, interested teams must fill up their details before the deadline.",
+  //     "9. The top 6 teams will be shortlisted based on the merit of the papers they submit.",
+  //     "10. The shortlisted teams will be eligible to appear for the Final Round.",
+  //     "11. The Final Round is a presentation-cum-questionnaire round.",
+  //     `12. The teams will be allotted a slot of 15 minutes. In the first 10 minutes, they will have to
+  //    present their idea in front of a panel of judges. The remaining 5 minutes will be allotted for
+  //    the questionnaire.`,
+  //     "13. Before the commencement of the Final Round, we will contact the members of the shortlisted teams and notify them about the slot they have been allotted.",
+  //     "14. The presentation should be limited to 7-8 slides in .ppt format.",
+  //     "15. The ideas and the works should not be plagiarised.",
+  //     "16. The teams should remember that their appearance in the event does not violate any copyright laws of seminars and conferences they previously attended.",
+  //
+  //     "Contact:",
+  //     "ABHYA ADRI : 6206688440",
+  //     "KESHAV LAKHOTIA: : 7340598208",
+  //   ],
+  //
+  //   srclink:
+  //     "https://docs.google.com/forms/d/e/1FAIpQLSdIB7OsqIB-B6mq-WVsgH_hHS4e64ZNNLTIiaHFVKbXQ-QX6A/viewform",
+  //   zoomlink: "https://meet.google.com/ipb-tdeo-kdy",
+  //   con: true,
+  // },
   {
     title: "Placement Fever",
     src: K7,
@@ -265,27 +265,26 @@ const events = [
     zoomlink: "https://meet.google.com/kvx-demi-pzy",
     con: true,
   },
+  // {
+  //   title: "Mining Quiz",
+  //   src: K8,
+  //   struct: [
+  //     "For any Mining Engineer, the knowledge of every small detail is necessary for proper execution of any procedure. The Mining quiz gives an oppurtunity to test your knowledge about Mining Engineering. For an aware mind, the general quiz is a golden opportunity to have an insight of its surrounding and exposure to various world issues.",
+  //     "The competition will be organized in two phases. Both phases will be organized at Zoom link during KHANAN'20.",
+  //     "The first phase will be a written examination from which top 10 teams will be selected for the next round.",
+  //     "The second phase will have the top 10 teams competing against each other in the buzzer round.",
+  //     "Each team will consists of a maximum of 2 participants.",
+  //     "Individuals must register online to participate.",
+  //     "Contact:",
+  //     "SUMIT KUMAR MUDI : 8210987906",
+  //   ],
+  //
+  //   srclink:
+  //     "https://docs.google.com/forms/d/e/1FAIpQLScQYFQGnbO_Hnl7biIhhBQC7t8lfDghSst9LbkKMOQXScJApQ/viewform",
+  //     zoomlink: "https://meet.google.com/fcf-zttd-xew",
+  //     con: true,},
   {
-    title: "Mining Quiz",
-    src: K8,
-    struct: [
-      "For any Mining Engineer, the knowledge of every small detail is necessary for proper execution of any procedure. The Mining quiz gives an oppurtunity to test your knowledge about Mining Engineering. For an aware mind, the general quiz is a golden opportunity to have an insight of its surrounding and exposure to various world issues.",
-      "The competition will be organized in two phases. Both phases will be organized at Zoom link during KHANAN'20.",
-      "The first phase will be a written examination from which top 10 teams will be selected for the next round.",
-      "The second phase will have the top 10 teams competing against each other in the buzzer round.",
-      "Each team will consists of a maximum of 2 participants.",
-      "Individuals must register online to participate.",
-      "Contact:",
-      "SUMIT KUMAR MUDI : 8210987906",
-    ],
-
-    srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLScQYFQGnbO_Hnl7biIhhBQC7t8lfDghSst9LbkKMOQXScJApQ/viewform",
-      zoomlink: "https://meet.google.com/fcf-zttd-xew",
-      con: true,
-  },
-  {
-    title:"General Quiz",
+    title:"Kalakriti",
     src:K11,
     struct:["We wish to show you that quizzing isn't memorizing boring facts, but a rousing activity of nimble thinking.",
   "No need to learn any facts! Just bring a curious mind which hungers to know the interesting stories behind everything cool.",
@@ -307,7 +306,7 @@ const events = [
 srclink:"https://docs.google.com/forms/d/10UCKK5M-FFuQf9SxNBl3wpVw9gDJuoV73xdBwHYtWA4/viewform?edit_requested=true"
   },
   {
-    title: "O-piblast Workshop",
+    title: "Workshop",
     src: K9,
     struct: [
       `“An investment in knowledge pays the best interest”- Benjamin Franklin `,
@@ -324,7 +323,7 @@ srclink:"https://docs.google.com/forms/d/10UCKK5M-FFuQf9SxNBl3wpVw9gDJuoV73xdBwH
     con: true,
   },
   {
-    title: "lisCAD Workshop",
+    title: "Panel discussion",
     src: K10,
     struct: [
      `"Tell me and I forget. Teach me and I remember. Involve me and I learn".`,
