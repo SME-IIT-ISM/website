@@ -51,7 +51,7 @@ const HomePage = () => {
         <ModalBody>
         <ReactPlayer
               className="k-yt-player"
-              url="https://youtu.be/5a69OLosWZg"
+              url="https://youtu.be/jVdgcGofiXA"
               controls={true}
               width="100%"
               height="100%"
