@@ -21,31 +21,14 @@ import Zoom from "react-reveal/Zoom";
 
 const workshop = [
   {
-    title: "Session on Automation in Mine Process",
+    title: "Session on Automation in Mining Process",
     src: K1,
     struct: [
-      "Hey Cinephiles!",
-      `KHANAN'21 brings the “TWIST A TALE” contest for all the movie buffs who wish to showcase their creativity and step into the shoes of scriptwriters.
-      `,
-      "The rules are pretty simple. You have to pick any one movie or web series of your liking from the list of 5 twisted plots that we provide. That is, we'll change one major event in the plot and you have to make use of your creativity and imagination to make the story reach its satisfactory conclusion. The ones with the most gripping and exciting plots win!!!",
-      "Rules:",
-      "NOTE: Participants have to register (https://forms.gle/fC1Nq71Mg98PEb8p7) for the event before 08:00 PM on 8th October, 2021.",
-      "1) Participants will have to choose one of the five options for movies/series with changed plot provided to them at the beginning of the contest.",
-      "2) Participants will have to bring it to a satisfactory and exciting conclusion.",
-      "3) Participants should refrain from introducing a completely new major character in the story line. Not to mention, the basic setting of the story should be kept the same to keep intact the original essence of the story.",
-      "4) Word limit will be 1000-1500 words.",
-      "5) A Google Form will be provided to the registered participants via mail and WhatsApp at the time of event which will have the link to questions and for uploading the story. The event will start at 12 noon on 11th of October and will continue up to 2 PM.",
-      "6) Typed entries in English shall be accepted and should be submitted in pdf format.",
-      "7) Indulgence in any kind of plagiarism will result in direct disqualification from the contest.",
-      "Judging criteria:",
-      "Adherence to word limit: 10%",
-      "Consistency of storyline and characters with original: 20%",
-      "Quality of build-up and character development: 40%",
-      "Conclusion: 30%",
-      "So, what are you waiting for? Give the scriptwriter inside you the chance to shine out by imagining the best conclusion!",
-      "Register for the contest Now!!!",
+    "Hey Cinephiles!",
+      "Join us to know more about Automation in Mining Process",
+      "Venue: SMAC, TEXMiN, 3rd Floor, CRE Building, IIT (ISM) ",
       "Contact:",
-      "Abhya Adri (Event Coordinator): 6206688440",
+
       "Ayushman Tiwari (Event Organiser): 7470584535",
     ],
     srclink:
