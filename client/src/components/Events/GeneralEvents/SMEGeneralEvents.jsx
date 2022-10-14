@@ -242,6 +242,7 @@ const eventData = [
     contact2: "Abhaya Adri-6206688440",
     tab: "Upcoming",
   },
+  
 ];
 
 const HomePage = () => {

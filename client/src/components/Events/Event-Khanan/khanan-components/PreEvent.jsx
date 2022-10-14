@@ -6,8 +6,13 @@ import Image1 from "./k-pre-events/p1.jpeg";
 import Image2 from "./k-pre-events/p2.jpeg";
 import Image3 from "./k-pre-events/p3.jpeg";
 import Image4 from "./k-pre-events/p4.png";
+import {speakers} from "./Kspeakers.jsx";
+import {events} from "./k-events/KhananEvent.jsx";
+
+
 
 // image options
+
 const preevents = [
   {
     title: "Jharokhe",
@@ -112,7 +117,7 @@ const slides = preevents.map((item, index) => {
   const id = { index };
   return (
     <div className="p-events" key={index}>
-      <a href={`/events/khanan/${index + 15}`} className="k-card-link">
+      <a href={`/events/khanan/${index +events.length+ speakers.length}`} className="k-card-link">
         <img src={item.src} alt={item.altText} />
       </a>
     </div>
@@ -152,6 +157,7 @@ const options = {
 class PreEvents extends React.Component {
   render() {
     return (
+
       <div className="main-content mb-5 ">
         <h2 className="k-sub-heading mt-5">PRE-EVENTS</h2>
         <OwlCarousel className="slider-items owl-carousel" {...options}>

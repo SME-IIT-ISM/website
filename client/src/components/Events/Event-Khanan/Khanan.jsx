@@ -4,6 +4,8 @@ import KhananSlider from "./khanan-components/Kslider";
 import Knav from "./khanan-components/knav/Khanan-nav";
 import KhananContent from "./khanan-components/Khanan-content";
 import Kevent from "./khanan-components/k-events/KhananEvent";
+import Kworkshop from "./khanan-components/k-events/KhananWorkshop";
+
 import Campus from "./khanan-components/CampusAmd";
 import Speakers from "./khanan-components/Kspeakers";
 import WaveAnim from "./khanan-components/WaveAnim";
@@ -13,13 +15,14 @@ import Particles from "./Particles";
 import Zoom from "react-reveal/Zoom";
 import "./khanan.css";
 import { events } from "./khanan-components/k-events/KhananEvent";
+import { workshop } from "./khanan-components/k-events/KhananWorkshop";
 import { speakers } from "./khanan-components/Kspeakers";
 import PreEvents, { preevents } from "./khanan-components/PreEvent";
 import KSponser from "./khanan-components/KSponser";
 import ReactPlayer from "react-player/youtube";
 import { Modal,ModalBody } from 'reactstrap';
 
-var eventData = events.concat(speakers,preevents);
+var eventData = events.concat(speakers,preevents,workshop);
 
 const HomePage = () => {
   const [modal, setModal] = useState(true);
@@ -69,6 +72,8 @@ const HomePage = () => {
       <KSponser/>
       <PreEvents/>
       <Kevent />
+      <Kworkshop />
+
       <Zoom timeout={600}>
         <Campus />
       </Zoom>

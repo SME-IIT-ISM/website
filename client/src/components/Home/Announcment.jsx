@@ -31,6 +31,7 @@ const Announcement = () => {
           {/* <a className="text-decoration-none text-dark" href="https://drive.google.com/drive/folders/1efY1BrZUBAml268Et3YiPsXdNmnZykOS?usp=sharing" target="_blank"  >
           <b>Problem statement of Nirvana is released. Check out Now</b>
           </a> */}
+          
           <h4>
           Khanan'2022 is coming soon.
           <div>
