@@ -2,7 +2,7 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import Image1 from "./k-pre-events/p1.jpeg";
+import Image1 from "./k-pre-events/p1.jpg";
 import Image2 from "./k-pre-events/p2.jpeg";
 import Image3 from "./k-pre-events/p3.jpeg";
 import Image4 from "./k-pre-events/p4.png";
@@ -15,20 +15,42 @@ import {events} from "./k-events/KhananEvent.jsx";
 
 const preevents = [
   {
-    title: "Jharokhe",
+    title: "Recuerdos ",
     src: Image1,
     struct: [
-      "Holla young poets",
-      "Hope you are doing well !",
-      "We have come up with an amazing opportunity that would definitely add to your poetry creation. ",
-      "Chayanika Sangh presents Jharokhe- a poetry-recitation competition in association with Khanan'21 The Annual Geo Mining Fest ",
-      "In order to participate in it, you will have to send a video reciting of your self composed poem. The duration of video will be ranging from 1-2 minutes. The total prize pool of this competition is ₹8000. All the entries will be posted through the instagram handle of Chayanika sangh ",
-      "Contact:",
-      "TANYA ANSHUM : 8210987906",
-      "ANUJ KUMAR RAJ : 9798872884",
+      "Hola Amigos ! ",
+      "“Photography takes an instant out of time, altering life by holding it still.” – Dorothea Lange",
+      "Khanan, the annual geomining fest of IIT ISM is here with it's pre-event to warm you up for the amazing blast we have prepared for you.",
+      "The Photography contest is here, so clean your lenses and get ready to capture the emotions in your lens to keep it as a memory forever. the best photo you can!",
+      "The theme for this event is Emotions. ",
+      "Emotions are the beautiful gestures that make our life worth living.  Boundaries dissolve with them and yet capturing them is so simple and memorable.",
+      "Read the rulebook to know more and we hope to see a lot of entries as all you need is a phone and a keen eye!",
+      "RULES",
+      "The photograph clicked must depict the theme of “Emotion” or else it will not be accepted. ",
+      "The participants must upload the photo originally clicked by them. Downloading from the internet or WhatsApp should strictly be avoided. The photo must contain the EXIF Data. ",
+      "Any kind of plagiarism will lead to direct disqualification. ",
+      "You can make alterations in the hue/saturation /brightness/ vibrancy/B&W/colour theme, but no more additional edits like photo manipulation or beyond standard optimization will be entertained. ",
+      " The Entries will only be accepted in .jpg/.jpeg format. ",
+      "The photograph must be of the highest resolution possible. ",
+      " A Google form link will be provided for submitting your entries.",
+      "The contestant’s photograph will be posted on the official Instagram handle of khanan_iitism within 12 hours of the form submission. ",
+      " Only one entry will be allowed per participant.",
+      "A caption must be given for the photograph which acknowledges your emotions/feelings for that photograph.",
+      "Judging Criteria: ",
+      " Likes and comments on the Instagram page will carry 50% weightage for evaluation. ",
+      "Only the top ten comments will be taken into consideration for evaluation. Note that multiple comments from the same account will be counted only once, and any vulgar or derogatory comments will not be taken into consideration.",
+      "Rest of the 50% will be judged by judges based on your creativity and other technical aspects.",
+      "Prize Money (For top 3 photographs):",
+      "Top three winners of this competition will be awarded total prize money of 8k and a winning certificate: ",
+
+
+      "Contact us: ",
+      "SHASHANK HARSH : 6203102284",
+      "SHAILESH YADAV : 7903515149",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLScnlhwr4aLk6v5P9jRs2ZJSiwVhl3FAbR1ei2D7ZHg3WwHjbA/closedform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSdkSDTJ0BUzdy_ZC62Jou9gjP-8abGJ7jI5z7ZkU5IKW1m8KA/viewform",
+
   },
   {
     title: "Chess-O-Mania",
