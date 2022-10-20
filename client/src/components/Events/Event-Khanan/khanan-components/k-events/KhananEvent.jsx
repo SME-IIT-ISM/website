@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import K1 from "./k-event-images/dezyn-o-mania.jpeg";
 import K2 from "./k-event-images/gamicon.jpg";
-import K3 from "./k-event-images/ideate.jpg";
+import K3 from "./k-event-images/recuerdos.jpeg";
 import K4 from "./k-event-images/khanan mafia.jpg";
 import K5 from "./k-event-images/minnovare.jpg";
 import K6 from "./k-event-images/nirvana.jpg";
@@ -77,7 +77,7 @@ const events = [
     con: false,
   },
   {
-    title: "Recruous",
+    title: "Recuerdos",
     src: K3,
     struct: [
       `Have an idea that you think can change the world? Why not share it with the world now?
