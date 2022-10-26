@@ -41,36 +41,7 @@ const speakers = [
       con: true,
 
   },
-  {
-    title: "Mr. Subrato Ghosh",
-    src: S3,
-    head: "Head Content",
-    struct: [
-      "We have organized a webinar on  October 2021 to enlighten you about the various aspects of the industry. We have invited Subrato Kumar Ghosh, an alumnus of IIT(ISM) Dhanbad and currently the Managing Director for Indian operations of Steffen, Robertson and Kirsten (SRK), a mining consultancy company. He has around 30 years of experience in mineral exploration, mining geology, and property-specific geologic and economic evaluations. He has worked on mining projects of multiple commodities, including coal and lignite, copper, iron ore, chromite, gypsum, and limestone. He is well aware of the scenario of the industry all over the world, including India, Indonesia, Armenia, Australia, China, Iran, South Africa, Zambia, Tanzania, DRC, Mozambique, Namibia, and Cameroon. He will talk about his experiences worldwide while working as a consultant in the mining industry.",
-      "Topic: WORLD MINING CONSULTING EXPERIENCES",
-      "Contact:",
-      "SUMIT KUMAR MUDI : 8210987906",
-    ],
-    srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfwavNShwpcpaRAHvaF6wKeD69I2KN4BZ62iRqWUtGiQoynnw/viewform",
-      zoomlink: "https://us02web.zoom.us/j/82841271687?pwd=ODlNMGFOUEhDSmJURmhPUzJsaHdtZz09",
-      con: true,
-  },
-  {
-    title: "Mr. Abani R Samal",
-    src: S4,
-    head: "Head Content",
-    struct: [
-      "He is an alumnus of IIT (ISM) DHANBAD and currently managing his own firm GeoGlobal LLC as founder principal where his main work is in evaluation and advisory of the minerals. he also worked as an adjunct associate professor at the University of Utah and before that he was a principal advisor at Rio Tinto. His main rose to fame due to his incomparable knowledge of evaluation and exploration of minerals . Even world bank is seeking advice from him then why are you left behind  Don’t lose to grab this great opportunity",
-      "Topic: TECHNICAL STUDIES FOR THE DEVELOPMENT OF MINERAL DEPOSITS",
-      "Contact:",
-      "SUMIT KUMAR MUDI : 8210987906",
-    ],
-    srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfgc3pXIFzwaJw7evMvPb9wPJL2pE4OCgurJgtHtC45rK_5AQ/viewform",
-      zoomlink: "https://us02web.zoom.us/j/86225289683?pwd=YVJYMktQcGRPaTVDV1B6bUZEbU9EZz09",
-      con: true,
-  },
+  
   // {
   //   title: "Mr. Amit Kumar",
   //   src: S5,
