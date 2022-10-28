@@ -6,7 +6,6 @@ import { RiCalendarEventFill, RiGalleryFill } from "react-icons/ri";
 const Knav = () => {
   return (
     <div className="knavi">
-    
       <ul>
         <li>
           <a className="knav-image" href="#home">

@@ -20,39 +20,55 @@ import { speakers } from "./khanan-components/Kspeakers";
 import PreEvents, { preevents } from "./khanan-components/PreEvent";
 import KSponser from "./khanan-components/KSponser";
 import ReactPlayer from "react-player/youtube";
-import { Modal,ModalBody } from 'reactstrap';
+import { Modal, ModalBody } from "reactstrap";
 
-var eventData = events.concat(speakers,preevents,workshop);
+var eventData = events.concat(speakers, preevents, workshop);
 
 const HomePage = () => {
   const [modal, setModal] = useState(true);
 
-  useEffect(()=>{
+  useEffect(() => {
     document.title = "Khanan - SME IIT ISM";
-    if(sessionStorage.getItem('1'))
-    {
+    if (sessionStorage.getItem("1")) {
       setModal(false);
     }
-  },[])
+  }, []);
   // if(data!=null)
   // {
   //   setModal(data);
   // }
   const toggle = () => {
     setModal(!modal);
-     sessionStorage.setItem('1', true);
-     console.log( sessionStorage.getItem('1'));
-  }
+    sessionStorage.setItem("1", true);
+    console.log(sessionStorage.getItem("1"));
+  };
 
   return (
     <div style={{ backgroundColor: "black" }} className="k-main">
-
-      {modal && <Modal isOpen={modal} toggle={toggle} className="popup"  centered="true"  size="lg">
-      <div style={{backgroundColor: "black", display:"flex"}}>
-      <button   clasName="btn btn-danger" onClick={toggle} style={{ color: "white", backgroundColor: "black", marginLeft:"auto"}}> Close  </button>
-      </div>
-        <ModalBody>
-        <ReactPlayer
+      {modal && (
+        <Modal
+          isOpen={modal}
+          toggle={toggle}
+          className="popup"
+          centered="true"
+          size="lg"
+        >
+          <div style={{ backgroundColor: "black", display: "flex" }}>
+            <button
+              clasName="btn btn-danger"
+              onClick={toggle}
+              style={{
+                color: "white",
+                backgroundColor: "black",
+                marginLeft: "auto",
+              }}
+            >
+              {" "}
+              Close{" "}
+            </button>
+          </div>
+          <ModalBody>
+            <ReactPlayer
               className="k-yt-player"
               url="https://youtu.be/jVdgcGofiXA"
               controls={true}
@@ -60,8 +76,9 @@ const HomePage = () => {
               height="100%"
               pip={true}
             />
-        </ModalBody>
-      </Modal>}
+          </ModalBody>
+        </Modal>
+      )}
       <Particles />
       <Knav />
       <KhananHeader />
@@ -69,8 +86,8 @@ const HomePage = () => {
       <Zoom timeout={600}>
         <KhananContent />
       </Zoom>
-      <KSponser/>
-      <PreEvents/>
+      <KSponser />
+      <PreEvents />
       <Kevent />
       <Kworkshop />
 

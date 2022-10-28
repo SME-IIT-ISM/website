@@ -1,5 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "./logo.png";
+import smeLogo from "../assets/sme.png";
+import ciiLogo from "../assets/cii.png";
+import texminLogo from "../assets/texmin.png";
+import ismLogo from "../assets/ism.png";
+
 import {
   RiFacebookFill,
   RiInstagramFill,
@@ -19,8 +24,14 @@ import {
   DropdownMenu,
   DropdownItem,
 } from "reactstrap";
+import { useLocation } from "react-router-dom";
+import { FaWindowRestore } from "react-icons/fa";
 
 const Header = () => {
+  const [dimension, setDiemension] = useState({
+    height: window.innerHeight,
+    width: window.innerWidth,
+  });
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenDD1, setIsOpenDD1] = useState(false);
   const [isOpenDD2, setIsOpenDD2] = useState(false);
@@ -32,6 +43,42 @@ const Header = () => {
 
   const handleOpen2 = () => setIsOpenDD2(true);
   const handleClose2 = () => setIsOpenDD2(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    const handleResize = () => {
+      setDiemension({
+        height: window.innerHeight,
+        width: window.innerWidth,
+      });
+    };
+    window.addEventListener("resize", handleResize);
+  });
+
+  if (location.pathname === "/events/khanan")
+    return (
+      <div className={dimension.width < 767 ? "d-none" : ""}>
+        <Navbar
+          className="solid-navbar d-flex align-items-center justify-content-around"
+          expand="md"
+          light
+          fixed="top"
+          id="khanan-nav"
+        >
+          <div>
+            <img src={ismLogo} alt="" height="120px" />
+          </div>
+          <div
+            className="d-flex align-items-center justify-content-center"
+            style={{ gap: "5rem" }}
+          >
+            <img src={ciiLogo} alt="" height="70rem" />
+            <img src={texminLogo} alt="" height="70rem" />
+            <img src={smeLogo} alt="" height="70rem" />
+          </div>
+        </Navbar>
+      </div>
+    );
 
   return (
     <div>
