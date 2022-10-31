@@ -29,43 +29,15 @@ const KSponser = () => {
           className="d-flex align-items-center justify-content-center mb-6"
         >
           <Container>
-
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
-                <p>
-
-                </p>
+                <p></p>
               </Col>
             </Row>
           </Container>
         </Col>
       </Row>
       <Row className="d-flex align-items-center justify-content-center mb-6">
-        <Col
-          xs="15"
-          md="3"
-          className="d-flex align-items-center justify-content-center"
-        >
-          <Container>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center">
-                <div className="Clickable">
-                  <a href="https://omcltd.in/">
-                    <img className="Ksponser-logo" src={omd} alt="intro" />
-                  </a>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
-                <p className="text-center">
-                  <b>Silver Sponsor</b>
-                </p>
-              </Col>
-            </Row>
-
-          </Container>
-        </Col>
         <Col
           xs="10"
           md="3"
@@ -85,6 +57,30 @@ const KSponser = () => {
               <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
                 <p className="text-center">
                   <b>Silver Sponsor</b>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+        <Col
+          xs="15"
+          md="3"
+          className="d-flex align-items-center justify-content-center"
+        >
+          <Container>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center">
+                <div className="Clickable">
+                  <a href="https://omcltd.in/">
+                    <img className="Ksponser-logo" src={omd} alt="intro" />
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
+                <p className="text-center">
+                  <b>Gold Sponsor</b>
                 </p>
               </Col>
             </Row>
@@ -114,12 +110,7 @@ const KSponser = () => {
             </Row>
           </Container>
         </Col>
-
-
       </Row>
-
-
-
     </Container>
   );
 };
