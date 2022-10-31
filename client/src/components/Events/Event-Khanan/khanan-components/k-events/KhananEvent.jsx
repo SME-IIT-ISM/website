@@ -45,9 +45,9 @@ const events = [
     ],
 
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdIB7OsqIB-B6mq-WVsgH_hHS4e64ZNNLTIiaHFVKbXQ-QX6A/viewform",
+    "https://docs.google.com/forms/d/e/1FAIpQLSfoZuYUS1yrGvRANQT43LkXdzKsPNGFe73aJdWCIzWWhciV_A/viewform",
     zoomlink: "https://meet.google.com/ipb-tdeo-kdy",
-    con: true,
+    con: false,
   },
   {
     title: "Gamicon",
@@ -110,23 +110,7 @@ const events = [
 ],
 srclink:"https://docs.google.com/forms/d/10UCKK5M-FFuQf9SxNBl3wpVw9gDJuoV73xdBwHYtWA4/viewform?edit_requested=true"
   },
-  {
-    title: "Workshop",
-    src: K9,
-    struct: [
-      `“An investment in knowledge pays the best interest”- Benjamin Franklin `,
-      "Learning from the experienced minds of our nation is an opportunity of rare luck. Khanan’21 takes here the pleasure to announce that one such great mind will be here to enlighten us with his immense knowledge and experience, which will open the doors of innumerable opportunities in our near-coming future. ",
-      `A webinar has been organized on "O-Pitblast" a 3D Blasting Software and it’s our great honour and pleasure to unveil the next speaker of Khanan’21 Dr. Bhanwar Singh Choudhary , currently the Associate Professor in the Department of Mining Engineering at IIT(ISM) Dhanbad, obtained his PhD from IIT(BHU) Varanasi and holds the area of expertise in Drilling and Blasting Technology, Computer Aided Mine Planning, Tunnel Engineering. He has more than 20 years of experience in educating and guiding his students at our prestigious college`,
-      "Don’t miss out this golden opportunity to learn new things from such a inspiring person, that will guide you reach the summit of excellence; be one step ahead of others by registering it right now!",
-      "Contact:",
-      "SUMIT KUMAR MUDI : 8210987906",
-      " AMBUJ GUPTA : 9798872884",
-    ],
 
-    srclink: "https://forms.gle/6XGn9MQvr7uwDrcs8",
-    zoomlink: "https://us02web.zoom.us/j/82295620499?pwd=WHFVaEdkSHBvVFpRMUViaUg2Mkt2QT09",
-    con: false,
-  },
   {
     title: "Panel discussion",
     src: K10,
