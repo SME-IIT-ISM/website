@@ -111,6 +111,34 @@ const KSponser = () => {
           </Container>
         </Col>
       </Row>
+      <Row className="d-flex align-items-center justify-content-center mb-6">
+
+
+        <Col
+          xs="10"
+          md="3"
+          className="d-flex align-items-center justify-content-center mb-5 mt-5"
+        >
+          <Container>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center">
+                <div className="Clickable">
+                  <a href="http://www.secl-cil.in/">
+                    <img className="Ksponser-logo" src={sand} alt="intro" />
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
+                <p className="text-center">
+                  <b>Bronze Sponsor</b>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+      </Row>
     </Container>
   );
 };
