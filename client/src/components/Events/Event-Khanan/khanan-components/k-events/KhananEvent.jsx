@@ -60,6 +60,18 @@ const events = [
         zoomlink: "",
     con: false,
   },
+  {
+    title: "Khanan Mafia",
+    src: K4,
+    struct: [
+      "Life is like a puzzle, it all seems a mess but when it gets fixed, it looks awesome.",
+      " Get ready to enjoy the most happening event of KHANAN'22 !! Yes, you got it right, it's time for KHANAN MAFIA, the treasure hunt game. Here, each riddle will be a clue for another riddle and it goes on and on. To know more about the rules, visit the official website of KHANAN'22.",
+    ],
+    srclink:
+          "https://docs.google.com/forms/u/0/d/19hA_vHhvEZJzUFJXGxKvfrh4kskSq8FLU-8g1w3kZq0/viewform?edit_requested=true",
+          zoomlink: "",
+    con: false,
+  },
 
 
 
