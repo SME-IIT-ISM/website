@@ -56,8 +56,8 @@ const events = [
       "The entire idea of accomodating the gaming events into our spectrum of events which comprise of primarily Technical Events with formal rules can be encapsulated under two reasons: firstly the presence of gaming events let the people participating in the formal events have a break and the second is to make them realise how skills like focus teamwork and dedication towards the work can do wonders. The very essence of human existence is the survival with coordination.",
     ],
     srclink:
-      "https://docs.google.com/forms/u/1/d/e/1FAIpQLSeQNAEhJEplkbzCeGPukq2S7jR1buNwDtK4-YJKxEjLHO6XMQ/viewform?usp=send_form",
-      zoomlink: "",
+        "https://docs.google.com/forms/d/e/1FAIpQLSf_27zolYuP-z2hEWkLrDSyBAXGQrmfXO56t-_jG0JxeAghMA/viewform",
+        zoomlink: "",
     con: false,
   },
 
@@ -98,8 +98,8 @@ const events = [
     ],
 
     srclink:
-    "https://docs.google.com/forms/d/e/1FAIpQLSd0dd1jH5akiRAJl6wgktmSOm_T9by91aooA1aoDVJHIBYdRg/viewform",
-      zoomlink: "https://meet.google.com/fcf-zttd-xew",
+    "https://docs.google.com/forms/d/e/1FAIpQLSeS3GmDCxwvLhIguftjaGfTiG36Agag2za15C-_4DFbCXDedA/closedform",
+    zoomlink: "https://meet.google.com/fcf-zttd-xew",
       con: false,},
   {
     title:"Kalakriti",
