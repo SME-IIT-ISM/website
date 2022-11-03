@@ -4,7 +4,7 @@ import K1 from "./k-event-images/dezyn o mania.png";
 import K2 from "./k-event-images/gamicon.png";
 import K3 from "./k-event-images/tech expo1.png";
 import K4 from "./k-event-images/khanan mafia.png";
-import K5 from "./k-event-images/minnovare.jpg";
+import K5 from "./k-event-images/war o words.jpg";
 import K6 from "./k-event-images/nirvana.png";
 import K7 from "./k-event-images/placement fever.png";
 import K8 from "./k-event-images/quizzine.png";
@@ -73,21 +73,21 @@ const events = [
     con: false,
   },
 
-
-
   {
-    title: "Envisage",
+    title: "War o words",
     src: K5,
     struct: [
-      `All creation is a mine, and every man a miner.`,
-      "And to make that miner find gold, he needs to be skill-ready for the industry. Khanan'22 presents a case study event designed to introduce the participants to the industrial problems challenging their basic instinct as an engineer to develop something out of nothing. This event aims to provide exposure to real-life industrial design mining problems to push the students to think beyond the conventional and to improve their perspectives",
-
+      `It is better to debate a question without settling it than to settle a question without debating it..`,
+      "― Joseph Joubert",
+      "War O’ Words gives you an opportunity to shine in the spotlight with your eloquence and wit. Among fiery minds, armed with logic and conviction, build an argument that wins it all. Each debate round will see group members divided into those for and against the motion, battling not just with the other side but ones on their side too. Pay heed, a misfired hit to your own side might just make your case crumble. In the true spirit of debating, the discussions must be respectful, taking care of the decorum and decency of the stage. Each round will be eliminatory in the search for the top three speakers who captivate all others with prowess and flair.",
     ],
     srclink:
-    "https://docs.google.com/forms/d/e/1FAIpQLSeQNAEhJEplkbzCeGPukq2S7jR1buNwDtK4-YJKxEjLHO6XMQ/viewform",
+    "https://docs.google.com/forms/d/e/1FAIpQLScmDV93Mv2iBbZ1vzJXT-_hvVH80F9ZmaHdPr_3soX1FB7Pew/viewform",
     zoomlink: "https://meet.google.com/ttx-zmfa-bvw",
     con: false,
   },
+
+
 
   {
     title: "Placement Fever",
