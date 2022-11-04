@@ -10,7 +10,7 @@ import K7 from "./k-event-images/placement fever.png";
 import K8 from "./k-event-images/quizzine.png";
 import K10 from "./k-event-images/LisCad.png";
 import K9 from "./k-event-images/O-piblast.png";
-import K11 from "./k-event-images/kalakriti.jpg";
+import K11 from "./k-event-images/kalakriti.png";
 import KhananCard from "./KhananCard";
 import Zoom from "react-reveal/Zoom";
 
