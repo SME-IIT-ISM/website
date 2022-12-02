@@ -45,7 +45,7 @@ const Sponser = () => {
         className="d-flex align-items-center justify-content-center"
       >
         <a href="https://www.3ds.com/">
-          <img className="sponser-logo" src={ds} alt="intro" />
+          <img className="sponser-logo" src={ds} alt="intro " />
         </a>
       </Col>
         <Col
