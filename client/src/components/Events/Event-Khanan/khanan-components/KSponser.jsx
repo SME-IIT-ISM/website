@@ -12,6 +12,9 @@ import mcl from "../khanan-img/mcl.jpeg";
 import wcl from "../khanan-img/wcl.png";
 import ongc from "../khanan-img/ongc.png";
 import chicago from "../khanan-img/chicago pizza logo.png";
+import weblibox from "../khanan-img/weblibox.png";
+import weblihouse from "../khanan-img/weblihouse.jpeg";
+
 
 const KSponser = () => {
   return (
@@ -182,6 +185,60 @@ const KSponser = () => {
               <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
                 <p className="text-center">
                   <b>Food Sponsor</b>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+
+      </Row>
+
+      <Row className="d-flex align-items-center justify-content-center mb-6">
+
+        <Col
+          xs="10"
+          md="3"
+          className="d-flex align-items-center justify-content-center mb-5 mt-5"
+        >
+          <Container>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center">
+                <div className="Clickable">
+                  <a href="http://www.secl-cil.in/">
+                    <img className="Ksponser-logo" src={weblibox} alt="intro" />
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
+                <p className="text-center">
+                  <b>Gift Sponsor</b>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+
+        <Col
+          xs="10"
+          md="3"
+          className="d-flex align-items-center justify-content-center mb-5 mt-5"
+        >
+          <Container>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center">
+                <div className="Clickable">
+                  <a href="http://www.secl-cil.in/">
+                    <img className="Ksponser-logo" src={weblihouse} alt="intro" />
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
+                <p className="text-center">
+                  <b>Gift Sponsor</b>
                 </p>
               </Col>
             </Row>
