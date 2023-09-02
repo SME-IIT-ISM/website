@@ -24,8 +24,8 @@ import AdTechnicalHead from "./images/AdTechnicalHead.jpeg";
 import MediaHead from "./images/MediaHead.jpeg";
 import AdMediaHead from "./images/AdMediaHead.jpeg";
 import PromotionHead from "./images/PromotionHead.jpg";
-import AdPromotionHead from "./images/AdPromotionHead.jpeg";
-import MarketingHead from "./images/MarketingHead.jpg";
+import AdPromotionHead from "./images/AdPromotionHead.jpg";
+import MarketingHead from "./images/MarketingHead.jpeg";
 //comments
 //import MarketingHead from "./images/ProfileIcon.jpg";
 import AdMarketingHead from "./images/AdMarketingHead.jpg";
