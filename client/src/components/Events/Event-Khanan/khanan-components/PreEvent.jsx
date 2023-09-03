@@ -2,70 +2,65 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import Image1 from "./k-pre-events/p1.jpeg";
-import Image2 from "./k-pre-events/p2.jpeg";
-import Image3 from "./k-pre-events/p3.jpeg";
-import Image4 from "./k-pre-events/p4.png";
+import Image1 from "./k-pre-events/alive.png";
+import Image2 from "./k-pre-events/film_making_comp.png";
+import Image3 from "./k-pre-events/jharokhe.png";
+import Image4 from "./k-pre-events/operation campaign poster.jpg";
+import Image5 from "./k-pre-events/recuerdos.jpg";
+
+import {speakers} from "./Kspeakers.jsx";
+import {events} from "./k-events/KhananEvent.jsx";
+
+
 
 // image options
+
 const preevents = [
   {
-    title: "Jharokhe",
+    title: "Alive ",
     src: Image1,
     struct: [
-      "Holla young poets",
-      "Hope you are doing well !",
-      "We have come up with an amazing opportunity that would definitely add to your poetry creation. ",
-      "Chayanika Sangh presents Jharokhe- a poetry-recitation competition in association with Khanan'21 The Annual Geo Mining Fest ",
-      "In order to participate in it, you will have to send a video reciting of your self composed poem. The duration of video will be ranging from 1-2 minutes. The total prize pool of this competition is ₹8000. All the entries will be posted through the instagram handle of Chayanika sangh ",
-      "Contact:",
-      "TANYA ANSHUM : 8210987906",
-      "ANUJ KUMAR RAJ : 9798872884",
+      " Hello fellow ISMites! As we welcome the fresh new faces in the college, @khanan_iitism in association with Manthan: The Official Music Society of IIT (ISM) Dhanbad, is ready to kick off with its much-awaited live event, ALIVE. We invite you all to witness a harmonious evening brimming with spectacular performances, and ofc the headbangs for the rock heads XD Join us at the Penman Auditorium, Tuesday, 1st Nov at 6:30 PM",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLScnlhwr4aLk6v5P9jRs2ZJSiwVhl3FAbR1ei2D7ZHg3WwHjbA/closedform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSdkSDTJ0BUzdy_ZC62Jou9gjP-8abGJ7jI5z7ZkU5IKW1m8KA/viewform",
+
   },
   {
-    title: "Chess-O-Mania",
+    title: "Shot Film Making Competition",
     src: Image2,
     struct: [
-      "That's what Chess is all about. One day you give your opponent a lesson, the next day, he gives you one.",
-      "Hola Amigos!!",
-      "IIT-ISM Dhanbad Chess Club presents “Chess-O-Mania”, 5 days Chess Tournament in association with Khanan’21 The Annual Geo Mining Fest.",
-      " FREE Entry ",
-      "So, what are you waiting for? Register now and unleash the inner chess master inside you!! The total prize pool for this tournament is Rs.5000/-.",
-      "After registration, you will be added to the official WhatsApp group and the tournament link will be shared there only.",
-      "For registration, click here : https://forms.gle/dJ6aPQgPrJVjxWSr8",
-      "For more details, refer to this : https://docs.google.com/document/d/1qk6ON3bs0OKyUXv11jJ11dkiWmvUb2XNx1Jcdv723-0/edit?usp=sharing",
-      "Last date to register : 27 Sep’ 21",
-      "Note: To be eligible for prizes, you need to be registered through the given link.",
-      "Contact:",
-      "ANKAN SEN : 8348385129",
-      "ANJALI KUMARI : 7992287987",
+    "",
     ],
     srclink: "https://forms.gle/dJ6aPQgPrJVjxWSr8",
   },
   {
-    title: "RECUERDOS",
+    title: "Jharokhe",
     src: Image3,
     struct: [
-      "A picture is worth a thousand words. Every photograph has some memories and emotions attached to it and is far more expressive than many words put together. We all went through some very tough times recently and the home quarantine had put a temporary pause to our lives. However, amidst this monotony, we got an opportunity to spend some quality time with our friends and family. We got to live and cherish some beautiful moments in our life which otherwise, might not have been possible.",
-      "Khanan ’21 is delighted to bring for you all an online  photography competition,  RECUERDOS that will provide you an opportunity to flex your photography skills. The theme for the competition is  QUARANTINE MEMORIES  wherein everyone would get a chance to share their beautiful memories captured during quarantine with us.",
-      "IMPORTANT INSTRUCTIONS: The contest starts from 18th of September and will end by 5th of October. To participate and submit your entry for the contest, just fill a google form. The link for the same has been provided here. Your entries will be posted on the official Facebook page of Khanan, IIT ISM. Winning certificates and prize money will be awarded to the top three winners of the competition.",
-      " Link for entry submission: https://forms.gle/JJ3kQkvrYeVguvgw8",
-      " For further insight into the competition and to know more about rules and judging criteria, refer to the Rulebook of Khanan ’21. ",
-      " Link for rulebook:  https://drive.google.com/drive/folders/1dYfk7AD6E3hMBWkRQfamDVI2tNtIlnXy?usp=sharing",
-      "Still waiting?? Bring out the photographer inside you and add some creative spice to your life by registering for the contest!!!",
-      "Contact:",
-      "Keshav Lakhotia: 7340598208",
-      "Amit Raj: 9472750675",
+      " चाहे ठंडी हवा का प्रवाह हो या शुद्ध स्मृतियों का दर्शन, झरोखे जब भी मिलते हैं, कुछ नई बातें और एहसास लेकर आते हैं।",
+
+"चयनिका संघ और खनन प्रस्तुत करते हैं झरोखे, एक प्रतियोगिता, जिसमें आपको अपने काव्य / कहानी / ग़ज़ल / शेर / छंद  से अपने भावनाओं के झरोखे खोलने का अवसर मिलेगा।",
+ "चयनिका संघ का पूरा परिवार आप सभी को इस सभा का हिस्सा बनने और इस शाम को यादगार बनाने के लिए 2.11.22 को 7 बजे OLHC आमंत्रित करता है।",
+"इस प्रतियोगिता की कुल पुरस्कार राशि ₹10000 है।,",
+"Rule book - shorturl.at/eFKQ9 "
+
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSeSOx7YSb30b3xz3-UQbBtJpxBDZc9o68eUFMoXvZp98Q-PUA/viewform",
+    "https://docs.google.com/forms/d/e/1FAIpQLSeXWQekWig5C1oXk3GsAnryslCAzJqQW9PXUcLcER1O55jYAw/closedform",
+    },
+  {
+    title: "Operation campaign",
+    src: Image4,
+    struct: [
+      "A nation is in turmoil and is searching for it's saviour. Elections are being held on 29th of October. Get ready to unleash the leader within as you compete for the post of President of this nation. Win the confidence of its citizens (and of course, attractive prizes;) ) with your innovative manifesto and your exemplary oratory skills in this political battleground. Operation Campaign is the stage to quench your political thirst. Go ahead and register now to win Cash Prizes worth 9K!",
+    ],
+    srclink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSf6ao_Yj5L7CuTD4lzxJvJruIVL5isYvV9fchdBOcSG88ubRA/viewform",
   },
   {
-    title: "panDANCEmic2.0",
-    src: Image4,
+    title: "Recuerdos",
+    src: Image5,
     struct: [
       "RULES :",
       "Following are the rules for panDANCEmic 2.0 ",
@@ -112,7 +107,7 @@ const slides = preevents.map((item, index) => {
   const id = { index };
   return (
     <div className="p-events" key={index}>
-      <a href={`/events/khanan/${index + 15}`} className="k-card-link">
+      <a href={`/events/khanan/${index +events.length+ speakers.length}`} className="k-card-link">
         <img src={item.src} alt={item.altText} />
       </a>
     </div>
@@ -152,6 +147,7 @@ const options = {
 class PreEvents extends React.Component {
   render() {
     return (
+
       <div className="main-content mb-5 ">
         <h2 className="k-sub-heading mt-5">PRE-EVENTS</h2>
         <OwlCarousel className="slider-items owl-carousel" {...options}>

@@ -1,15 +1,21 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import jsw from "../khanan-img/JSW_Sponsor.jpg";
-import epi from "../khanan-img/Epiroc.svg";
+import bccl from "../khanan-img/bccl.png";
+import secl from "../khanan-img/SECL.jpg";
+import omd from "../khanan-img/omd.png";
 import sand from "../khanan-img/Sandvik_sponsor.png";
-import web from "../khanan-img/weblibox.png";
+import dass from "../khanan-img/3DS.png";
 import nmdc from "../khanan-img/nmdc.png";
 import tm from "../khanan-img/tm.png";
 import ds from "../khanan-img/ds.png";
 import mcl from "../khanan-img/mcl.jpeg";
 import wcl from "../khanan-img/wcl.png";
 import ongc from "../khanan-img/ongc.png";
+import chicago from "../khanan-img/chicago pizza logo.png";
+import weblibox from "../khanan-img/weblibox.png";
+import weblihouse from "../khanan-img/weblihouse.jpeg";
+
+
 const KSponser = () => {
   return (
     <Container>
@@ -21,57 +27,34 @@ const KSponser = () => {
       <br />
       <br />
       <br />
-      <Row className="d-flex align-items-center justify-content-center mb-3">
+      <Row className="d-flex align-items-center justify-content-center mb-6">
         <Col
           xs="15"
           md="3"
-          className="d-flex align-items-center justify-content-center mb-5"
+          className="d-flex align-items-center justify-content-center mb-6"
         >
-          <Container>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center">
-                <div className="Clickable">
-                  <a href="https://www.home.sandvik/en/">
-                    <img className="Ksponser-logo" src={sand} alt="intro" />
-                  </a>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
-                <p>
-                  <b>Title&amp;Platinum Sponsor</b>
-                </p>
-              </Col>
-            </Row>
-          </Container>
+        <Container>
+          <Row>
+            <Col className="d-flex align-items-center justify-content-center">
+              <div className="Clickable">
+                <a href="https://omcltd.in/">
+                  <img className="Ksponser-logo gold-sponsor" style={{width: "20vw"}} src={omd} alt="intro" />
+                </a>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
+              <p className="text-center">
+                <b>Gold Sponsor</b>
+              </p>
+            </Col>
+          </Row>
+        </Container>
         </Col>
       </Row>
-      <Row className="d-flex align-items-center justify-content-center mb-3">
-        <Col
-          xs="15"
-          md="3"
-          className="d-flex align-items-center justify-content-center"
-        >
-          <Container>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center">
-                <div className="Clickable">
-                  <a href="https://www.3ds.com/">
-                    <img className="Ksponser-logo" src={ds} alt="intro" />
-                  </a>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
-                <p className="text-center">
-                  <b>Platinum Sponsor</b>
-                </p>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
+
+      <Row className="d-flex align-items-center justify-content-center mb-6">
         <Col
           xs="10"
           md="3"
@@ -81,8 +64,8 @@ const KSponser = () => {
             <Row>
               <Col className="d-flex align-items-center justify-content-center">
                 <div className="Clickable">
-                  <a href="https://www.nmdc.co.in/">
-                    <img className="Ksponser-logo-n" src={nmdc} alt="intro" />
+                  <a href="http://www.secl-cil.in/">
+                    <img className="Ksponser-logo" src={secl} alt="intro" />
                   </a>
                 </div>
               </Col>
@@ -90,132 +73,32 @@ const KSponser = () => {
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
                 <p className="text-center">
-                  <b>Platinum Sponsor</b>
+                  <b>Silver Sponsor</b>
                 </p>
               </Col>
             </Row>
           </Container>
         </Col>
-        <Col
-          className="d-flex align-items-center justify-content-center mb-5"
-          xs="10"
-          md="3"
-        >
-          <Container>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center">
-                <div className="Clickable">
-                  <a href="https://www.ongcindia.com/wps/wcm/connect/en/home">
-                    <img className="Ksponser-logo-n" src={ongc} alt="intro" />
-                  </a>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col className=" d-flex align-items-center justify-content-center k-sponsor-2">
-                <p className="text-center">
-                  <b>Platinum Sponsor</b>
-                </p>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
-      </Row>
-      <Row className="d-flex align-items-center justify-content-center mb-5">
-      <Col
-          className="d-flex align-items-center justify-content-center mb-5"
-          xs="10"
-          md="3"
-        >
-          <Container>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center">
-                <div className="Clickable">
-                  <a href="http://westerncoal.in/">
-                    <img className="Ksponser-logo-s" src={wcl} alt="intro" />
-                  </a>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center k-sponsor-1">
-                <p className="text-center">
-                  <b>Gold Sponsor </b>
-                </p>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
-        <Col
-          className="d-flex align-items-center justify-content-center mb-5"
-          xs="10"
-          md="3"
-        >
-          <Container>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center">
-                <div className="Clickable">
-                  <a href="https://www.mahanadicoal.in/">
-                    <img className="Ksponser-logo" src={mcl} alt="intro" />
-                  </a>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col className=" d-flex align-items-center justify-content-center k-sponsor-1">
-                <p className="text-center">
-                  <b> Gold Sponsor</b>
-                </p>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
+
+
+
         <Col
           xs="10"
           md="3"
-          className="d-flex align-items-center justify-content-center mb-5"
-        >
-          {" "}
-          <Container>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center">
-                <div className="Clickable">
-                  <a href="https://www.jsw.in/">
-                    <img className="Ksponser-logo" src={jsw} alt="intro" />
-                  </a>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center k-sponsor-1">
-                <p className="text-center">
-                  <b>Gold Sponsor</b>
-                </p>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
-        
-        
-      </Row>
-      <Row className="d-flex align-items-center justify-content-center mb-5">
-      <Col
-          xs="10"
-          md="3"
-          className="d-flex align-items-center justify-content-center mb-5"
+          className="d-flex align-items-center justify-content-center mb-5 mt-5"
         >
           <Container>
             <Row>
               <Col className="d-flex align-items-center justify-content-center">
                 <div className="Clickable">
-                  <a href="https://www.epiroc.com/">
-                    <img className="Ksponser-logo" src={epi} alt="intro" />
+                  <a href="http://www.secl-cil.in/">
+                    <img className="Ksponser-logo" src={bccl}  style={{width: "10vw"}}alt="intro" />
                   </a>
                 </div>
               </Col>
             </Row>
             <Row>
-              <Col className="d-flex align-items-top justify-content-center k-sponsor-3">
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
                 <p className="text-center">
                   <b>Silver Sponsor</b>
                 </p>
@@ -223,58 +106,147 @@ const KSponser = () => {
             </Row>
           </Container>
         </Col>
+
         <Col
-          className="d-flex align-items-center justify-content-center mb-5"
           xs="10"
           md="3"
+          className="d-flex align-items-center justify-content-center mb-5 mt-5"
         >
           <Container>
             <Row>
               <Col className="d-flex align-items-center justify-content-center">
                 <div className="Clickable">
-                  <a href="https://engineersparcel.in/">
-                    <img className="Ksponser-logo" src={tm} alt="intro" />
+                  <a href="http://www.secl-cil.in/">
+                    <img className="Ksponser-logo" src={dass} alt="intro" />
                   </a>
                 </div>
               </Col>
             </Row>
             <Row>
-              <Col className=" d-flex align-items-center justify-content-center k-sponsor-4">
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
                 <p className="text-center">
-                  <b> Gifting Sponsor</b>
+                  <b>Silver Sponsor</b>
                 </p>
               </Col>
             </Row>
           </Container>
         </Col>
-        <Col
-          xs="10"
-          md="3"
-          className="d-flex align-items-center justify-content-center mb-5"
-        >
-          {" "}
-          <Container>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center">
-                <div className="Clickable">
-                  <a href="https://www.weblibox.com/">
-                    <img className="Ksponser-logo" src={web} alt="intro" />
-                  </a>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="d-flex align-items-center justify-content-center k-sponsor-4">
-                <p className="text-center">
-                  <b>Gifting Sponsor</b>
-                </p>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
-      
-        
+
       </Row>
+
+
+      <Row className="d-flex align-items-center justify-content-center mb-6">
+
+        <Col
+          xs="10"
+          md="3"
+          className="d-flex align-items-center justify-content-center mb-5 mt-5"
+        >
+          <Container>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center">
+                <div className="Clickable">
+                  <a href="http://www.secl-cil.in/">
+                    <img className="Ksponser-logo" src={sand} alt="intro" />
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
+                <p className="text-center">
+                  <b>Bronze Sponsor</b>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+
+      </Row>
+
+      <Row className="d-flex align-items-center justify-content-center mb-6">
+
+        <Col
+          xs="10"
+          md="3"
+          className="d-flex align-items-center justify-content-center mb-5 mt-5"
+        >
+          <Container>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center">
+                <div className="Clickable">
+                  <a href="http://www.secl-cil.in/">
+                    <img className="Ksponser-logo" src={chicago} alt="intro" />
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
+                <p className="text-center">
+                  <b>Food Sponsor</b>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+
+      </Row>
+
+      <Row className="d-flex align-items-center justify-content-center mb-6">
+
+        <Col
+          xs="10"
+          md="3"
+          className="d-flex align-items-center justify-content-center mb-5 mt-5"
+        >
+          <Container>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center">
+                <div className="Clickable">
+                  <a href="http://www.secl-cil.in/">
+                    <img className="Ksponser-logo" src={weblibox} alt="intro" />
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
+                <p className="text-center">
+                  <b>Gift Sponsor</b>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+
+        <Col
+          xs="10"
+          md="3"
+          className="d-flex align-items-center justify-content-center mb-5 mt-5"
+        >
+          <Container>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center">
+                <div className="Clickable">
+                  <a href="http://www.secl-cil.in/">
+                    <img className="Ksponser-logo" src={weblihouse} alt="intro" />
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
+                <p className="text-center">
+                  <b>Gift Sponsor</b>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+
+      </Row>
+
     </Container>
   );
 };

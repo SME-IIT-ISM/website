@@ -1,5 +1,5 @@
 import React from "react";
-import Klogo from "../khanan-img/Khanan'21-logo.png";
+import Klogo from "../khanan-img/Khanan'22-logo.png";
 import "../khanan.css";
 import Countdown from "../../../Home/Countdown";
 const KhananHeader = () => {
@@ -8,7 +8,7 @@ const KhananHeader = () => {
       <img src={Klogo} alt="Khanan logo" />
       <a
         className="bt custom-button-khanan"
-        href="https://forms.gle/N1SQKpeDCVKyCCgE9"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScGSZFXY8t-Pq9J7vMhrT0H_knIwPkW2AzCjYWQ_keKXJHU6A/viewform"
         target="_blank"
         rel="noopener noreferrer"
       >
