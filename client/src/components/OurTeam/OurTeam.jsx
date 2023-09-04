@@ -7,25 +7,25 @@ import President from "./images/President.jpg";
 import VicePresident from "./images/VicePresident.jpg";
 import SecretaryErra from "./images/SecretaryErra.jpg";
 import Secretary from "./images/Secretary.jpg";
-import AdSecretory from "./images/AdSecretory.jpg";
+import AdSecretory from "./images/AdSecretary.jpg";
 import BDHead from "./images/BDHead.jpg";
-import AdBDHead from "./images/AdBDHead.jpeg";
+import AdBDHead from "./images/AdBDHead.png";
 import EventHead from "./images/EventHead.jpeg";
 import AdEventHead from "./images/AdEventHead.jpg";
 import Treasurer from "./images/Treasurer.jpg";
 import AdTreasurerHead from "./images/AdTreasurerHead.jpg";
 import DesigningHead from "./images/DesigningHead.jpg";
 // import AdDesigningHead from "./images/AdDesigningHead.jpg";
-import AdDesigningHead from "./images/AdDesigningHead.jpg";
+import AdDesigningHead from "./images/AdDesigningHead.jpeg";
 import PRHead from "./images/PRHead.jpg";
 import AdPRHead from "./images/AdPRHead.jpg";
 import TechnicalHead from "./images/TechnicalHead.jpg";
-import AdTechnicalHead from "./images/AdTechnicalHead.jpeg";
+import AdTechnicalHead from "./images/AdTechnicalHead.jpg";
 import MediaHead from "./images/MediaHead.jpeg";
 import AdMediaHead from "./images/AdMediaHead.jpeg";
 import PromotionHead from "./images/PromotionHead.jpg";
-import AdPromotionHead from "./images/AdPromotionHead.jpg";
-import MarketingHead from "./images/MarketingHead.jpeg";
+import AdPromotionHead from "./images/AdPromotionHead.jpeg";
+import MarketingHead from "./images/MarketingHead.jpg";
 //comments
 //import MarketingHead from "./images/ProfileIcon.jpg";
 import AdMarketingHead from "./images/AdMarketingHead.jpg";
@@ -264,7 +264,7 @@ const OurTeam = () => {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">
-                    <b>Prof. Dheeraj Kumar</b>
+                    <b>Prof. Devi Prasad Mishra</b>
                   </h5>
                   <p className="card-text text-secondary">Faculty Advisor</p>
                 </div>
