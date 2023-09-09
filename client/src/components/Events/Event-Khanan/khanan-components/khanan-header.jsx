@@ -5,14 +5,14 @@ import "../khanan.css";
 const KhananHeader = () => {
   return (
     < div className="khanan-header" id="home">
-      <img src={Klogo} alt="Khanan logo" />
+      <img src={Klogo} alt="Khanan logo"height={100} width={100} / >
       <a
         className="bt custom-button-khanan"
         href="https://khanan-23.netlify.app/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        REGISTER
+        REGISTRATION PORTAL
       </a>
       <div className="k-count">
         {/* <Countdown/> */}
