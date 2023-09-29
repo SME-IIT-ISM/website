@@ -19,7 +19,7 @@ import { workshop } from "./khanan-components/k-events/KhananWorkshop";
 import { speakers } from "./khanan-components/Kspeakers";
 import PreEvents, { preevents } from "./khanan-components/PreEvent";
 import KSponser from "./khanan-components/KSponser";
-import ReactPlayer from "react-player/youtube";
+// import ReactPlayer from "react-player/youtube";
 import { Modal, ModalBody } from "reactstrap";
 
 var eventData = events.concat(speakers, preevents, workshop);
