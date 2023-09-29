@@ -68,14 +68,14 @@ const HomePage = () => {
             </button>
           </div>
           <ModalBody>
-            <ReactPlayer
+            {/* <ReactPlayer
               className="k-yt-player"
               url="https://youtu.be/jVdgcGofiXA"
               controls={true}
               width="100%"
               height="100%"
               pip={true}
-            />
+            /> */}
           </ModalBody>
         </Modal>
       )}
