@@ -7,7 +7,7 @@ const KhananContent = () => {
       <Row>
         <Col className="k-content-text p-3">
           <p>
-            KHANAN 2022”, the biggest Mining Fest in India, aims to bring the
+            KHANAN 2023”, the biggest Mining Fest in India, aims to bring the
             students from several institutions offering mining and allied
             courses across the country. This year’s three-day summit shall
             include a series of vibrant events such as panel discussions, guest

@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import K1 from "./k-workshop-images/3d immersive technologies.png";
-import K2 from "./k-workshop-images/aeromodelling and drone.png";
-import K3 from "./k-workshop-images/data visualisation.png";
-import K4 from "./k-workshop-images/mine automation.png";
-import K5 from "./k-workshop-images/real time telematics.png";
-import K6 from "./k-workshop-images/resource modelling.png";
-import K7 from "./k-workshop-images/sensor technologies.png";
+// import K1 from "./k-workshop-images/3d immersive technologies.png";
+import K4 from "./k-workshop-images/mine planning.png";
+// import K3 from "./k-workshop-images/data visualisation.png";
+import K2 from "./k-workshop-images/modern.png";
+// import K5 from "./k-workshop-images/real time telematics.png";
+// import K6 from "./k-workshop-images/resource modelling.png";
+// import K7 from "./k-workshop-images/sensor technologies.png";
 
 
 
@@ -27,72 +27,70 @@ const workshop = [
 
 
   {
-    title: "Mining Automation by Sandvik ",
+    title: "Mine Planning and Design",
     src: K4,
     struct: [
-    "A workshop on Mine Automation will be organized in Khanan in collaboration with TEXMIN conducted by Sandvik Mining and Rock Solutions, touted as a complete package designed to set mines up for success. It covers all aspects of AutoMine remote and autonomous operations, and the full OptiMine process optimization and analytics suite. It is a must-attend for anyone looking for a career in mine automation and learning various facets of automation in a state-of-art Sandvik Mine Automation Centre (SMAC) classroom set-up at IIT(ISM) Dhanbad. Only 48 participants are allowed in the workshop who will be given the opportunity based on a first-come, first-serve basis.",
+    "The Mine Design and Planning Workshop offers an intensive study of mining principles. It covers geological modeling, resource estimation, mine design, and production scheduling. Participants gain practical skills through exercises and expert-led presentations, preparing them for professional roles in the mining industry.",
 
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
-    zoomlink: " https://meet.google.com/dmf-ihim-add",
+      "https://docs.google.com/forms/d/e/1FAIpQLSftzuFaW_90IyqfqkN3F-usy_rIukfRCE4dthbeCZYCjbbVCA/viewform",
     con: false,
   },
   {
-    title: "Aeromodelling and drone by Pushpak Technology",
+    title: "Modern Surveying Techniques",
     src: K2,
     struct: [
-    "Aeromodelling is the practice of creating, building, and flying miniature aircraft. Drones are revolutionizing the mining industry. Drones can access highly-toxic hard-to-reach areas for providing better insights for mine planning and 3D mapping. Young minds who are interested in this sector or who want to pursue it as a career will have a great opportunity owing to the workshop, which will offer them a brief overview of building and designing aircraft and drones.",
+    "The Modern Surveying Techniques Workshop provides a comprehensive overview of the latest surveying technologies. It includes hands-on training on tools like GPS, LiDAR, and drones, and covers data processing and analysis. This workshop equips participants with practical skills for efficient and accurate surveying.",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
-    zoomlink: " https://meet.google.com/dmf-ihim-add",
+      "https://docs.google.com/forms/d/1vKZUn4VxLrKqydjj1PG7ryrwUm9a_z7anG0Y65b5a6Q/viewform",
     con: false,
   },
-  {
-    title: "Resource Modelling by Dassault 3DS",
-    src: K6,
-    struct: [
-    "Khanan in collaboration with TEXMIN organized by Dassault 3DS is organizing a 3D Resource modeling workshop to provide participants a real hands-on training to develop 3D models of coal seams and non-coal reserves. Minex is a recognized world leader in integrated geology and mine planning solutions for coal and other stratified deposits. In a two-day workshop, participants will get basic training and have experience working on Geovia Surpac and Geovia Minex software for creating ore body models, and pit design. So gear up for a power-packed workshop and win exciting prizes by taking the modeling quiz.",
-    ],
-    srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
-    zoomlink: " https://meet.google.com/dmf-ihim-add",
-    con: false,
-  },
-  {
-    title: "Sensor Technologies by Quro Labs",
-    src: K7,
-    struct: [
-    "The bedrock of Cyber-physical systems is Sensors. An intensive 2-day workshop is thus being organised in Khanan in collaboration with TEXMIN and Quro Labs for the participants interested in developing in developing cyber-physical technologies. Participants will learn to select sensors by reading specs sheets, understand the physical parameters of hardware, understand various layers for Data Acquisition, communication protocols, and also learn what to do with the data for real-life decisions. The workshop will include a hands-on experience working with sensors and a complete walkthrough of the development of real-life sensor-based products in the Mining industry (IoT sensors, accelerometers, obstruction detection, and orientation).",
-    ],
-    srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
-    zoomlink: " https://meet.google.com/dmf-ihim-add",
-    con: false,
-  },
-  {
-    title: "Real-Time Telematics by Ecross Technology",
-    src: K5,
-    struct: [
-    "Internet of things has transfomed the way we capture and analyze data. Keeping this in mind, TEXMIN in collaboration with Ecross Technologies is organizing an intensive 1-day workshop as a part of this year's Khanan, for the participants interested in developing loT technologies. At the end of workshop, participants will learn development of telematics solutions for the mining and oil and gas industry, understand big data, cloud computing and using data for making real life decisions. Workshop will also include hands on experience on using machine learning and artificial intelligence technologies for practical industrial applications.",
-    ],
-    srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
-    zoomlink: " https://meet.google.com/dmf-ihim-add",
-    con: false,
-  },
-  {
-    title: "Data Visualization by Tableau ",
-    src: K3,
-    struct: [
-    "Analyzing data involves making decisions related to the data we have, which is crucial in the mining industry. Tableau will be organizing a workshop in Khanan in collaboration with TEXMIN on data visualization. It will be based on Data analytics and visualization for exclusive use in the mining industry. It will provide an insight into analyzing data through visualization in the mining sector such as monitoring, analysing and optimizing excavator cycle time, production planning, and analysing short and long term production outputs of a mine. The workshop will be beneficial for young mining engineers willing to understand data visualization, an important aspect of data analytics.",
-    ],
-    srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
-    zoomlink: " https://meet.google.com/dmf-ihim-add",
-    con: false,
-  },
+  // {
+  //   title: "Resource Modelling by Dassault 3DS",
+  //   src: K6,
+  //   struct: [
+  //   "Khanan in collaboration with TEXMIN organized by Dassault 3DS is organizing a 3D Resource modeling workshop to provide participants a real hands-on training to develop 3D models of coal seams and non-coal reserves. Minex is a recognized world leader in integrated geology and mine planning solutions for coal and other stratified deposits. In a two-day workshop, participants will get basic training and have experience working on Geovia Surpac and Geovia Minex software for creating ore body models, and pit design. So gear up for a power-packed workshop and win exciting prizes by taking the modeling quiz.",
+  //   ],
+  //   srclink:
+  //     "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
+  //   zoomlink: " https://meet.google.com/dmf-ihim-add",
+  //   con: false,
+  // },
+  // {
+  //   title: "Sensor Technologies by Quro Labs",
+  //   src: K7,
+  //   struct: [
+  //   "The bedrock of Cyber-physical systems is Sensors. An intensive 2-day workshop is thus being organised in Khanan in collaboration with TEXMIN and Quro Labs for the participants interested in developing in developing cyber-physical technologies. Participants will learn to select sensors by reading specs sheets, understand the physical parameters of hardware, understand various layers for Data Acquisition, communication protocols, and also learn what to do with the data for real-life decisions. The workshop will include a hands-on experience working with sensors and a complete walkthrough of the development of real-life sensor-based products in the Mining industry (IoT sensors, accelerometers, obstruction detection, and orientation).",
+  //   ],
+  //   srclink:
+  //     "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
+  //   zoomlink: " https://meet.google.com/dmf-ihim-add",
+  //   con: false,
+  // },
+  // {
+  //   title: "Real-Time Telematics by Ecross Technology",
+  //   src: K5,
+  //   struct: [
+  //   "Internet of things has transfomed the way we capture and analyze data. Keeping this in mind, TEXMIN in collaboration with Ecross Technologies is organizing an intensive 1-day workshop as a part of this year's Khanan, for the participants interested in developing loT technologies. At the end of workshop, participants will learn development of telematics solutions for the mining and oil and gas industry, understand big data, cloud computing and using data for making real life decisions. Workshop will also include hands on experience on using machine learning and artificial intelligence technologies for practical industrial applications.",
+  //   ],
+  //   srclink:
+  //     "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
+  //   zoomlink: " https://meet.google.com/dmf-ihim-add",
+  //   con: false,
+  // },
+  // {
+  //   title: "Data Visualization by Tableau ",
+  //   src: K3,
+  //   struct: [
+  //   "Analyzing data involves making decisions related to the data we have, which is crucial in the mining industry. Tableau will be organizing a workshop in Khanan in collaboration with TEXMIN on data visualization. It will be based on Data analytics and visualization for exclusive use in the mining industry. It will provide an insight into analyzing data through visualization in the mining sector such as monitoring, analysing and optimizing excavator cycle time, production planning, and analysing short and long term production outputs of a mine. The workshop will be beneficial for young mining engineers willing to understand data visualization, an important aspect of data analytics.",
+  //   ],
+  //   srclink:
+  //     "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
+  //   zoomlink: " https://meet.google.com/dmf-ihim-add",
+  //   con: false,
+  // },
 
 ];
 

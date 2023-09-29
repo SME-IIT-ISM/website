@@ -5,7 +5,7 @@ import "../khanan.css";
 const KhananHeader = () => {
   return (
     < div className="khanan-header" id="home">
-      <img src={Klogo} alt="Khanan logo"height={100} width={100} / >
+      <img src={Klogo} alt="Khanan logo"height={120} width={100} / >
       <a
         className="bt custom-button-khanan"
         href="https://khanan-23.netlify.app/"

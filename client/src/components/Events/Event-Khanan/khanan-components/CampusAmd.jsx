@@ -9,7 +9,7 @@ const Campus = () => {
           <p>
             Looking for a chance to lead your college? Register for <b><l>CAMPUS
             AMBASSADOR</l></b> now and get a chance to be an extended part of organizing
-            team of KHANAN'22. Here we offer you a chance to represent your
+            team of KHANAN'23. Here we offer you a chance to represent your
             college and get acknowledged for this enthusiastic work. All you
             have to do is lead the contingent from your college and make sure
             everyone there gets to know about it. Bear the responsibility and
@@ -18,7 +18,7 @@ const Campus = () => {
           <div>
             <a
               className="bt custom-button-campus"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfiz-hYslWcq16BbwuJMqHKKTpblSKCzvrincZkIBGiuPTS_Q/viewform?usp=sf_link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdqvazckflfMZYczAElHJPC1F4pzu1j3DwMzEqvNt_wzMqVOQ/formResponse"
               target="_blank"
               rel="noopener noreferrer"
             >

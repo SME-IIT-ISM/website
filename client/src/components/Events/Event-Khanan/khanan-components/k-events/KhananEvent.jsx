@@ -1,38 +1,38 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import K1 from "./k-event-images/dezyn o mania.png";
+import K1 from "./k-event-images/designothon.png";
 import K2 from "./k-event-images/gamicon.png";
-import K3 from "./k-event-images/tech expo1.png";
+import K3 from "./k-event-images/next big thing.jpg";
 import K4 from "./k-event-images/khanan mafia.png";
-import K5 from "./k-event-images/war o words.jpg";
+import K5 from "./k-event-images/mining olympiad.png";
 import K6 from "./k-event-images/nirvana.png";
 import K7 from "./k-event-images/placement fever.png";
 import K8 from "./k-event-images/quizzine.png";
-import K10 from "./k-event-images/LisCad.png";
-import K9 from "./k-event-images/O-piblast.png";
+// import K10 from "./k-event-images/LisCad.png";
+// import K9 from "./k-event-images/O-piblast.png";
 import K11 from "./k-event-images/kalakriti.png";
 import KhananCard from "./KhananCard";
 import Zoom from "react-reveal/Zoom";
 
 const events = [
   {
-    title: "TEXMiN TechExpo",
+    title: "The Next Big Thing",
     src: K3,
     struct: [
-      "As the vibe of Khanan 22 begins to spread in the air, TEXMIN brings an event Tech Expo. TEXMIN incubated start-ups and companies will exhibit their projects that are running under TEXMIN in the Centre of Research Excellence building Projects of undergraduate as well as postgraduate students will be showcased there. Those projects are equipped with leading technologies associated with the mining industry io. Virtual Reality Simulators, Advanced Sensor Technology, etc. Guests will first witness the advanced projects then they will proceed further.",
+      "Get ready to unearth innovation at The Next Big Thing in Khanan'23. Join the battle of wits with engineering prodigies as you showcase your visionary ideas. This platform ignites creativity, sparking an exchange of game-changing concepts for your dream company. Don't miss your chance to be part of the future – Khanan'23 awaits your brilliance!",
     ],
-    srclink: "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
+    srclink: "https://docs.google.com/forms/d/e/1FAIpQLScYEqQad4sfASob7MclwBlgSIL959pcaF00QmqMpEmfmg9gVA/viewform?usp=sharing",
     zoomlink: "",
     con: false,
   },
   {
-    title: "Dezyno-o-mania",
+    title: "Mine Designothon",
     src: K1,
     struct: [
-      "In this one of a kind event organised in collaboration with Coal India Innovation and Incubation Center at BIT ISM, students will have to think over an industrial grade designing problem faced in the mining industry. Solutions provided by the students would help in reinventing the scenarios of safety, efficiency. ergonomics and throughput in the mining machineries. Selected students will get a chance to construct physical models of their designs using the facilities at the CIIC and IIT ISM workshops",
+      "Embark on a mining innovation journey with Mine Designothon at Khanan '23, in collaboration with PWC! This exhilarating 36-hour hackathon challenges students to design optimal mine solutions. It all begins on the event's website with an intriguing predicament unveiling. Collaborate with peers, brainstorm ideas, and explore diverse possibilities to craft viable answers. Your hard work culminates in a meticulous assessment by a selective jury, ensuring fair and accurate evaluation. Join this intellectual quest to showcase your mining prowess and innovative spirit. Khanan '23 – where innovation converges with mining excellence! Don't miss this opportunity to make your mark.",
     ],
     srclink:
-    "https://docs.google.com/forms/d/e/1FAIpQLSe3sIF2TwRn4GecautEBiMNoyLo9QQ-zmAhQrwCU4vb1l752w/viewform",
+    "https://docs.google.com/forms/d/e/1FAIpQLSeI_x-ALlnhSZkdFit7go-w5ItGCYneMXDsxKmmFSo7AMVEKQ/viewform?usp=sharing",
 
     con: false,
   },
@@ -40,50 +40,44 @@ const events = [
     title: "Nirvana",
     src: K6,
     struct: [
-      "For any Mining Engineer, it is crucial to get an insight into real-life problems before entering the field. This event aims to provide exposure to real-life mining problems and extract some out-of-the-box ideas from aspiring students. Like every year, this year's Nirvana is going to be an exciting opportunity to showcase the best ideas to solve the most intriguing problems concerning the mining industry and the allied areas. The problem statements come directly from the professionals and professors who have immense knowledge in their field. This event will be conducted in two rounds. First round is an online abstract submission, in which participants need to submit their abstract solutions. Selected candidates will then be called for the presentation round during Khanan.",
+      "Dive into innovation at Nirvana, the crown jewel of Khanan'23 – IIT ISM Dhanbad's Geo Mining Fest! Unleash your brilliance in the mining industry's epicenter. Nirvana presents a dual-track adventure. Choose to conquer Khanan's challenges head-on or forge your own path with tailored solutions. Our expert-curated problem statements are a testament to excellence, guided by the sharpest minds in the field. Join us for a seismic shift in mining innovation. Don't miss your chance to shine at Nirvana, where groundbreaking ideas light up the future. Secure your spot at Khanan'23 and be part of the geological revolution!",
 
     ],
 
     srclink:
-    "https://docs.google.com/forms/d/e/1FAIpQLSfoZuYUS1yrGvRANQT43LkXdzKsPNGFe73aJdWCIzWWhciV_A/viewform",
-    zoomlink: "https://meet.google.com/ipb-tdeo-kdy",
+    "https://docs.google.com/forms/d/e/1FAIpQLSf7YZkthURP75ZNeVaVJOcU-7U3m7Y1Qnm3UVn5Wl6gempwlQ/viewform?usp=sharing",
     con: false,
   },
   {
     title: "Gamicon",
     src: K2,
     struct: [
-      "The entire idea of accomodating the gaming events into our spectrum of events which comprise of primarily Technical Events with formal rules can be encapsulated under two reasons: firstly the presence of gaming events let the people participating in the formal events have a break and the second is to make them realise how skills like focus teamwork and dedication towards the work can do wonders. The very essence of human existence is the survival with coordination.",
+      "Get ready to level up your Khanan'23 experience at Gamicon! Trade your tie for a controller, and heels for a comfy spot as we transform the formal into the fantastic. Dive into virtual adventures and showcase your gaming prowess on two consecutive nights of non-stop fun! Join us in this game-based oasis, where fun knows no bounds. It's your golden ticket to a world where the night lights up with gaming fever. Don't miss out on the ultimate fusion of formal and gaming – Gamicon at Khanan'23!",
     ],
     srclink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSf_27zolYuP-z2hEWkLrDSyBAXGQrmfXO56t-_jG0JxeAghMA/viewform",
-        zoomlink: "",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeepLG8eCMP0_jAS84W0hgZ92zWtDKqo_L9CXcCBIxnoBbrZw/viewform?usp=sharing",
     con: false,
   },
   {
     title: "Khanan Mafia",
     src: K4,
     struct: [
-      "Life is like a puzzle, it all seems a mess but when it gets fixed, it looks awesome.",
-      " Get ready to enjoy the most happening event of KHANAN'22 !! Yes, you got it right, it's time for KHANAN MAFIA, the treasure hunt game. Here, each riddle will be a clue for another riddle and it goes on and on. To know more about the rules, visit the official website of KHANAN'22.",
+      " Unearth hidden treasures and unravel mysteries at Khanan '23, IIT ISM Dhanbad's annual geo-mining fest! The notorious Khanan Mafia treasure hunt is back, promising an exhilarating adventure for those with sharp logic and deduction skills. Dive into a world of intrigue, strategy, and cunning as you navigate through thrilling twists and turns. Picture yourself at the heart of the action, forging alliances and unveiling secrets in a battle of wits like no other. Experience Khanan '23 in a whole new light with Khanan Mafia – where mystery and strategy collide for an unforgettable ride!",
     ],
     srclink:
-          "https://docs.google.com/forms/u/0/d/19hA_vHhvEZJzUFJXGxKvfrh4kskSq8FLU-8g1w3kZq0/viewform?edit_requested=true",
+          "https://docs.google.com/forms/d/e/1FAIpQLSeaRbGvqVswmnV8lDBz50SpQGKASB4LHBvpXw1WVBe3d4BUDw/viewform?usp=sharing",
           zoomlink: "",
     con: false,
   },
 
   {
-    title: "War o words",
+    title: "Mining Olympiad",
     src: K5,
     struct: [
-      `It is better to debate a question without settling it than to settle a question without debating it..`,
-      "― Joseph Joubert",
-      "War O’ Words gives you an opportunity to shine in the spotlight with your eloquence and wit. Among fiery minds, armed with logic and conviction, build an argument that wins it all. Each debate round will see group members divided into those for and against the motion, battling not just with the other side but ones on their side too. Pay heed, a misfired hit to your own side might just make your case crumble. In the true spirit of debating, the discussions must be respectful, taking care of the decorum and decency of the stage. Each round will be eliminatory in the search for the top three speakers who captivate all others with prowess and flair.",
+      "Fuel your curiosity at Mining Olympiad, a thrilling event at Khanan'23! Prepare for an epic challenge, showcasing your mining expertise and skills. Join us to promote mining studies, careers, and global awareness. Quizzine offers mining enthusiasts a chance to shine and test their knowledge. Unearth your potential at Mining Olympiad – where knowledge meets excitement!"
     ],
     srclink:
-    "https://docs.google.com/forms/d/e/1FAIpQLScmDV93Mv2iBbZ1vzJXT-_hvVH80F9ZmaHdPr_3soX1FB7Pew/viewform",
-    zoomlink: "https://meet.google.com/ttx-zmfa-bvw",
+    "https://docs.google.com/forms/d/e/1FAIpQLSe6nJ-HUnthmElKzHwLU0tJzSekxmFRAYauf9gB5FEmfbESBw/viewform?usp=sharing",
     con: false,
   },
 
@@ -93,25 +87,21 @@ const events = [
     title: "Placement Fever",
     src: K7,
     struct: [
-     ` Even the wittiest of the brains are occupied by the nervousness.
-     `,
-     "monkey during the placement session. The only way to secure it off is by introducing the monster of confidence. Believe that by targeting and setting daily goals, one can surely secure a deserving job through on-campus placements. This could be easily done by relentless practice of the placement affairs to build confidence in their own abilities. So find this as an opportunity to reward yourself. This event aims to put students through a simulated version of campus placements process. Beginning with an aptitude process, participants will go on to appear for group discussions and eventually sit for personal interviews.",
+     "The Khanan Family believes in the wise saying of Bruce Garrabrandt- Creativity doesn’t wait for that perfect moment. It fashions its own perfect moments out of ordinary ones.” Therefore, recognizing your remarkable ingenuity and creativity, we are returning with our exceptional event- PLACEMENT FEVER. Placement fever showcases both your quantitative and qualitative skills, offering substantial guidance on how to strategically engage with companies, thereby solidifying your reputation in a specific domain and enhancing your self-assurance and competencies. Participating in this activity will provide extensive assistance, serving as a means to better understand how to navigate the corporate landscape. Embrace this chance as a self-rewarding opportunity. The event's intention is to immerse students in a simulated rendition of the campus placement process."
     ],
 
-    srclink: "https://docs.google.com/forms/d/e/1FAIpQLScULOavycrVwmCSPDJfTcqrluVgr-kSmYuCubDn6W-_TPLo_w/viewform?usp=sf_link",
-    zoomlink: "https://meet.google.com/kvx-demi-pzy",
+    srclink: "https://docs.google.com/forms/d/e/1FAIpQLSd1M4GdZC4QjIwemKG3PqQTtuwlPQYaS2mBComGEwEP2PkZtA/viewform?usp=sharing",
     con: false,
   },
   {
     title: "Quizzine",
     src: K8,
     struct: [
-      "Curiosity is the ability to seek and acquire knowledge, skill, and way of understanding the world. It is at the heart of what motivates young people to learn and what keeps them learning through out their lives. Quizzine is opening a huge opportunity for those curious miner to explore the knowledge of mines. This event definitely will improve accuracy and spood of the participants perspectives.",
+      "Join the Quizzine extravaganza at Khanan'23, IIT ISM Dhanbad's annual geo mining fest, organized in collaboration with Quiz Club! Challenge yourself with a General Quiz that covers science, tech, music, and more. Let's unearth knowledge, ignite curiosity, and compete for glory, all while making memories one question at a time. Are you ready for the challenge?",
     ],
 
     srclink:
-    "https://docs.google.com/forms/d/e/1FAIpQLSeS3GmDCxwvLhIguftjaGfTiG36Agag2za15C-_4DFbCXDedA/closedform",
-    zoomlink: "https://meet.google.com/fcf-zttd-xew",
+    "https://docs.google.com/forms/d/e/1FAIpQLSfImrnmTYTLczCOKBmvWulyvJyZtRxotYlfQQ7Gvd-QUfKUgQ/viewform?usp=sharing",
       con: false,},
   {
     title:"Kalakriti",
@@ -120,20 +110,20 @@ const events = [
       "Kalakriti has been created with the pure intent of giving every child a chance at discovering their artistic talent, while instilling in them an interest towards the mining industry, thereby inspiring these young minds to become the leaders of change in the future. Children from all over the country, irrespective of their economic or social status are encouraged to participate at this event, all the while promoting a sense of love and harmony and eliminating feelings of distrust.",
 
 ],
-srclink:"https://docs.google.com/forms/d/10UCKK5M-FFuQf9SxNBl3wpVw9gDJuoV73xdBwHYtWA4/viewform?edit_requested=true"
+srclink:"#"
   },
 
-  {
-    title: "Panel discussion",
-    src: K10,
-    struct: [
-     "Khanan ushers in a panel discussion for all where two panels will be there putting forth their views on various topics being presented on the spot. It will basically include a moderator who guides the discussion and sometimes elicits audience questions with the goal of being informative and entertaining Each panel will consist of four members out of which one will bo the professor of our college and the remaining three will be professionals from various domains accompanying him for analyzing and responding to various mining related problems and ultimately landing with an appropriate solution to it. It will bo a two day event, each day representing different panels on different thomos Students can horoby attend and grace the event as it will be very much informative and knowledgeable for them in their near future. The audience, nonetheless, can also participate by responding and suggesting their own logical and creative ideas to the various themes and topics discussed.",
-    ],
+  // {
+  //   title: "Panel discussion",
+  //   src: K10,
+  //   struct: [
+  //    "Khanan ushers in a panel discussion for all where two panels will be there putting forth their views on various topics being presented on the spot. It will basically include a moderator who guides the discussion and sometimes elicits audience questions with the goal of being informative and entertaining Each panel will consist of four members out of which one will bo the professor of our college and the remaining three will be professionals from various domains accompanying him for analyzing and responding to various mining related problems and ultimately landing with an appropriate solution to it. It will bo a two day event, each day representing different panels on different thomos Students can horoby attend and grace the event as it will be very much informative and knowledgeable for them in their near future. The audience, nonetheless, can also participate by responding and suggesting their own logical and creative ideas to the various themes and topics discussed.",
+  //   ],
 
-    srclink: "https://docs.google.com/forms/d/e/1FAIpQLSeXZdpp5qs4tG2FERK-lnpiPrk1MUxtv1rPM1uLQu238t4odg/viewform",
-    zoomlink: "https://us02web.zoom.us/j/83922869325?pwd=WXFFeFNnNDUzUjdFMjVsZ21aQVNRZz09",
-    con: false,
-  }
+  //   srclink: "https://docs.google.com/forms/d/e/1FAIpQLSeXZdpp5qs4tG2FERK-lnpiPrk1MUxtv1rPM1uLQu238t4odg/viewform",
+  //   zoomlink: "https://us02web.zoom.us/j/83922869325?pwd=WXFFeFNnNDUzUjdFMjVsZ21aQVNRZz09",
+  //   con: false,
+  // }
 ];
 
 const Kevent = () => {
