@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import KhananCard from "./k-events/KhananCard";
-import S1 from "../khanan-img/vaibhavRaj.jpg";
-import S2 from "../khanan-img/satish.jpg";
-// import S3 from "../khanan-img/subroto.jpg";
+import S1 from "../khanan-img/siddhartha_Roy.jpg";
+import S2 from "../khanan-img/Sunny_Rao.jpg";
+import S3 from "../khanan-img/Sagesh_Kumar.jpg";
 // import S4 from "../khanan-img/abani.jpg";
 // import S5 from "../khanan-img/amit.PNG";
 import { events } from "./k-events/KhananEvent";
@@ -11,29 +11,25 @@ import Zoom from "react-reveal/Zoom";
 
 const speakers = [
   {
-    title: "Dr. Vaibhav Raj",
+    title: "DR. SIDDHARTHA ROY",
     src: S1,
     head: "Head Content",
     struct: [
-      "Khanan ’21 feels elated to announce that a great mind will be here to enlighten us with his immense knowledge and experience in the field of mining and widen our scope on the same. Unveiling the speaker of Khanan '21, Vaibhav Raj. He is currently working as Associate Service Fellow at National Institute for Occupational Safety and Health (NIOSH), USA. He has been with NIOSH for over 5 years working on occupational safety and health issues pertinent to the mining industry. ",
-      "Topic: DATA SCIENCE APPLICATION IN MINING",
-      "Contact:",
-      "SUMIT KUMAR MUDI : 8210987906",
+      "Join us for a guest lecture by Siddhartha Roy sir, deputy manager at coal India limited on 1 st October at 10 am in Management studies auditorium. This is a great opportunity to learn from one of the experts in the field and to get your questions answered. The lecture is open to all."
     ],
     srclink:
-      "https://docs.google.com/forms/d/1t8K-pd_-9LqIoF_lP6BGQvRhco9FY10ugHhGKkbi2vM/viewform?edit_requested=true",
-      zoomlink: "https://us02web.zoom.us/j/89391818363?pwd=aHhYcURsUmlkZFdoblFacDhVZ2h3dz09",
-      con: true,
+      "#",
+      // zoomlink: "#",
+      // con: true,
   },
   {
-    title: "Mr. Satish Penmetsa",
+    title: "Mr. Sunny Rao",
     src: S2,
     head: "Head Content",
     struct: [
-      "Satish Penmetsa.Currently the CEO of GroundHog,a mobile fleet management system for underground mining companies.It specializes in helping Mines, Aggregates, Quarries and Oilfields significantly improve productivity and safety by going Digital. He has made rapidInspect, mobile fleet maintenance software system for mining and heavy equipment companies. SunSight,a Field Management Software for solar energy providers. He is expert in understanding a business context, and recommending appropriate software solutions.Don't miss the opportunity to hear this inspiring man speak at KHANAN'21!!!",
-      "Topic: MINE DIGITIZATION",
-      "Contact:",
-      "SUMIT KUMAR MUDI : 8210987906",
+      "Join us for a guest lecture by SUNNY RAO the Manager (Mining), BCCL ! on 2nd October at 10 am in golden Jubilee lecture theatre This is a great opportunity to learn from one of the experts in the field and to get your questions answered. The lecture is open to all."
+
+     
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSeaqmHIY3jMNld_PbVLlcuZnTa96UFEER59Ntv7oux51sj6Uw/viewform",
@@ -42,15 +38,18 @@ const speakers = [
 
   },
   
-  // {
-  //   title: "Mr. Amit Kumar",
-  //   src: S5,
-  //   head: "Head Content",
-  //   struct: [
-  //     "Mr. Amit Kumar is currently General Manager of Mine Planning in Thyssenkrupp Industries India Pvt. Ltd.. He has also worked Worked as a Mine Planning Manager in MECON Limited and As a Manager, Mining in Tata Steel, Raw Material Division.He is also certified as a First Class Mine Manager's Certificate of compentency in Coal by Directorate General of Mines Safety, Govt. Of India",
-  //     "Topic: CONCEPTUAL PLANNING AND MINE DEVELOPMENT",
-  //   ],
-  // },
+  {
+    title: "DR. SAGESH KUMAR M.R",
+    src: S3,
+    head: "Head Content",
+    struct: [
+     "Join us for a guest lecture by Dr. Sagesh kumar M.R. the Director (Mining), DGMS ! on 1 st October at 5 pm in golden Jubilee lecture theatre This is a great opportunity to learn from one of the experts in the field and to get your questions answered. The lecture is open to all."
+     ],
+     srclink:
+      "#",
+      // zoomlink: "https://us02web.zoom.us/j/84154830403?pwd=eGV5TGg3akdwV0J2ZVdndWVtdDRUUT09",
+      // con: true,
+  },
 ];
 
 const Speakers = () => {

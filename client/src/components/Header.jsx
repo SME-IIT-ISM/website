@@ -72,8 +72,8 @@ const Header = () => {
             className="d-flex align-items-center justify-content-center"
             style={{ gap: "5rem" }}
           >
-            <img src={ciiLogo} alt="" height="70rem" />
-            <img src={texminLogo} alt="" height="70rem" />
+            {/* <img src={ciiLogo} alt="" height="70rem" /> */}
+            {/* <img src={texminLogo} alt="" height="70rem" /> */}
             <img src={smeLogo} alt="" height="70rem" />
           </div>
         </Navbar>
