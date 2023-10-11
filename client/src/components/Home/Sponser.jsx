@@ -25,6 +25,8 @@ import ongc from "./sponsers/ongc1.png";
 import omc from "../Events/Event-Khanan/khanan-img/omd.png";
 import bccl from "../Events/Event-Khanan/khanan-img/bccl.png";
 import secl from "../Events/Event-Khanan/khanan-img/SECL.jpg";
+import nlc from "../Events/Event-Khanan/khanan-img/nlc.png";
+import ntpc from "../Events/Event-Khanan/khanan-img/ntpc.png";
 
 
 
@@ -272,8 +274,24 @@ const Sponser = () => {
         </Col>
       </Row>
       <Row>
-
-
+      <Col
+          xs="4"
+          md="2"
+          className="d-flex align-items-center justify-content-center"
+        >
+          <a href="https://www.nlcindia.in/new_website/index.htm">
+            <img className="sponser-logo" src={nlc} alt="intro" />
+          </a>
+        </Col>
+        <Col
+          xs="4"
+          md="2"
+          className="d-flex align-items-center justify-content-center"
+        >
+          <a href="https://www.ntpc.co.in/">
+            <img className="sponser-logo" src={ntpc} alt="intro" />
+          </a>
+        </Col>
 
 
 
