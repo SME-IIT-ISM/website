@@ -14,7 +14,7 @@ import EventHead from "./images/EventHead.jpeg";
 import AdEventHead from "./images/AdEventHead.jpg";
 import Treasurer from "./images/Treasurer.jpg";
 import AdTreasurerHead from "./images/AdTreasurerHead.jpg";
-import DesigningHead from "./images/DesigningHead.jpg";
+// import DesigningHead from "./images/DesigningHead.jpg";
 // import AdDesigningHead from "./images/AdDesigningHead.jpg";
 import AdDesigningHead from "./images/AdDesigningHead.jpeg";
 import PRHead from "./images/PRHead.jpg";
@@ -29,7 +29,7 @@ import MarketingHead from "./images/MarketingHead.jpg";
 //comments
 //import MarketingHead from "./images/ProfileIcon.jpg";
 import AdMarketingHead from "./images/AdMarketingHead.jpg";
-import DraftingHead from "./images/DraftingHead.jpg";
+// import DraftingHead from "./images/DraftingHead.jpg";
 import AdDraftingHead from "./images/AdDraftingHead.jpg";
 import MembershipHead from "./images/MembershipHead.jpg";
 import LogisticsHead from "./images/LogisticsHead.png";
@@ -40,20 +40,20 @@ const officeBearers = [
   {
     src: President,
     position: "President",
-    name: "Shubham Pandey",
-    linkedin: "https://www.linkedin.com/in/shubham-pandey-1898b021b/",
+    name: "Shailesh Raj",
+    linkedin: "https://www.linkedin.com/in/shailesh-raj-356237241/",
   },
   {
     src: VicePresident,
-    position: "Vice President",
-    name: "Yadav Navdesh Uttam",
-    linkedin: "https://www.linkedin.com/in/navdesh-yadav-5a9a47193/",
+    position: "Designing Head",
+    name: "Souhardya Garai",
+    linkedin: "https://www.linkedin.com/in/souhardya-garai-565750226/",
   },
   {
     src: SecretaryErra,
-    position: "Secretary ERRA",
-    name: "Himanshu Shekhar",
-    linkedin: "https://www.linkedin.com/in/himanshu-shekhar-544b92204/",
+    position: "Secretary Erra",
+    name: "Raksha Mishra",
+    linkedin: "https://www.linkedin.com/in/raksha-mishra/",
   },
 ];
 
@@ -61,8 +61,8 @@ const coreTeam = [
   {
     src: Secretary,
     position: "Secretary",
-    name: "Shailesh Raj",
-    linkedin: "https://www.linkedin.com/in/shailesh-raj-356237241/",
+    name: "Manish Kumar",
+    linkedin: "https://www.linkedin.com/in/manish-kumar46/",
   },
   {
     src: AdSecretory,
@@ -106,12 +106,12 @@ const coreTeam = [
     name: "Ritika Kumari",
     linkedin: "https://www.linkedin.com/in/ritika-kumari-bba38b213/",
   },
-  {
-    src: DesigningHead,
-    position: "Designing Head",
-    name: "Souhardya Garai",
-    linkedin: "https://www.linkedin.com/in/souhardya-garai-565750226/",
-  },
+  // {
+  //   src: DesigningHead,
+  //   position: "Designing Head",
+  //   name: "Souhardya Garai",
+  //   linkedin: "https://www.linkedin.com/in/souhardya-garai-565750226/",
+  // },
   {
     src: AdDesigningHead,
     position: "Ad. Designing Head",
@@ -180,12 +180,7 @@ const coreTeam = [
     name: "Dipti Mor",
     linkedin: "https://www.linkedin.com/in/diptimor/",
   },
-  {
-    src: DraftingHead,
-    position: "Drafting Head",
-    name: "Raksha Mishra",
-    linkedin: "https://www.linkedin.com/in/raksha-mishra/",
-  },
+  
   {
     src: AdDraftingHead,
     position: "Ad. Drafting Head",
