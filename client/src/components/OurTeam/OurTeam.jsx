@@ -46,7 +46,7 @@ const officeBearers = [
   },
   {
     src: VicePresident,
-    position: "Designing Head",
+    position: "Vice President",
     name: "Souhardya Garai",
     linkedin: "https://www.linkedin.com/in/souhardya-garai-565750226/",
   },
@@ -141,7 +141,7 @@ const coreTeam = [
     src: AdPRHead,
     position: "Ad. PR Head",
     name: "Vanshika Pandey",
-    linkedin: "https://www.linkedin.com/in/azmeera-prasad-777193228/",
+    linkedin: "http://www.linkedin.com/in/vanshikapandey01",
 
   },
   
@@ -192,7 +192,7 @@ const coreTeam = [
     src: AdDraftingHead,
     position: "Ad. Drafting Head",
     name: "Saloni Kumari",
-    linkedin: "https://www.linkedin.com/in/abhay-kumar-578b19231",
+    linkedin: "http://www.linkedin.com/in/salonisingh03",
   },
   {
     src: MembershipHead,
@@ -204,7 +204,7 @@ const coreTeam = [
     src: LogisticsHead,
     position: "Logistics Head",
     name: "Koushik Mandal",
-    linkedin: "https://www.linkedin.com/in/koushik-mandal-020602259/",
+    linkedin: "https://www.linkedin.com/in/koushik-mandal21/",
   },
   {
     src: AdLogisticsHead,
