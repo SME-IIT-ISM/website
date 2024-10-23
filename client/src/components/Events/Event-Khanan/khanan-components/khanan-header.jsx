@@ -8,7 +8,7 @@ const KhananHeader = () => {
       <img src={Klogo} alt="Khanan logo"height={120} width={100} / >
       <a
         className="bt custom-button-khanan"
-        href="https://khanan-23.netlify.app/"
+        href="https://khanan-og.netlify.app/"
         target="_blank"
         rel="noopener noreferrer"
       >
