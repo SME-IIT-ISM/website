@@ -18,7 +18,7 @@ const Campus = () => {
           <div>
             <a
               className="bt custom-button-campus"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdqvazckflfMZYczAElHJPC1F4pzu1j3DwMzEqvNt_wzMqVOQ/formResponse"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScmICWoFEONyPRWKYRlxeKiDQ_WIRwh_mEAUcRdBJAKFu-3hw/viewform"
               target="_blank"
               rel="noopener noreferrer"
             >

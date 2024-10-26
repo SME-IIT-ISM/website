@@ -49,7 +49,7 @@ a.knav-image {
 a.knav-image span {
   color: transparent;
   height: 0;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 a.knav-image:hover span {
   width: 130px;
@@ -58,4 +58,8 @@ a.knav-image:hover span {
 }
 .knav-content {
   padding-top: 25px;
+}
+
+span,a{
+  text-decoration: none;
 }

@@ -54,28 +54,7 @@ const speakers = [
 
 const Speakers = () => {
   return (
-    <Container>
-      <Row>
-        <Col>
-          <h2 className="k-sub-heading">MEET OUR SPEAKERS</h2>
-        </Col>
-      </Row>
-      <Row>
-        {speakers.map((item, index) => {
-          return (
-            <Col xs="12" sm="6" lg="3" key={index}>
-              <Zoom timeout={600}>
-                <KhananCard
-                  title={item.title}
-                  img={item.src}
-                  id={index + events.length}
-                />
-              </Zoom>
-            </Col>
-          );
-        })}
-      </Row>
-    </Container>
+    <div></div>
   );
 };
 

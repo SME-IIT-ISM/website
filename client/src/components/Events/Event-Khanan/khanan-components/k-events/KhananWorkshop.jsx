@@ -1,50 +1,39 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 // import K1 from "./k-workshop-images/3d immersive technologies.png";
-import K4 from "./k-workshop-images/mine planning.png";
+import K4 from "../Khanan-sposnors-2k24/Mine Planning & Design.png";
 // import K3 from "./k-workshop-images/data visualisation.png";
-import K2 from "./k-workshop-images/modern.png";
+import K2 from "../Khanan-sposnors-2k24/Modern Surveying Techniques.png";
 // import K5 from "./k-workshop-images/real time telematics.png";
 // import K6 from "./k-workshop-images/resource modelling.png";
 // import K7 from "./k-workshop-images/sensor technologies.png";
 
-
-
-
-
-
-
 import KhananCard from "./KhananCard";
-import {speakers} from "../Kspeakers.jsx";
-import {events} from "./KhananEvent.jsx";
-import {preevents} from "../PreEvent.jsx";
-
+import { speakers } from "../Kspeakers.jsx";
+import { events } from "./KhananEvent.jsx";
+import { preevents } from "../PreEvent.jsx";
 
 import Zoom from "react-reveal/Zoom";
 
 const workshop = [
-
-
-
   {
     title: "Mine Planning and Design",
     src: K4,
     struct: [
-    "The Mine Design and Planning Workshop offers an intensive study of mining principles. It covers geological modeling, resource estimation, mine design, and production scheduling. Participants gain practical skills through exercises and expert-led presentations, preparing them for professional roles in the mining industry.",
-
+      "The Mine Design and Planning Workshop offers an intensive study of mining principles. It covers geological modeling, resource estimation, mine design, and production scheduling. Participants gain practical skills through exercises and expert-led presentations, preparing them for professional roles in the mining industry.",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSftzuFaW_90IyqfqkN3F-usy_rIukfRCE4dthbeCZYCjbbVCA/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSfptCy3mfsTXzhruchksA9xI6ftCBXCk5cXZYTXg72FqItOZQ/viewform?usp=sf_link",
     con: false,
   },
   {
     title: "Modern Surveying Techniques",
     src: K2,
     struct: [
-    "The Modern Surveying Techniques Workshop provides a comprehensive overview of the latest surveying technologies. It includes hands-on training on tools like GPS, LiDAR, and drones, and covers data processing and analysis. This workshop equips participants with practical skills for efficient and accurate surveying.",
+      "The Modern Surveying Techniques Workshop provides a comprehensive overview of the latest surveying technologies. It includes hands-on training on tools like GPS, LiDAR, and drones, and covers data processing and analysis. This workshop equips participants with practical skills for efficient and accurate surveying.",
     ],
     srclink:
-      "https://docs.google.com/forms/d/1vKZUn4VxLrKqydjj1PG7ryrwUm9a_z7anG0Y65b5a6Q/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSfe1e1MZ6dimq9SqzW06tCbGRQrxEiWObgkloKD6Bx2MEzrpA/viewform?usp=send_form",
     con: false,
   },
   // {
@@ -91,7 +80,6 @@ const workshop = [
   //   zoomlink: " https://meet.google.com/dmf-ihim-add",
   //   con: false,
   // },
-
 ];
 
 const Kworkshop = () => {
@@ -105,9 +93,20 @@ const Kworkshop = () => {
       <Row>
         {workshop.map((item, index) => {
           return (
-            <Col xs="12" sm="6" lg="4" key={index+events.length+speakers.length+preevents.length} >
+            <Col
+              xs="12"
+              sm="6"
+              lg="4"
+              key={index + events.length + speakers.length + preevents.length}
+            >
               <Zoom timeout={600}>
-                <KhananCard title={item.title} img={item.src} id={index+events.length+speakers.length+preevents.length} />
+                <KhananCard
+                  title={item.title}
+                  img={item.src}
+                  id={
+                    index + events.length + speakers.length + preevents.length
+                  }
+                />
               </Zoom>
             </Col>
           );
