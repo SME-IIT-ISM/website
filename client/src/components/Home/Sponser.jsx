@@ -22,6 +22,15 @@ import wcl from "./sponsers/wcl.png";
 import epiroc from "./sponsers/Epiroc.png";
 import ds from "./sponsers/ds.png";
 import ongc from "./sponsers/ongc1.png";
+import omc from "../Events/Event-Khanan/khanan-img/omd.png";
+import bccl from "../Events/Event-Khanan/khanan-img/bccl.png";
+import secl from "../Events/Event-Khanan/khanan-img/SECL.jpg";
+import nlc from "../Events/Event-Khanan/khanan-img/nlc.png";
+import ntpc from "../Events/Event-Khanan/khanan-img/ntpc.png";
+
+
+
+
 
 const Sponser = () => {
   return (
@@ -32,6 +41,53 @@ const Sponser = () => {
         </Col>
       </Row>
       <Row>
+      <Col
+        xs="4"
+        md="2"
+        className="d-flex align-items-center justify-content-center"
+      >
+        <a href="https://www.3ds.com/">
+          <img className="sponser-logo" src={ds} alt="intro  " />
+        </a>
+      </Col>
+        <Col
+          xs="4"
+          md="2"
+          className="d-flex align-items-center justify-content-center"
+        >
+          <a href="https://omcltd.in/">
+            <img className="sponser-logo" src={omc} alt="intro" />
+          </a>
+        </Col>
+
+        <Col
+          xs="4"
+          md="2"
+          className="d-flex align-items-center justify-content-center"
+        >
+          <a href="https://www.home.sandvik/en/">
+            <img className="sponser-logo" src={san} alt="intro" />
+          </a>
+        </Col>
+
+        <Col
+          xs="4"
+          md="2"
+          className="d-flex align-items-center justify-content-center"
+        >
+          <a href="https://www.bcclweb.in/">
+            <img className="sponser-logo" src={bccl} alt="intro" />
+          </a>
+        </Col>
+        <Col
+          xs="4"
+          md="2"
+          className="d-flex align-items-center justify-content-center"
+        >
+          <a href="http://www.secl-cil.in/">
+            <img className="sponser-logo" src={secl} alt="intro" />
+          </a>
+        </Col>
         <Col
           className="d-flex align-items-center justify-content-center"
           xs="4"
@@ -41,6 +97,9 @@ const Sponser = () => {
             <img className="sponser-logo" src={hz} alt="intro" />
           </a>
         </Col>
+      </Row>
+      <Row>
+
         <Col
           className="d-flex align-items-center justify-content-center"
           xs="4"
@@ -86,8 +145,6 @@ const Sponser = () => {
             <img className="sponser-logo" src={ecl} alt="intro" />
           </a>
         </Col>
-      </Row>
-      <Row>
         <Col
           xs="4"
           md="2"
@@ -97,6 +154,9 @@ const Sponser = () => {
             <img className="sponser-logo" src={lens} alt="intro" />
           </a>
         </Col>
+      </Row>
+      <Row>
+
         <Col
           xs="4"
           md="2"
@@ -133,26 +193,7 @@ const Sponser = () => {
             <img className="sponser-logo" src={nmdc} alt="intro" />
           </a>
         </Col>
-        <Col
-          xs="4"
-          md="2"
-          className="d-flex align-items-center justify-content-center"
-        >
-          <a href="https://www.home.sandvik/en/">
-            <img className="sponser-logo" src={san} alt="intro" />
-          </a>
-        </Col>
-      </Row>
-      <Row>
-        <Col
-          xs="4"
-          md="2"
-          className="d-flex align-items-center justify-content-center"
-        >
-          <a href="http://www.secl-cil.in/">
-            <img className="sponser-logo" src={sec} alt="intro" />
-          </a>
-        </Col>
+
         <Col
           xs="4"
           md="2"
@@ -171,6 +212,11 @@ const Sponser = () => {
             <img className="sponser-logo" src={ongc} alt="intro" />
           </a>
         </Col>
+      </Row>
+      <Row>
+
+
+
         <Col
           xs="4"
           md="2"
@@ -180,15 +226,7 @@ const Sponser = () => {
             <img className="sponser-logo" src={ucl} alt="intro" />
           </a>
         </Col>
-        <Col
-          xs="4"
-          md="2"
-          className="d-flex align-items-center justify-content-center"
-        >
-          <a href="https://www.3ds.com/">
-            <img className="sponser-logo" src={ds} alt="intro" />
-          </a>
-        </Col>
+
         <Col
           xs="4"
           md="2"
@@ -198,8 +236,6 @@ const Sponser = () => {
             <img className="sponser-logo" src={ss} alt="intro" />
           </a>
         </Col>
-        </Row>
-        <Row>
         <Col
           xs="4"
           md="2"
@@ -209,9 +245,6 @@ const Sponser = () => {
             <img className="sponser-logo" src={jsw} alt="intro" />
           </a>
         </Col>
-        
-        
-        
         <Col
           xs="4"
           md="2"
@@ -239,6 +272,29 @@ const Sponser = () => {
             <img className="sponser-logo" src={tm} alt="intro" />
           </a>
         </Col>
+      </Row>
+      <Row>
+      <Col
+          xs="4"
+          md="2"
+          className="d-flex align-items-center justify-content-center"
+        >
+          <a href="https://www.nlcindia.in/new_website/index.htm">
+            <img className="sponser-logo" src={nlc} alt="intro" />
+          </a>
+        </Col>
+        <Col
+          xs="4"
+          md="2"
+          className="d-flex align-items-center justify-content-center"
+        >
+          <a href="https://www.ntpc.co.in/">
+            <img className="sponser-logo" src={ntpc} alt="intro" />
+          </a>
+        </Col>
+
+
+
       </Row>
     </Container>
   );

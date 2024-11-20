@@ -64,8 +64,8 @@
 }
 
 .khanan-header img {
-  width: auto;
-  height: 35%;
+  width: 300px;
+  height: auto;
   position: absolute;
   margin-top: 23vh;
 }
@@ -81,7 +81,7 @@
 }
 
 .custom-button-khanan {
-  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-family: "Libre Baskerville", serif;
   background-color: #fff;
   color: rgba(0, 0, 0, 1);
   font-size: 1.25rem;
