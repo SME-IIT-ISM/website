@@ -13,7 +13,7 @@ import DMSl from "./Khanan-sposnors-2k24/DMSL.png";
 import NTPCMINE from "./Khanan-sposnors-2k24/NTPCMINE.png";
 import bombayspices from "./Khanan-sposnors-2k24/Bombayfood.png";
 import MiningGyan from "./Khanan-sposnors-2k24/MiningGyan.png";
-
+import ECL from "./Khanan-sposnors-2k24/ECL Logo.jpg"
 const KSponser = () => {
   return (
     <Container>
@@ -30,14 +30,21 @@ const KSponser = () => {
         display:'flex',
         justifyContent:'center'
       }}>
-        <a href="http://www.secl-cil.in/">
+        <a href="http://www.secl-cil.in/" style={{
+          marginRight:'85px',
+          cursor:'pointer'
+        }}>
           <img className="Ksponser-logo" src={secl} alt="intro" />
+        </a>
+        <a href="https://easterncoal.nic.in/">
+          <img className="Ksponser-logo" src={ECL} alt="intro" />
         </a>
       </div>
       <div className="Clickable" style={{
         display:'flex',
         justifyContent:'center',
-        color:'white'
+        color:'white',
+        margin:'30px'
       }}>Gold Sponsor</div>
 
       <Row className="d-flex align-items-center justify-content-center mb-6">
@@ -165,8 +172,10 @@ const KSponser = () => {
             </Row>
             <Row>
               <Col className="d-flex align-items-center justify-content-center k-sponsor-2">
-                <p className="text-center">
-                  <b>Food Sponsor </b>
+                <p className="text-center" style={{
+                  marginTop:'20px'
+                }}>
+                  <b>Food Partner </b>
                 </p>
               </Col>
             </Row>
