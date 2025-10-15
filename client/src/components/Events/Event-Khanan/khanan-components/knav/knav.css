@@ -6,12 +6,11 @@
 
 .knavi {
   float: left;
-  position: fixed;
-  top: 30%;
+  position: absolute; /* changed from fixed */
+  top: 30%; /* keeps it initially at 30% from top of the container */
   left: 0;
   background: transparent;
   padding-inline-start: 0px !important;
-  transform: translateX(-30px);
   z-index: 1000;
 }
 

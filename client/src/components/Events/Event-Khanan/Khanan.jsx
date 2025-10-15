@@ -88,7 +88,7 @@ const HomePage = () => {
         <KhananContent />
       </Zoom>
       <KSponser />
-      <PreEvents />
+      {/*<PreEvents />*/}
       <Kevent />
       <Kworkshop />
 

@@ -2,52 +2,49 @@ import Marquee from "react-easy-marquee";
 
 const Announcement = () => {
   const data = [
-    "Khanan is coming ! Be Ready","Registration process for Khanan-24 events are going on. Checkout the khanan page",
+    "🚀 Khanan 2025 is coming! Get ready for the grand fest!",
+    "📝 Registration for Khanan-25 events is now live — don’t miss out!",
   ];
 
   return (
-    <div>
-      <h1 className="heading text-uppercase text-center">Announcements</h1>
-      <div className="py-3">
-        <Marquee
-          duration={10000}
-          background="#fff"
-          height="350px"
-          width="100%"
-          axis="Y"
-          align="center"
-          pauseOnHover={true}
-          reverse={true}
-        >
-          {data.map((item, id) => (
-            <p key={id}>
-              <b>{item}</b>
-            </p>
-          ))}
+    <section className="announcement-section py-5 bg-light">
+      <div className="container">
+        <h1 className="text-uppercase text-center fw-bold mb-4">
+          Announcements
+        </h1>
 
+        <div className="announcement-marquee border rounded-3 shadow-sm p-3 bg-white">
+          <Marquee
+            duration={12000}
+            background="#fff"
+            height="300px"
+            width="100%"
+            axis="Y"
+            align="center"
+            pauseOnHover={true}
+            reverse={true}
+          >
+            {data.map((item, id) => (
+              <div key={id} className="text-center my-4">
+                <p className="fs-5 mb-0">{item}</p>
+              </div>
+            ))}
 
-          {/* <a className="text-decoration-none text-dark" href="https://drive.google.com/drive/folders/1efY1BrZUBAml268Et3YiPsXdNmnZykOS?usp=sharing" target="_blank"  >
-          <b>Problem statement of Nirvana is released. Check out Now</b>
-          </a> */}
-          {/* <h5>
-            Khanan'2023 Registration Started.
-            <div>
-              <a href="https://khanan-23.netlify.com">Register Now</a>
+            <div className="text-center my-4">
+              <h4 className="fw-semibold mb-2">
+                🎉 Khanan'2025 is coming soon!
+              </h4>
+              <a
+                href="/events/khanan"
+                className="btn btn-outline-primary btn-sm rounded-pill px-4"
+              >
+                For More Details
+              </a>
             </div>
-          </h5> */}
-          <h4>
-          Khanan'2024 is coming soon.
-          <div>
-          <a href="/events/khanan">For more Details</a>
-          </div>
-
-          </h4>
-
-
-
-        </Marquee>
+          </Marquee>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

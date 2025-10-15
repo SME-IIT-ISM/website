@@ -3,9 +3,8 @@ import { Container, Row, Col } from "reactstrap";
 
 const Campus = () => {
   return (
-    <Container className="campus my-5" id="campus">
-      <Row>
-        <Col className="campus-text p-3">
+    <div className="k-amd my-5 mx-auto text-center p-4 shadow-sm rounded-2xl bg-white flex-col">
+     
           <p>
             Looking for a chance to lead your college? Register for <b><l>CAMPUS
             AMBASSADOR</l></b> now and get a chance to be an extended part of organizing
@@ -16,18 +15,18 @@ const Campus = () => {
             get ready for a thrilling experience.
           </p>
           <div>
-            <a
-              className="bt custom-button-campus"
-              href="https://docs.google.com/forms/d/e/1FAIpQLScmICWoFEONyPRWKYRlxeKiDQ_WIRwh_mEAUcRdBJAKFu-3hw/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              REGISTER
-            </a>
+        <a
+  className="btn-register"
+  href="https://docs.google.com/forms/d/e/1FAIpQLScmICWoFEONyPRWKYRlxeKiDQ_WIRwh_mEAUcRdBJAKFu-3hw/viewform"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  REGISTER
+</a>
+
           </div>
-        </Col>
-      </Row>
-    </Container>
+      
+    </div>
   );
 };
 

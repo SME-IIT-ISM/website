@@ -227,7 +227,7 @@ const eventData = [
   {
     id: 11,
     src: GEImages12,
-    title: "Khanan'22 ",
+    title: "Khanan'25",
     head: "Technology and innovation today has taken over every working sector. There is no field left untouched with the influence of technology and so even the mining industry follows suit. Lack of digitisation, lack of research and development for training, and incompatibility with market needs have been some of the challenges that the mining sector has been facing since decades. These difficulties however can be addressed today by using newer technology innovations such as Augmented Reality(AR) and Virtual Reality(VR). AR and VR combine the digital world with the real world. The goal of using AR and VR is to solve the problem of innovation as well as reduce the hazardous working conditions for human beings that would lead to a marked difference in productivity by making mining smarter than what it is today. To expand further upon the application of AR and VR in the mining industry and provide students with insights of the newer technological advancements, SME IIT (ISM) Student Chapter is organizing a demonstration on the same at Seminar hall, Mining Department So, do not miss this wonderful opportunity to attend the event and widen your scope of knowledge on newer innovations in the mining sector!!",
     struct: [
       "Few things in life affects us as deeply and deeply as drug abuse by altering our perceptions and relationships to every aspect of life. It is a devastating state that has been running a riot for decade and there is an urgent need to put an end to it.",
@@ -258,7 +258,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <div className="ge-heading-bg mt-4 d-flex align-items-center justify-content-center">
+      <div className="ge-heading-bg mt-10 d-flex align-items-center justify-content-center">
         <h1 className="page-heading text-center py-3 text-uppercase">
           SME General Events
         </h1>
