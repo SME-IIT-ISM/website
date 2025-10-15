@@ -122,6 +122,21 @@ h1.page-heading::after {
 }
 
 /* For scroll to top button */
+.social-instagram {
+  color: white ;
+ 
+}
+.social-linkedin{
+  color: white ;
+}
+
+.social-youtube {
+ color: white ;
+}
+.social-facebook {
+   color: white ;
+}
+
 .scroll-to-top .top {
   position: fixed;
   cursor: pointer;

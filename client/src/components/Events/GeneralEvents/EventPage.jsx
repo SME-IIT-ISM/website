@@ -20,7 +20,7 @@ const EventPage = ({ eventData }) => {
   }, []);
 
   return (
-    <Container className="mt-5 mb-5 events-page">
+    <Container className="mt-5  mb-5 events-page">
       <Row className="d-flex align-items-center justify-content-center">
         <Col
           xs="12"

@@ -406,7 +406,7 @@ const Gallery = () => {
               </CardBody>
             </Card>
           </Col>
-          <Col xs="12" md="6" className="d-flex flex-column order-1 order-md-2">
+          <Col xs="12" md="6" className="d-flex flex-column order-1 order-md-2 ">
             <div className="h1 text-white GHText1">Welcome to our Memories</div>
             <div className="h4 text-white display-6 GHText2">
               Take a trip down our memory lane

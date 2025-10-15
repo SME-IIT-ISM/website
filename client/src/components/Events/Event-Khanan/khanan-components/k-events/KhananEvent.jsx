@@ -17,7 +17,7 @@ const events = [
     title: "War O Words",
     src: K1,
     struct: [
-      "Get ready to unearth innovation at The Next Big Thing in Khanan'24. Join the battle of wits with engineering prodigies as you showcase your visionary ideas. This platform ignites creativity, sparking an exchange of game-changing concepts for your dream company. Don't miss your chance to be part of the future – Khanan'24 awaits your brilliance!",
+      "Get ready to unearth innovation at The Next Big Thing in Khanan'25. Join the battle of wits with engineering prodigies as you showcase your visionary ideas. This platform ignites creativity, sparking an exchange of game-changing concepts for your dream company. Don't miss your chance to be part of the future – Khanan'25 awaits your brilliance!",
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSem7_pcT5s4hqncqyeq_zDFhcoKodgAPocpkZ0PqnQFYuuCaA/formrestricted",
@@ -28,7 +28,7 @@ const events = [
     title: "Dezyn O Mania",
     src: K3,
     struct: [
-      "Embark on a mining innovation journey with Mine Designothon at Khanan '24. This exhilarating 36-hour hackathon challenges students to design optimal mine solutions. It all begins on the event's website with an intriguing predicament unveiling. Collaborate with peers, brainstorm ideas, and explore diverse possibilities to craft viable answers. Your hard work culminates in a meticulous assessment by a selective jury, ensuring fair and accurate evaluation. Join this intellectual quest to showcase your mining prowess and innovative spirit. Khanan '24 – where innovation converges with mining excellence! Don't miss this opportunity to make your mark.",
+      "Embark on a mining innovation journey with Mine Designothon at Khanan '25. This exhilarating 36-hour hackathon challenges students to design optimal mine solutions. It all begins on the event's website with an intriguing predicament unveiling. Collaborate with peers, brainstorm ideas, and explore diverse possibilities to craft viable answers. Your hard work culminates in a meticulous assessment by a selective jury, ensuring fair and accurate evaluation. Join this intellectual quest to showcase your mining prowess and innovative spirit. Khanan '25 – where innovation converges with mining excellence! Don't miss this opportunity to make your mark.",
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSeKx2SGT1X24ICY1nQnghSgynLOU9fw2zmVNxWLw1tvhuGjOw/viewform?usp=send_form",
@@ -39,7 +39,7 @@ const events = [
     title: "Nirvana",
     src: K6,
     struct: [
-      "Dive into innovation at Nirvana, the crown jewel of Khanan'24 – IIT ISM Dhanbad's Geo Mining Fest! Unleash your brilliance in the mining industry's epicenter. Nirvana presents a dual-track adventure. Choose to conquer Khanan's challenges head-on or forge your own path with tailored solutions. Our expert-curated problem statements are a testament to excellence, guided by the sharpest minds in the field. Join us for a seismic shift in mining innovation. Don't miss your chance to shine at Nirvana, where groundbreaking ideas light up the future. Secure your spot at Khanan'24 and be part of the geological revolution!",
+      "Dive into innovation at Nirvana, the crown jewel of Khanan'25 – IIT ISM Dhanbad's Geo Mining Fest! Unleash your brilliance in the mining industry's epicenter. Nirvana presents a dual-track adventure. Choose to conquer Khanan's challenges head-on or forge your own path with tailored solutions. Our expert-curated problem statements are a testament to excellence, guided by the sharpest minds in the field. Join us for a seismic shift in mining innovation. Don't miss your chance to shine at Nirvana, where groundbreaking ideas light up the future. Secure your spot at Khanan'24 and be part of the geological revolution!",
     ],
 
     srclink:
@@ -50,7 +50,7 @@ const events = [
     title: "Gamicon",
     src: K2,
     struct: [
-      "Get ready to level up your Khanan'24 experience at Gamicon! Trade your tie for a controller, and heels for a comfy spot as we transform the formal into the fantastic. Dive into virtual adventures and showcase your gaming prowess on two consecutive nights of non-stop fun! Join us in this game-based oasis, where fun knows no bounds. It's your golden ticket to a world where the night lights up with gaming fever. Don't miss out on the ultimate fusion of formal and gaming – Gamicon at Khanan'24!",
+      "Get ready to level up your Khanan'25 experience at Gamicon! Trade your tie for a controller, and heels for a comfy spot as we transform the formal into the fantastic. Dive into virtual adventures and showcase your gaming prowess on two consecutive nights of non-stop fun! Join us in this game-based oasis, where fun knows no bounds. It's your golden ticket to a world where the night lights up with gaming fever. Don't miss out on the ultimate fusion of formal and gaming – Gamicon at Khanan'25!",
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfkJ60avg0F2pDyNhZRuW78gGBdbz0h2mP040e3baS296YUlQ/viewform",
@@ -60,7 +60,7 @@ const events = [
     title: "Khanan Mafia",
     src: K4,
     struct: [
-      " Unearth hidden treasures and unravel mysteries at Khanan '24, IIT ISM Dhanbad's annual geo-mining fest! The notorious Khanan Mafia treasure hunt is back, promising an exhilarating adventure for those with sharp logic and deduction skills. Dive into a world of intrigue, strategy, and cunning as you navigate through thrilling twists and turns. Picture yourself at the heart of the action, forging alliances and unveiling secrets in a battle of wits like no other. Experience Khanan '24 in a whole new light with Khanan Mafia – where mystery and strategy collide for an unforgettable ride!",
+      " Unearth hidden treasures and unravel mysteries at Khanan '25, IIT ISM Dhanbad's annual geo-mining fest! The notorious Khanan Mafia treasure hunt is back, promising an exhilarating adventure for those with sharp logic and deduction skills. Dive into a world of intrigue, strategy, and cunning as you navigate through thrilling twists and turns. Picture yourself at the heart of the action, forging alliances and unveiling secrets in a battle of wits like no other. Experience Khanan '25 in a whole new light with Khanan Mafia – where mystery and strategy collide for an unforgettable ride!",
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSdXBQzIada_4aA8pBIUOXfFWtanfDQXmBRlwfm6PnPSJIMepg/viewform",
@@ -71,7 +71,7 @@ const events = [
     title: "Mining Olympiad",
     src: K5,
     struct: [
-      "Fuel your curiosity at Mining Olympiad, a thrilling event at Khanan'24! Prepare for an epic challenge, showcasing your mining expertise and skills. Join us to promote mining studies, careers, and global awareness. Quizzine offers mining enthusiasts a chance to shine and test their knowledge. Unearth your potential at Mining Olympiad – where knowledge meets excitement!",
+      "Fuel your curiosity at Mining Olympiad, a thrilling event at Khanan'25! Prepare for an epic challenge, showcasing your mining expertise and skills. Join us to promote mining studies, careers, and global awareness. Quizzine offers mining enthusiasts a chance to shine and test their knowledge. Unearth your potential at Mining Olympiad – where knowledge meets excitement!",
     ],
     srclink:
       "https://docs.google.com/forms/d/e/1FAIpQLSdW7pWAC4jiq3RAFKpSOBXfz6jRx4chTG-C8I4s8GCpO7xRCQ/viewform",
@@ -93,7 +93,7 @@ const events = [
     title: "Quizzine",
     src: K8,
     struct: [
-      "Join the Quizzine extravaganza at Khanan'24, IIT ISM Dhanbad's annual geo mining fest, organized in collaboration with Quiz Club! Challenge yourself with a General Quiz that covers science, tech, music, and more. Let's unearth knowledge, ignite curiosity, and compete for glory, all while making memories one question at a time. Are you ready for the challenge?",
+      "Join the Quizzine extravaganza at Khanan'25, IIT ISM Dhanbad's annual geo mining fest, organized in collaboration with Quiz Club! Challenge yourself with a General Quiz that covers science, tech, music, and more. Let's unearth knowledge, ignite curiosity, and compete for glory, all while making memories one question at a time. Are you ready for the challenge?",
     ],
 
     srclink:

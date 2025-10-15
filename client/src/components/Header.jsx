@@ -152,11 +152,11 @@ const Header = () => {
                     Industrial Info
                   </DropdownItem>
                 </a>
-                <a className="nav-dropdown" href="/resources/calender">
+              {/* <a className="nav-dropdown" href="/resources/calender">
                   <DropdownItem className="text-center">
                     Annual Calendar
                   </DropdownItem>
-                </a>
+                </a>*/}
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>

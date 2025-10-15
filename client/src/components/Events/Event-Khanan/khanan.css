@@ -112,13 +112,24 @@
 /* for KhANAN-CONTENT */
 .k-content {
   background: linear-gradient(45deg, #ff0881, #6827b0);
-  width: 60vw;
+  width: 70vw;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-top: 5vh;
   margin-left: 38vw;
-  border-radius: 20px 0 0 20px;
+  border-radius: 20px 20px 20px 20px;
   height: fit-content;
+}
+.k-amd {
+  background: linear-gradient(45deg, #ff0881, #6827b0);
+  width: 70vw;
+  color: #fff;
+  font-size: 1.4rem;
+  margin-top: 5vh;
+  margin-left: 38vw;
+  border-radius: 20px 20px 20px 20px;
+  height: fit-content;
+  padding: 10px;
 }
 .k-content-text {
   margin-left: 15px !important;
@@ -232,6 +243,8 @@ a.k-card-link:hover {
   height: fit-content;
   position: relative;
 }
+
+
 .campus-text {
   margin-left: 50px !important;
   position: relative;
@@ -260,10 +273,32 @@ a.k-card-link:hover {
   padding-bottom: 1rem;
   background-clip: text;
   color: transparent;
-  margin-top: 8vh;
+  margin-top: 13vh;
   overflow: hidden;
   text-transform: capitalize;
   text-align: center;
+  font-size: 50px;
+  
+  
+}
+
+.sponsor-card {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+   background: linear-gradient(45deg, #ff0881, #6827b0); 
+   padding: 5px;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.sponsor-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
 
 /* For event pages */
@@ -383,4 +418,24 @@ a.k-card-link:hover {
     width: 40vw;
     z-index: 100;
   }
+}
+
+
+.btn-register {
+  display: inline-block;
+  background: white; /* button color */
+  color:black !important;
+  padding: 8px 20px; /* vertical and horizontal padding */
+  border-radius: 30px; /* rounded pill shape */
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+.btn-register:hover {
+  background: #0056b3; /* darker on hover */
+  transform: translateY(-2px); /* slight lift effect */
+  box-shadow: 0 6px 20px rgba(0, 86, 179, 0.4);
 }
