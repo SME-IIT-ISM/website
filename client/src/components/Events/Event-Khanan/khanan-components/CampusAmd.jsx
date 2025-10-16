@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 
 const Campus = () => {
   return (
-    <div className="k-amd my-5 mx-auto text-center p-4 shadow-sm rounded-2xl bg-white flex-col">
+    <div className="k-amd my-5 mx-auto text-center p-4 shadow-sm rounded-2xl bg-white flex-col" id="campus">
      
           <p>
             Looking for a chance to lead your college? Register for <b><l>CAMPUS

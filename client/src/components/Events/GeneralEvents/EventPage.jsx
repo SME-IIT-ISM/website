@@ -8,7 +8,6 @@ const EventPage = ({ eventData }) => {
   const head = eventData?.head;
   const struct = eventData?.struct;
   const date = eventData?.date;
-  const time = eventData?.time;
   const contact1 = eventData?.contact1;
   const contact2 = eventData?.contact2;
   const tab = eventData?.tab;
@@ -65,7 +64,6 @@ const EventPage = ({ eventData }) => {
         </Col>
         <Col xs="12" md="6" lg="5" xl="4" className="text-center mt-4">
           <b>
-            <p>Time: {time}</p>
             <p>Date: {date}</p>
             <p>Contact on:</p>
             <p>{contact1}</p>

@@ -14,7 +14,7 @@ import dmsl from "../khanan-img/dmsl.jpg"
 const sponsors = [
   { img: tatasteel, name: "Tata Steel", type: "Associate", },
   { img: dmsl, name: "DMSL", type: "Associate", },
-  { img: NTPCMINE, name: "NTPC Mine", type: "Bronze", },
+  { img: NTPCMINE, name: "NML", type: "Bronze", },
   { img: mcl, name: "MCL", type: "Associate",  },
 ];
 

@@ -230,16 +230,13 @@ const eventData = [
     title: "Khanan'25",
     head: "Technology and innovation today has taken over every working sector. There is no field left untouched with the influence of technology and so even the mining industry follows suit. Lack of digitisation, lack of research and development for training, and incompatibility with market needs have been some of the challenges that the mining sector has been facing since decades. These difficulties however can be addressed today by using newer technology innovations such as Augmented Reality(AR) and Virtual Reality(VR). AR and VR combine the digital world with the real world. The goal of using AR and VR is to solve the problem of innovation as well as reduce the hazardous working conditions for human beings that would lead to a marked difference in productivity by making mining smarter than what it is today. To expand further upon the application of AR and VR in the mining industry and provide students with insights of the newer technological advancements, SME IIT (ISM) Student Chapter is organizing a demonstration on the same at Seminar hall, Mining Department So, do not miss this wonderful opportunity to attend the event and widen your scope of knowledge on newer innovations in the mining sector!!",
     struct: [
-      "Few things in life affects us as deeply and deeply as drug abuse by altering our perceptions and relationships to every aspect of life. It is a devastating state that has been running a riot for decade and there is an urgent need to put an end to it.",
-      "The SME IIT (ISM) Dhanbad student chapter is glad to announce a poster making competition on this particular topic. The door we opened is a door to unlimited possibilities and expectation to all those parents whose kid has become addicted. By your poster you are free to express, influence and crush down fears and worries.",
-      "Deadline for submission 17th june ( 11:59 pm).",
-      "Prize of worth Rs 1000 (1st prize Rs 500, 2nd prize Rs 300, 3rd prize Rs 200).",
-      "Top 10 winners will be awarded a ranked certificate and the participating candidates will be awarded a participation certificate.",
+      "Khanan'25 promises to be a platform for innovation, learning, and collaboration.",
+      "Participants will experience workshops, discussions, and technical events over three days.",
     ],
-    date: "15 June 2021-17 June 2021",
-    time: "24*7",
-    contact1: "Sumit Kumar Mudi-8210987906",
-    contact2: "Abhaya Adri-6206688440",
+    date: "25-26 october 2021",
+    
+    contact1: "8935878941",
+
     tab: "Upcoming",
   },
   
