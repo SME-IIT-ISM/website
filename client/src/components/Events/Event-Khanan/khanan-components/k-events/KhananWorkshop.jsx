@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 // import K1 from "./k-workshop-images/3d immersive technologies.png";
-import K4 from "../Khanan-sposnors-2k24/Mine Planning & Design.png";
+import K4 from "../Khanan-sposnors-2k24/workshop1.png";
 // import K3 from "./k-workshop-images/data visualisation.png";
-import K2 from "../Khanan-sposnors-2k24/Modern Surveying Techniques.png";
+import K2 from "../Khanan-sposnors-2k24/workshop2.png";
 // import K5 from "./k-workshop-images/real time telematics.png";
 // import K6 from "./k-workshop-images/resource modelling.png";
 // import K7 from "./k-workshop-images/sensor technologies.png";

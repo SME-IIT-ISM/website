@@ -23,7 +23,7 @@ const Contact = () => {
             <Form />
           </Col>
           <Col className="contact-section p-5">
-            <h2 className="text-uppercase text-center">Contact Info</h2>
+            <h1 className="text-uppercase text-center ">Contact Info</h1>
 
             <ul className="list-unstyled mb-0">
               <li className="mb-3 mt-4">
@@ -40,8 +40,8 @@ const Contact = () => {
               </li>
               <li className="mb-3">
                 <FaPhoneAlt /> Phone:{" "}
-                <a href="tel:+917297812986" className="text-white">
-                  +91 7297812986
+                <a href="tel:+918935878941" className="text-white">
+                  +91 8935878941
                 </a>
               </li>
               <li className="mb-3">

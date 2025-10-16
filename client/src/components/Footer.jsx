@@ -82,8 +82,8 @@ const Footer = (props) => {
                 </li>
                 <li className="mb-2">
                   <FaPhoneAlt /> Phone:{" "}
-                  <a href="tel:+917297812986" className="text-white">
-                    +91 7297812986
+                  <a href="tel:+918935878941" className="text-white">
+                    +91 8935878941
                   </a>
                 </li>
                 <li className="mb-2">
@@ -93,6 +93,16 @@ const Footer = (props) => {
                     className="text-white"
                   >
                     smeiitismstudentchapter@gmail.com
+                  </a>
+                </li>
+                 <h5 className="text-uppercase">For Khanan :</h5>
+                  <li className="mb-2">
+                  <FaEnvelope /> Email:{" "}
+                  <a
+                    href="mailto:khanan.sme@gmail.com"
+                    className="text-white"
+                  >
+                    khanan.sme@gmail.com
                   </a>
                 </li>
               </ul>
@@ -116,14 +126,7 @@ const Footer = (props) => {
                     IIT (ISM) Dhanbad Official Website
                   </a>
                 </li>
-                <li className="mb-2">
-                  <a
-                    href="https://parent.iitism.ac.in/index.php/parent_portal/portal0"
-                    className="text-white"
-                  >
-                    Parents Portal
-                  </a>
-                </li>
+             
               </ul>
             </div>
           </div>
