@@ -5,7 +5,7 @@ import K2 from "../Khanan-sposnors-2k24/gamicon25.png";
 import K3 from "../Khanan-sposnors-2k24/deyzno-mania.png";
 import K4 from "../Khanan-sposnors-2k24/khananmafia25.png";
 import K5 from "../Khanan-sposnors-2k24/mineolympaid.png";
-import K6 from "../Khanan-sposnors-2k24/nirvana.png";
+import K6 from "../Khanan-sposnors-2k24/nirvana25.png";
 import K7 from "../Khanan-sposnors-2k24/placementfever.png";
 import K8 from "../Khanan-sposnors-2k24/quizzine.png";
 import K11 from "../Khanan-sposnors-2k24/25.png";
