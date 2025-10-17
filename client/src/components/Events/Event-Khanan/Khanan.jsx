@@ -12,7 +12,7 @@ import WaveAnim from "./khanan-components/WaveAnim";
 import EventPage from "./EventPage";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Particles from "./Particles";
-import Zoom from "react-reveal/Zoom";
+import Zoom from "react-awesome-reveal";
 import "./khanan.css";
 import { events } from "./khanan-components/k-events/KhananEvent";
 import { workshop } from "./khanan-components/k-events/KhananWorkshop";

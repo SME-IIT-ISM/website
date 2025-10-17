@@ -1,7 +1,7 @@
 import React from "react";
 import Tcard from "./Tcard";
 import "./timeline.css";
-import Slide from "react-reveal/Slide";
+import Slide from "react-awesome-reveal";
 
 const Timeline = () => {
   return (

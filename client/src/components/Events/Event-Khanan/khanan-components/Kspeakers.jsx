@@ -7,7 +7,7 @@ import S3 from "../khanan-img/Sagesh_Kumar.jpg";
 // import S4 from "../khanan-img/abani.jpg";
 // import S5 from "../khanan-img/amit.PNG";
 import { events } from "./k-events/KhananEvent";
-import Zoom from "react-reveal/Zoom";
+
 
 const speakers = [
   {

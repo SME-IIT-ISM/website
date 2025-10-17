@@ -10,7 +10,7 @@ import K7 from "../Khanan-sposnors-2k24/placementfever.png";
 import K8 from "../Khanan-sposnors-2k24/quizzine.png";
 import K11 from "../Khanan-sposnors-2k24/25.png";
 import KhananCard from "./KhananCard";
-import Zoom from "react-reveal/Zoom";
+import Zoom from "react-awesome-reveal";
 
 const events = [
   {

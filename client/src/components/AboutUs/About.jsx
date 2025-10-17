@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./about.css";
 import { Container, Row, Col, Card } from "reactstrap";
 import Timeline from "./Timeline";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal";
 import { GiBullseye } from "react-icons/gi";
 import { FaRegEye } from "react-icons/fa";
 import { IoFlag } from "react-icons/io5";

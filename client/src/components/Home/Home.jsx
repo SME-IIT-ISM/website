@@ -7,7 +7,7 @@ import Sponser from "./Sponser";
 import OverlayText from "./OverlayText";
 import Youtube from "./Youtube";
 import SME from "./Sme";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal";
 
 class Home extends Component {
   state = { width: 800, height: 800 };
