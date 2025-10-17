@@ -105,14 +105,6 @@ const HomePage = () => {
       <KSponser />
       {/*<PreEvents />*/}
       <Kevent />
- <button className="schedule" onClick={() => {
-  const link = document.createElement("a");
-  link.href = "/schedule.pdf"; // path to your PDF in public folder
-  link.download = "Khanan_Schedule_2025.pdf"; // filename for download
-  link.click();
-}}>
-  Download Schedule
-</button>
 
 
 

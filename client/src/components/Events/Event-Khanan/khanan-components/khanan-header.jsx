@@ -6,16 +6,18 @@ const KhananHeader = () => {
   return (
     <div className="khanan-header" id="home" >
       <img src={Klogo} alt="Khanan logo" height={120} width={100} />
-      <a
-        className="bt custom-button-khanan"
-        href="https://khanan-og.netlify.app/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        REGISTRATION PORTAL
-      </a>
-      <div className="k-count">{/* <Countdown/> */}</div>
+
+<div>    <button className="schedule" onClick={() => {
+  const link = document.createElement("a");
+  link.href = "/schedule.pdf"; // path to your PDF in public folder
+  link.download = "Khanan_Schedule_2025.pdf"; // filename for download
+  link.click();
+}}>
+  Download Schedule
+</button></div>
+     
     </div>
+
   );
 };
 

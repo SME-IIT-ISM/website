@@ -73,7 +73,7 @@ const coreTeam = [
     src: EventHead1,
     position: "Event Head",
     name: "Rajnee Kant",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/rajnee-kant-b207b3375/",
   },
   {
     src: EventHead2,
@@ -97,7 +97,7 @@ const coreTeam = [
     src: AdTreasurerHead,
     position: "Ad. Treasurer",
     name: "Abhijit Srivastava",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/abhijit16/",
   },
   {
     src: TechnicalHead,
@@ -133,7 +133,7 @@ const coreTeam = [
     src: AdMediaHead,
     position: "Ad. Media Head",
     name: "Shivansh",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/shivansh-b4753a330/",
 
   },
   {
