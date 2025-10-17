@@ -1,14 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import K1 from "../Khanan-sposnors-2k24/deyzno-mania.png";
-import K2 from "../Khanan-sposnors-2k24/Gamicon.png";
+import K2 from "../Khanan-sposnors-2k24/gamicon25.png";
 import K3 from "../Khanan-sposnors-2k24/war-o-words.png";
-import K4 from "../Khanan-sposnors-2k24/Khanan Mafia.png";
+import K4 from "../Khanan-sposnors-2k24/khananmafia25.png";
 import K5 from "../Khanan-sposnors-2k24/mineolympaid.png";
 import K6 from "../Khanan-sposnors-2k24/nirvana.png";
 import K7 from "../Khanan-sposnors-2k24/placementfever.png";
 import K8 from "../Khanan-sposnors-2k24/quizzine.png";
-import K11 from "../Khanan-sposnors-2k24/Kalakriti.png";
+import K11 from "../Khanan-sposnors-2k24/25.png";
 import KhananCard from "./KhananCard";
 import Zoom from "react-reveal/Zoom";
 
@@ -20,7 +20,7 @@ const events = [
       "Get ready to unearth innovation at The Next Big Thing in Khanan'25. Join the battle of wits with engineering prodigies as you showcase your visionary ideas. This platform ignites creativity, sparking an exchange of game-changing concepts for your dream company. Don't miss your chance to be part of the future – Khanan'25 awaits your brilliance!",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSem7_pcT5s4hqncqyeq_zDFhcoKodgAPocpkZ0PqnQFYuuCaA/formrestricted",
+      "https://docs.google.com/forms/d/1jWs0h7AtgSEzaO2CpWVw4m8FhGhvV3X0P4GlKW7aDyg/edit",
     zoomlink: "",
     con: false,
   },
@@ -31,7 +31,7 @@ const events = [
       "Embark on a mining innovation journey with Mine Designothon at Khanan '25. This exhilarating 36-hour hackathon challenges students to design optimal mine solutions. It all begins on the event's website with an intriguing predicament unveiling. Collaborate with peers, brainstorm ideas, and explore diverse possibilities to craft viable answers. Your hard work culminates in a meticulous assessment by a selective jury, ensuring fair and accurate evaluation. Join this intellectual quest to showcase your mining prowess and innovative spirit. Khanan '25 – where innovation converges with mining excellence! Don't miss this opportunity to make your mark.",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSeKx2SGT1X24ICY1nQnghSgynLOU9fw2zmVNxWLw1tvhuGjOw/viewform?usp=send_form",
+      "https://docs.google.com/forms/d/1FKB5cBwmVi2hkZe_F1X2oQGc2B7DiaAKs1gnuN-jyIk/edit",
 
     con: false,
   },
@@ -43,7 +43,7 @@ const events = [
     ],
 
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSeuFhynMDopxovYHlqdhYbP8Q72KhP7gwUAXKlZRJIznx4gxA/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSfg6qnzRLoE5mb18B_b-7F3GMik4hgJVYGvVwa4MJ2jI0U2AQ/viewform",
     con: false,
   },
   {
@@ -53,7 +53,7 @@ const events = [
       "Get ready to level up your Khanan'25 experience at Gamicon! Trade your tie for a controller, and heels for a comfy spot as we transform the formal into the fantastic. Dive into virtual adventures and showcase your gaming prowess on two consecutive nights of non-stop fun! Join us in this game-based oasis, where fun knows no bounds. It's your golden ticket to a world where the night lights up with gaming fever. Don't miss out on the ultimate fusion of formal and gaming – Gamicon at Khanan'25!",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfkJ60avg0F2pDyNhZRuW78gGBdbz0h2mP040e3baS296YUlQ/viewform",
+      "https://docs.google.com/forms/d/1jWs0h7AtgSEzaO2CpWVw4m8FhGhvV3X0P4GlKW7aDyg/edit",
     con: false,
   },
   {
@@ -63,7 +63,7 @@ const events = [
       " Unearth hidden treasures and unravel mysteries at Khanan '25, IIT ISM Dhanbad's annual geo-mining fest! The notorious Khanan Mafia treasure hunt is back, promising an exhilarating adventure for those with sharp logic and deduction skills. Dive into a world of intrigue, strategy, and cunning as you navigate through thrilling twists and turns. Picture yourself at the heart of the action, forging alliances and unveiling secrets in a battle of wits like no other. Experience Khanan '25 in a whole new light with Khanan Mafia – where mystery and strategy collide for an unforgettable ride!",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdXBQzIada_4aA8pBIUOXfFWtanfDQXmBRlwfm6PnPSJIMepg/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSd7UoiWU1DSdxLloiWEUwEb-D-GZNGopwgb84ykOG71kIX46w/viewform?usp=dialog",
     zoomlink: "",
     con: false,
   },
@@ -74,7 +74,7 @@ const events = [
       "Fuel your curiosity at Mining Olympiad, a thrilling event at Khanan'25! Prepare for an epic challenge, showcasing your mining expertise and skills. Join us to promote mining studies, careers, and global awareness. Quizzine offers mining enthusiasts a chance to shine and test their knowledge. Unearth your potential at Mining Olympiad – where knowledge meets excitement!",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdW7pWAC4jiq3RAFKpSOBXfz6jRx4chTG-C8I4s8GCpO7xRCQ/viewform",
+      "https://forms.gle/UdMuXYosNjBJxHdu6",
     con: false,
   },
 
@@ -86,7 +86,7 @@ const events = [
     ],
 
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSeT_xJzqz3mDIw5Z3fIQjlCu3XmUGoA31zRyT6lwN2-iCJn2A/viewform",
+      "https://forms.gle/kK2EbNMNH9DBcw8ZA",
     con: false,
   },
   {
@@ -97,7 +97,7 @@ const events = [
     ],
 
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSe6MpKlg5UV77EO-LotEU9tSGQKt_v3h56Sg-_LqMd1zEnLXg/viewform",
+      "https://forms.gle/n2A1ZchGPZTgfQxb8",
     con: false,
   },
   {

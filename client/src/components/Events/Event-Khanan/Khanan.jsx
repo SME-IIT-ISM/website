@@ -22,10 +22,15 @@ import KSponser from "./khanan-components/KSponser";
 // import ReactPlayer from "react-player/youtube";
 import { Modal, ModalBody } from "reactstrap";
 
+
 var eventData = events.concat(speakers, preevents, workshop);
 
 const HomePage = () => {
   const [modal, setModal] = useState(true);
+    const [showModal, setShowModal] = useState(false);
+  
+    const handleOpen = () => setShowModal(true);
+    const handleClose = () => setShowModal(false);
 
   useEffect(() => {
     document.title = "Khanan - SME IIT ISM";
@@ -80,23 +85,46 @@ const HomePage = () => {
         </Modal>
       )
       } */}
-      <Particles />
+    <div
+  style={{
+    position: "absolute",
+    inset: 0,
+    zIndex: 0,
+    pointerEvents: "none", // prevents blocking clicks
+  }}
+>
+  <Particles />
+</div>
       <Knav />
       <KhananHeader />
       <WaveAnim />
       <Zoom timeout={600}>
         <KhananContent />
       </Zoom>
+
       <KSponser />
       {/*<PreEvents />*/}
       <Kevent />
+ <button className="schedule" onClick={() => {
+  const link = document.createElement("a");
+  link.href = "/schedule.pdf"; // path to your PDF in public folder
+  link.download = "Khanan_Schedule_2025.pdf"; // filename for download
+  link.click();
+}}>
+  Download Schedule
+</button>
+
+
+
+
       <Kworkshop />
 
-      <Zoom timeout={600}>
-        <Campus />
-      </Zoom>
+   
+       {/*<Campus /> */} 
+     
       <Speakers />
       <KhananSlider />
+      
     </div>
   );
 };

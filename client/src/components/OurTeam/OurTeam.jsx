@@ -3,19 +3,19 @@ import "./ourteam.css";
 import { Container, Row, Col } from "reactstrap";
 import { RiLinkedinBoxFill } from "react-icons/ri";
 import FacultyAdvisor from "./images/FacultyAdvisor.jpg";
-import Convenor from "./images/Convenor.jpg";
-import Co_Convenor from "./images/Co_Convenor.jpg";
-import Co_Convenor1 from "./images/Co_Convenor1.jpg";
-import Coordinator from "./images/Coordinator.jpg";
-import Co_Coordinator from "./images/Co_Coordinator.jpg";
+import President from "./images/Convenor.jpg";
+import VicePresident from "./images/Co_Convenor.jpg";
+import SecretaryERAA from "./images/Co_Convenor1.jpg";
+import Secretary from "./images/Coordinator.jpg";
+import AdSecretary from "./images/Co_Coordinator.jpg";
 import BDHead from "./images/BDHead.jpg";
 import AdBDHead from "./images/AdBDHead.jpg";
-import EventHead from "./images/EventHead.jpg";
+// import EventHead from "./images/EventHead.jpg";
 import EventHead1 from "./images/EventHead1.PNG";
 import EventHead2 from "./images/EventHead2.jpg";
 import Treasurer from "./images/Treasurer.jpg";
 import AdTreasurerHead from "./images/AdTreasurerHead.jpg";
-import DesigningHead from "./images/ProfileIcon.jpg";
+import DesigningHead from "./images/DesigningHead.jpg";
 import AdDesigningHead from "./images/AdDesigningHead.jpeg";
 import PRHead from "./images/PRHead.jpg";
 import AdPRHead from "./images/AdPRHead.jpg";
@@ -25,32 +25,32 @@ import MediaHead from "./images/MediaHead.jpg";
 import AdMediaHead from "./images/AdMediaHead.jpg";
 import PromotionHead from "./images/PromotionHead.jpg";
 import AdPromotionHead from "./images/AdPromotionHead.jpg";
-import MarketingHead from "./images/ProfileIcon.jpg";
+import MarketingHead from "./images/MarketingHead.jpeg";
 import AdMarketingHead from "./images/AdMarketingHead.jpg";
 import DraftingHead from "./images/DraftingHead.jpg";
-import AdDraftingHead from "./images/ProfileIcon.jpg";
+import AdDraftingHead from "./images/AdDraftingHead.jpg";
 import LogisticsHead from "./images/LogisticsHead.jpg";
 import AdLogisticsHead from "./images/AdLogisticsHead.jpg";
-import SecurityHead from "./images/ProfileIcon.jpg";
-import AdSecurityHead from "./images/ProfileIcon.jpg";
-import HospitalityHead from "./images/HospitalityHead.jpg";
-import AdHospitalityHead from "./images/AdHospitalityHead.jpg";
+import MembershipHead from "./images/MembershipHead.jpg";
+// import AdSecurityHead from "./images/ProfileIcon.jpg";
+// import HospitalityHead from "./images/HospitalityHead.jpg";
+// import AdHospitalityHead from "./images/AdHospitalityHead.jpg";
 const officeBearers = [
   {
-    src: Convenor,
-    position: "Convenor",
+    src: President,
+    position: "President",
     name: "Manish Kumar",
     linkedin: "https://www.linkedin.com/in/manish-kumar46/",
   },
   {
-    src: Co_Convenor,
-    position: "Co Convenor",
+    src: VicePresident,
+    position: "Vice President",
     name: "Deep kumar Dey",
     linkedin: "https://www.linkedin.com/in/deep-kumar-dey-b5741a253/",
   },
   {
-    src: Co_Convenor1,
-    position: "Co Convenor",
+    src: SecretaryERAA,
+    position: "Secretary, ERAA",
     name: "Md. Affan Ahmed",
     linkedin: "https://www.linkedin.com/in/mdaffanahmad/",
   },
@@ -58,14 +58,14 @@ const officeBearers = [
 
 const coreTeam = [
   {
-    src: Coordinator,
-    position: "Coordinator",
+    src: Secretary,
+    position: "Secretary",
     name: "Suraj Pradhan",
     linkedin: "https://www.linkedin.com/in/suraj-pradhan-a6aa39289/",
   },
   {
-    src: Co_Coordinator,
-    position: "Co-Coordinator",
+    src: AdSecretary,
+    position: "Ad. Secretary",
     name: "Arpita Raj",
     linkedin: "https://www.linkedin.com/in/arpita-raj-0033a0287/",
   },
@@ -77,16 +77,16 @@ const coreTeam = [
   },
   {
     src: EventHead2,
-    position: "Event Head",
+    position: "Ad. Event Head",
     name: "Prabal Chandra",
     linkedin: "https://www.linkedin.com/in/prabal-chandra-bera/",
   },
-  {
-    src: EventHead,
-    position: "Event Head",
-    name: "Parsh Chandra",
-    linkedin: "https://www.linkedin.com/in/parsh-chandra-00b734296/",
-  },
+  // {
+  //   src: EventHead,
+  //   position: "Event Head",
+  //   name: "Parsh Chandra",
+  //   linkedin: "https://www.linkedin.com/in/parsh-chandra-00b734296/",
+  // },
   {
     src: Treasurer,
     position: "Treasurer",
@@ -95,7 +95,7 @@ const coreTeam = [
   },
   {
     src: AdTreasurerHead,
-    position: "Ad. Treasurer Head",
+    position: "Ad. Treasurer",
     name: "Abhijit Srivastava",
     linkedin: "",
   },
@@ -113,13 +113,13 @@ const coreTeam = [
   },
   {
     src: BDHead,
-    position: "BD Head",
+    position: "Business Dev Head",
     name: "Sidhant Saurav",
     linkedin: "https://www.linkedin.com/in/sidhant-saurav-165162282/",
   },
   {
     src:AdBDHead,
-    position: "Ad. BD Head",
+    position: "Ad. Business Dev Head",
     name: "Sumit Bhagat",
     linkedin: "https://www.linkedin.com/in/sumit-bhagat-389525290/",
   },
@@ -148,28 +148,28 @@ const coreTeam = [
     name: "Amit Jana",
     linkedin: "https://www.linkedin.com/in/amit-jana-4203b1287/",
   },
-  {
-    src: HospitalityHead,
-    position: "Hospitality Head",
-    name: "Jayaram",
-    linkedin: "https://www.linkedin.com/in/jayaram-sai-krishna-motapothula-549a18281/",
-  },
-  {
-    src: AdHospitalityHead,
-    position: "Ad. Hospitality Head",
-    name: "Vinay",
-    linkedin: "https://www.linkedin.com/in/mutyala-vinay-740000293/",
-  },
+  // {
+  //   src: HospitalityHead,
+  //   position: "Hospitality Head",
+  //   name: "Jayaram",
+  //   linkedin: "https://www.linkedin.com/in/jayaram-sai-krishna-motapothula-549a18281/",
+  // },
+  // {
+  //   src: AdHospitalityHead,
+  //   position: "Ad. Hospitality Head",
+  //   name: "Vinay",
+  //   linkedin: "https://www.linkedin.com/in/mutyala-vinay-740000293/",
+  // },
   
   {
     src: PRHead,
-    position: "PR Head",
+    position: "Public Relation Head",
     name: "Aditya Kumar Paswan",
     linkedin: "https://www.linkedin.com/in/adityakrpaswan/",
   },
   {
     src: AdPRHead,
-    position: "Ad. PR Head",
+    position: "Ad. Public Relation Head",
     name: "Sunny Kumar",
     linkedin: "https://www.linkedin.com/in/sunny-kumar-974b76287/",
 
@@ -226,17 +226,17 @@ const coreTeam = [
   },
   
   {
-    src: SecurityHead,
-    position: "Security Head",
+    src: MembershipHead,
+    position: "Membership Head",
     name: "Shubham Kumar",
     linkedin: "https://www.linkedin.com/in/shubham-kumar-1667a4231/",
   },
-  {
-    src: AdSecurityHead,
-    position: "Ad. Security Head",
-    name: "Shubham yadav",
-    linkedin: "https://www.linkedin.com/in/shubham-yadav-837943289/",
-  }
+  // {
+  //   src: AdSecurityHead,
+  //   position: "Ad. Security Head",
+  //   name: "Shubham yadav",
+  //   linkedin: "https://www.linkedin.com/in/shubham-yadav-837943289/",
+  // }
 ];
 
 const developers = [
@@ -378,7 +378,7 @@ const OurTeam = () => {
           Developers
         </h1>
         <Container className="pb-5">
-          <Row className="justify-content-center justify-content-sm-between">
+          <Row className="justify-content-center">
             {developers.map((item, index) => {
               return (
                 <Col className="my-2" xs="10" sm="6" md="4" lg="3" key={index}>
