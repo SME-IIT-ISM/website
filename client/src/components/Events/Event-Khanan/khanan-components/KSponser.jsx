@@ -20,7 +20,7 @@ const sponsors = [
    { img: hzl, name: "HZL", type: "Platinum",  },
 ];
 
-const sponsorTypes = ["Gold","Associate","Platinum", "Bronze",  "Partner"];
+const sponsorTypes = ["Gold","Platinum", "Bronze","Associate", "Partner"];
 
 const KSponser = () => {
   return (

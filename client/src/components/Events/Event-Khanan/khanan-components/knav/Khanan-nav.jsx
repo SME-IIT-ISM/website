@@ -23,18 +23,7 @@ const Knav = () => {
             </div>
           </a>
         </li>
-        <li>
-          <a className="knav-image" href="#campus">
-            <div className="knav-content">
-              <IoTrophySharp />
-              <span>
-                Campus
-                <br />
-                Ambassador
-              </span>
-            </div>
-          </a>
-        </li>
+     
         <li>
           <a className="knav-image" href="#gallery">
             <div className="knav-content">
