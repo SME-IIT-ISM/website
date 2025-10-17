@@ -4,6 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import Particles from "./Particles";
 
 const EventPage = (props) => {
+  console.log(props.eventData);
   const title = props.eventData?.title;
   const src = props.eventData?.src;
   const struct = props.eventData?.struct;

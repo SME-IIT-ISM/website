@@ -1,7 +1,7 @@
 import React from "react";
 import "./knav.css";
 import { IoHome, IoTrophySharp } from "react-icons/io5";
-import { RiCalendarEventFill, RiGalleryFill } from "react-icons/ri";
+import { RiCalendarEventFill, RiGalleryFill, RiTimeLine } from "react-icons/ri";
 
 const Knav = () => {
   return (
@@ -23,18 +23,7 @@ const Knav = () => {
             </div>
           </a>
         </li>
-        <li>
-          <a className="knav-image" href="#campus">
-            <div className="knav-content">
-              <IoTrophySharp />
-              <span>
-                Campus
-                <br />
-                Ambassador
-              </span>
-            </div>
-          </a>
-        </li>
+     
         <li>
           <a className="knav-image" href="#gallery">
             <div className="knav-content">
@@ -43,6 +32,7 @@ const Knav = () => {
             </div>
           </a>
         </li>
+
       </ul>
     </div>
   );

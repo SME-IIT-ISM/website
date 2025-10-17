@@ -6,12 +6,11 @@
 
 .knavi {
   float: left;
-  position: fixed;
-  top: 30%;
+  position: absolute; /* changed from fixed */
+  top: 30%; /* keeps it initially at 30% from top of the container */
   left: 0;
   background: transparent;
   padding-inline-start: 0px !important;
-  transform: translateX(-30px);
   z-index: 1000;
 }
 
@@ -49,7 +48,7 @@ a.knav-image {
 a.knav-image span {
   color: transparent;
   height: 0;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 a.knav-image:hover span {
   width: 130px;
@@ -58,4 +57,8 @@ a.knav-image:hover span {
 }
 .knav-content {
   padding-top: 25px;
+}
+
+span,a{
+  text-decoration: none;
 }

@@ -11,7 +11,7 @@ const AnnualCalender = () => {
     <div>
       <div className="calender-heading-bg mt-4 d-flex align-items-center justify-content-center">
         <h1 className="page-heading text-center py-3 text-uppercase">
-          Annual Calender
+          Annual Calendar
         </h1>
       </div>
       <div className=" calender d-flex flex-column justify-content-center align-items-center  my-5">

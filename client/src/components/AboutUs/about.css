@@ -11,10 +11,14 @@
   background-attachment: fixed;
   background-size: cover;
 }
+.about-heading{
+  font-size: 80px;
+}
 
 .about-head-icons {
   font-size: 5rem;
   color: #374785;
+  align-self: center;
 }
 
 .about-wrap {
@@ -43,3 +47,7 @@
 .list-bullet-icon {
   transform: rotate(90deg);
 }
+
+
+
+

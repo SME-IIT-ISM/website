@@ -11,6 +11,9 @@
   display: block;
   margin-top: 2%;
 }
+.contact-head{
+  font-size: 60px;
+}
 .embed-responsive-16by9 {
   height: 50vh;
   width: 100%;
@@ -31,4 +34,9 @@
 .contact-section {
   background-color: #24305e;
   color: aliceblue;
+}
+
+.page-heading{
+  font-size: 60px;
+  
 }

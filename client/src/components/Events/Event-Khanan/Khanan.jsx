@@ -4,6 +4,8 @@ import KhananSlider from "./khanan-components/Kslider";
 import Knav from "./khanan-components/knav/Khanan-nav";
 import KhananContent from "./khanan-components/Khanan-content";
 import Kevent from "./khanan-components/k-events/KhananEvent";
+import Kworkshop from "./khanan-components/k-events/KhananWorkshop";
+
 import Campus from "./khanan-components/CampusAmd";
 import Speakers from "./khanan-components/Kspeakers";
 import WaveAnim from "./khanan-components/WaveAnim";
@@ -13,63 +15,108 @@ import Particles from "./Particles";
 import Zoom from "react-reveal/Zoom";
 import "./khanan.css";
 import { events } from "./khanan-components/k-events/KhananEvent";
+import { workshop } from "./khanan-components/k-events/KhananWorkshop";
 import { speakers } from "./khanan-components/Kspeakers";
 import PreEvents, { preevents } from "./khanan-components/PreEvent";
 import KSponser from "./khanan-components/KSponser";
-import ReactPlayer from "react-player/youtube";
-import { Modal,ModalBody } from 'reactstrap';
+// import ReactPlayer from "react-player/youtube";
+import { Modal, ModalBody } from "reactstrap";
 
-var eventData = events.concat(speakers,preevents);
+
+var eventData = events.concat(speakers, preevents, workshop);
 
 const HomePage = () => {
   const [modal, setModal] = useState(true);
+    const [showModal, setShowModal] = useState(false);
+  
+    const handleOpen = () => setShowModal(true);
+    const handleClose = () => setShowModal(false);
 
-  useEffect(()=>{
+  useEffect(() => {
     document.title = "Khanan - SME IIT ISM";
-    if(sessionStorage.getItem('1'))
-    {
+    if (sessionStorage.getItem("1")) {
       setModal(false);
     }
-  },[])
+  }, []);
   // if(data!=null)
   // {
   //   setModal(data);
   // }
   const toggle = () => {
     setModal(!modal);
-     sessionStorage.setItem('1', true);
-     console.log( sessionStorage.getItem('1'));
-  }
+    sessionStorage.setItem("1", true);
+    console.log(sessionStorage.getItem("1"));
+  };
 
   return (
     <div style={{ backgroundColor: "black" }} className="k-main">
-      {modal && <Modal isOpen={modal} toggle={toggle} className="popup"  centered="true"  size="lg">
-        <ModalBody>
-        <ReactPlayer
+      {/* {modal && (
+        <Modal
+          isOpen={modal}
+          toggle={toggle}
+          className="popup"
+          centered="true"
+          size="lg"
+        >
+          <div style={{ backgroundColor: "black", display: "flex" }}>
+            <button
+              clasName="btn btn-danger"
+              onClick={toggle}
+              style={{
+                color: "white",
+                backgroundColor: "black",
+                marginLeft: "auto",
+              }}
+            >
+              {" "}
+              Close{" "}
+            </button>
+          </div>
+          <ModalBody>
+            <ReactPlayer
               className="k-yt-player"
-              url="https://youtu.be/5a69OLosWZg"
+              url="https://youtu.be/jVdgcGofiXA"
               controls={true}
               width="100%"
               height="100%"
               pip={true}
             />
-        </ModalBody>
-      </Modal>}
-      <Particles />
+          </ModalBody>
+        </Modal>
+      )
+      } */}
+    <div
+  style={{
+    position: "absolute",
+    inset: 0,
+    zIndex: 0,
+    pointerEvents: "none", // prevents blocking clicks
+  }}
+>
+  <Particles />
+</div>
       <Knav />
       <KhananHeader />
       <WaveAnim />
       <Zoom timeout={600}>
         <KhananContent />
       </Zoom>
-      <KSponser/>
-      <PreEvents/>
+
+      <KSponser />
+      {/*<PreEvents />*/}
       <Kevent />
-      <Zoom timeout={600}>
-        <Campus />
-      </Zoom>
+
+
+
+
+      <Kworkshop />
+
+   
+       {/*<Campus /> */} 
+     
       <Speakers />
       <KhananSlider />
+      
     </div>
   );
 };

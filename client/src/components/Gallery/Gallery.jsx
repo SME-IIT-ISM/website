@@ -46,6 +46,16 @@ import Kryptos1 from "./Kryptos/Kryptos1.jpg";
 import KHANAN191 from "./KHANAN19/KHANAN191.jpg";
 import KHANAN192 from "./KHANAN19/KHANAN192.jpg";
 import KHANAN193 from "./KHANAN19/KHANAN193.jpg";
+import KHANAN221 from "./KHANAN22/KHANAN221.jpg";
+import KHANAN222 from "./KHANAN22/KHANAN222.jpg";
+import KHANAN223 from "./KHANAN22/KHANAN223.JPG";
+import KHANAN224 from "./KHANAN22/KHANAN224.jpg";
+import KHANAN225 from "./KHANAN22/KHANAN225.jpg";
+import KHANAN226 from "./KHANAN22/KHANAN226.jpg";
+import KHANAN227 from "./KHANAN22/KHANAN227.JPG";
+import KHANAN228 from "./KHANAN22/KHANAN228.JPG";
+import KHANAN229 from "./KHANAN22/KHANAN229.JPG";
+import KHANAN2210 from "./KHANAN22/KHANAN2210.JPG";
 import MiningDay191 from "./MiningDay19/MiningDay191.jpg";
 import MiningDay192 from "./MiningDay19/MiningDay192.jpg";
 import MiningDay193 from "./MiningDay19/MiningDay193.jpg";
@@ -70,6 +80,7 @@ const tabs = [
   "Essay Competition",
   "Khanan'18",
   "Khanan'19",
+  "Khanan'22",
   "Kryptos",
   "Mining Day 19",
   "Minnovare",
@@ -127,6 +138,56 @@ const ALLPhotos = [
     src: AwardsAndAppreciation4,
     alt: "AwardsAndAppreciation4",
     event: "Awards & Appreciation",
+  },
+  {
+    src: KHANAN221,
+    alt: "KHANAN221",
+    event: "Khanan'22",
+  },
+  {
+    src: KHANAN222,
+    alt: "KHANAN222",
+    event: "Khanan'22",
+  },
+  {
+    src: KHANAN223,
+    alt: "KHANAN223",
+    event: "Khanan'22",
+  },
+  {
+    src: KHANAN224,
+    alt: "KHANAN224",
+    event: "Khanan'22",
+  },
+  {
+    src: KHANAN225,
+    alt: "KHANAN225",
+    event: "Khanan'22",
+  },
+  {
+    src: KHANAN226,
+    alt: "KHANAN226",
+    event: "Khanan'22",
+  },
+  {
+    src: KHANAN227,
+    alt: "KHANAN227",
+    event: "Khanan'22",
+  },
+  {
+    src: KHANAN228,
+    alt: "KHANAN228",
+    event: "Khanan'22",
+  },
+  {
+    src: KHANAN229,
+    alt: "KHANAN229",
+    event: "Khanan'22",
+  },
+  {
+    src: KHANAN2210,
+    alt: "KHANAN2210",
+    event: "Khanan'22",
   },
   {
     src: DiwaliCelebration1,
@@ -345,7 +406,7 @@ const Gallery = () => {
               </CardBody>
             </Card>
           </Col>
-          <Col xs="12" md="6" className="d-flex flex-column order-1 order-md-2">
+          <Col xs="12" md="6" className="d-flex flex-column order-1 order-md-2 ">
             <div className="h1 text-white GHText1">Welcome to our Memories</div>
             <div className="h4 text-white display-6 GHText2">
               Take a trip down our memory lane

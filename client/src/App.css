@@ -7,7 +7,7 @@
 /* font-family: "Arima Madurai", cursive; */
 /* Remaining content */
 /* font-family: "Libre Baskerville", serif; */
-
+/*new 
 :root {
   --sme-blue: #1989ca;
   --facebook-color: #4267b2;
@@ -122,6 +122,21 @@ h1.page-heading::after {
 }
 
 /* For scroll to top button */
+.social-instagram {
+  color: white ;
+ 
+}
+.social-linkedin{
+  color: white ;
+}
+
+.social-youtube {
+ color: white ;
+}
+.social-facebook {
+   color: white ;
+}
+
 .scroll-to-top .top {
   position: fixed;
   cursor: pointer;
@@ -371,7 +386,7 @@ a.nav-dropdown {
   position: relative;
   color: #ffffff;
   font-size: 30px;
-  margin-top: 15px;
+  margin-top: 5px;
   transition: all 0.25s ease-in-out;
 }
 
