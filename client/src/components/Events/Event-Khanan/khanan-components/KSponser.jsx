@@ -10,15 +10,17 @@ import bombayspices from "./Khanan-sposnors-2k24/Bombayfood.png";
 import MiningGyan from "./Khanan-sposnors-2k24/MiningGyan.png";
 import mcl from "../khanan-img/mcl.png"
 import dmsl from "../khanan-img/dmsl.jpg"
+import  hzl from "../khanan-img/HZL logo.jpg"
 
 const sponsors = [
   { img: tatasteel, name: "Tata Steel", type: "Associate", },
   { img: dmsl, name: "DMSL", type: "Associate", },
   { img: NTPCMINE, name: "NML", type: "Bronze", },
   { img: mcl, name: "MCL", type: "Associate",  },
+   { img: hzl, name: "HZL", type: "Platinum",  },
 ];
 
-const sponsorTypes = ["Gold","Associate", "Bronze",  "Partner"];
+const sponsorTypes = ["Gold","Associate","Platinum", "Bronze",  "Partner"];
 
 const KSponser = () => {
   return (

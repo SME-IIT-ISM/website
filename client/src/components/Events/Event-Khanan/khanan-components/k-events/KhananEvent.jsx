@@ -1,14 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import K1 from "../Khanan-sposnors-2k24/deyzno-mania.png";
-import K2 from "../Khanan-sposnors-2k24/Gamicon.png";
+import K2 from "../Khanan-sposnors-2k24/gamicon25.png";
 import K3 from "../Khanan-sposnors-2k24/war-o-words.png";
-import K4 from "../Khanan-sposnors-2k24/Khanan Mafia.png";
+import K4 from "../Khanan-sposnors-2k24/khananmafia25.png";
 import K5 from "../Khanan-sposnors-2k24/mineolympaid.png";
 import K6 from "../Khanan-sposnors-2k24/nirvana.png";
 import K7 from "../Khanan-sposnors-2k24/placementfever.png";
 import K8 from "../Khanan-sposnors-2k24/quizzine.png";
-import K11 from "../Khanan-sposnors-2k24/Kalakriti.png";
+import K11 from "../Khanan-sposnors-2k24/25.png";
 import KhananCard from "./KhananCard";
 import Zoom from "react-reveal/Zoom";
 

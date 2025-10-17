@@ -21,6 +21,46 @@
   background: #fff;
 }
 
+.schedule {
+  border-radius: 20px;
+  padding: 20px 50px;
+  display: block;
+  margin: 20px auto;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #2563eb; /* initial blue */
+  animation: colorBlink 3s infinite ease-in-out;
+  transition: transform 0.3s ease;
+}
+
+.schedule:hover {
+  transform: scale(1.05);
+}
+
+/* Background color keyframe animation: blue → purple → pink → purple → blue */
+@keyframes colorBlink {
+  0% {
+    background-color: #2563eb; /* blue */
+  }
+  25% {
+    background-color: #8b5cf6; /* purple */
+  }
+  50% {
+    background-color: #ec4899; /* pink */
+  }
+  75% {
+    background-color: #8b5cf6; /* purple */
+  }
+  100% {
+    background-color: #2563eb; /* back to blue */
+  }
+}
+
+
+
 .khanan-website {
   font-family: "Merienda", cursive;
 }
