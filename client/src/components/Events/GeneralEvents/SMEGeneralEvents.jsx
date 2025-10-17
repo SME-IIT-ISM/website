@@ -24,7 +24,7 @@ import GEImages11 from "./images/smeevent11.png";
 import GEImages12 from "./images/POSTER.png";
 import EventCard from "./EventCard";
 import EventPage from "./EventPage";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal";
 
 const tabs = ["Upcoming", "Past"];
 

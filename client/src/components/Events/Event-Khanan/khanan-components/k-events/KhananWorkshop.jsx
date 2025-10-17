@@ -13,7 +13,7 @@ import { speakers } from "../Kspeakers.jsx";
 import { events } from "./KhananEvent.jsx";
 import { preevents } from "../PreEvent.jsx";
 
-import Zoom from "react-reveal/Zoom";
+import Zoom from "react-awesome-reveal";
 
 const workshop = [
   {

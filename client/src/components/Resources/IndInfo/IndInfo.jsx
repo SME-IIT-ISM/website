@@ -13,7 +13,7 @@ import Info7 from "./indimg/Info7.jpg";
 import Info8 from "./indimg/Info8.jpg";
 import Info9 from "./indimg/Info9.jpg";
 import Info10 from "./indimg/Info10.jpg";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import InfoPage from "./IndinfoPage";
 
