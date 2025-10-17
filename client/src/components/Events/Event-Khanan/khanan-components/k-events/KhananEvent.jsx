@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import K1 from "../Khanan-sposnors-2k24/deyzno-mania.png";
+import K1 from "../Khanan-sposnors-2k24/war-o-words.png";
 import K2 from "../Khanan-sposnors-2k24/gamicon25.png";
-import K3 from "../Khanan-sposnors-2k24/war-o-words.png";
+import K3 from "../Khanan-sposnors-2k24/deyzno-mania.png";
 import K4 from "../Khanan-sposnors-2k24/khananmafia25.png";
 import K5 from "../Khanan-sposnors-2k24/mineolympaid.png";
 import K6 from "../Khanan-sposnors-2k24/nirvana.png";
@@ -20,7 +20,7 @@ const events = [
       "Get ready to unearth innovation at The Next Big Thing in Khanan'25. Join the battle of wits with engineering prodigies as you showcase your visionary ideas. This platform ignites creativity, sparking an exchange of game-changing concepts for your dream company. Don't miss your chance to be part of the future – Khanan'25 awaits your brilliance!",
     ],
     srclink:
-      "https://docs.google.com/forms/d/1jWs0h7AtgSEzaO2CpWVw4m8FhGhvV3X0P4GlKW7aDyg/edit",
+      "https://docs.google.com/forms/d/e/1FAIpQLSfHYRD3G0Ad1l0Yfr1TGi_0p3pLgVI25GXLBTu74rwm_chw3g/viewform",
     zoomlink: "",
     con: false,
   },
@@ -39,7 +39,7 @@ const events = [
     title: "Nirvana",
     src: K6,
     struct: [
-      "Dive into innovation at Nirvana, the crown jewel of Khanan'25 – IIT ISM Dhanbad's Geo Mining Fest! Unleash your brilliance in the mining industry's epicenter. Nirvana presents a dual-track adventure. Choose to conquer Khanan's challenges head-on or forge your own path with tailored solutions. Our expert-curated problem statements are a testament to excellence, guided by the sharpest minds in the field. Join us for a seismic shift in mining innovation. Don't miss your chance to shine at Nirvana, where groundbreaking ideas light up the future. Secure your spot at Khanan'24 and be part of the geological revolution!",
+      "Dive into innovation at Nirvana, the crown jewel of Khanan'25 – IIT ISM Dhanbad's Geo Mining Fest! Unleash your brilliance in the mining industry's epicenter. Nirvana presents a dual-track adventure. Choose to conquer Khanan's challenges head-on or forge your own path with tailored solutions. Our expert-curated problem statements are a testament to excellence, guided by the sharpest minds in the field. Join us for a seismic shift in mining innovation. Don't miss your chance to shine at Nirvana, where groundbreaking ideas light up the future. Secure your spot at Khanan'25 and be part of the geological revolution!",
     ],
 
     srclink:

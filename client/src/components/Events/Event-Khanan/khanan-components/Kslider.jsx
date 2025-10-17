@@ -81,7 +81,7 @@ class KhananSlider extends React.Component {
   render() {
     return (
       <div className="main-content py-5" id="gallery">
-         <h2 className="text-center mb-5 k-sub-heading">THROWBACK</h2>
+         <h2 className="text-center mb-5 k-sub-heading">GALLERY</h2>
         <OwlCarousel className="slider-items owl-carousel" {...options}>
           {Kslider}
         </OwlCarousel>
