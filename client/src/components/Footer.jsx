@@ -134,7 +134,7 @@ const Footer = (props) => {
 
         {/* <!-- Copyright --> */}
         <div className="text-center p-3 copyright">
-          © 2022 Copyright: All rights reserved |{" "}
+          © 2025 Copyright: All rights reserved |{" "}
           <a className="text-white" href="/">
             SME IIT (ISM) Dhanbad Student Chapter
           </a>

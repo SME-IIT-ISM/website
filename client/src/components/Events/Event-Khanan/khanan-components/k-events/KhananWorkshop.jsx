@@ -33,7 +33,7 @@ const workshop = [
       "The Modern Surveying Techniques Workshop provides a comprehensive overview of the latest surveying technologies. It includes hands-on training on tools like GPS, LiDAR, and drones, and covers data processing and analysis. This workshop equips participants with practical skills for efficient and accurate surveying.",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfe1e1MZ6dimq9SqzW06tCbGRQrxEiWObgkloKD6Bx2MEzrpA/viewform?usp=send_form",
+      "https://forms.gle/59m3ttNGqaRFzxw98",
     con: false,
   },
   // {
