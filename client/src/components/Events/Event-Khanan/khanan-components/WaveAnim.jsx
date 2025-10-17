@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import animationData from "./wave-lottie.json";
 
 class WaveAnim extends Component {
