@@ -20,7 +20,7 @@ const events = [
       "Get ready to unearth innovation at The Next Big Thing in Khanan'25. Join the battle of wits with engineering prodigies as you showcase your visionary ideas. This platform ignites creativity, sparking an exchange of game-changing concepts for your dream company. Don't miss your chance to be part of the future – Khanan'25 awaits your brilliance!",
     ],
     srclink:
-      "https://docs.google.com/forms/d/1jWs0h7AtgSEzaO2CpWVw4m8FhGhvV3X0P4GlKW7aDyg/edit",
+      "https://docs.google.com/forms/d/e/1FAIpQLSfHYRD3G0Ad1l0Yfr1TGi_0p3pLgVI25GXLBTu74rwm_chw3g/viewform",
     zoomlink: "",
     con: false,
   },

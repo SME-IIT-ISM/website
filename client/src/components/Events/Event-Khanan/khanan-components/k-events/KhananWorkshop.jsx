@@ -23,7 +23,7 @@ const workshop = [
       "The Mine Design and Planning Workshop offers an intensive study of mining principles. It covers geological modeling, resource estimation, mine design, and production scheduling. Participants gain practical skills through exercises and expert-led presentations, preparing them for professional roles in the mining industry.",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfptCy3mfsTXzhruchksA9xI6ftCBXCk5cXZYTXg72FqItOZQ/viewform?usp=sf_link",
+      "https://docs.google.com/forms/d/e/1FAIpQLSeUwuxFIjLp6jHbQY4M93h-6R0_HfOaR0xd9ea2kN95QhSleA/viewform",
     con: false,
   },
   {
