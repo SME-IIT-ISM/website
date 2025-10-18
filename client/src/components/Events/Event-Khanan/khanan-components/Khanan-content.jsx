@@ -11,7 +11,7 @@ const KhananContent = () => {
       <p className="fs-5 lh-lg mb-4">
         <strong>KHANAN 2025</strong>, the biggest Mining Fest in India, aims to bring
         the students from several institutions offering mining and allied courses
-        across the country. This year’s three-day summit shall include a series of
+        across the country. This year’s two-day summit shall include a series of
         vibrant events such as panel discussions, guest lectures by eminent
         personalities in the mining industry from across the world, paper
         presentations and case studies, thus exposing the students to current
