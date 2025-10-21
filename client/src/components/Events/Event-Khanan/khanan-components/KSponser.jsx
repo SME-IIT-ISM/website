@@ -11,13 +11,17 @@ import MiningGyan from "./Khanan-sposnors-2k24/MiningGyan.png";
 import mcl from "../khanan-img/mcl.png"
 import dmsl from "../khanan-img/dmsl.jpg"
 import  hzl from "../khanan-img/HZL logo.jpg"
+import  vedanta from "../khanan-img/vedanta.jpg"
+import  jindalsteel from "../khanan-img/jindalsteel.png"
 
 const sponsors = [
   { img: tatasteel, name: "Tata Steel", type: "Associate", },
+   { img: vedanta, name: "Vedanta", type: "Associate", },
   { img: dmsl, name: "DMSL", type: "Associate", },
   { img: NTPCMINE, name: "NML", type: "Bronze", },
   { img: mcl, name: "MCL", type: "Associate",  },
    { img: hzl, name: "HZL", type: "Platinum",  },
+      { img: jindalsteel, name: "Jindal Steel", type: "Platinum",  },
 ];
 
 const sponsorTypes = ["Gold","Platinum", "Bronze","Associate", "Partner"];

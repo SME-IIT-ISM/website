@@ -20,7 +20,7 @@ const KhananContent = () => {
         their technical skills and response to real world problems, the two pillars
         of professionalism in any field.
       </p>
-
+w
       {/* Button */}
   
 
