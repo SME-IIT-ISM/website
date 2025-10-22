@@ -2,8 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 // import K1 from "./k-workshop-images/3d immersive technologies.png";
 import K4 from "../Khanan-sposnors-2k24/workshop1.png";
+import survey from "../Khanan-sposnors-2k24/vrsurvey.jpg";
 // import K3 from "./k-workshop-images/data visualisation.png";
 import K2 from "../Khanan-sposnors-2k24/workshop2.png";
+import minetech from "../Khanan-sposnors-2k24/minetech.jpg";
 // import K5 from "./k-workshop-images/real time telematics.png";
 // import K6 from "./k-workshop-images/resource modelling.png";
 // import K7 from "./k-workshop-images/sensor technologies.png";
@@ -18,7 +20,7 @@ import Zoom from "react-awesome-reveal";
 const workshop = [
   {
     title: "Mine Planning and Design",
-    src: K4,
+    src: minetech,
     struct: [
       "The Mine Design and Planning Workshop offers an intensive study of mining principles. It covers geological modeling, resource estimation, mine design, and production scheduling. Participants gain practical skills through exercises and expert-led presentations, preparing them for professional roles in the mining industry.",
     ],
@@ -27,8 +29,8 @@ const workshop = [
     con: false,
   },
   {
-    title: "Modern Surveying Techniques",
-    src: K2,
+    title: "VR and Modern Surveying Techniques",
+    src: survey,
     struct: [
       "The Modern Surveying Techniques Workshop provides a comprehensive overview of the latest surveying technologies. It includes hands-on training on tools like GPS, LiDAR, and drones, and covers data processing and analysis. This workshop equips participants with practical skills for efficient and accurate surveying.",
     ],
