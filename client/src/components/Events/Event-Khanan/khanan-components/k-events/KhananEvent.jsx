@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import K1 from "../Khanan-sposnors-2k24/war-o-words25.png";
 import K2 from "../Khanan-sposnors-2k24/gamicon25.png";
+import K12 from "../Khanan-sposnors-2k24/gamicon2.jpg";
 import K3 from "../Khanan-sposnors-2k24/deyzno-mania25.png";
 import K4 from "../Khanan-sposnors-2k24/khananmafia25.png";
 import K5 from "../Khanan-sposnors-2k24/mineolympaid25.png";
@@ -46,8 +47,8 @@ const events = [
       "https://docs.google.com/forms/d/e/1FAIpQLSfg6qnzRLoE5mb18B_b-7F3GMik4hgJVYGvVwa4MJ2jI0U2AQ/viewform",
     con: false,
   },
-  {
-    title: "Gamicon",
+    {
+    title: "Gamicon ",
     src: K2,
     struct: [
       "Get ready to level up your Khanan'25 experience at Gamicon! Trade your tie for a controller, and heels for a comfy spot as we transform the formal into the fantastic. Dive into virtual adventures and showcase your gaming prowess on two consecutive nights of non-stop fun! Join us in this game-based oasis, where fun knows no bounds. It's your golden ticket to a world where the night lights up with gaming fever. Don't miss out on the ultimate fusion of formal and gaming – Gamicon at Khanan'25!",
@@ -56,6 +57,17 @@ const events = [
       "https://docs.google.com/forms/d/1jWs0h7AtgSEzaO2CpWVw4m8FhGhvV3X0P4GlKW7aDyg/edit",
     con: false,
   },
+  {
+    title: "Gamicon 2.0",
+    src: K12,
+    struct: [
+      "Get ready to level up your Khanan'25 experience at Gamicon! Trade your tie for a controller, and heels for a comfy spot as we transform the formal into the fantastic. Dive into virtual adventures and showcase your gaming prowess on two consecutive nights of non-stop fun! Join us in this game-based oasis, where fun knows no bounds. It's your golden ticket to a world where the night lights up with gaming fever. Don't miss out on the ultimate fusion of formal and gaming – Gamicon at Khanan'25!",
+    ],
+    srclink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdBkWA-BmbcLXgKIz-YNG_ntxFsjPTNAvRAY-ebIoUIoSxmtw/viewform?usp=header",
+    con: false,
+  },
+  
   {
     title: "Khanan Mafia",
     src: K4,
