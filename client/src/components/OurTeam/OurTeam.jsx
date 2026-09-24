@@ -5,33 +5,33 @@ import { RiLinkedinBoxFill } from "react-icons/ri";
 import FacultyAdvisor from "./images/FacultyAdvisor.jpg";
 import President from "./images/Convenor.jpg";
 import VicePresident from "./images/Co_Convenor.jpg";
-import SecretaryERAA from "./images/Co_Convenor1.jpg";
-import Secretary from "./images/Coordinator.jpg";
-import AdSecretary from "./images/Co_Coordinator.jpg";
-import BDHead from "./images/BDHead.jpg";
-import AdBDHead from "./images/AdBDHead.jpg";
+import SecretaryERAA from "./images/Co_Convenor1.jpeg";
+import Secretary from "./images/Coordinator.jpeg";
+import AdSecretary from "./images/Co_Coordinator.jpeg";
+import BDHead from "./images/BDHead.jpeg";
+import AdBDHead from "./images/AdBDHead.png";
 // import EventHead from "./images/EventHead.jpg";
-import EventHead1 from "./images/EventHead1.PNG";
-import EventHead2 from "./images/EventHead2.jpg";
+import EventHead1 from "./images/EventHead1.jpeg";
+import EventHead2 from "./images/EventHead2.jpeg";
 import Treasurer from "./images/Treasurer.jpg";
-import AdTreasurerHead from "./images/AdTreasurerHead.jpg";
-import DesigningHead from "./images/DesigningHead.jpg";
+import AdTreasurerHead from "./images/AdTreasurerHead.jpeg";
+import DesigningHead from "./images/DesigningHead.jpeg";
 import AdDesigningHead from "./images/AdDesigningHead.jpeg";
-import PRHead from "./images/PRHead.jpg";
-import AdPRHead from "./images/AdPRHead.jpg";
+import PRHead from "./images/PRHead.jpeg";
+import AdPRHead from "./images/AdPRHead.jpeg";
 import TechnicalHead from "./images/TechnicalHead.jpg";
-import AdTechnicalHead from "./images/AdTechnicalHead.jpg";
-import MediaHead from "./images/MediaHead.jpg";
+import AdTechnicalHead from "./images/AdTechnicalHead.jpeg";
+import MediaHead from "./images/MediaHead.jpeg";
 import AdMediaHead from "./images/AdMediaHead.jpg";
-import PromotionHead from "./images/PromotionHead.jpg";
-import AdPromotionHead from "./images/AdPromotionHead.jpg";
+import PromotionHead from "./images/PromotionHead.jpeg";
+import AdPromotionHead from "./images/AdPromotionHead.jpeg";
 import MarketingHead from "./images/MarketingHead.jpeg";
 import AdMarketingHead from "./images/AdMarketingHead.jpg";
-import DraftingHead from "./images/DraftingHead.jpg";
+import DraftingHead from "./images/DraftingHead.jpeg";
 import AdDraftingHead from "./images/AdDraftingHead.jpg";
-import LogisticsHead from "./images/LogisticsHead.jpg";
+import LogisticsHead from "./images/LogisticsHead.jpeg";
 import AdLogisticsHead from "./images/AdLogisticsHead.jpg";
-import MembershipHead from "./images/MembershipHead.jpg";
+import MembershipHead from "./images/MembershipHead.jpeg";
 // import AdSecurityHead from "./images/ProfileIcon.jpg";
 // import HospitalityHead from "./images/HospitalityHead.jpg";
 // import AdHospitalityHead from "./images/AdHospitalityHead.jpg";
@@ -39,20 +39,20 @@ const officeBearers = [
   {
     src: President,
     position: "President",
-    name: "Manish Kumar",
-    linkedin: "https://www.linkedin.com/in/manish-kumar46/",
+    name: "Suraj Pradhan",
+    linkedin: "https://www.linkedin.com/in/suraj-pradhan-a6aa39289/",
   },
   {
     src: VicePresident,
     position: "Vice President",
-    name: "Deep kumar Dey",
-    linkedin: "https://www.linkedin.com/in/deep-kumar-dey-b5741a253/",
+    name: "Arpita Raj",
+    linkedin: "https://www.linkedin.com/in/arpita-raj-0033a0287/",
   },
   {
     src: SecretaryERAA,
     position: "Secretary, ERAA",
-    name: "Md. Affan Ahmed",
-    linkedin: "https://www.linkedin.com/in/mdaffanahmad/",
+    name: "Sidhant Saurav",
+    linkedin: "https://www.linkedin.com/in/sidhant-saurav-165162282/",
   },
 ];
 
@@ -60,26 +60,26 @@ const coreTeam = [
   {
     src: Secretary,
     position: "Secretary",
-    name: "Suraj Pradhan",
-    linkedin: "https://www.linkedin.com/in/suraj-pradhan-a6aa39289/",
+    name: "Anubhav Sinha",
+    linkedin: "https://www.linkedin.com/in/anubhav-sinha-34aba2276/",
   },
   {
     src: AdSecretary,
     position: "Ad. Secretary",
-    name: "Arpita Raj",
-    linkedin: "https://www.linkedin.com/in/arpita-raj-0033a0287/",
+    name: "Ankur Raj",
+    linkedin: "https://www.linkedin.com/in/ankur-raj-662521319/",
   },
   {
     src: EventHead1,
     position: "Event Head",
-    name: "Rajnee Kant",
-    linkedin: "https://www.linkedin.com/in/rajnee-kant-b207b3375/",
+    name: "Gyan Prakash",
+    linkedin: "https://www.linkedin.com/in/gyan-prakash-00528031a/",
   },
   {
     src: EventHead2,
     position: "Ad. Event Head",
-    name: "Prabal Chandra",
-    linkedin: "https://www.linkedin.com/in/prabal-chandra-bera/",
+    name: "Swapnil Kumar",
+    linkedin: "https://www.linkedin.com/in/swapnilkr2006/",
   },
   // {
   //   src: EventHead,
@@ -96,56 +96,56 @@ const coreTeam = [
   {
     src: AdTreasurerHead,
     position: "Ad. Treasurer",
-    name: "Abhijit Srivastava",
-    linkedin: "https://www.linkedin.com/in/abhijit16/",
+    name: "Arush Chandra",
+    linkedin: "https://www.linkedin.com/in/arushchandra//",
   },
   {
     src: TechnicalHead,
     position: "Technical Head",
-    name: "Sanskar Gupta",
-    linkedin: "https://www.linkedin.com/in/sanskar-gupta-16613b284/",
+    name: "Anshul Anand",
+    linkedin: "https://www.linkedin.com/in/anshul-anand-83105a317/",
   },
   {
     src: AdTechnicalHead,
     position: "Ad. Technical Head",
-    name: "Ravindra Chandela",
-    linkedin: "https://www.linkedin.com/in/ravindra-chandela-212016290/",
+    name: "Ranadeep Saha",
+    linkedin: "https://www.linkedin.com/in/ranadeep-saha-939bb1319/",
   },
   {
     src: BDHead,
     position: "Business Dev Head",
-    name: "Sidhant Saurav",
-    linkedin: "https://www.linkedin.com/in/sidhant-saurav-165162282/",
+    name: "Harshal Paliwal",
+    linkedin: "https://www.linkedin.com/in/harshal-paliwal-144975320/",
   },
   {
     src:AdBDHead,
     position: "Ad. Business Dev Head",
-    name: "Sumit Bhagat",
-    linkedin: "https://www.linkedin.com/in/sumit-bhagat-389525290/",
+    name: "Nipun Shekhar",
+    linkedin: "https://www.linkedin.com/in/nipun-shekhar/",
   },
   {
     src: MediaHead,
     position: "Media Head",
-    name: "Naisha Gorli",
-    linkedin: "https://www.linkedin.com/in/naisha-gorli-172788288/",
+    name: "Jinay Jain",
+    linkedin: "https://www.linkedin.com/in/jinay-jain-/",
   },
   { 
     src: AdMediaHead,
     position: "Ad. Media Head",
-    name: "Shivansh",
-    linkedin: "https://www.linkedin.com/in/shivansh-b4753a330/",
+    name: "Manideep Tummuri",
+    linkedin: "https://www.linkedin.com/in/manideep-tummuri-6a0000320/",
 
   },
   {
     src: LogisticsHead,
     position: "Logistics Head",
-    name: "Saksham Kumar",
-    linkedin: "https://www.linkedin.com/in/saksham-kumar-055457288/",
+    name: "Kazi Sabyasachi",
+    linkedin: "https://www.linkedin.com/in/kazi-sabyasachi-islam-b07602320/",
   },
   {
     src: AdLogisticsHead,
     position: "Ad. Logistics Head",
-    name: "Amit Jana",
+    name: "K.Dheeraj Kumar",
     linkedin: "https://www.linkedin.com/in/amit-jana-4203b1287/",
   },
   // {
@@ -164,14 +164,14 @@ const coreTeam = [
   {
     src: PRHead,
     position: "Public Relation Head",
-    name: "Aditya Kumar Paswan",
-    linkedin: "https://www.linkedin.com/in/adityakrpaswan/",
+    name: "Gurrala Akshay Reddy",
+    linkedin: "https://www.linkedin.com/in/akshay-reddy-gurrala-35695b353/",
   },
   {
     src: AdPRHead,
     position: "Ad. Public Relation Head",
-    name: "Sunny Kumar",
-    linkedin: "https://www.linkedin.com/in/sunny-kumar-974b76287/",
+    name: "Swasti Sundar Nath",
+    linkedin: "https://www.linkedin.com/in/swasti-nath-b94827320/",
 
   },
   
@@ -179,57 +179,57 @@ const coreTeam = [
   {
     src: PromotionHead,
     position: "Promotion Head",
-    name: "Ujjwal Kumar",
-    linkedin: "https://www.linkedin.com/in/ujjwal-kumar-5149b6287/",
+    name: "Shashwat Pratap Singh",
+    linkedin: "https://www.linkedin.com/in/shashwat-pratap-singh-33710a320/",
   },
   {
     src: AdPromotionHead,
     position: "Ad. Promotion Head",
-    name: "Raj Nayak",
-    linkedin: "https://www.linkedin.com/in/raj-nayak-0869b4290/",
+    name: "Sakshi Priya",
+    linkedin: "https://www.linkedin.com/in/sakshi-priya-02389b252/",
   },
   {
     src: DesigningHead,
     position: "Designing Head",
-    name: "B. Sai Prasad",
-    linkedin: "https://www.linkedin.com/in/b-sai-prasad-b5b527288/",
+    name: "Devanshu Chotiya",
+    linkedin: "https://www.linkedin.com/in/devanshu-chotiya-52110b320/",
   },
   {
     src: AdDesigningHead,
     position: "Ad. Designing Head",
-    name: "Shreya Sinha",
+    name: "Rachit Kumar Pradhan",
     linkedin: "https://www.linkedin.com/in/shreya-sinha-997433287/",
   },
   {
     src: MarketingHead,
     position: "Marketing Head",
-    name: "Suyash Pandey",
-    linkedin: "https://www.linkedin.com/in/suyashpandey1002/",
+    name: "Sidhi Sen",
+    linkedin: "https://www.linkedin.com/in/siddhisen/",
   },
   {
     src: AdMarketingHead,
     position: "Ad. Marketing Head",
-    name: "Ravi Shankar Kumar",
-    linkedin: "https://www.linkedin.com/in/ravi-shankar-kumar-819750290/",
+    name: "Ramagiri Vismaya",
+    linkedin: "https://www.linkedin.com/in/vismaya-ramagiri-202661321/",
   },
   {
     src: DraftingHead,
     position: "Drafting Head",
-    name: "Pidathala Tanmayee",
-    linkedin: "https://www.linkedin.com/in/tanmayee-pidathala-b3b177288/",
+    name: "Archita Singh",
+    linkedin: "https://www.linkedin.com/in/archita-singh-485701320/",
   },
   {
     src: AdDraftingHead,
     position: "Ad. Drafting Head",
-    name: "Nayan Kumar Choudhary",
-    linkedin: "https://www.linkedin.com/in/nayan-kumar-choudhary-9831731bb/",
+    name: "Iswarya Vardhani",
+    linkedin: "https://www.linkedin.com/in/iswarya-vardhani-a99356325/",
   },
   
   {
     src: MembershipHead,
     position: "Membership Head",
-    name: "Shubham Kumar",
-    linkedin: "https://www.linkedin.com/in/shubham-kumar-1667a4231/",
+    name: "Shaik Afifha",
+    linkedin: "https://www.linkedin.com/in/afifha-shaik-4b9667320/",
   },
   // {
   //   src: AdSecurityHead,
@@ -243,14 +243,14 @@ const developers = [
   {
     src: TechnicalHead,
     position: "Technical Head",
-    name: "Sanskar Gupta",
-    linkedin: "https://www.linkedin.com/in/sanskar-gupta-16613b284/",
+    name: "Anshul Anand",
+    linkedin: "https://www.linkedin.com/in/anshul-anand-83105a317/",
   },
   {
     src: AdTechnicalHead,
     position: "Ad. Technical Head",
-    name: "Ravindra Chandela",
-    linkedin: "https://www.linkedin.com/in/ravindra-chandela-212016290/",
+    name: "Ranadeep Saha",
+    linkedin: "https://www.linkedin.com/in/ranadeep-saha-939bb1319/",
   },
 ];
 
