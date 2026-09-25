@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 // import K1 from "./k-workshop-images/3d immersive technologies.png";
 import K4 from "../Khanan-sposnors-2k24/workshop1.png";
-import survey from "../Khanan-sposnors-2k24/vrsurvey.jpg";
+import survey from "../Khanan-sposnors-2k24/survey.jpg";
 // import K3 from "./k-workshop-images/data visualisation.png";
 import K2 from "../Khanan-sposnors-2k24/workshop2.png";
-import minetech from "../Khanan-sposnors-2k24/minetech.jpg";
+import minetech from "../Khanan-sposnors-2k24/longwall.jpg";
 // import K5 from "./k-workshop-images/real time telematics.png";
-// import K6 from "./k-workshop-images/resource modelling.png";
+import K6 from "../Khanan-sposnors-2k24/depth.webp";
 // import K7 from "./k-workshop-images/sensor technologies.png";
 
 import KhananCard from "./KhananCard";
@@ -19,36 +19,36 @@ import Zoom from "react-awesome-reveal";
 
 const workshop = [
   {
-    title: "Mine Planning and Design",
+    title: "Long Wall Gallery Visit",
     src: minetech,
     struct: [
-      "The Mine Design and Planning Workshop offers an intensive study of mining principles. It covers geological modeling, resource estimation, mine design, and production scheduling. Participants gain practical skills through exercises and expert-led presentations, preparing them for professional roles in the mining industry.",
+      "The visit to the Longwall Gallery provided us with practical exposure to modern underground coal mining methods. We observed the working principles of longwall mining, including the operation of the shearer, powered roof supports, AFC (Armoured Face Conveyor), and the overall face layout. The visit helped us understand how coal extraction, roof support, and material transportation are integrated into a continuous mining system. It was a valuable experience that connected our classroom knowledge with real-world mining practices.",
     ],
     srclink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSeUwuxFIjLp6jHbQY4M93h-6R0_HfOaR0xd9ea2kN95QhSleA/viewform",
+      "#",
     con: false,
   },
   {
-    title: "VR and Modern Surveying Techniques",
+    title: "Modern Surveying Workshop",
     src: survey,
     struct: [
       "The Modern Surveying Techniques Workshop provides a comprehensive overview of the latest surveying technologies. It includes hands-on training on tools like GPS, LiDAR, and drones, and covers data processing and analysis. This workshop equips participants with practical skills for efficient and accurate surveying.",
     ],
     srclink:
-      "https://forms.gle/59m3ttNGqaRFzxw98",
+      "#",
     con: false,
   },
-  // {
-  //   title: "Resource Modelling by Dassault 3DS",
-  //   src: K6,
-  //   struct: [
-  //   "Khanan in collaboration with TEXMIN organized by Dassault 3DS is organizing a 3D Resource modeling workshop to provide participants a real hands-on training to develop 3D models of coal seams and non-coal reserves. Minex is a recognized world leader in integrated geology and mine planning solutions for coal and other stratified deposits. In a two-day workshop, participants will get basic training and have experience working on Geovia Surpac and Geovia Minex software for creating ore body models, and pit design. So gear up for a power-packed workshop and win exciting prizes by taking the modeling quiz.",
-  //   ],
-  //   srclink:
-  //     "https://docs.google.com/forms/d/e/1FAIpQLSdvfcuZouE7Kv9RZcvl4kix2HE7FFtTp65nbm3p2EQj3hG9jw/viewform",
-  //   zoomlink: " https://meet.google.com/dmf-ihim-add",
-  //   con: false,
-  // },
+  {
+    title: "Mining at great depths session",
+    src: K6,
+    struct: [
+    "The session on Mining at Great Depths provided valuable insights into the challenges and techniques involved in deep underground mining. We learned about increasing rock pressure, temperature, ventilation requirements, ground control, and safety challenges at greater depths. The session also highlighted modern technologies and engineering practices used to ensure safe and efficient mining operations. It helped us understand the complexities of deep mining and the importance of advanced planning, monitoring, and risk management.",
+    ],
+    srclink:
+      "#",
+    // zoomlink: " https://meet.google.com/dmf-ihim-add",
+    con: false,
+  },
   // {
   //   title: "Sensor Technologies by Quro Labs",
   //   src: K7,

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, CardBody, CardTitle } from "reactstrap";
-import tatasteel from "../khanan-img/Tatasteel.png"
+import tatasteel from "../khanan-img/jindalsteel.png"
 import secl from "../khanan-img/SECL.jpg";
 import ECL from "./Khanan-sposnors-2k24/ECL Logo.jpg";
 import wcl from "./Khanan-sposnors-2k24/wcl.png";
@@ -9,21 +9,21 @@ import NTPCMINE from "./Khanan-sposnors-2k24/NTPCMINE.png";
 import bombayspices from "./Khanan-sposnors-2k24/Bombayfood.png";
 import MiningGyan from "./Khanan-sposnors-2k24/MiningGyan.png";
 import mcl from "../khanan-img/mcl.png"
-import dmsl from "../khanan-img/dmsl.jpg"
-import  hzl from "../khanan-img/HZL logo.jpg"
+import dmsl from "../khanan-img/nlc.png"
+import  hzl from "../khanan-img/EPIROC.png"
 import  hcl from "../khanan-img/hcl.png"
 import  vedanta from "../khanan-img/vedanta.jpg"
-import  jindalsteel from "../khanan-img/jindalsteel.png"
+import  jindalsteel from "../khanan-img/NALCO.webp"
 
 const sponsors = [
-  { img: tatasteel, name: "Tata Steel", type: "Associate", },
-   { img: vedanta, name: "Vedanta", type: "Associate", },
-  { img: dmsl, name: "DMSL", type: "Associate", },
+  { img: tatasteel, name: "Jindal Steel", type: "Associate", },
+  //  { img: vedanta, name: "Vedanta", type: "Associate", },
+  { img: dmsl, name: "NLC INDIA", type: "Associate", },
   { img: NTPCMINE, name: "NML", type: "Bronze", },
-    { img: hcl, name: "HCL", type: "Bronze", },
+    // { img: hcl, name: "HCL", type: "Bronze", },
   { img: mcl, name: "MCL", type: "Associate",  },
-   { img: hzl, name: "HZL", type: "Platinum",  },
-      { img: jindalsteel, name: "Jindal Steel", type: "Platinum",  },
+   { img: hzl, name: "Epiroc", type: "Platinum",  },
+      { img: jindalsteel, name: "NALCO", type: "Platinum",  },
 ];
 
 const sponsorTypes = ["Gold","Platinum", "Bronze","Associate", "Partner"];

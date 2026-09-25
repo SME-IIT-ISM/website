@@ -19,16 +19,16 @@ import DesigningHead from "./images/DesigningHead.jpeg";
 import AdDesigningHead from "./images/AdDesigningHead.jpeg";
 import PRHead from "./images/PRHead.jpeg";
 import AdPRHead from "./images/AdPRHead.jpeg";
-import TechnicalHead from "./images/TechnicalHead.jpg";
+import TechnicalHead from "./images/TechnicalHead.jpeg";
 import AdTechnicalHead from "./images/AdTechnicalHead.jpeg";
 import MediaHead from "./images/MediaHead.jpeg";
-import AdMediaHead from "./images/AdMediaHead.jpg";
+import AdMediaHead from "./images/AdMediaHead.jpeg";
 import PromotionHead from "./images/PromotionHead.jpeg";
 import AdPromotionHead from "./images/AdPromotionHead.jpeg";
 import MarketingHead from "./images/MarketingHead.jpeg";
 import AdMarketingHead from "./images/AdMarketingHead.jpg";
 import DraftingHead from "./images/DraftingHead.jpeg";
-import AdDraftingHead from "./images/AdDraftingHead.jpg";
+import AdDraftingHead from "./images/AdDraftingHead.jpeg";
 import LogisticsHead from "./images/LogisticsHead.jpeg";
 import AdLogisticsHead from "./images/AdLogisticsHead.jpg";
 import MembershipHead from "./images/MembershipHead.jpeg";
@@ -197,8 +197,8 @@ const coreTeam = [
   {
     src: AdDesigningHead,
     position: "Ad. Designing Head",
-    name: "Rachit Kumar Pradhan",
-    linkedin: "https://www.linkedin.com/in/shreya-sinha-997433287/",
+    name: "Rachit Kumar Padhan",
+    linkedin: "https://www.linkedin.com/in/rachit-kumar-padhan-7a573631a/",
   },
   {
     src: MarketingHead,
