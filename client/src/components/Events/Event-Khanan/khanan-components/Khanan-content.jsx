@@ -9,7 +9,7 @@ const KhananContent = () => {
   return (
     <div className="k-content my-5 mx-auto text-center p-4 shadow-sm rounded-2xl bg-white max-w-3xl">
       <p className="fs-5 lh-lg mb-4">
-        <strong>KHANAN 2025</strong>, the biggest Mining Fest in India, aims to bring
+        <strong>KHANAN 2026</strong>, the biggest Mining Fest in India, aims to bring
         the students from several institutions offering mining and allied courses
         across the country. This year’s two-day summit shall include a series of
         vibrant events such as panel discussions, guest lectures by eminent
