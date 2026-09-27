@@ -15,8 +15,8 @@ const InfoPage = (props) => {
       return <Error404 msg="Unexisting Event" />;
       
     document.title = `${title} - Industrial Info - SME IIT ISM`;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
   return (
     <Container className="mt-5 mb-5 events-page">
       <Row className="d-flex align-items-center justify-content-center">

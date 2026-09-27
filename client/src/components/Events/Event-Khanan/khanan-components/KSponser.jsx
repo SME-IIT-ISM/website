@@ -10,7 +10,7 @@ import bombayspices from "./Khanan-sposnors-2k24/Bombayfood.png";
 import MiningGyan from "./Khanan-sposnors-2k24/MiningGyan.png";
 import mcl from "../khanan-img/mcl.png"
 import dmsl from "../khanan-img/nlc.png"
-import  hzl from "../khanan-img/EPIROC.png"
+import  hzl from "../khanan-img/Epiroc.png"
 import  hcl from "../khanan-img/hcl.png"
 import  vedanta from "../khanan-img/vedanta.jpg"
 import  jindalsteel from "../khanan-img/NALCO.webp"
