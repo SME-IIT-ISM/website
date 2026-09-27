@@ -10,4 +10,4 @@ This repo is for the development of official website of SME (Society for Mining,
 
 
 
-Khanan 2025
+Khanan 2026
