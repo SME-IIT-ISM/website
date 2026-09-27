@@ -227,13 +227,13 @@ const eventData = [
   {
     id: 11,
     src: GEImages12,
-    title: "Khanan'25",
+    title: "Khanan'26",
     head: "Technology and innovation today has taken over every working sector. There is no field left untouched with the influence of technology and so even the mining industry follows suit. Lack of digitisation, lack of research and development for training, and incompatibility with market needs have been some of the challenges that the mining sector has been facing since decades. These difficulties however can be addressed today by using newer technology innovations such as Augmented Reality(AR) and Virtual Reality(VR). AR and VR combine the digital world with the real world. The goal of using AR and VR is to solve the problem of innovation as well as reduce the hazardous working conditions for human beings that would lead to a marked difference in productivity by making mining smarter than what it is today. To expand further upon the application of AR and VR in the mining industry and provide students with insights of the newer technological advancements, SME IIT (ISM) Student Chapter is organizing a demonstration on the same at Seminar hall, Mining Department So, do not miss this wonderful opportunity to attend the event and widen your scope of knowledge on newer innovations in the mining sector!!",
     struct: [
-      "Khanan'25 promises to be a platform for innovation, learning, and collaboration.",
+      "Khanan'26 promises to be a platform for innovation, learning, and collaboration.",
       "Participants will experience workshops, discussions, and technical events over three days.",
     ],
-    date: "25-26 october 2021",
+    date: "26-27 october 2026",
     
     contact1: "8935878941",
 
