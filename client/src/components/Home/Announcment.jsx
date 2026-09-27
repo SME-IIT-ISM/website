@@ -3,7 +3,7 @@ import Marquee from "react-easy-marquee";
 const Announcement = () => {
   const data = [
     "🚀 Khanan 2026 is coming! Get ready for the grand fest!",
-    "📝 Registration for Khanan-25 events is now live — don’t miss out!",
+    "📝 Registration for Khanan-26 events is now live — don’t miss out!",
   ];
 
   return (
