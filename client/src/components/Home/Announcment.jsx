@@ -2,7 +2,7 @@ import Marquee from "react-easy-marquee";
 
 const Announcement = () => {
   const data = [
-    "🚀 Khanan 2025 is coming! Get ready for the grand fest!",
+    "🚀 Khanan 2026 is coming! Get ready for the grand fest!",
     "📝 Registration for Khanan-25 events is now live — don’t miss out!",
   ];
 
@@ -32,7 +32,7 @@ const Announcement = () => {
 
             <div className="text-center my-4">
               <h4 className="fw-semibold mb-2">
-                🎉 Khanan'2025 is coming soon!
+                🎉 Khanan'2026 is coming soon!
               </h4>
               <a
                 href="/events/khanan"

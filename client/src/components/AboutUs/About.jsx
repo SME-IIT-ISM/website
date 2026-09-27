@@ -58,7 +58,7 @@ const About = () => {
                 <FaRegEye className="about-head-icons mb-10 gradient-icon" />
                 <h1 className="text-uppercase heading gradient-text">Vision</h1>
                 <p className="my-3 content">
-                  “By 2025, to be the leading student chapter in mining planning,
+                  “By 2026, to be the leading student chapter in mining planning,
                   scientific advancement, and innovation — empowering future
                   leaders of the mining industry.”
                 </p>
